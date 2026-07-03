@@ -763,6 +763,160 @@ a:hover {
   color: var(--text-1);
 }
 
+/* Calendar controls: week nav + toggles */
+.calendar-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.week-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.week-nav-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-1);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.week-nav-btn:hover:not(:disabled) {
+  background: var(--surface-2);
+  border-color: var(--border-strong);
+}
+.week-nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.week-nav-select {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-1);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.week-nav-placeholder {
+  flex: 1;
+}
+.calendar-toggles {
+  display: flex;
+  gap: 6px;
+}
+.mini-toggle {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.mini-toggle:hover {
+  background: var(--surface-2);
+  color: var(--text-1);
+}
+
+/* Pick button */
+.pick-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: none;
+  border: none;
+  color: var(--text-3);
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.pick-btn:hover {
+  color: var(--dance);
+  background: var(--surface-2);
+}
+.pick-btn.picked {
+  color: var(--dance);
+}
+.event-row {
+  position: relative;
+}
+.event-row.is-picked {
+  background: linear-gradient(
+    to right,
+    var(--dance-bg) 0%,
+    var(--surface) 6%
+  );
+}
+
+/* Filter chip counts */
+.filter-count {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 10px;
+  color: var(--text-3);
+  font-weight: 500;
+}
+.filter-btn.active .filter-count {
+  color: var(--text-2);
+}
+
+/* Picks toggle button */
+.picks-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-1);
+  padding: 6px 12px;
+  border-radius: 10px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.picks-toggle span {
+  color: var(--text-3);
+  font-weight: 500;
+  margin-left: 2px;
+}
+.picks-toggle:hover:not(:disabled) {
+  background: var(--surface-2);
+  border-color: var(--border-strong);
+}
+.picks-toggle.active {
+  background: var(--dance-bg);
+  border-color: var(--dance);
+  color: var(--dance-text);
+}
+.picks-toggle.active span {
+  color: var(--dance-text);
+}
+.picks-toggle:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Empty state */
+.empty-state {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-2);
+  font-size: 14px;
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+}
+
 .event-main {
   min-width: 0;
 }

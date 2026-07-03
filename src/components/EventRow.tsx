@@ -6,6 +6,8 @@ interface Props {
   conflict?: boolean;
   daysUntil?: number | null;
   past?: boolean;
+  picked?: boolean;
+  onTogglePick?: () => void;
 }
 
 function flagLabel(flag: CalEvent["flag"]): string | null {
@@ -34,6 +36,8 @@ export function EventRow({
   conflict = false,
   daysUntil,
   past = false,
+  picked = false,
+  onTogglePick,
 }: Props) {
   const label = flagLabel(event.flag);
   const isFree = event.cost.toUpperCase() === "FREE";
@@ -54,8 +58,20 @@ export function EventRow({
 
   return (
     <div
-      className={`event-row cat-${event.category}${conflict ? " has-conflict" : ""}${past ? " is-past" : ""}`}
+      className={`event-row cat-${event.category}${conflict ? " has-conflict" : ""}${past ? " is-past" : ""}${picked ? " is-picked" : ""}`}
     >
+      {onTogglePick ? (
+        <button
+          type="button"
+          className={`pick-btn${picked ? " picked" : ""}`}
+          onClick={onTogglePick}
+          aria-label={picked ? "Remove from picks" : "Add to picks"}
+          aria-pressed={picked}
+          title={picked ? "Remove from picks" : "Add to picks"}
+        >
+          {picked ? "★" : "☆"}
+        </button>
+      ) : null}
       <div className="event-day">
         <span className="event-day-name">{event.day}</span>
         <span>{event.date}</span>
