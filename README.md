@@ -15,11 +15,9 @@ Subscribe from Google Calendar or Apple Calendar:
 
 ## Why I built it
 
-The tools that catalog NYC's arts programming — Time Out, Broadway World, DoNYC, Stage Spotlight — are listing sites. Impressive in scope, impossible to hold. None of them let me carry my own map of the city: my anchors, my picks, the venues I keep returning to, the horizon I'm planning toward.
+The tools that catalog NYC's arts programming (Time Out, Broadway World, DoNYC, Stage Spotlight) do a good job telling me what's playing tonight, but none of them hold a map of the city that I actually use — my anchors, my picks, the venues I return to, the horizon I'm planning toward.
 
-I wanted the widest possible awareness of what's happening here, held in a shape I can actually see through. I wanted to walk into a week already knowing which nights feed the work and which feed the practice.
-
-So this is a personal instrument — built to widen what's possible for one working practice, and to stay legible enough that I can use it every day.
+I wanted the widest possible awareness of what's happening in this city, in a form I can use every day. So this is a personal instrument for how I move through art in New York.
 
 ## What it is
 
@@ -62,7 +60,7 @@ Each shows in a distinct color so I can scan a week in a second.
 
 ## How it's specific to me
 
-The engine is generic; the map is not. What's on the calendar is drawn to my own practice — not to a market. The point of a personal instrument is to fit one hand.
+The engine is generic. What's on the calendar reflects my own practice, not a general audience.
 
 Fork the code, rewrite the JSON.
 
