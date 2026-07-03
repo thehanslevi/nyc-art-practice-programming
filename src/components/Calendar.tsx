@@ -172,7 +172,7 @@ export function Calendar({
                   <span className="current-chip">This week</span>
                 ) : null}
               </h3>
-              <WeekSummary events={week.visible} tab={tab} />
+              <WeekSummary events={week.visible} tab={tab} picks={picks} />
             </div>
             {week.visible.map((event, idx) => {
               const d = parseEventDate(event.date);
