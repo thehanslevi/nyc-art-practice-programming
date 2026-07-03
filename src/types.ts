@@ -39,26 +39,6 @@ export interface EventsData {
   weeks: Week[];
 }
 
-export interface Decision {
-  text: string;
-  url: string | null;
-  date?: string | null;
-  mode?: Mode;
-}
-
-export interface DecisionsData {
-  urgent: Decision[];
-  open: Decision[];
-}
-
-export interface Anchor {
-  name: string;
-  description: string;
-  note: string;
-  url: string | null;
-  mode?: SpaceMode;
-}
-
 export interface FallItem {
   title: string;
   detail: string;

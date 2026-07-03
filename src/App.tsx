@@ -15,10 +15,7 @@ import {
   uploadPicks,
 } from "./lib/sync";
 import { matchesTab } from "./lib/tab";
-import { Anchors } from "./components/Anchors";
-import { BuyNow } from "./components/BuyNow";
 import { Calendar } from "./components/Calendar";
-import { Decisions } from "./components/Decisions";
 import { ExportButton } from "./components/ExportButton";
 import { FallHorizon } from "./components/FallHorizon";
 import { FilterBar, computeCategoryCounts } from "./components/FilterBar";
@@ -53,7 +50,6 @@ function App() {
     savePicks(picks);
   }, [picks]);
 
-  // Initial fetch when passphrase is set
   useEffect(() => {
     if (!passphrase) return;
     let cancelled = false;
@@ -63,14 +59,11 @@ function App() {
         const remote = await fetchPicks(passphrase);
         if (cancelled) return;
         if (remote && remote.length > 0) {
-          // Merge remote with local
           const merged = new Set<string>([...loadPicks(), ...remote]);
           skipNextUpload.current = true;
           setPicks(merged);
-          // Upload merged so remote reflects union
           await uploadPicks(passphrase, Array.from(merged));
         } else {
-          // No remote row yet — push local
           const local = Array.from(loadPicks());
           await uploadPicks(passphrase, local);
         }
@@ -89,7 +82,6 @@ function App() {
     };
   }, [passphrase]);
 
-  // Debounced upload on picks change
   useEffect(() => {
     if (!passphrase) return;
     if (skipNextUpload.current) {
@@ -167,7 +159,7 @@ function App() {
       <header className="app-header">
         <div className="app-header-row">
           <div>
-            <h1 className="app-title">NYC Creative Calendar</h1>
+            <h1 className="app-title">NYC Art Practice &amp; Programming Calendar</h1>
             <p className="app-subtitle">
               Summer–Fall 2026 — classes, studios, shows across NYC.
             </p>
@@ -187,9 +179,6 @@ function App() {
         </div>
       </header>
       <TabBar active={tab} onChange={setTab} />
-      <BuyNow tab={tab} />
-      <Decisions tab={tab} />
-      <Anchors tab={tab} />
       <div className="filter-row">
         <FilterBar active={filter} onChange={setFilter} counts={counts} />
         <button
