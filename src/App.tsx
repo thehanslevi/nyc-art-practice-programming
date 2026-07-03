@@ -206,7 +206,6 @@ function App() {
         </button>
         <ExportButton filter={filter} tab={tab} picks={picks} picksOnly={picksOnly} />
       </div>
-      <Spaces filter={filter} tab={tab} />
       <Calendar
         filter={filter}
         tab={tab}
@@ -214,6 +213,7 @@ function App() {
         picksOnly={picksOnly}
         onTogglePick={togglePick}
       />
+      <Spaces filter={filter} tab={tab} />
       <FallHorizon tab={tab} />
     </div>
   );
