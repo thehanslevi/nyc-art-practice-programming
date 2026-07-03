@@ -2,7 +2,7 @@
 
 Built by Hannah Levinson • more at [hrlevinson.com](https://hrlevinson.com)
 
-**A personal calendar for a summer-and-fall of making and seeing art in New York.**
+**A personal calendar for making and seeing art in New York.**
 
 Live: https://nyc-art-practice-programming.vercel.app
 
