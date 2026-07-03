@@ -15,8 +15,6 @@ Subscribe from Google Calendar or Apple Calendar:
 
 ## Why I built it
 
-The tools that catalog NYC's arts programming (Time Out, Broadway World, DoNYC, Stage Spotlight) do a good job telling me what's playing tonight, but none of them hold a map of the city that I actually use — my anchors, my picks, the venues I return to, the horizon I'm planning toward.
-
 I wanted the widest possible awareness of what's happening in this city, in a form I can use every day. So this is a personal instrument for how I move through art in New York.
 
 ## What it is
