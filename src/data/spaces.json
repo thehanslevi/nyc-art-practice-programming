@@ -374,5 +374,85 @@
     "description": "Street-dance studio · Long Island City · G train ~25–30 min",
     "note": "House, waacking, breaking, hip hop, popping, jersey club. $20 single class, $55/3, $108/6. Schedule at sutrapro.com/modega.",
     "url": "https://moversbodega.com/"
+  },
+  {
+    "name": "Film Forum",
+    "category": "film",
+    "mode": "watch",
+    "description": "Independent + repertory cinema · 209 W Houston, West Village",
+    "note": "$12 member / $18 general. Dense weekly programming — new releases, restorations, retrospectives. Massive Coppola retrospective Aug 21–Sep 10.",
+    "url": "https://www.filmforum.org/now-playing"
+  },
+  {
+    "name": "Anthology Film Archives",
+    "category": "film",
+    "mode": "watch",
+    "description": "Avant-garde + experimental cinema · 32 2nd Ave, East Village",
+    "note": "Deep-cut avant-garde, 35mm/16mm archival programming. Frequent series. Cheap tickets.",
+    "url": "https://anthologyfilmarchives.org/calendar"
+  },
+  {
+    "name": "Metrograph",
+    "category": "film",
+    "mode": "watch",
+    "description": "Repertory arthouse · 7 Ludlow St, LES",
+    "note": "Rep + first-run. Curated series. Calendar publishes ~1 month out.",
+    "url": "https://metrograph.com/"
+  },
+  {
+    "name": "Film at Lincoln Center",
+    "category": "film",
+    "mode": "watch",
+    "description": "Curated arthouse + festivals · Walter Reade + Elinor Bunin Munroe · Lincoln Center",
+    "note": "NYFF each fall + ongoing series.",
+    "url": "https://www.filmlinc.org/"
+  },
+  {
+    "name": "New York Theatre Workshop",
+    "category": "stage",
+    "mode": "watch",
+    "description": "Downtown new-work incubator · 79 E 4th St, East Village",
+    "note": "2026/27 fall: Basquiat (Sep 9–Oct 4), Wild Rose musical (Nov 24–Jan 10).",
+    "url": "https://www.nytw.org/2026-27-season/"
+  },
+  {
+    "name": "Movement Research",
+    "category": "dance",
+    "mode": "both",
+    "description": "Experimental dance community · Judson Church + rotating spaces",
+    "note": "Monday Nights at Judson (dance improv, free/donation). Classes, Open Performance, Studies Project. Deep resource.",
+    "url": "https://movementresearch.org/classes-and-events/full-calendar/"
+  },
+  {
+    "name": "Rattlestick Theater",
+    "category": "stage",
+    "mode": "watch",
+    "description": "Off-Broadway new work · West Village",
+    "note": "Small runs of new plays. Prices moderate.",
+    "url": "https://www.rattlestick.org/25-26-artistic-programing"
+  },
+  {
+    "name": "Vineyard Theatre",
+    "category": "stage",
+    "mode": "watch",
+    "description": "Off-Broadway new work · 108 E 15th St, Union Square",
+    "note": "Development-oriented. Season announced yearly.",
+    "url": "https://vineyardtheatre.org/showsevents/"
+  },
+  {
+    "name": "Signature Theatre",
+    "category": "stage",
+    "mode": "watch",
+    "description": "Playwright-focused residencies · 480 W 42nd St, Hell's Kitchen",
+    "note": "Curated resident-playwright seasons. Cheap tickets first 3 weeks of each run.",
+    "url": "https://www.signaturetheatre.org/"
+  },
+  {
+    "name": "Playwrights Horizons",
+    "category": "stage",
+    "mode": "watch",
+    "description": "New American plays · 416 W 42nd St, Theater Row",
+    "note": "2026/27 season: Degenerates, ripple/wave, HOLE!, Wold Meteor, Annunciation, Feast of Rabbits. Dates TBA.",
+    "url": "https://www.playwrightshorizons.org/shows/"
   }
 ]
