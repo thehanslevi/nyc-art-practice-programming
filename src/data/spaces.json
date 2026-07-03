@@ -232,6 +232,62 @@
     "url": "https://arsnovanyc.com/whats-on/"
   },
   {
+    "name": "BAM (Brooklyn Academy of Music)",
+    "category": "stage",
+    "mode": "watch",
+    "description": "Institutional avant-garde · Harvey Theater + Opera House + Fisher · 30 Lafayette Ave, Fort Greene",
+    "note": "Major fall season (Ford/Hill, Hewa Rwanda, Einstein on the Beach 50th, etc). Free PRELUDE outdoor Oct 13–15. Rose Cinemas film series year-round.",
+    "url": "https://www.bam.org/"
+  },
+  {
+    "name": "Baryshnikov Arts Center",
+    "category": "dance",
+    "mode": "watch",
+    "description": "Curated dance + performance venue · 450 W 37th St, Manhattan",
+    "note": "Dense fall season Sep–Nov. Rare performances (Laurie Anderson at Fall Fête Oct 5, Merce Cunningham legacy Nov).",
+    "url": "https://baryshnikovarts.org/"
+  },
+  {
+    "name": "BRIC Celebrate Brooklyn!",
+    "category": "sound",
+    "mode": "watch",
+    "description": "Free outdoor concert series · Lena Horne Bandshell, Prospect Park",
+    "note": "Free summer festival — jazz, hip-hop, world music, family programming. Weekly through late July.",
+    "url": "https://bricartsmedia.org/events"
+  },
+  {
+    "name": "Symphony Space",
+    "category": "word",
+    "mode": "watch",
+    "description": "Multi-format venue · Upper West Side",
+    "note": "Author events, NT Live screenings, film series. Regular weekly programming.",
+    "url": "https://www.symphonyspace.org/"
+  },
+  {
+    "name": "NYU Skirball",
+    "category": "stage",
+    "mode": "watch",
+    "description": "Curated international avant-garde · Washington Square, NYU",
+    "note": "NT Live screenings + season of international touring work. Fall/spring seasons announced closer to date.",
+    "url": "https://nyuskirball.org/events"
+  },
+  {
+    "name": "The Wild Project",
+    "category": "stage",
+    "mode": "watch",
+    "description": "Off-off-Broadway theater · East Village",
+    "note": "Clubbed Thumb's SUMMERWORKS venue every summer. Gallery shows year-round.",
+    "url": "https://thewildproject.org/upcoming"
+  },
+  {
+    "name": "Judson Memorial Church",
+    "category": "circle",
+    "mode": "both",
+    "description": "Progressive church + arts space · 55 Washington Square South",
+    "note": "Home to Summer Sings (Mondays), Gaia One-Day Choir, McNally Jackson book talks. Judson Weekend annual retreat.",
+    "url": "https://www.judson.org/calendar"
+  },
+  {
     "name": "Clubbed Thumb",
     "category": "stage",
     "mode": "watch",
