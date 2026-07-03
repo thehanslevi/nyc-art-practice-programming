@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Bushwick Community Darkroom",
+    "category": "make",
+    "description": "Photo darkroom · Himrod St, Bushwick · ~15 min from Crown Heights",
+    "note": "Public open hours Tues–Sat 12–8pm. Rolling workshops for beginners.",
+    "url": "https://bushwickcommunitydarkroom.com/"
+  },
+  {
+    "name": "Gowanus Darkroom",
+    "category": "make",
+    "description": "Photo darkroom · 119 8th St, Gowanus · ~12 min by bike",
+    "note": "$12/hr rental. Monthly group critique — $5 to show, free to attend. Email to RSVP.",
+    "url": "https://www.gowanusdarkroom.com/"
+  },
+  {
+    "name": "Shoestring Press",
+    "category": "make",
+    "description": "Community print shop · 640 Classon Ave, Crown Heights/Bed-Stuy border · walkable",
+    "note": "Screenprinting, etching, litho, relief. Tiered monthly membership. Classes on rotating weekends.",
+    "url": "https://www.shoestring.press/"
+  },
+  {
+    "name": "Interference Archive",
+    "category": "circle",
+    "description": "Activist archive + volunteer collective · 314 7th St, Park Slope · ~15 min",
+    "note": "Open Thu–Sun. Volunteer at Collections Work Parties; monthly Zine Club and Fiber Friends. Free.",
+    "url": "https://interferencearchive.org/"
+  },
+  {
+    "name": "Pioneer Works Synth Library",
+    "category": "sound",
+    "description": "Free instrument access · 604 Van Brunt St, Red Hook",
+    "note": "Free hands-on time with modular synths, patch bays, wave generators. No gear required. Confirm current hours before going.",
+    "url": "https://pioneerworks.org"
+  },
+  {
+    "name": "Harvestworks · Outside Linear Time",
+    "category": "tech",
+    "description": "Art & tech exhibition + weekend performances · Nolan Park Bldg 10a, Governors Island",
+    "note": "Runs through Aug 23. Open Sat/Sun 11am–5pm. Free entry. TIP masterclasses rotate — check the archive.",
+    "url": "https://www.harvestworks.org/"
+  },
+  {
+    "name": "LiveCode.NYC",
+    "category": "tech",
+    "description": "Live-coding collective · monthly meetups at BPL Central, 10 Grand Army Pl · walkable",
+    "note": "Bring a laptop + headphones. Hydra, Orca, TidalCycles hack sessions. Free. 10th Anniversary Algorave Jul 18.",
+    "url": "https://livecode.nyc/events.html"
+  },
+  {
+    "name": "JACK",
+    "category": "stage",
+    "description": "Storefront performance venue · 20 Putnam Ave, Clinton Hill · ~10 min",
+    "note": "Independent rehearsal space at $10/hr — cheapest in Brooklyn. Watch summer 2026 season.",
+    "url": "https://jackny.org/"
+  },
+  {
+    "name": "The Bushwick Starr",
+    "category": "stage",
+    "description": "Independent theater · Eldert St, Bushwick · ~15 min",
+    "note": "Summers at the Starr programming all August 2026. Free community workshops, senior storytelling, devised-work tracks.",
+    "url": "https://www.thebushwickstarr.org/"
+  },
+  {
+    "name": "Makeville Studio",
+    "category": "make",
+    "description": "Community woodshop · 119 8th St, Gowanus · ~12 min by bike",
+    "note": "NYC Spoon Club meets monthly on Mondays 6–10pm, $10 sliding. Shop Share sessions periodic.",
+    "url": "https://makeville.com/events"
+  },
+  {
+    "name": "The Poetry Project",
+    "category": "word",
+    "description": "Avant-garde reading + writing space · 131 E 10th St, East Village",
+    "note": "Summer Learning workshops sliding-scale. Monday/Wednesday/Thursday/Friday reading series in fall. Free membership tiers available.",
+    "url": "https://www.poetryproject.org/events"
+  },
+  {
+    "name": "Brooklyn Meetinghouse Community Dinner",
+    "category": "circle",
+    "description": "Volunteer cooking + serving · 110 Schermerhorn, Downtown Brooklyn · ~15 min",
+    "note": "One Sunday afternoon per month. Free to attend. Bring apron + towel. Expanding to weekly meals in 2026.",
+    "url": "https://nycquakers.org/blog/brooklyns-community-dinner-looking-to-expand"
+  },
+  {
+    "name": "Brooklyn Zen Center",
+    "category": "circle",
+    "description": "Soto Zen sangha · Cobble Hill · ~15–20 min by bike",
+    "note": "Daily zazen (donation), weekly Dhamma of Love & Justice course, monthly sanghas. Sliding scale.",
+    "url": "https://www.brooklynzen.org/"
+  },
+  {
+    "name": "Fire Ensemble",
+    "category": "sound",
+    "description": "Intergenerational choir, BIPOC + queer-centered · rehearses BAM area · ~15 min",
+    "note": "Between sessions as of Jul 3. Fall 2026 TBD — fill out choir form now to be notified when the fall session opens.",
+    "url": "https://www.fireensemble.com/choir-form"
+  }
+]

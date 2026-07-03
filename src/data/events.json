@@ -1,0 +1,397 @@
+{
+  "lastVerified": "2026-07-03",
+  "weeks": [
+    {
+      "label": "Jul 6–12",
+      "events": [
+        {
+          "day": "Wed",
+          "date": "Jul 8",
+          "event": "Interference Archive: Collections Management Working Group",
+          "where": "314 7th St, Park Slope (hybrid — Zoom option)",
+          "cost": "FREE",
+          "category": "circle",
+          "flag": null,
+          "note": "7–8pm. Sort donation requests, cataloging projects. Low-lift way to meet the collective.",
+          "url": "https://interferencearchive.org/events/"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 8",
+          "event": "Spoon / Ratboys / Bodega / Alisa Ali",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": null,
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 9",
+          "event": "Heltah Skeltah + OGC of Boot Camp Clik — 30th Anniversary",
+          "where": "Herbert Von King Park, Brooklyn",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": "6pm — walkable from Crown Heights, leads into Roulette",
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 9",
+          "event": "No Fun Night 1: Giffoni, Charmaine Lee, Twig Harper + more",
+          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "cost": "$25",
+          "category": "sound",
+          "flag": null,
+          "note": "Doors 7:30pm, music 8pm",
+          "url": "https://roulette.org/event/no-fun-new-perspectives-night-1/"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 10",
+          "event": "No Fun Night 2: Raven Chacon, Lee Ranaldo, KFW + more",
+          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "cost": "$25",
+          "category": "sound",
+          "flag": "priority",
+          "note": "Go for Raven Chacon — Diné composer, Pulitzer 2022",
+          "url": "https://roulette.org/event/no-fun-new-perspectives-night-2/"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "SFPC: Consensual Hacking — Melanie Hoff",
+          "where": "519 W 26th St, Manhattan",
+          "cost": "$300",
+          "category": "tech",
+          "flag": "decide",
+          "note": "1–4pm. Decision still open.",
+          "url": "https://sfpc.study"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "MIKE's Young World: Max B / MIKE w/ Band of the Century",
+          "where": "Herbert Von King Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": "Fits between SFPC (ends 4pm) and Roulette Night 3 (8pm)",
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "No Fun Night 3: NIKA, Nate Wooley, Zeena Parkins + more",
+          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "cost": "$25",
+          "category": "sound",
+          "flag": null,
+          "note": "8pm. Dense day: SFPC → HVK → Roulette all work without conflict",
+          "url": "https://roulette.org/event/no-fun-new-perspectives-night-3/"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 12",
+          "event": "Pioneer Works Second Sundays — LaJuné McMillian open studio",
+          "where": "Pioneer Works, 604 Van Brunt St, Red Hook",
+          "cost": "FREE",
+          "category": "tech",
+          "flag": "priority",
+          "note": "12–6pm. ANIMAL [a listening gym] on view. Juma Sultan live 4–6pm. RSVP at pioneerworks.org",
+          "url": "https://pioneerworks.org/programs/second-sundays-july-2026"
+        }
+      ]
+    },
+    {
+      "label": "Jul 13–19",
+      "events": [
+        {
+          "day": "Tue",
+          "date": "Jul 14",
+          "event": "False Harmonics #26: Conrad Tao / Charmaine Lee",
+          "where": "Pioneer Works, Red Hook",
+          "cost": "$24",
+          "category": "sound",
+          "flag": null,
+          "note": "7:30pm. Same night as Mono No Aware Producing Fundamentals — pick one.",
+          "url": "https://pioneerworks.org/programs/false-harmonics-26-conrad-tao-aaron-turner-and-randall-dunn-charmaine-lee"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 16",
+          "event": "Mavis Staples / Brother Wallace",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": "5pm",
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 18",
+          "event": "LiveCode.NYC 10th Anniversary Algorave",
+          "where": "Brooklyn (venue TBA — check livecode.nyc)",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": "priority",
+          "note": "Rare milestone event. Live-coding collective, algorithmic sets projected onto walls.",
+          "url": "https://livecode.nyc/events.html"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 18",
+          "event": "SFPC free talk: The Origin of the Word — Melanie Hoff",
+          "where": "National Academy of Design, Manhattan",
+          "cost": "FREE",
+          "category": "tech",
+          "flag": null,
+          "note": null,
+          "url": "https://sfpc.study"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 18",
+          "event": "Mono No Aware: Optical Printing Day 1",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "note": "4–10pm. One seat left. Advanced territory — not a beginner workshop.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 19",
+          "event": "Mono No Aware: Optical Printing Day 2 / Titles Workshop",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "note": "4–10pm",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        }
+      ]
+    },
+    {
+      "label": "Jul 20–26",
+      "events": [
+        {
+          "day": "Wed",
+          "date": "Jul 22",
+          "event": "Complexions Ballet / Paul Taylor Dance Co. / LaTasha Barnes' The Jazz Continuum",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "dance",
+          "flag": "priority",
+          "note": "Best free dance viewing of the summer. Don't miss.",
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 26",
+          "event": "Interference Archive: Audio Collage Workshop",
+          "where": "314 7th St, Park Slope",
+          "cost": "sliding scale",
+          "flag": null,
+          "note": "7:30–9pm. Experimental audio making — record yourself reading archive materials. Small group.",
+          "url": "https://interferencearchive.org/events/"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 26",
+          "event": "Afro-Latinas: Luedji Luna ft. Liniker / Susana Baca + more",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": null,
+          "url": "https://summerstage.org"
+        }
+      ]
+    },
+    {
+      "label": "Jul 27–Aug 2",
+      "events": [
+        {
+          "day": "Tue",
+          "date": "Jul 28",
+          "event": "False Harmonics #27: Dean Hurley / C. Lavender",
+          "where": "Pioneer Works, Red Hook",
+          "cost": "$24",
+          "category": "sound",
+          "flag": "urgent",
+          "note": "Going fast. Lynch sound collaborator. Live to picture.",
+          "url": "https://pioneerworks.org/programs/false-harmonics-27-dean-hurley-c-lavender"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 29",
+          "event": "Julieta Venegas / Lasso / DJ Anamaria Sayre",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": "5pm. LAMC.",
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "UBB 40th: BreakBeat Lou / Lord Finesse / Diamond D + more",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": "6pm. Hip hop history.",
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "Dan Deacon + Macula Dog + MSHR",
+          "where": "Pioneer Works, Red Hook",
+          "cost": "$36–47",
+          "category": "tech",
+          "flag": "urgent",
+          "note": "Going fast. Go for MSHR — handmade synthesis + video feedback, live.",
+          "url": "https://pioneerworks.org/programs/dan-deacon"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Bushwick Starr Bazaar",
+          "where": "The Bushwick Starr, Eldert Street",
+          "cost": "FREE",
+          "category": "circle",
+          "flag": null,
+          "note": "Local vendor market — prints, ceramics, clothing. Kicks off Summers at the Starr.",
+          "url": "https://www.thebushwickstarr.org/"
+        }
+      ]
+    },
+    {
+      "label": "Aug 1–9",
+      "events": [
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "SFPC free talk: Handmade Datasets — Aarati Akkapeddi",
+          "where": "National Academy of Design, Manhattan",
+          "cost": "FREE",
+          "category": "tech",
+          "flag": null,
+          "note": null,
+          "url": "https://sfpc.study"
+        },
+        {
+          "day": "Mon",
+          "date": "Aug 3",
+          "event": "NYC Spoon Club at Makeville",
+          "where": "Makeville Studio, 119 8th St, Gowanus",
+          "cost": "$10 sliding",
+          "category": "make",
+          "flag": null,
+          "note": "6–10pm. Green woodworking meetup. No one turned away. RSVP nycspoonclub@gmail.com. Conflicts with Summer Sings Aug 3.",
+          "url": "https://makeville.com/events/2026-3-23-nyc-spoon-club"
+        },
+        {
+          "day": "Mon",
+          "date": "Aug 3",
+          "event": "PRODUCE Vol. 3: Azúcar (Rocky Romero)",
+          "where": "Pioneer Works, Red Hook",
+          "cost": "$53",
+          "category": "sound",
+          "flag": null,
+          "note": null,
+          "url": "https://pioneerworks.org"
+        },
+        {
+          "day": "Tue",
+          "date": "Aug 4",
+          "event": "Modern Silent Shorts: On Tour",
+          "where": "Pioneer Works, Red Hook",
+          "cost": "FREE",
+          "category": "film",
+          "flag": null,
+          "note": null,
+          "url": "https://pioneerworks.org"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 6",
+          "event": "Andrew Bird + Wordless Music Orchestra (20th anniversary)",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": null,
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Fri",
+          "date": "Aug 7",
+          "event": "Funk Flex Birthday R&B Picnic: Jon B / Fonda Rae + more",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": null,
+          "url": "https://summerstage.org"
+        }
+      ]
+    },
+    {
+      "label": "Aug 10–30",
+      "events": [
+        {
+          "day": "Sun",
+          "date": "Aug 16",
+          "event": "Taiwanese Waves 10th: 9m88 + ØZI + YELLOW / Mong Tong + more",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": null,
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Fri",
+          "date": "Aug 28",
+          "event": "Charlie Parker Fest Night 1: JLCO w/ Marquis Hill / Sherman Irby",
+          "where": "Marcus Garvey Park, Harlem",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": "priority",
+          "note": null,
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 29",
+          "event": "Charlie Parker Fest Night 2: Joshua Redman / Nat Adderley Jr.",
+          "where": "Marcus Garvey Park, Harlem",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "note": null,
+          "url": "https://summerstage.org"
+        },
+        {
+          "day": "Sun",
+          "date": "Aug 30",
+          "event": "Charlie Parker Fest Night 3: Ravi Coltrane / Kassa Overall / Vanisha Gould",
+          "where": "Tompkins Square Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": "priority",
+          "note": null,
+          "url": "https://summerstage.org"
+        }
+      ]
+    }
+  ]
+}
