@@ -29,7 +29,6 @@ I wanted a personalized instrument for moving through the artworld and my own ar
 - **Groups events by week, one week at a time by default.** Auto-focuses on the current week; arrows to move; jump-to-week dropdown.
 - **Every event carries structured metadata:** category, mode, start / end time, category-color left border.
 - **Weekly summary strip:** event count, cost range, making %, picked count and cost.
-- **Time conflict detection:** two events overlapping on the same day get a warning chip.
 - **Past events dim and hide by default** with a "show past" toggle.
 - **Places to make / see things:** every venue as an ongoing resource, collapsed below the calendar so it doesn't wall off the events.
 - **Cross-device picks sync via Supabase**, keyed to a passphrase hash — no account, no email.

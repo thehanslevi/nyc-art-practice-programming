@@ -1157,25 +1157,6 @@ a:hover {
   vertical-align: middle;
 }
 
-.conflict-chip {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 1px 6px;
-  border-radius: 4px;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  background: var(--warn-bg);
-  color: var(--warn-text);
-  border: 1px solid var(--warn-border);
-  vertical-align: middle;
-}
-
-.event-row.has-conflict {
-  background: linear-gradient(to right, var(--warn-bg) 0%, var(--surface) 8%);
-}
-
 /* Countdown chips */
 .countdown {
   display: block;

@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import eventsData from "../data/events.json";
 import type { CalEvent, CategoryFilter, EventsData, TabMode } from "../types";
-import { findConflicts } from "../lib/conflicts";
 import {
   daysUntil as daysUntilFn,
   isCurrentWeek,
@@ -159,7 +158,6 @@ export function Calendar({
         </div>
       </div>
       {(viewMode === "single" ? [focused] : shownWeeks).map((week) => {
-        const conflicts = findConflicts(week.visible);
         return (
           <section
             key={week.label}
@@ -183,7 +181,6 @@ export function Calendar({
                 <EventRow
                   key={`${event.date}-${event.event}-${idx}`}
                   event={event}
-                  conflict={conflicts.has(idx)}
                   daysUntil={du}
                   past={evPast}
                   picked={picks.has(id)}

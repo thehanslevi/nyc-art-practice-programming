@@ -3,7 +3,6 @@ import { formatDaysUntil } from "../lib/dates";
 
 interface Props {
   event: CalEvent;
-  conflict?: boolean;
   daysUntil?: number | null;
   past?: boolean;
   picked?: boolean;
@@ -33,7 +32,6 @@ function formatTimeRange(start: string | null, end: string | null): string | nul
 
 export function EventRow({
   event,
-  conflict = false,
   daysUntil,
   past = false,
   picked = false,
@@ -58,7 +56,7 @@ export function EventRow({
 
   return (
     <div
-      className={`event-row cat-${event.category}${conflict ? " has-conflict" : ""}${past ? " is-past" : ""}${picked ? " is-picked" : ""}`}
+      className={`event-row cat-${event.category}${past ? " is-past" : ""}${picked ? " is-picked" : ""}`}
     >
       {onTogglePick ? (
         <button
@@ -90,7 +88,6 @@ export function EventRow({
             event.event
           )}
           {modeChip ? <span className="mode-chip">make</span> : null}
-          {conflict ? <span className="conflict-chip">time conflict</span> : null}
         </div>
         {event.note ? <div className="event-note">{event.note}</div> : null}
         <div className="event-where">{event.where}</div>
