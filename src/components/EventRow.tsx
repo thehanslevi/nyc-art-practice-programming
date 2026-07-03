@@ -1,8 +1,11 @@
 import type { CalEvent } from "../types";
+import { formatDaysUntil } from "../lib/dates";
 
 interface Props {
   event: CalEvent;
   conflict?: boolean;
+  daysUntil?: number | null;
+  past?: boolean;
 }
 
 function flagLabel(flag: CalEvent["flag"]): string | null {
@@ -26,18 +29,40 @@ function formatTimeRange(start: string | null, end: string | null): string | nul
   return `${formatTime(start)}–${formatTime(end)}`;
 }
 
-export function EventRow({ event, conflict = false }: Props) {
+export function EventRow({
+  event,
+  conflict = false,
+  daysUntil,
+  past = false,
+}: Props) {
   const label = flagLabel(event.flag);
   const isFree = event.cost.toUpperCase() === "FREE";
   const timeStr = formatTimeRange(event.start, event.end);
   const modeChip = event.mode === "make" ? "make" : null;
+  const countdown =
+    typeof daysUntil === "number" ? formatDaysUntil(daysUntil) : null;
+  const countdownClass =
+    typeof daysUntil === "number"
+      ? daysUntil < 0
+        ? "countdown-past"
+        : daysUntil === 0
+          ? "countdown-today"
+          : daysUntil <= 3
+            ? "countdown-soon"
+            : "countdown-far"
+      : "";
 
   return (
-    <div className={`event-row cat-${event.category}${conflict ? " has-conflict" : ""}`}>
+    <div
+      className={`event-row cat-${event.category}${conflict ? " has-conflict" : ""}${past ? " is-past" : ""}`}
+    >
       <div className="event-day">
         <span className="event-day-name">{event.day}</span>
         <span>{event.date}</span>
         {timeStr ? <span className="event-time">{timeStr}</span> : null}
+        {countdown ? (
+          <span className={`countdown ${countdownClass}`}>{countdown}</span>
+        ) : null}
       </div>
       <div className="event-main">
         <div className="event-title">

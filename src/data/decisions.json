@@ -2,49 +2,75 @@
   "urgent": [
     {
       "text": "Pioneer Works Jul 28 — False Harmonics #27: Dean Hurley / C. Lavender — $24.30",
-      "url": "https://pioneerworks.org/programs/false-harmonics-27-dean-hurley-c-lavender"
+      "url": "https://pioneerworks.org/programs/false-harmonics-27-dean-hurley-c-lavender",
+      "date": "Jul 28"
     },
     {
       "text": "Pioneer Works Jul 31 — Dan Deacon + Macula Dog + MSHR — $36–47",
-      "url": "https://pioneerworks.org/programs/dan-deacon"
+      "url": "https://pioneerworks.org/programs/dan-deacon",
+      "date": "Jul 31"
     }
   ],
   "open": [
     {
+      "text": "K-Pulse Random Play Dance Jul 10 — free RSVP. Only truly participatory dance event this month.",
+      "url": "https://kpulsenyc.com/",
+      "date": "Jul 10"
+    },
+    {
       "text": "SFPC Jul 11 ($300) — go or skip? → sfpc.study",
-      "url": "https://sfpc.study"
+      "url": "https://sfpc.study",
+      "date": "Jul 11"
+    },
+    {
+      "text": "UnionDocs Magical Image (Jul 24–26, 10am–4:30pm daily) — 3-day intensive, decide fast",
+      "url": "https://uniondocs.org/events/category/workshops/list/",
+      "date": "Jul 24"
+    },
+    {
+      "text": "Mono No Aware Sept slate — pick 1–2. Sep 20 Positive Print (one-day, take-home film) is the strongest beginner entry.",
+      "url": "http://mononoawarefilm.com/community-workshops",
+      "date": "Sep 20"
     },
     {
       "text": "Wondrous — visit wondrousnyc.com or @wondrousnyc Instagram for schedule + price",
-      "url": "https://wondrousnyc.com"
+      "url": "https://wondrousnyc.com",
+      "date": null
     },
     {
       "text": "Ailey Extension — book one trial class (vogue or heels) → ailey.org/classes",
-      "url": "https://ailey.org/classes"
+      "url": "https://ailey.org/classes",
+      "date": null
     },
     {
       "text": "Roulette No Fun Jul 9–11 — $25/night",
-      "url": "https://roulette.org"
+      "url": "https://roulette.org",
+      "date": "Jul 9"
     },
     {
       "text": "RSVP: Pioneer Works Second Sundays Jul 12 (free)",
-      "url": "https://pioneerworks.org"
+      "url": "https://pioneerworks.org",
+      "date": "Jul 12"
     },
     {
       "text": "Fire Ensemble fall RSVP → fireensemble.com/choir-form",
-      "url": "https://www.fireensemble.com/choir-form"
+      "url": "https://www.fireensemble.com/choir-form",
+      "date": null
     },
     {
-      "text": "Mono No Aware Producing Fundamentals Jul 14/21/28 — sliding scale, 3 seats left, conflicts Jul 14 with False Harmonics",
-      "url": "http://mononoawarefilm.com"
+      "text": "NYC Resistor Synthesizer Night — check last Friday of July/Aug on nycresistor.com/calendar",
+      "url": "https://www.nycresistor.com/calendar/",
+      "date": null
     },
     {
       "text": "Watching: @datlabnyc on Instagram for Event 17 date · onx.studio for ONX Showcase 2026",
-      "url": null
+      "url": null,
+      "date": null
     },
     {
       "text": "Waiting: MGC summer semester reply · Humanist Project fall 2026 dates",
-      "url": null
+      "url": null,
+      "date": null
     }
   ]
 }

@@ -601,6 +601,103 @@ a:hover {
   background: linear-gradient(to right, var(--warn-bg) 0%, var(--surface) 8%);
 }
 
+/* Countdown chips */
+.countdown {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 4px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+  width: max-content;
+}
+
+.countdown-today {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+.countdown-soon {
+  background: var(--warn-bg);
+  color: var(--warn-text);
+}
+.countdown-far {
+  background: var(--surface-2);
+  color: var(--text-2);
+}
+.countdown-past {
+  background: transparent;
+  color: var(--text-3);
+  font-style: italic;
+}
+
+.countdown-inline {
+  font-size: 12px;
+  color: var(--text-3);
+  font-weight: 600;
+}
+.countdown-inline.countdown-soon {
+  color: var(--danger-text);
+  background: transparent;
+  padding: 0;
+}
+.countdown-inline.countdown-mid {
+  color: var(--warn-text);
+  background: transparent;
+  padding: 0;
+}
+
+/* Past event dimming */
+.event-row.is-past {
+  opacity: 0.5;
+  filter: grayscale(0.4);
+}
+
+/* Week states */
+.is-current-week .week-header {
+  color: var(--text-1);
+}
+.is-current-week .week-head {
+  border-bottom-color: var(--tech);
+}
+.current-chip {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--tech-bg);
+  color: var(--tech-text);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.is-past-week {
+  opacity: 0.7;
+}
+
+.past-toggle {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+.past-toggle-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.past-toggle-btn:hover {
+  background: var(--surface-2);
+  color: var(--text-1);
+}
+
 .event-main {
   min-width: 0;
 }

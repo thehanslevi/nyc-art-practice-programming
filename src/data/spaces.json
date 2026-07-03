@@ -93,8 +93,22 @@
   {
     "name": "Fire Ensemble",
     "category": "sound",
-    "description": "Intergenerational choir, BIPOC + queer-centered · rehearses BAM area · ~15 min",
-    "note": "Between sessions as of Jul 3. Fall 2026 TBD — fill out choir form now to be notified when the fall session opens.",
+    "description": "Intergenerational choir, BIPOC + queer-centered · rehearses Judson Memorial Church · ~20 min",
+    "note": "Spring 2026 ran Apr 6 – June (Mondays 6–8pm). Between sessions now; fall 2026 TBD. Fill out choir form to be notified.",
     "url": "https://www.fireensemble.com/choir-form"
+  },
+  {
+    "name": "NYC Resistor",
+    "category": "sound",
+    "description": "Hacker collective · 87 3rd Ave, Boerum Hill · ~15 min",
+    "note": "Monthly Synthesizer Night — pay-what-you-wish ($8 suggested). Bring your synth or come empty-handed to jam. Hardware Reincarnation workshops rotate.",
+    "url": "https://www.nycresistor.com/calendar/"
+  },
+  {
+    "name": "Mover's Bodega",
+    "category": "dance",
+    "description": "Street-dance studio · Long Island City · G train ~25–30 min",
+    "note": "House, waacking, breaking, hip hop, popping, jersey club. $20 single class, $55/3, $108/6. Schedule at sutrapro.com/modega.",
+    "url": "https://moversbodega.com/"
   }
 ]

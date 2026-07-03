@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import eventsData from "./data/events.json";
 import type { CategoryFilter, EventsData } from "./types";
+import { today } from "./lib/dates";
 import { Anchors } from "./components/Anchors";
 import { BuyNow } from "./components/BuyNow";
 import { Calendar } from "./components/Calendar";
@@ -12,8 +13,15 @@ import { Spaces } from "./components/Spaces";
 
 const data = eventsData as EventsData;
 
+const TODAY_FMT = new Intl.DateTimeFormat("en-US", {
+  weekday: "short",
+  month: "short",
+  day: "numeric",
+});
+
 function App() {
   const [filter, setFilter] = useState<CategoryFilter>("all");
+  const todayLabel = useMemo(() => TODAY_FMT.format(today()), []);
 
   return (
     <div className="app">
@@ -22,7 +30,9 @@ function App() {
         <p className="app-subtitle">
           Summer 2026 — classes, studios, events across Brooklyn & Manhattan.
         </p>
-        <p className="verified">Last verified {data.lastVerified}</p>
+        <p className="verified">
+          Today {todayLabel} · last verified {data.lastVerified}
+        </p>
       </header>
       <BuyNow />
       <Decisions />

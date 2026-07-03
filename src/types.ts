@@ -40,6 +40,7 @@ export interface EventsData {
 export interface Decision {
   text: string;
   url: string | null;
+  date?: string | null;
 }
 
 export interface DecisionsData {

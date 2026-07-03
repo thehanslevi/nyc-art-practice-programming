@@ -474,7 +474,7 @@
       ]
     },
     {
-      "label": "Aug 10–30",
+      "label": "Aug 10–23",
       "events": [
         {
           "day": "Sun",
@@ -490,6 +490,25 @@
           "note": null,
           "url": "https://summerstage.org"
         },
+        {
+          "day": "Tue",
+          "date": "Aug 18",
+          "event": "Bushwick Starr Summer Arts Festival — curated by Oye Group",
+          "where": "The Bushwick Starr, Eldert Street",
+          "cost": "FREE",
+          "category": "stage",
+          "flag": "priority",
+          "mode": "watch",
+          "start": null,
+          "end": null,
+          "note": "Modesto Flako Jimenez's Oye Group collective — theater, dance, poetry, film on immigration, gentrification. Some pieces are participatory.",
+          "url": "https://www.thebushwickstarr.org/"
+        }
+      ]
+    },
+    {
+      "label": "Aug 24–30",
+      "events": [
         {
           "day": "Fri",
           "date": "Aug 28",
@@ -531,6 +550,226 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org"
+        }
+      ]
+    },
+    {
+      "label": "Sep 1–13",
+      "events": [
+        {
+          "day": "Tue",
+          "date": "Sep 8",
+          "event": "Mono No Aware: Super 8mm on Ektachrome (S1 of 4)",
+          "where": "Downtown Brooklyn",
+          "cost": "sliding scale",
+          "category": "film",
+          "flag": "priority",
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:30",
+          "note": "Multi-week beginner course. Learn the Super 8mm camera, then take it out for 10 days. Continues Sep 15, 29, Oct 6.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Wed",
+          "date": "Sep 9",
+          "event": "Mono No Aware: Time Lapse on 16MM",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "22:00",
+          "note": "Only 4 seats. Frame-by-frame time-lapse work + week-long rental after.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Wed",
+          "date": "Sep 10",
+          "event": "Mono No Aware: Intro to 16MM + Bolex Rex5 (S1 of 5)",
+          "where": "Downtown Brooklyn",
+          "cost": "sliding scale",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:30",
+          "note": "Full professional workflow beginning and ending on 16mm. Continues Sep 17 & Oct 1, 8, + Sat Sep 19 (9am–5pm).",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sat",
+          "date": "Sep 12",
+          "event": "Mono No Aware: Test It Yourself — Super 8MM Camera Testing",
+          "where": "Downtown Brooklyn",
+          "cost": "$25+ sliding",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "10:00",
+          "end": "15:00",
+          "note": "Test + maintain your own Super 8 camera. Open to the public.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sat",
+          "date": "Sep 12",
+          "event": "Mono No Aware: High Speed — Super Slow Motion on 16MM",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "16:00",
+          "end": "21:00",
+          "note": "Only 4 seats. Advanced high-speed camera work.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        }
+      ]
+    },
+    {
+      "label": "Sep 14–30",
+      "events": [
+        {
+          "day": "Tue",
+          "date": "Sep 15",
+          "event": "Mono No Aware: Super 8mm on Ektachrome (S2 of 4)",
+          "where": "Downtown Brooklyn",
+          "cost": "sliding scale",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:30",
+          "note": null,
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Wed",
+          "date": "Sep 17",
+          "event": "Mono No Aware: Intro to 16MM + Bolex Rex5 (S2 of 5)",
+          "where": "Downtown Brooklyn",
+          "cost": "sliding scale",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:30",
+          "note": null,
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sat",
+          "date": "Sep 19",
+          "event": "Mono No Aware: Bolex Rex5 (extended day, S3 of 5)",
+          "where": "Downtown Brooklyn",
+          "cost": "sliding scale",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "09:00",
+          "end": "17:00",
+          "note": "Long day. Conflicts with Macro Cinematography same day.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sat",
+          "date": "Sep 19",
+          "event": "Mono No Aware: Intro to 16MM Macro Cinematography",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "10:00",
+          "end": "15:00",
+          "note": "Extreme close-ups on 16mm. Conflicts with Bolex extended day.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sun",
+          "date": "Sep 20",
+          "event": "Mono No Aware: Intro to 16MM on 3383 Color Positive Print Stock",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": "priority",
+          "mode": "make",
+          "start": "10:00",
+          "end": "16:00",
+          "note": "One-day intensive. 100 feet of film to take home. Strongest beginner entry into 16mm.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sun",
+          "date": "Sep 20",
+          "event": "Mono No Aware: Motion Picture Color Titles on 16MM",
+          "where": "Downtown Brooklyn",
+          "cost": "sliding scale",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "17:00",
+          "end": "21:00",
+          "note": "Full-color titles on animation stand.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Tue",
+          "date": "Sep 22",
+          "event": "Mono No Aware: 16MM Projection Basics (EIKI SSL-O)",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:30",
+          "note": "Thread, operate, maintain and exhibit 16mm film.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Thu",
+          "date": "Sep 24",
+          "event": "Mono No Aware: Steenbeck Flatbed Editing + Ciro Splicer",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:30",
+          "note": "Edit in real time on a four-plate Steenbeck. Foundational analog editing.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sat",
+          "date": "Sep 26",
+          "event": "Mono No Aware: Blow Ups — 16MM to 120 Medium Format",
+          "where": "Downtown Brooklyn",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "10:00",
+          "end": "16:00",
+          "note": "Only 6 seats. Optically enlarge a single 16mm frame to medium format.",
+          "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Tue",
+          "date": "Sep 29",
+          "event": "Mono No Aware: Super 8mm on Ektachrome (S3 of 4)",
+          "where": "Downtown Brooklyn",
+          "cost": "sliding scale",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:30",
+          "note": null,
+          "url": "http://mononoawarefilm.com/community-workshops"
         }
       ]
     }

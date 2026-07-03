@@ -14,7 +14,13 @@
   {
     "name": "Summer Sings",
     "description": "Drop-in choral singing · Mondays 7:30pm · Judson Memorial Church, 55 Washington Sq S · $20/night or $120 season pass",
-    "note": "Runs Jul 6 – Aug 25. No audition. Different choral work each week; conductor walks you through it. Bring a score or borrow one on-site.",
+    "note": "Runs Jul 6 – Aug 25. No audition. Different choral work each week; conductor walks you through it.",
     "url": "https://westvillagechorale.org/summer-sings/"
+  },
+  {
+    "name": "Bushwick Starr: Movie Mondays",
+    "description": "Weekly short-film screenings by Brooklyn filmmakers · Mondays through August · Eldert St, Bushwick",
+    "note": "Free, community-rooted screenings. Part of Summers at the Starr. Aug 3, 10, 17, 24, 31.",
+    "url": "https://www.thebushwickstarr.org/"
   }
 ]
