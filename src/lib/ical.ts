@@ -49,7 +49,31 @@ function nowStamp(): string {
   return `${y}${mo}${da}T${h}${mi}${s}Z`;
 }
 
-export function buildICal(events: CalEvent[]): string {
+function slug(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 60);
+}
+
+function addHours(hhmm: string, hours: number): string {
+  const [h, m] = hhmm.split(":").map(Number);
+  const total = h * 60 + m + hours * 60;
+  const nh = Math.floor(total / 60) % 24;
+  const nm = total % 60;
+  return `${pad(nh)}:${pad(nm)}`;
+}
+
+export interface BuildICalOptions {
+  calendarName?: string;
+  calendarDescription?: string;
+}
+
+export function buildICal(
+  events: CalEvent[],
+  options: BuildICalOptions = {},
+): string {
   const stamp = nowStamp();
   const lines: string[] = [
     "BEGIN:VCALENDAR",
@@ -57,6 +81,15 @@ export function buildICal(events: CalEvent[]): string {
     "PRODID:-//NYC Creative Calendar//EN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
+  ];
+  if (options.calendarName) {
+    lines.push(`X-WR-CALNAME:${escapeText(options.calendarName)}`);
+  }
+  if (options.calendarDescription) {
+    lines.push(`X-WR-CALDESC:${escapeText(options.calendarDescription)}`);
+  }
+  lines.push("X-WR-TIMEZONE:America/New_York");
+  lines.push(
     "BEGIN:VTIMEZONE",
     "TZID:America/New_York",
     "BEGIN:DAYLIGHT",
@@ -74,15 +107,22 @@ export function buildICal(events: CalEvent[]): string {
     "RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU",
     "END:STANDARD",
     "END:VTIMEZONE",
-  ];
-  events.forEach((e, i) => {
+  );
+  const seenUids = new Set<string>();
+  for (const e of events) {
     const parts = e.date.split(" ");
     const month = MONTHS[parts[0] ?? ""];
     const day = Number(parts[1]);
-    if (!month || !day) return;
-    const uid = `${YEAR}${pad(month)}${pad(day)}-${i}@nyc-creative-calendar`;
+    if (!month || !day) continue;
+    let baseUid = `${icsDate(month, day)}-${slug(e.event)}`;
+    let uid = baseUid;
+    let n = 2;
+    while (seenUids.has(uid)) {
+      uid = `${baseUid}-${n++}`;
+    }
+    seenUids.add(uid);
     lines.push("BEGIN:VEVENT");
-    lines.push(`UID:${uid}`);
+    lines.push(`UID:${uid}@nyc-creative-calendar`);
     lines.push(`DTSTAMP:${stamp}`);
     if (e.start) {
       lines.push(
@@ -104,24 +144,17 @@ export function buildICal(events: CalEvent[]): string {
     lines.push(`DESCRIPTION:${escapeText(descParts.join("\n"))}`);
     if (e.url) lines.push(`URL:${e.url}`);
     lines.push("END:VEVENT");
-  });
+  }
   lines.push("END:VCALENDAR");
   return lines.join("\r\n");
-}
-
-function addHours(hhmm: string, hours: number): string {
-  const [h, m] = hhmm.split(":").map(Number);
-  const total = h * 60 + m + hours * 60;
-  const nh = Math.floor(total / 60) % 24;
-  const nm = total % 60;
-  return `${pad(nh)}:${pad(nm)}`;
 }
 
 export function downloadICal(
   events: CalEvent[],
   filename = "nyc-creative-calendar.ics",
+  options: BuildICalOptions = {},
 ): void {
-  const ics = buildICal(events);
+  const ics = buildICal(events, options);
   const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");

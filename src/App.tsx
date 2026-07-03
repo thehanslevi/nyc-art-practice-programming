@@ -23,6 +23,7 @@ import { ExportButton } from "./components/ExportButton";
 import { FallHorizon } from "./components/FallHorizon";
 import { FilterBar, computeCategoryCounts } from "./components/FilterBar";
 import { Spaces } from "./components/Spaces";
+import { SubscribePanel } from "./components/SubscribePanel";
 import { SyncPanel, type SyncStatus } from "./components/SyncPanel";
 import { TabBar } from "./components/TabBar";
 
@@ -174,12 +175,15 @@ function App() {
               Today {todayLabel} · last verified {data.lastVerified}
             </p>
           </div>
-          <SyncPanel
-            passphrase={passphrase}
-            onSet={handleSetPassphrase}
-            onSyncNow={handleSyncNow}
-            status={syncStatus}
-          />
+          <div className="header-actions">
+            <SubscribePanel />
+            <SyncPanel
+              passphrase={passphrase}
+              onSet={handleSetPassphrase}
+              onSyncNow={handleSyncNow}
+              status={syncStatus}
+            />
+          </div>
         </div>
       </header>
       <TabBar active={tab} onChange={setTab} />

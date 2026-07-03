@@ -1,0 +1,51 @@
+import { mkdirSync, writeFileSync } from "node:fs";
+import { resolve } from "node:path";
+import events from "../src/data/events.json" with { type: "json" };
+import { buildICal } from "../src/lib/ical.ts";
+import type { CalEvent, EventsData } from "../src/types.ts";
+
+const data = events as EventsData;
+const allEvents: CalEvent[] = data.weeks.flatMap((w) => w.events as CalEvent[]);
+
+const OUT_DIR = resolve("dist");
+mkdirSync(OUT_DIR, { recursive: true });
+
+interface Feed {
+  filename: string;
+  events: CalEvent[];
+  name: string;
+  description: string;
+}
+
+const feeds: Feed[] = [
+  {
+    filename: "feed.ics",
+    events: allEvents,
+    name: "NYC Creative Calendar — All",
+    description:
+      "Every event on the NYC Creative Calendar. Classes, workshops, shows, screenings, everything.",
+  },
+  {
+    filename: "feed-attend.ics",
+    events: allEvents.filter((e) => e.mode === "watch"),
+    name: "NYC Creative Calendar — Attend",
+    description:
+      "Shows, plays, concerts, screenings — things to watch.",
+  },
+  {
+    filename: "feed-practice.ics",
+    events: allEvents.filter((e) => e.mode === "make"),
+    name: "NYC Creative Calendar — Practice",
+    description: "Classes, workshops, participatory practice.",
+  },
+];
+
+console.log("Generating .ics feeds → dist/");
+for (const feed of feeds) {
+  const ics = buildICal(feed.events, {
+    calendarName: feed.name,
+    calendarDescription: feed.description,
+  });
+  writeFileSync(resolve(OUT_DIR, feed.filename), ics, "utf8");
+  console.log(`  wrote ${feed.filename} (${feed.events.length} events)`);
+}
