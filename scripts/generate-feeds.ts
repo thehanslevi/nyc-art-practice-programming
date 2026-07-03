@@ -21,21 +21,21 @@ const feeds: Feed[] = [
   {
     filename: "feed.ics",
     events: allEvents,
-    name: "NYC Creative Calendar — All",
+    name: "NYC Art Practice & Programming Calendar",
     description:
-      "Every event on the NYC Creative Calendar. Classes, workshops, shows, screenings, everything.",
+      "Every event on the NYC Art Practice & Programming Calendar. Classes, workshops, shows, screenings, everything.",
   },
   {
     filename: "feed-attend.ics",
     events: allEvents.filter((e) => e.mode === "watch"),
-    name: "NYC Creative Calendar — Attend",
+    name: "NYC Art Practice & Programming Calendar — Attend",
     description:
       "Shows, plays, concerts, screenings — things to watch.",
   },
   {
     filename: "feed-practice.ics",
     events: allEvents.filter((e) => e.mode === "make"),
-    name: "NYC Creative Calendar — Practice",
+    name: "NYC Art Practice & Programming Calendar — Practice",
     description: "Classes, workshops, participatory practice.",
   },
 ];
