@@ -37,8 +37,6 @@ I wanted the widest possible awareness of what's happening in this city, in a fo
 
 ## The categories
 
-I made up eight because the standard "music / theater / dance / film" split hides the differences I care about:
-
 - **sound** — concerts, experimental music, opera
 - **dance** — dance shows and classes
 - **film** — screenings, workshops, cinemas
