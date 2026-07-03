@@ -27,10 +27,10 @@ const feeds: Feed[] = [
   },
   {
     filename: "feed-attend.ics",
-    events: allEvents.filter((e) => e.mode === "watch"),
+    events: allEvents.filter((e) => e.mode === "witness"),
     name: "NYC Art Practice & Programming Calendar — Attend",
     description:
-      "Shows, plays, concerts, screenings — things to watch.",
+      "Shows, plays, concerts, screenings — things to witness.",
   },
   {
     filename: "feed-practice.ics",

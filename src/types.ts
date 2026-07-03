@@ -10,7 +10,7 @@ export type Category =
 export type Flag = "urgent" | "priority" | "decide" | null;
 export type CategoryFilter = "all" | Category;
 
-export type Mode = "make" | "watch";
+export type Mode = "make" | "witness";
 export type SpaceMode = Mode | "both";
 export type TabMode = "practice" | "attend" | "all";
 

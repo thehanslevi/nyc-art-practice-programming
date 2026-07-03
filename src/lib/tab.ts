@@ -8,6 +8,6 @@ export function matchesTab(
   if (!itemMode) return tab === "practice";
   if (itemMode === "both") return true;
   if (tab === "practice") return itemMode === "make";
-  if (tab === "attend") return itemMode === "watch";
+  if (tab === "attend") return itemMode === "witness";
   return true;
 }

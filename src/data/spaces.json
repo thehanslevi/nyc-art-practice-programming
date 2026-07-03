@@ -82,7 +82,7 @@
   {
     "name": "The Brick / Brick Aux",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Storefront experimental theater · 579 + 628 Metropolitan Ave, Williamsburg · G train ~20 min",
     "note": "Radical, counter-cultural performance. Tickets typically $25–45. Also a venue for Exponential Fest 2027.",
     "url": "https://www.bricktheater.com/"
@@ -90,7 +90,7 @@
   {
     "name": "The Tank",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "New-work incubator · 312 W 36th St, Midtown West",
     "note": "20+ shows a month. Cheap tickets, tiny room, experimental everything. Residencies for developing work. Check their calendar page.",
     "url": "https://thetanknyc.org/calendar"
@@ -98,7 +98,7 @@
   {
     "name": "HERE Arts Center",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Independent multi-disciplinary venue · 145 6th Ave, Manhattan",
     "note": "Long runs by solo performers, hybrid + puppet + music-theater. 2026/27 season 'Choose Wonder' starts September.",
     "url": "https://here.org/shows/"
@@ -114,7 +114,7 @@
   {
     "name": "Joe's Pub",
     "category": "sound",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Cabaret + song at The Public Theater · 425 Lafayette, Manhattan",
     "note": "Nightly cabaret, spoken word, experimental music. Ticket prices vary; some cheap seats.",
     "url": "https://publictheater.org/joes-pub"
@@ -122,7 +122,7 @@
   {
     "name": "St. Ann's Warehouse",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Curated international avant-garde · DUMBO",
     "note": "Big-budget experimental work. Season lineups posted at stannswarehouse.org.",
     "url": "https://stannswarehouse.org/"
@@ -130,7 +130,7 @@
   {
     "name": "National Sawdust",
     "category": "sound",
-    "mode": "watch",
+    "mode": "witness",
     "description": "New-music venue · 80 N 6th St, Williamsburg",
     "note": "Contemporary classical, opera, experimental music. Ticket prices vary.",
     "url": "https://nationalsawdust.org/calendar"
@@ -146,7 +146,7 @@
   {
     "name": "LIFE WORLD",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Experimental performance + community space · 563 Johnson Ave, Bushwick",
     "note": "Multimedia art, indie animation screenings, queer independent theater, cabaret, community dinners. $20-ish or donation.",
     "url": "https://cometolifeworld.com/"
@@ -154,7 +154,7 @@
   {
     "name": "Loading Dock Theatre",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Playwright-run company · 170 Tillary St, Downtown Brooklyn",
     "note": "Emotional, character-driven plays with experimental edge. Current: The Trojans. Small runs. Exponential Fest 2027 venue.",
     "url": "https://www.loadingdocktheatre.org/shows/"
@@ -170,7 +170,7 @@
   {
     "name": "The Kitchen",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Cross-disciplinary experimental arts · Chelsea (currently touring venues during renovation)",
     "note": "Video, performance, music, dance intersections. Check thekitchen.org for current programming venues.",
     "url": "https://thekitchen.org/"
@@ -178,7 +178,7 @@
   {
     "name": "New York Live Arts",
     "category": "dance",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Bill T. Jones' home + presenting venue · 219 W 19th St, Chelsea",
     "note": "Experimental dance + performance. Fall 2026 season Sept–Nov. Ticket prices vary.",
     "url": "https://newyorklivearts.org/calendar/"
@@ -186,7 +186,7 @@
   {
     "name": "Chocolate Factory Theater",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Experimental performance · Long Island City",
     "note": "Deep-form experimental work. Small runs. Upcoming: Moriah Evans, Jasmine Hearn.",
     "url": "https://chocolatefactorytheater.org/"
@@ -194,7 +194,7 @@
   {
     "name": "Dixon Place",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Experimental + LGBTQ+ performance · 161A Chrystie St, LES",
     "note": "34th annual HOT Festival every July. Cabaret, queer variety, works-in-progress.",
     "url": "https://dixonplace.org/"
@@ -202,7 +202,7 @@
   {
     "name": "Danspace Project",
     "category": "dance",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Experimental dance in a church · St. Mark's, 131 E 10th St",
     "note": "Curated experimental dance. Sanctuary space. Prices typically $20–35.",
     "url": "https://danspaceproject.org/calendar/"
@@ -218,7 +218,7 @@
   {
     "name": "Culture Lab LIC",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Multi-arts community space · Long Island City",
     "note": "Music, theater, dance, visual art. NYMS synth events hosted here. Check calendar.",
     "url": "https://culturelablic.org/events/"
@@ -226,7 +226,7 @@
   {
     "name": "Ars Nova",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "New-work theater + music · 511 W 54th St, Hell's Kitchen",
     "note": "ANT Fest (August), Showgasm, new plays + musicals. Cheap tickets.",
     "url": "https://arsnovanyc.com/whats-on/"
@@ -234,7 +234,7 @@
   {
     "name": "BAM (Brooklyn Academy of Music)",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Institutional avant-garde · Harvey Theater + Opera House + Fisher · 30 Lafayette Ave, Fort Greene",
     "note": "Major fall season (Ford/Hill, Hewa Rwanda, Einstein on the Beach 50th, etc). Free PRELUDE outdoor Oct 13–15. Rose Cinemas film series year-round.",
     "url": "https://www.bam.org/"
@@ -242,7 +242,7 @@
   {
     "name": "Baryshnikov Arts Center",
     "category": "dance",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Curated dance + performance venue · 450 W 37th St, Manhattan",
     "note": "Dense fall season Sep–Nov. Rare performances (Laurie Anderson at Fall Fête Oct 5, Merce Cunningham legacy Nov).",
     "url": "https://baryshnikovarts.org/"
@@ -250,7 +250,7 @@
   {
     "name": "BRIC Celebrate Brooklyn!",
     "category": "sound",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Free outdoor concert series · Lena Horne Bandshell, Prospect Park",
     "note": "Free summer festival — jazz, hip-hop, world music, family programming. Weekly through late July.",
     "url": "https://bricartsmedia.org/events"
@@ -258,7 +258,7 @@
   {
     "name": "Symphony Space",
     "category": "word",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Multi-format venue · Upper West Side",
     "note": "Author events, NT Live screenings, film series. Regular weekly programming.",
     "url": "https://www.symphonyspace.org/"
@@ -266,7 +266,7 @@
   {
     "name": "NYU Skirball",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Curated international avant-garde · Washington Square, NYU",
     "note": "NT Live screenings + season of international touring work. Fall/spring seasons announced closer to date.",
     "url": "https://nyuskirball.org/events"
@@ -274,7 +274,7 @@
   {
     "name": "The Wild Project",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Off-off-Broadway theater · East Village",
     "note": "Clubbed Thumb's SUMMERWORKS venue every summer. Gallery shows year-round.",
     "url": "https://thewildproject.org/upcoming"
@@ -290,7 +290,7 @@
   {
     "name": "Clubbed Thumb",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "New American plays · SUMMERWORKS annual at The Wild Project · Lower East Side",
     "note": "SUMMERWORKS 2026 (past): May 14 – Jun 30. Fall/winter programming TBA. Watch for the next SUMMERWORKS.",
     "url": "https://www.clubbedthumb.org/"
@@ -378,7 +378,7 @@
   {
     "name": "Film Forum",
     "category": "film",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Independent + repertory cinema · 209 W Houston, West Village",
     "note": "$12 member / $18 general. Dense weekly programming — new releases, restorations, retrospectives. Massive Coppola retrospective Aug 21–Sep 10.",
     "url": "https://www.filmforum.org/now-playing"
@@ -386,7 +386,7 @@
   {
     "name": "Anthology Film Archives",
     "category": "film",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Avant-garde + experimental cinema · 32 2nd Ave, East Village",
     "note": "Deep-cut avant-garde, 35mm/16mm archival programming. Frequent series. Cheap tickets.",
     "url": "https://anthologyfilmarchives.org/calendar"
@@ -394,7 +394,7 @@
   {
     "name": "Metrograph",
     "category": "film",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Repertory arthouse · 7 Ludlow St, LES",
     "note": "Rep + first-run. Curated series. Calendar publishes ~1 month out.",
     "url": "https://metrograph.com/"
@@ -402,7 +402,7 @@
   {
     "name": "Film at Lincoln Center",
     "category": "film",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Curated arthouse + festivals · Walter Reade + Elinor Bunin Munroe · Lincoln Center",
     "note": "NYFF each fall + ongoing series.",
     "url": "https://www.filmlinc.org/"
@@ -410,7 +410,7 @@
   {
     "name": "New York Theatre Workshop",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Downtown new-work incubator · 79 E 4th St, East Village",
     "note": "2026/27 fall: Basquiat (Sep 9–Oct 4), Wild Rose musical (Nov 24–Jan 10).",
     "url": "https://www.nytw.org/2026-27-season/"
@@ -426,7 +426,7 @@
   {
     "name": "Rattlestick Theater",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Off-Broadway new work · West Village",
     "note": "Small runs of new plays. Prices moderate.",
     "url": "https://www.rattlestick.org/25-26-artistic-programing"
@@ -434,7 +434,7 @@
   {
     "name": "Vineyard Theatre",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Off-Broadway new work · 108 E 15th St, Union Square",
     "note": "Development-oriented. Season announced yearly.",
     "url": "https://vineyardtheatre.org/showsevents/"
@@ -442,7 +442,7 @@
   {
     "name": "Signature Theatre",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Playwright-focused residencies · 480 W 42nd St, Hell's Kitchen",
     "note": "Curated resident-playwright seasons. Cheap tickets first 3 weeks of each run.",
     "url": "https://www.signaturetheatre.org/"
@@ -450,7 +450,7 @@
   {
     "name": "Playwrights Horizons",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "New American plays · 416 W 42nd St, Theater Row",
     "note": "2026/27 season: Degenerates, ripple/wave, HOLE!, Wold Meteor, Annunciation, Feast of Rabbits. Dates TBA.",
     "url": "https://www.playwrightshorizons.org/shows/"
@@ -458,7 +458,7 @@
   {
     "name": "ISSUE Project Room",
     "category": "sound",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Experimental music + performance · 22 Boerum Pl, Downtown Brooklyn · ~15 min",
     "note": "Deep-listen experimental music. Suzanne Fiol Curatorial Fellowship, Artist-in-Residence program. Small hall, curated.",
     "url": "https://issueprojectroom.org/calendar"
@@ -466,7 +466,7 @@
   {
     "name": "Nitehawk Cinema",
     "category": "film",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Dinner + drinks cinema · Prospect Park + Williamsburg locations",
     "note": "First-run + special series (Nitecap, brunch, midnight). Both branches accessible.",
     "url": "https://nitehawkcinema.com/"
@@ -482,7 +482,7 @@
   {
     "name": "MoMA + MoMA PS1",
     "category": "make",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Modern art institution · Midtown + Long Island City",
     "note": "Performance, film series, and public programs alongside exhibits. MoMA PS1 Warm Up series (summer Saturdays, LIC). Check moma.org/calendar for dates.",
     "url": "https://www.moma.org/calendar/"
@@ -490,7 +490,7 @@
   {
     "name": "Whitney Museum",
     "category": "make",
-    "mode": "watch",
+    "mode": "witness",
     "description": "American art museum · 99 Gansevoort, Meatpacking",
     "note": "Free Friday Nights (5–10pm) — free admission + programming. Currently: Whitney Biennial 2026. Regular performance + film in the theater.",
     "url": "https://whitney.org/events"
@@ -498,7 +498,7 @@
   {
     "name": "New Museum",
     "category": "make",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Contemporary art · 235 Bowery, LES",
     "note": "Performance series + New INC incubator. Reopening after renovation; check calendar for programming.",
     "url": "https://www.newmuseum.org/calendar"
@@ -506,7 +506,7 @@
   {
     "name": "Performa Biennial",
     "category": "stage",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Live-art biennial across NYC · citywide",
     "note": "Every two years, Nov 2025 was the last. Next biennial Nov 2027. Site publishes performances closer to event.",
     "url": "https://www.performa-arts.org/calendar"
@@ -514,7 +514,7 @@
   {
     "name": "Caveat NYC",
     "category": "word",
-    "mode": "watch",
+    "mode": "witness",
     "description": "Comedy + intellectual + variety · LES basement",
     "note": "Nerdy comedy, science, storytelling. Cheap tickets ($15–25).",
     "url": "https://caveat.nyc/events/"
