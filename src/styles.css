@@ -530,9 +530,10 @@ a:hover {
   font-size: 58px;
   font-weight: 400;
   font-style: normal;
-  margin: 0 0 28px;
+  margin: 0;
+  padding-bottom: 48px;
   letter-spacing: -0.02em;
-  line-height: 1.06;
+  line-height: 1.2;
   color: var(--text-1);
   max-width: 820px;
   position: relative;
