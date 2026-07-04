@@ -1,18 +1,17 @@
 :root {
-  /* Poster palette — fluorescent lime ground + paper card + black type (WIM) */
-  --page: #D4F04E;       /* fluorescent lime (WIM Bakery) */
-  --bg: #FFFAE7;         /* paper card */
-  --surface: #FFFDF3;    /* even brighter paper */
-  --surface-2: #F5E8B5;  /* butter */
+  /* PLOP palette — cobalt ground + cream card + poppy red + extra-black type */
+  --page: #1E3AE8;       /* cobalt page (PLOP cover) */
+  --bg: #F5EEDC;         /* cream card */
+  --surface: #FFFAE7;    /* brighter paper */
+  --surface-2: #E8E1CE;  /* card divider */
   --text-1: #0A0A08;     /* extra deep ink */
   --text-2: #3E3B31;
   --text-3: #7A7461;
   --border: #C9BC85;
   --border-strong: #7A7461;
-  --accent: #E53F26;     /* vermilion */
-  --accent-2: #FF3D8B;   /* hot magenta */
-  --accent-3: #1E3AE8;   /* cobalt */
-  --accent-lime: #A8D400;/* deeper lime for accents */
+  --accent: #E31E14;     /* poppy red (torn-paper) */
+  --accent-2: #F7C915;   /* mustard yellow, muted */
+  --accent-3: #1E3AE8;   /* cobalt (same as page) */
   --accent-soft: #FBDDD5;
 
   /* Category colors — saturated */
@@ -34,9 +33,9 @@
   --theatre: #FF7A2A;      /* bright orange */
   --theatre-bg: #FFE0CB;
   --theatre-text: #7A3400;
-  --literature: #6B8A00;       /* olive/lime-adjacent */
-  --literature-bg: #F0F5D4;
-  --literature-text: #2A3800;
+  --literature: #A03A28;       /* brick */
+  --literature-bg: #F6DBD3;
+  --literature-text: #4E1B10;
   --community: #0EB3A6;     /* teal */
   --community-bg: #C9F0EC;
   --community-text: #0A4E48;
@@ -63,19 +62,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --page: #6B8A00;       /* deep lime */
-    --bg: #14100A;         /* deep ink card */
-    --surface: #1E1811;
-    --surface-2: #2C241A;
+    --page: #0F1D8A;       /* deep cobalt */
+    --bg: #1A1610;         /* deep ink card */
+    --surface: #241E15;
+    --surface-2: #322A1D;
     --text-1: #FDF3D6;     /* paper */
     --text-2: #BFB58F;
     --text-3: #85795B;
-    --border: #37301F;
-    --border-strong: #59503A;
-    --accent: #FF6A4E;
-    --accent-2: #FF5A9E;
+    --border: #48402C;
+    --border-strong: #6E6449;
+    --accent: #FF3E2E;
+    --accent-2: #FFDB4A;
     --accent-3: #6E8CFF;
-    --accent-lime: #C4E600;
     --accent-soft: #4A1F14;
 
     --sound: #5A9DFF;
@@ -142,7 +140,7 @@ body {
   box-sizing: border-box;
 }
 
-/* App = the paper card floating on fluorescent lime */
+/* App = the paper card floating on cobalt (PLOP) */
 .app {
   position: relative;
   background: var(--bg);
@@ -150,7 +148,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 44px 44px 60px;
-  box-shadow: 14px 14px 0 var(--accent-2);
+  box-shadow: 14px 14px 0 var(--accent);
   background-image:
     radial-gradient(rgba(10, 10, 8, 0.03) 1px, transparent 1px);
   background-size: 2px 2px;
@@ -171,13 +169,13 @@ body {
   top: 12px;
   left: 12px;
   border-width: 3px 0 0 3px;
-  border-color: var(--accent-2);
+  border-color: var(--accent);
 }
 .app::after {
   bottom: 12px;
   right: 12px;
   border-width: 0 3px 3px 0;
-  border-color: var(--accent-3);
+  border-color: var(--text-1);
 }
 
 #root {
