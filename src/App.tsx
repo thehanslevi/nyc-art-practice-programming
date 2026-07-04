@@ -17,7 +17,6 @@ import {
 import { matchesTab } from "./lib/tab";
 import { Calendar } from "./components/Calendar";
 import { ExportButton } from "./components/ExportButton";
-import { FallHorizon } from "./components/FallHorizon";
 import { FilterBar, computeCategoryCounts } from "./components/FilterBar";
 import { Spaces } from "./components/Spaces";
 import { SubscribePanel } from "./components/SubscribePanel";
@@ -207,7 +206,6 @@ function App() {
         onTogglePick={togglePick}
       />
       <Spaces filter={filter} tab={tab} />
-      <FallHorizon tab={tab} />
     </div>
   );
 }

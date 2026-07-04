@@ -699,29 +699,6 @@ a:hover {
   color: var(--warn-text);
 }
 
-.band-pro {
-  background: transparent;
-  border: 1px solid var(--border);
-  border-top: 2px solid var(--text-1);
-  border-radius: 0;
-  color: var(--text-1);
-  padding: 24px 22px;
-}
-
-.band-pro .band-title {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: -0.005em;
-  text-transform: none;
-  color: var(--text-1);
-}
-
-.band-pro .band-title::before {
-  display: none;
-}
-
 .band-list {
   margin: 0;
   padding: 0;
@@ -747,15 +724,6 @@ a:hover {
   color: var(--text-2);
 }
 
-.fall-item .fall-title {
-  font-weight: 600;
-}
-
-.fall-item .fall-detail {
-  color: var(--text-2);
-  display: block;
-  margin-top: 2px;
-}
 
 /* Decisions section */
 .decisions {

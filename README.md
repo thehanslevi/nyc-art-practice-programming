@@ -71,7 +71,7 @@ Fork the code, rewrite the JSON.
 
 ## Editing
 
-Any event, venue, or fall-horizon item lives in `src/data/`. Edit in the GitHub web editor, click Commit — Vercel rebuilds automatically and your subscribed calendar reflects the change on its next refresh cycle.
+Any event or venue lives in `src/data/`. Edit in the GitHub web editor, click Commit — Vercel rebuilds automatically and your subscribed calendar reflects the change on its next refresh cycle.
 
 ## Where it lives
 

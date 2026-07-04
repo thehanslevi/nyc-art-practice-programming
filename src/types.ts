@@ -39,13 +39,6 @@ export interface EventsData {
   weeks: Week[];
 }
 
-export interface FallItem {
-  title: string;
-  detail: string;
-  url: string | null;
-  mode?: SpaceMode;
-}
-
 export interface Space {
   name: string;
   category: Category;
