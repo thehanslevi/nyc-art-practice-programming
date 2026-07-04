@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-07-03",
+  "lastVerified": "2026-07-04",
   "weeks": [
     {
       "label": "Jul 6–12",
@@ -995,48 +995,6 @@
           "url": "https://www.judson.org/calendar"
         },
         {
-          "day": "Fri",
-          "date": "Jul 24",
-          "event": "BRIC Celebrate Brooklyn!: Cindy Blackman Santana Group + Patricia Brennan Septet + Lucía (jazz)",
-          "where": "Lena Horne Bandshell, Prospect Park",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": "priority",
-          "mode": "witness",
-          "start": "18:00",
-          "end": null,
-          "note": "Free jazz night.",
-          "url": "https://bricartsmedia.org/events"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 25",
-          "event": "BRIC Celebrate Brooklyn! at Brower Park: Black House Radio",
-          "where": "Brower Park, Park Place between Brooklyn & Kingston Ave — Crown Heights, walkable",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": "priority",
-          "mode": "witness",
-          "start": "15:00",
-          "end": null,
-          "note": "Free, in your neighborhood.",
-          "url": "https://bricartsmedia.org/events"
-        },
-        {
-          "day": "Sun",
-          "date": "Jul 26",
-          "event": "NYU Skirball: NT Live — Les Liaisons Dangereuses (screening)",
-          "where": "NYU Skirball Center, Manhattan",
-          "cost": "TBD",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "National Theatre Live special screening.",
-          "url": "https://nyuskirball.org/events"
-        },
-        {
           "day": "Thu",
           "date": "Jul 23",
           "event": "The Tank: Where the Yetis Will Be",
@@ -1063,6 +1021,20 @@
           "end": null,
           "note": "Runs Jul 23–25.",
           "url": "https://thetanknyc.org/tankcalendar"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "BRIC Celebrate Brooklyn!: Cindy Blackman Santana Group + Patricia Brennan Septet + Lucía (jazz)",
+          "where": "Lena Horne Bandshell, Prospect Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": "priority",
+          "mode": "witness",
+          "start": "18:00",
+          "end": null,
+          "note": "Free jazz night.",
+          "url": "https://bricartsmedia.org/events"
         },
         {
           "day": "Fri",
@@ -1107,6 +1079,34 @@
           "url": "https://uniondocs.org/events/category/workshops/list/"
         },
         {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "The Magical Image: &lt;br&gt; Special Effects as Documentary Method",
+          "where": "UnionDocs, Ridgewood",
+          "cost": "$295–350",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "14:00",
+          "end": "20:30",
+          "note": null,
+          "url": "https://uniondocs.org/event/the-magical-image-special-effects-as-documentary-method-2026-07-24/"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "BRIC Celebrate Brooklyn! at Brower Park: Black House Radio",
+          "where": "Brower Park, Park Place between Brooklyn & Kingston Ave — Crown Heights, walkable",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": "priority",
+          "mode": "witness",
+          "start": "15:00",
+          "end": null,
+          "note": "Free, in your neighborhood.",
+          "url": "https://bricartsmedia.org/events"
+        },
+        {
           "day": "Sat",
           "date": "Jul 25",
           "event": "Wendy's Subway: Basic Instincts and Pure Desires — workshop with Nico Vela Page",
@@ -1119,6 +1119,20 @@
           "end": "14:30",
           "note": "Generative writing workshop.",
           "url": "https://www.wendyssubway.com/programs"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 26",
+          "event": "NYU Skirball: NT Live — Les Liaisons Dangereuses (screening)",
+          "where": "NYU Skirball Center, Manhattan",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "National Theatre Live special screening.",
+          "url": "https://nyuskirball.org/events"
         },
         {
           "day": "Sun",
