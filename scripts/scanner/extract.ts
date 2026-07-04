@@ -3,7 +3,7 @@ import type { CalEvent } from "../../src/types";
 import { extractJsonLdEvents } from "./extract-jsonld.ts";
 import type { Venue } from "./venues";
 
-const MODEL = "gemini-1.5-flash";
+const MODEL = "gemini-flash-latest";
 
 export interface Candidate {
   event: CalEvent;
