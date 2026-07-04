@@ -1402,6 +1402,41 @@ a:hover {
   cursor: not-allowed;
 }
 
+/* Free toggle — mirrors picks-toggle, tinted green when active */
+.free-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-1);
+  padding: 6px 12px;
+  border-radius: 10px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.free-toggle span {
+  color: var(--text-3);
+  font-weight: 500;
+  margin-left: 2px;
+}
+.free-toggle:hover:not(:disabled) {
+  background: var(--surface-2);
+  border-color: var(--border-strong);
+}
+.free-toggle.active {
+  background: var(--tech);
+  border-color: var(--tech);
+  color: #FFF;
+}
+.free-toggle.active span {
+  color: rgba(255, 255, 255, 0.85);
+}
+.free-toggle:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 /* Empty state */
 .empty-state {
   padding: 40px 20px;

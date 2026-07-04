@@ -6,6 +6,7 @@ import type {
   EventsData,
   TabMode,
 } from "./types";
+import { isFree } from "./lib/cost";
 import { today } from "./lib/dates";
 import { loadPicks, pickId, savePicks } from "./lib/picks";
 import {
@@ -38,6 +39,7 @@ function App() {
   const [tab, setTab] = useState<TabMode>("all");
   const [filter, setFilter] = useState<CategoryFilter>("all");
   const [picksOnly, setPicksOnly] = useState(false);
+  const [freeOnly, setFreeOnly] = useState(false);
   const [picks, setPicks] = useState<Set<string>>(() => loadPicks());
   const [passphrase, setPassphrase] = useState<string | null>(() => loadPassphrase());
   const [syncStatus, setSyncStatus] = useState<SyncStatus>({ kind: "idle" });
@@ -145,13 +147,20 @@ function App() {
   }, [passphrase]);
 
   const counts = useMemo(() => {
-    const scoped = ALL_EVENTS.filter((e) => matchesTab(tab, e.mode)).filter(
-      (e) => !picksOnly || picks.has(pickId(e)),
-    );
+    const scoped = ALL_EVENTS.filter((e) => matchesTab(tab, e.mode))
+      .filter((e) => !picksOnly || picks.has(pickId(e)))
+      .filter((e) => !freeOnly || isFree(e));
     return computeCategoryCounts(scoped);
-  }, [tab, picks, picksOnly]);
+  }, [tab, picks, picksOnly, freeOnly]);
 
   const pickCount = picks.size;
+  const freeCount = useMemo(
+    () =>
+      ALL_EVENTS.filter((e) => matchesTab(tab, e.mode))
+        .filter((e) => !picksOnly || picks.has(pickId(e)))
+        .filter(isFree).length,
+    [tab, picks, picksOnly],
+  );
 
   return (
     <div className="app">
@@ -196,13 +205,32 @@ function App() {
         >
           ★ Picks <span>({pickCount})</span>
         </button>
-        <ExportButton filter={filter} tab={tab} picks={picks} picksOnly={picksOnly} />
+        <button
+          type="button"
+          className={`free-toggle${freeOnly ? " active" : ""}`}
+          onClick={() => setFreeOnly((v) => !v)}
+          aria-pressed={freeOnly}
+          disabled={freeCount === 0 && !freeOnly}
+          title={
+            freeOnly ? "Show all events" : "Show only free/no-cost events"
+          }
+        >
+          Free <span>({freeCount})</span>
+        </button>
+        <ExportButton
+          filter={filter}
+          tab={tab}
+          picks={picks}
+          picksOnly={picksOnly}
+          freeOnly={freeOnly}
+        />
       </div>
       <Calendar
         filter={filter}
         tab={tab}
         picks={picks}
         picksOnly={picksOnly}
+        freeOnly={freeOnly}
         onTogglePick={togglePick}
       />
       <Spaces filter={filter} tab={tab} />

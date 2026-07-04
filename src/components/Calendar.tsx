@@ -10,6 +10,7 @@ import {
   parseWeekRange,
   today,
 } from "../lib/dates";
+import { isFree } from "../lib/cost";
 import { pickId } from "../lib/picks";
 import { matchesTab } from "../lib/tab";
 import { EventRow } from "./EventRow";
@@ -22,6 +23,7 @@ interface Props {
   tab: TabMode;
   picks: Set<string>;
   picksOnly: boolean;
+  freeOnly: boolean;
   onTogglePick: (id: string) => void;
 }
 
@@ -38,6 +40,7 @@ export function Calendar({
   tab,
   picks,
   picksOnly,
+  freeOnly,
   onTogglePick,
 }: Props) {
   const [viewMode, setViewMode] = useState<"single" | "all">("single");
@@ -48,7 +51,7 @@ export function Calendar({
   // Reset user selection when filters change
   useEffect(() => {
     setUserWeekIndex(null);
-  }, [filter, tab, picksOnly]);
+  }, [filter, tab, picksOnly, freeOnly]);
 
   const enrichedWeeks: EnrichedWeek[] = data.weeks.map((week) => {
     const range = parseWeekRange(week.label);
@@ -57,7 +60,8 @@ export function Calendar({
     const visible = (week.events as CalEvent[])
       .filter((e) => filter === "all" || e.category === filter)
       .filter((e) => matchesTab(tab, e.mode))
-      .filter((e) => !picksOnly || picks.has(pickId(e)));
+      .filter((e) => !picksOnly || picks.has(pickId(e)))
+      .filter((e) => !freeOnly || isFree(e));
     return { label: week.label, range, past, current, visible };
   });
 
@@ -75,7 +79,9 @@ export function Calendar({
         <div className="empty-state">
           {picksOnly
             ? "No picks yet. Tap ☆ on events to add them to your picks."
-            : "No events match the current filters."}
+            : freeOnly
+              ? "No free events match the current filters."
+              : "No events match the current filters."}
         </div>
       </div>
     );
