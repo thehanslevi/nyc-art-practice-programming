@@ -12,10 +12,10 @@ const OPTIONS: { value: CategoryFilter; label: string }[] = [
   { value: "dance", label: "Dance" },
   { value: "film", label: "Film" },
   { value: "tech", label: "Tech" },
-  { value: "make", label: "Make" },
-  { value: "stage", label: "Stage" },
+  { value: "making", label: "Making" },
+  { value: "theatre", label: "Theatre" },
   { value: "word", label: "Word" },
-  { value: "circle", label: "Circle" },
+  { value: "community", label: "Community" },
 ];
 
 export function FilterBar({ active, onChange, counts }: Props) {
@@ -53,10 +53,10 @@ export function computeCategoryCounts<T extends { category: Category }>(
     dance: 0,
     film: 0,
     tech: 0,
-    make: 0,
-    stage: 0,
+    making: 0,
+    theatre: 0,
     word: 0,
-    circle: 0,
+    community: 0,
   };
   for (const e of events) counts[e.category] += 1;
   return counts;

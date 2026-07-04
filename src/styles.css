@@ -27,18 +27,18 @@
   --tech: #2AAE4A;       /* grass green */
   --tech-bg: #D1F0D9;
   --tech-text: #0E5C22;
-  --make: #E53F26;       /* vermilion */
-  --make-bg: #FBDDD5;
-  --make-text: #7A1C0F;
-  --stage: #FF7A2A;      /* bright orange */
-  --stage-bg: #FFE0CB;
-  --stage-text: #7A3400;
+  --making: #E53F26;       /* vermilion */
+  --making-bg: #FBDDD5;
+  --making-text: #7A1C0F;
+  --theatre: #FF7A2A;      /* bright orange */
+  --theatre-bg: #FFE0CB;
+  --theatre-text: #7A3400;
   --word: #A03A28;       /* brick */
   --word-bg: #F6DBD3;
   --word-text: #4E1B10;
-  --circle: #0EB3A6;     /* teal */
-  --circle-bg: #C9F0EC;
-  --circle-text: #0A4E48;
+  --community: #0EB3A6;     /* teal */
+  --community-bg: #C9F0EC;
+  --community-text: #0A4E48;
 
   /* Status colors */
   --danger-bg: #FFF0F0;
@@ -88,18 +88,18 @@
     --tech: #3EBF83;
     --tech-bg: #0C2418;
     --tech-text: #96E3BB;
-    --make: #F08A50;
-    --make-bg: #2A1508;
-    --make-text: #F9C69C;
-    --stage: #F062A0;
-    --stage-bg: #2A0F1C;
-    --stage-text: #F9B7D2;
+    --making: #F08A50;
+    --making-bg: #2A1508;
+    --making-text: #F9C69C;
+    --theatre: #F062A0;
+    --theatre-bg: #2A0F1C;
+    --theatre-text: #F9B7D2;
     --word: #C9A66B;
     --word-bg: #241E10;
     --word-text: #EEDDB6;
-    --circle: #4CBFC8;
-    --circle-bg: #0A1F22;
-    --circle-text: #A3E1E6;
+    --community: #4CBFC8;
+    --community-bg: #0A1F22;
+    --community-text: #A3E1E6;
 
     --danger-bg: #2B0F0F;
     --danger-border: #6B1E1E;
@@ -856,10 +856,10 @@ a:hover {
 .spaces-dot.cat-dance .spaces-dot-mark { background: var(--dance); }
 .spaces-dot.cat-film .spaces-dot-mark { background: var(--film); }
 .spaces-dot.cat-tech .spaces-dot-mark { background: var(--tech); }
-.spaces-dot.cat-make .spaces-dot-mark { background: var(--make); }
-.spaces-dot.cat-stage .spaces-dot-mark { background: var(--stage); }
+.spaces-dot.cat-making .spaces-dot-mark { background: var(--making); }
+.spaces-dot.cat-theatre .spaces-dot-mark { background: var(--theatre); }
 .spaces-dot.cat-word .spaces-dot-mark { background: var(--word); }
-.spaces-dot.cat-circle .spaces-dot-mark { background: var(--circle); }
+.spaces-dot.cat-community .spaces-dot-mark { background: var(--community); }
 
 .spaces-list {
   list-style: none;
@@ -880,10 +880,10 @@ a:hover {
 .space.cat-dance { border-left-color: var(--dance); }
 .space.cat-film { border-left-color: var(--film); }
 .space.cat-tech { border-left-color: var(--tech); }
-.space.cat-make { border-left-color: var(--make); }
-.space.cat-stage { border-left-color: var(--stage); }
+.space.cat-making { border-left-color: var(--making); }
+.space.cat-theatre { border-left-color: var(--theatre); }
 .space.cat-word { border-left-color: var(--word); }
-.space.cat-circle { border-left-color: var(--circle); }
+.space.cat-community { border-left-color: var(--community); }
 
 .space-head {
   display: flex;
@@ -1116,10 +1116,10 @@ a:hover {
 .event-row.cat-dance { border-left-color: var(--dance); }
 .event-row.cat-film { border-left-color: var(--film); }
 .event-row.cat-tech { border-left-color: var(--tech); }
-.event-row.cat-make { border-left-color: var(--make); }
-.event-row.cat-stage { border-left-color: var(--stage); }
+.event-row.cat-making { border-left-color: var(--making); }
+.event-row.cat-theatre { border-left-color: var(--theatre); }
 .event-row.cat-word { border-left-color: var(--word); }
-.event-row.cat-circle { border-left-color: var(--circle); }
+.event-row.cat-community { border-left-color: var(--community); }
 
 .event-day {
   font-family: var(--font-mono);
@@ -1478,10 +1478,10 @@ a:hover {
 .pill-dance { background: var(--dance); color: #FFF; }
 .pill-film { background: var(--film); color: #FFF; }
 .pill-tech { background: var(--tech); color: #FFF; }
-.pill-make { background: var(--make); color: #FFF; }
-.pill-stage { background: var(--stage); color: #FFF; }
+.pill-making { background: var(--making); color: #FFF; }
+.pill-theatre { background: var(--theatre); color: #FFF; }
 .pill-word { background: var(--word); color: #FFF; }
-.pill-circle { background: var(--circle); color: #FFF; }
+.pill-community { background: var(--community); color: #FFF; }
 
 .flag {
   display: inline-block;

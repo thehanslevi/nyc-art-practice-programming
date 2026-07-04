@@ -16,10 +16,10 @@ const CATEGORY_LABELS: Record<Category, string> = {
   dance: "Dance",
   film: "Film",
   tech: "Tech",
-  make: "Make",
-  stage: "Stage",
+  making: "Making",
+  theatre: "Theatre",
   word: "Word",
-  circle: "Circle",
+  community: "Community",
 };
 
 function loadExpanded(): boolean {

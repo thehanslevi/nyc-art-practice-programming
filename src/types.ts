@@ -3,10 +3,10 @@ export type Category =
   | "dance"
   | "film"
   | "tech"
-  | "make"
-  | "stage"
+  | "making"
+  | "theatre"
   | "word"
-  | "circle";
+  | "community";
 export type Flag = "urgent" | "priority" | "decide" | null;
 export type CategoryFilter = "all" | Category;
 
