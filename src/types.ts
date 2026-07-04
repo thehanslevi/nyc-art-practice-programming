@@ -5,7 +5,7 @@ export type Category =
   | "tech"
   | "making"
   | "theatre"
-  | "word"
+  | "literature"
   | "community";
 export type Flag = "urgent" | "priority" | "decide" | null;
 export type CategoryFilter = "all" | Category;

@@ -14,7 +14,7 @@ const OPTIONS: { value: CategoryFilter; label: string }[] = [
   { value: "tech", label: "Tech" },
   { value: "making", label: "Making" },
   { value: "theatre", label: "Theatre" },
-  { value: "word", label: "Word" },
+  { value: "literature", label: "Literature" },
   { value: "community", label: "Community" },
 ];
 
@@ -55,7 +55,7 @@ export function computeCategoryCounts<T extends { category: Category }>(
     tech: 0,
     making: 0,
     theatre: 0,
-    word: 0,
+    literature: 0,
     community: 0,
   };
   for (const e of events) counts[e.category] += 1;

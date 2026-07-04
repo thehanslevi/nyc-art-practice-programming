@@ -257,7 +257,7 @@
   },
   {
     "name": "Symphony Space",
-    "category": "word",
+    "category": "literature",
     "mode": "witness",
     "description": "Multi-format venue · Upper West Side",
     "note": "Author events, NT Live screenings, film series. Regular weekly programming.",
@@ -297,7 +297,7 @@
   },
   {
     "name": "Wendy's Subway",
-    "category": "word",
+    "category": "literature",
     "mode": "both",
     "description": "Reading room + writing space + publisher · Bushwick/Ridgewood border · ~20 min",
     "note": "Bi-Weekly Writing Night is the ongoing anchor (Thursdays 7–8:30pm). Occasional workshops + readings. Sliding scale.",
@@ -305,7 +305,7 @@
   },
   {
     "name": "The Poetry Project",
-    "category": "word",
+    "category": "literature",
     "mode": "both",
     "description": "Avant-garde reading + writing space · 131 E 10th St, East Village",
     "note": "Summer Learning workshops sliding-scale. Reading series Mon/Wed/Thu/Fri in fall. Free membership tiers.",
@@ -513,7 +513,7 @@
   },
   {
     "name": "Caveat NYC",
-    "category": "word",
+    "category": "literature",
     "mode": "witness",
     "description": "Comedy + intellectual + variety · LES basement",
     "note": "Nerdy comedy, science, storytelling. Cheap tickets ($15–25).",

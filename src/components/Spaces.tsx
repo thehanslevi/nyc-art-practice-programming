@@ -18,7 +18,7 @@ const CATEGORY_LABELS: Record<Category, string> = {
   tech: "Tech",
   making: "Making",
   theatre: "Theatre",
-  word: "Word",
+  literature: "Literature",
   community: "Community",
 };
 
