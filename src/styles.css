@@ -56,7 +56,7 @@
   --paid: #1A1A18;
 
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-display: "Bricolage Grotesque", "Inter", system-ui, sans-serif;
+  --font-display: "Boldonse", "Iowan Old Style", Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
 }
 
@@ -527,16 +527,16 @@ a:hover {
 
 .app-title {
   font-family: var(--font-display);
-  font-size: 72px;
-  font-weight: 800;
+  font-size: 58px;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 90;
-  margin: 0 0 14px;
-  letter-spacing: -0.035em;
-  line-height: 0.88;
+  margin: 0 0 16px;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
   color: var(--text-1);
   max-width: 820px;
   position: relative;
+  text-transform: none;
 }
 
 .app-title::first-letter {
@@ -623,11 +623,10 @@ a:hover {
 
 .tab-label {
   font-family: var(--font-display);
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 85;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -1029,14 +1028,13 @@ a:hover {
 
 .week-header {
   font-family: var(--font-display);
-  font-size: 38px;
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 400;
   font-style: normal;
-  font-variation-settings: "wdth" 85;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.015em;
   color: var(--text-1);
   margin: 0;
-  line-height: 0.9;
+  line-height: 0.95;
   text-transform: none;
 }
 
@@ -1419,12 +1417,12 @@ a:hover {
 }
 
 .event-title {
-  font-family: var(--font-display);
-  font-size: 19px;
+  font-family: var(--font-body);
+  font-size: 17px;
   font-weight: 600;
   color: var(--text-1);
-  line-height: 1.2;
-  letter-spacing: -0.015em;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 
 .event-title a {
