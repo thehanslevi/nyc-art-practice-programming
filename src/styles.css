@@ -1,16 +1,17 @@
 :root {
-  /* Editorial Index palette — Light, saturated */
-  --bg: #FDF3D6;         /* sunny cream (WIM bakery) */
+  /* Poster palette — bright ground + paper card + black type */
+  --page: #1E3AE8;       /* cobalt page (PLOP) */
+  --bg: #F5EEDC;         /* paper card interior */
   --surface: #FFFAE7;    /* brighter paper */
   --surface-2: #F5E8B5;  /* butter */
-  --text-1: #0E0E0C;     /* deep ink */
-  --text-2: #47443A;     /* warm ink */
-  --text-3: #8A836A;     /* faded */
-  --border: #D9CC96;     /* biscuit hairline */
-  --border-strong: #8A836A;
-  --accent: #E53F26;     /* bright vermilion */
+  --text-1: #0A0A08;     /* extra deep ink */
+  --text-2: #3E3B31;
+  --text-3: #7A7461;
+  --border: #C9BC85;
+  --border-strong: #7A7461;
+  --accent: #E53F26;     /* torn-paper red */
   --accent-2: #F7C915;   /* mustard yellow */
-  --accent-3: #1E3AE8;   /* cobalt */
+  --accent-3: #1E3AE8;   /* cobalt (same as page) */
   --accent-soft: #FBDDD5;
 
   /* Category colors — saturated */
@@ -61,17 +62,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #14100A;         /* deep ink stock */
-    --surface: #1E1811;
-    --surface-2: #2C241A;
+    --page: #0F1D8A;       /* deep cobalt page */
+    --bg: #1A1610;         /* ink card interior */
+    --surface: #241E15;
+    --surface-2: #322A1D;
     --text-1: #FDF3D6;     /* paper */
     --text-2: #BFB58F;
     --text-3: #85795B;
-    --border: #37301F;
-    --border-strong: #59503A;
-    --accent: #FF6A4E;     /* vermilion glow */
-    --accent-2: #FFDB4A;   /* yellow glow */
-    --accent-3: #6E8CFF;   /* cobalt glow */
+    --border: #48402C;
+    --border-strong: #6E6449;
+    --accent: #FF6A4E;
+    --accent-2: #FFDB4A;
+    --accent-3: #6E8CFF;
     --accent-soft: #4A1F14;
 
     --sound: #5A9DFF;
@@ -122,40 +124,57 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: var(--bg);
+  background: var(--page);
   color: var(--text-1);
   font-family: var(--font-body);
   font-size: 15px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:
-    radial-gradient(rgba(27, 26, 22, 0.025) 1px, transparent 1px);
-  background-size: 2px 2px;
-  background-position: 0 0;
+  min-height: 100vh;
 }
 
-/* Print registration corner ticks on the page frame */
+#root {
+  min-height: 100vh;
+  padding: 28px 20px 40px;
+  box-sizing: border-box;
+}
+
+/* App = the paper card floating on cobalt */
+.app {
+  position: relative;
+  background: var(--bg);
+  border: 3px solid var(--text-1);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 44px 44px 60px;
+  box-shadow: 12px 12px 0 var(--accent);
+  background-image:
+    radial-gradient(rgba(10, 10, 8, 0.03) 1px, transparent 1px);
+  background-size: 2px 2px;
+}
+
+/* Corner ticks on the paper card, poster-style */
 .app::before,
 .app::after {
   content: "";
-  position: fixed;
-  width: 18px;
-  height: 18px;
+  position: absolute;
+  width: 22px;
+  height: 22px;
   border-style: solid;
   pointer-events: none;
-  z-index: 100;
+  z-index: 5;
 }
 .app::before {
-  top: 14px;
-  left: 14px;
-  border-width: 2px 0 0 2px;
+  top: 12px;
+  left: 12px;
+  border-width: 3px 0 0 3px;
   border-color: var(--accent);
 }
 .app::after {
-  bottom: 14px;
-  right: 14px;
-  border-width: 0 2px 2px 0;
+  bottom: 12px;
+  right: 12px;
+  border-width: 0 3px 3px 0;
   border-color: var(--accent-3);
 }
 
@@ -174,14 +193,26 @@ a:hover {
   text-decoration-color: currentColor;
 }
 
-.app {
-  max-width: 1040px;
-  margin: 0 auto;
-  padding: 40px 24px 64px;
+.app-header {
+  margin: 0 0 32px;
+  padding-bottom: 24px;
+  border-bottom: 4px solid var(--text-1);
+  position: relative;
 }
 
-.app-header {
-  margin-bottom: 32px;
+.app-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -14px;
+  height: 6px;
+  background: var(--accent);
+  clip-path: polygon(
+    0 40%, 4% 10%, 9% 60%, 14% 20%, 20% 80%, 25% 30%,
+    32% 70%, 38% 20%, 44% 65%, 50% 25%, 56% 75%, 62% 30%,
+    68% 70%, 74% 20%, 80% 60%, 86% 30%, 92% 70%, 97% 25%, 100% 60%
+  );
 }
 
 .app-header-row {
@@ -496,16 +527,16 @@ a:hover {
 
 .app-title {
   font-family: var(--font-display);
-  font-size: 56px;
-  font-weight: 400;
+  font-size: 68px;
+  font-weight: 700;
   font-style: italic;
-  margin: 0 0 8px;
-  letter-spacing: -0.02em;
-  line-height: 1;
+  margin: 0 0 12px;
+  letter-spacing: -0.03em;
+  line-height: 0.9;
   color: var(--text-1);
-  max-width: 720px;
-  text-shadow:
-    3px 3px 0 var(--accent-2);
+  max-width: 780px;
+  position: relative;
+  padding-left: 4px;
 }
 
 .app-title::first-letter {
