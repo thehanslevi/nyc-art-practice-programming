@@ -179,8 +179,8 @@ function normalize(raw: unknown, venue: Venue): CalEvent | null {
   const category = str(r["category"]) ?? venue.category;
   const mode = str(r["mode"]) ?? venue.defaultMode;
   const flag = str(r["flag"]);
-  const start = str(r["start"]);
-  const end = str(r["end"]);
+  const start = normalizeTime(str(r["start"]));
+  const end = normalizeTime(str(r["end"]));
   const note = str(r["note"]);
   const url = str(r["url"]) ?? venue.url;
   if (!day || !date || !eventTitle) return null;
@@ -203,6 +203,45 @@ function normalize(raw: unknown, venue: Venue): CalEvent | null {
 function str(v: unknown): string | null {
   if (v === null || v === undefined) return null;
   if (typeof v !== "string") return null;
-  const trimmed = v.trim();
+  const trimmed = decodeEntities(v).trim();
   return trimmed.length ? trimmed : null;
+}
+
+function decodeEntities(s: string): string {
+  return s
+    .replace(/&lt;br\s*\/?&gt;/gi, " ")
+    .replace(/<br\s*\/?>/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&quot;/gi, '"')
+    .replace(/&apos;/gi, "'")
+    .replace(/&#39;/gi, "'")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function normalizeTime(t: string | null): string | null {
+  if (!t) return null;
+  const s = t.trim().toLowerCase();
+  // Already HH:MM
+  const hhmm = s.match(/^(\d{1,2}):(\d{2})(:\d{2})?$/);
+  if (hhmm) {
+    const h = Number(hhmm[1]);
+    if (h < 0 || h > 23) return null;
+    return `${String(h).padStart(2, "0")}:${hhmm[2]}`;
+  }
+  // "7pm", "7 pm", "7:30 pm", "7:30pm"
+  const twelveHr = s.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$/);
+  if (twelveHr) {
+    let h = Number(twelveHr[1]);
+    const m = twelveHr[2] ?? "00";
+    const meridiem = twelveHr[3];
+    if (h < 1 || h > 12) return null;
+    if (meridiem === "pm" && h !== 12) h += 12;
+    if (meridiem === "am" && h === 12) h = 0;
+    return `${String(h).padStart(2, "0")}:${m}`;
+  }
+  return null;
 }

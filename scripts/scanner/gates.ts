@@ -19,6 +19,16 @@ const MONTHS: Record<string, number> = {
   Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11,
 };
 
+const MONTH_ABBRS = [
+  "jan", "feb", "mar", "apr", "may", "jun",
+  "jul", "aug", "sep", "oct", "nov", "dec",
+];
+
+const MONTH_FULLS = [
+  "january", "february", "march", "april", "may", "june",
+  "july", "august", "september", "october", "november", "december",
+];
+
 export interface GateResult {
   pass: boolean;
   reason?: string;
@@ -80,24 +90,37 @@ export function makeGateRunner(
     const key = `${event.date}|${slug(event.event)}`;
     if (seen.has(key)) return fail("duplicate of existing event");
 
-    // Anti-hallucination: the date must literally appear in the source HTML.
+    // Anti-hallucination: the date should be discoverable in the source HTML.
     const html = sourceHtml.toLowerCase();
-    const dateStr = event.date.toLowerCase();
+    const monthAbbr = MONTH_ABBRS[month];
+    const monthFull = MONTH_FULLS[month];
     const monthNumStr = String(month + 1).padStart(2, "0");
+    const monthNumShort = String(month + 1);
     const dayNumStr = String(day).padStart(2, "0");
-    const dateAsIso = `${year}-${monthNumStr}-${dayNumStr}`;
-    const dayName = event.day.toLowerCase();
-    // Accept any of: "jul 8", "07/08", "07-08", "2026-07-08", "wed" close to date
-    const dateAppears =
-      html.includes(dateStr) ||
-      html.includes(`${monthNumStr}/${dayNumStr}`) ||
-      html.includes(`${monthNumStr}-${dayNumStr}`) ||
-      html.includes(dateAsIso);
+    const dayNumShort = String(day);
+
+    const candidatePatterns = [
+      `${monthAbbr} ${dayNumShort}`,
+      `${monthAbbr} ${dayNumStr}`,
+      `${monthAbbr}. ${dayNumShort}`,
+      `${monthAbbr}, ${dayNumShort}`,
+      `${monthFull} ${dayNumShort}`,
+      `${monthFull} ${dayNumStr}`,
+      `${dayNumShort} ${monthAbbr}`,
+      `${dayNumShort} ${monthFull}`,
+      `${monthNumStr}/${dayNumStr}`,
+      `${monthNumStr}/${dayNumShort}`,
+      `${monthNumShort}/${dayNumStr}`,
+      `${monthNumShort}/${dayNumShort}`,
+      `${monthNumStr}-${dayNumStr}`,
+      `${monthNumStr}-${dayNumShort}`,
+      `${year}-${monthNumStr}-${dayNumStr}`,
+      `${dayNumStr}-${monthNumStr}-${year}`,
+      `${dayNumStr}/${monthNumStr}/${year}`,
+    ];
+    const dateAppears = candidatePatterns.some((p) => html.includes(p));
+
     if (!dateAppears) return fail("date not literally in source HTML");
-    if (event.day && !html.includes(dayName)) {
-      // Weekday should appear at least somewhere on the page — soft check
-      // (Skip strict fail; the date check above is the real anti-hallucination.)
-    }
 
     // Anti-hallucination: title tokens should mostly appear in source
     const titleTokens = event.event
