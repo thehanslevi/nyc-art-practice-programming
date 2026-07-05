@@ -1,3 +1,5 @@
+import type { CalEvent } from "../types";
+
 const MONTHS: Record<string, number> = {
   Jan: 0,
   Feb: 1,
@@ -87,4 +89,63 @@ export function isPastWeek(
   from: Date = today(),
 ): boolean {
   return range.end < from;
+}
+
+const MONTH_ABBR = [
+  "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+];
+const DAY_ABBR = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+export interface DerivedWeek {
+  label: string;
+  start: Date;
+  end: Date;
+  events: CalEvent[];
+}
+
+/** Sunday that starts the week containing d. */
+function weekStartOf(d: Date): Date {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate() - d.getDay());
+}
+
+function formatWeekLabel(start: Date, end: Date): string {
+  const a = MONTH_ABBR[start.getMonth()];
+  const b = MONTH_ABBR[end.getMonth()];
+  return a === b
+    ? `${a} ${start.getDate()}–${end.getDate()}`
+    : `${a} ${start.getDate()}–${b} ${end.getDate()}`;
+}
+
+// The week buckets in events.json are hand/scanner-made and can overlap or
+// misfile events, so derive clean Sunday-start weeks from event dates.
+// Day names are recomputed from the date; events sort by date then time.
+export function groupEventsIntoWeeks(events: CalEvent[]): DerivedWeek[] {
+  const dated = events
+    .map((e) => ({ e, d: parseEventDate(e.date) }))
+    .filter((x): x is { e: CalEvent; d: Date } => x.d !== null)
+    .sort(
+      (a, b) =>
+        a.d.getTime() - b.d.getTime() ||
+        (a.e.start ?? "99:99").localeCompare(b.e.start ?? "99:99"),
+    );
+  const weeks = new Map<number, DerivedWeek>();
+  for (const { e, d } of dated) {
+    const start = weekStartOf(d);
+    const key = start.getTime();
+    let week = weeks.get(key);
+    if (!week) {
+      const end = new Date(
+        start.getFullYear(),
+        start.getMonth(),
+        start.getDate() + 6,
+      );
+      week = { label: formatWeekLabel(start, end), start, end, events: [] };
+      weeks.set(key, week);
+    }
+    week.events.push({ ...e, day: DAY_ABBR[d.getDay()] ?? e.day });
+  }
+  return Array.from(weeks.values()).sort(
+    (a, b) => a.start.getTime() - b.start.getTime(),
+  );
 }

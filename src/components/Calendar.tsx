@@ -3,11 +3,11 @@ import eventsData from "../data/events.json";
 import type { CalEvent, CategoryFilter, EventsData, TabMode } from "../types";
 import {
   daysUntil as daysUntilFn,
+  groupEventsIntoWeeks,
   isCurrentWeek,
   isPast,
   isPastWeek,
   parseEventDate,
-  parseWeekRange,
   today,
 } from "../lib/dates";
 import { isFree } from "../lib/cost";
@@ -17,6 +17,12 @@ import { EventRow } from "./EventRow";
 import { WeekSummary } from "./WeekSummary";
 
 const data = eventsData as EventsData;
+
+// Weeks are derived from event dates (Sunday-start), not the raw buckets in
+// events.json, which can overlap or misfile events.
+const WEEKS = groupEventsIntoWeeks(
+  data.weeks.flatMap((w) => w.events as CalEvent[]),
+);
 
 interface Props {
   filter: CategoryFilter;
@@ -29,7 +35,7 @@ interface Props {
 
 interface EnrichedWeek {
   label: string;
-  range: ReturnType<typeof parseWeekRange>;
+  range: { start: Date; end: Date };
   past: boolean;
   current: boolean;
   visible: CalEvent[];
@@ -53,11 +59,11 @@ export function Calendar({
     setUserWeekIndex(null);
   }, [filter, tab, picksOnly, freeOnly]);
 
-  const enrichedWeeks: EnrichedWeek[] = data.weeks.map((week) => {
-    const range = parseWeekRange(week.label);
-    const past = range ? isPastWeek(range, now) : false;
-    const current = range ? isCurrentWeek(range, now) : false;
-    const visible = (week.events as CalEvent[])
+  const enrichedWeeks: EnrichedWeek[] = WEEKS.map((week) => {
+    const range = { start: week.start, end: week.end };
+    const past = isPastWeek(range, now);
+    const current = isCurrentWeek(range, now);
+    const visible = week.events
       .filter((e) => filter === "all" || e.category === filter)
       .filter((e) => matchesTab(tab, e.mode))
       .filter((e) => !picksOnly || picks.has(pickId(e)))
@@ -91,9 +97,7 @@ export function Calendar({
   const autoIndex = (() => {
     const currentIdx = shownWeeks.findIndex((w) => w.current);
     if (currentIdx !== -1) return currentIdx;
-    const futureIdx = shownWeeks.findIndex(
-      (w) => w.range && w.range.start >= now,
-    );
+    const futureIdx = shownWeeks.findIndex((w) => w.range.start >= now);
     if (futureIdx !== -1) return futureIdx;
     return 0;
   })();
