@@ -1,26 +1,32 @@
 import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 import type { CalEvent } from "../../src/types";
+import { extractFromIcs } from "./extract-ics.ts";
 import { extractJsonLdEvents } from "./extract-jsonld.ts";
 import { fetchHtml, type FetchStrategy } from "./fetchers.ts";
 import type { Venue } from "./venues";
 
-// gemini-flash-latest currently resolves to gemini-3.5-flash which has a 20/day
-// free-tier request cap; pinning to 2.5-flash for a higher separate quota.
-const MODEL = "gemini-2.5-flash";
-
-// Once we hit Gemini's daily quota, further LLM calls just burn workflow time.
-// This module-level flag lets subsequent venues skip the LLM path fast.
-let llmQuotaExhausted = false;
+// Free-tier daily quotas are tiny (gemini-2.5-flash: 20 req/day), so on a
+// quota error we fall through a chain of models with separate quota buckets
+// before giving up for the rest of the run.
+const MODELS = ["gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash"];
+let modelIndex = 0;
 
 export function isQuotaExhausted(): boolean {
-  return llmQuotaExhausted;
+  return modelIndex >= MODELS.length;
+}
+
+// Venues that spent an LLM call this run — scan-events.ts persists this so
+// the limited quota rotates across venues on subsequent runs.
+const llmAttempts: string[] = [];
+export function getLlmAttempts(): string[] {
+  return llmAttempts;
 }
 
 export interface Candidate {
   event: CalEvent;
   venue: Venue;
   sourceHtml: string;
-  source: "json-ld" | "llm";
+  source: "json-ld" | "llm" | "ics";
 }
 
 const SYSTEM_PROMPT = `You extract dated cultural events from raw HTML into strict JSON.
@@ -97,6 +103,18 @@ export async function extractFromVenue(
   venue: Venue,
   todayISO: string,
 ): Promise<Candidate[]> {
+  // Published iCal feed: deterministic and quota-free — always first.
+  if (venue.icsUrl) {
+    try {
+      const fromIcs = await extractFromIcs(venue, todayISO);
+      if (fromIcs.length > 0) return fromIcs;
+    } catch (err) {
+      console.warn(
+        `   ics fetch failed: ${err instanceof Error ? err.message : String(err)}`,
+      );
+    }
+  }
+
   // Try primary URL with the venue's declared strategy
   const primary = await tryUrl(venue.url, venue.fetch ?? "static", venue, todayISO);
   if (primary.length > 0) return primary;
@@ -137,26 +155,22 @@ async function tryUrl(
     }));
   }
 
+  // Second pass: follow event-detail links — many platforms only emit
+  // Event JSON-LD on detail pages, not the listing.
+  const detail = await crawlDetailPages(html, url, venue, todayISO);
+  if (detail.length > 0) return detail;
+
   // Fallback: LLM extraction on the unstructured HTML
   if (!process.env.GOOGLE_API_KEY) {
     console.warn(`   no JSON-LD and no GOOGLE_API_KEY — skipping ${venue.name}`);
     return [];
   }
-  if (llmQuotaExhausted) {
+  if (isQuotaExhausted()) {
     console.warn(`   quota exhausted earlier — skipping LLM for ${venue.name}`);
     return [];
   }
 
   const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-  const model = genAI.getGenerativeModel({
-    model: MODEL,
-    systemInstruction: SYSTEM_PROMPT,
-    generationConfig: {
-      responseMimeType: "application/json",
-      responseSchema: RESPONSE_SCHEMA,
-      temperature: 0,
-    },
-  });
 
   const userPrompt = `Venue: ${venue.name}
 Venue location string: ${venue.whereTemplate}
@@ -169,19 +183,38 @@ ${html.slice(0, 40000)}`;
 
   // Small delay to be gentle on per-minute rate limits when the scanner
   // is looping through many venues in a row.
+  llmAttempts.push(venue.name);
   await new Promise((r) => setTimeout(r, 2000));
-  let text: string;
-  try {
-    const response = await model.generateContent(userPrompt);
-    text = response.response.text();
-  } catch (err) {
-    const msg = err instanceof Error ? err.message : String(err);
-    if (msg.includes("429") || msg.toLowerCase().includes("quota")) {
-      llmQuotaExhausted = true;
-      console.warn(`   Gemini quota exhausted — LLM disabled for rest of run`);
+  let text: string | null = null;
+  while (modelIndex < MODELS.length) {
+    const model = genAI.getGenerativeModel({
+      model: MODELS[modelIndex]!,
+      systemInstruction: SYSTEM_PROMPT,
+      generationConfig: {
+        responseMimeType: "application/json",
+        responseSchema: RESPONSE_SCHEMA,
+        temperature: 0,
+      },
+    });
+    try {
+      const response = await model.generateContent(userPrompt);
+      text = response.response.text();
+      break;
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      if (msg.includes("429") || msg.toLowerCase().includes("quota")) {
+        modelIndex += 1;
+        if (modelIndex < MODELS.length) {
+          console.warn(`   quota hit — falling back to ${MODELS[modelIndex]}`);
+          continue;
+        }
+        console.warn(`   Gemini quota exhausted on all models — LLM disabled for rest of run`);
+        return [];
+      }
+      throw err;
     }
-    throw err;
   }
+  if (text === null) return [];
   const parsed = safeParse(text);
   if (!parsed?.events) return [];
 
@@ -192,6 +225,53 @@ ${html.slice(0, 40000)}`;
     candidates.push({ event, venue, sourceHtml: html, source: "llm" });
   }
   return candidates;
+}
+
+const DETAIL_LINK_RE =
+  /\/(events?|shows?|whats-on|performances?|programs?|calendar|productions?|screenings?)\//i;
+
+async function crawlDetailPages(
+  listingHtml: string,
+  baseUrl: string,
+  venue: Venue,
+  todayISO: string,
+): Promise<Candidate[]> {
+  let origin: string;
+  try {
+    origin = new URL(baseUrl).origin;
+  } catch {
+    return [];
+  }
+  const links = new Set<string>();
+  for (const m of listingHtml.matchAll(/href="([^"#]+)"/g)) {
+    let href: string;
+    try {
+      href = new URL(m[1]!, baseUrl).toString();
+    } catch {
+      continue;
+    }
+    if (!href.startsWith(origin)) continue;
+    const path = (href.slice(origin.length).split("?")[0] ?? "").replace(/\/$/, "");
+    if (!DETAIL_LINK_RE.test(path)) continue;
+    // Listing/index pages have short paths; detail pages nest deeper.
+    if (path.split("/").filter(Boolean).length < 2) continue;
+    if (href.replace(/\/$/, "") === baseUrl.replace(/\/$/, "")) continue;
+    links.add(origin + path);
+    if (links.size >= 12) break;
+  }
+
+  const out: Candidate[] = [];
+  for (const link of links) {
+    const detailHtml = await fetchHtml(link, "static");
+    if (!detailHtml) continue;
+    for (const event of extractJsonLdEvents(detailHtml, venue, todayISO)) {
+      out.push({ event, venue, sourceHtml: detailHtml, source: "json-ld" });
+    }
+  }
+  if (out.length > 0) {
+    console.log(`   detail-crawl: ${out.length} events via JSON-LD on ${links.size} pages`);
+  }
+  return out;
 }
 
 function safeParse(text: string): { events?: unknown[] } | null {

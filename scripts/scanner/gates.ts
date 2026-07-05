@@ -153,7 +153,10 @@ export function makeGateRunner(
       `${dayNumStr}-${monthNumStr}-${year}`,
       `${dayNumStr}/${monthNumStr}/${year}`,
     ];
-    const dateAppears = candidatePatterns.some((p) => html.includes(p));
+    // ICS feeds carry dates in structured DTSTART form, not prose.
+    const dateAppears =
+      candidate.source === "ics" ||
+      candidatePatterns.some((p) => html.includes(p));
 
     if (!dateAppears) return fail("date not literally in source HTML");
 

@@ -1,23 +1,135 @@
 [
   {
-    "venue": "Interference Archive",
-    "event": "Collections Management Working Group Meeting",
-    "date": "Jul 8",
-    "reason": "duplicate of existing (0.67 similarity to \"Interference Archive: Collections Management Working Group\")",
-    "source": "llm"
+    "venue": "Symphony Space",
+    "event": "Kyle MacLachlan, Fictional Selves",
+    "date": "Sep 28",
+    "reason": "duplicate of existing \"Kyle MacLachlan, Fictional Selves\"",
+    "source": "json-ld"
   },
   {
-    "venue": "Interference Archive",
-    "event": "Audio Collage Workshop: Exploring the Archive through Audio",
-    "date": "Jul 26",
-    "reason": "duplicate of existing (0.57 similarity to \"Interference Archive: Audio Collage Workshop\")",
-    "source": "llm"
+    "venue": "Symphony Space",
+    "event": "R.F. Kuang, Taipei Story",
+    "date": "Sep 12",
+    "reason": "duplicate of existing \"Symphony Space: R.F. Kuang — Taipei Story\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "Marion Davies - The Cardboard Lover",
+    "date": "Jul 18",
+    "reason": "duplicate of existing \"Symphony Space: Marion Davies — The Cardboard Lover (silent film)\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "NT Live: Inter Alia (Encore)",
+    "date": "Aug 15",
+    "reason": "duplicate of existing \"Symphony Space: NT Live — Inter Alia (Encore)\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "NT Live: Les Liaisons Dangereuses",
+    "date": "Aug 15",
+    "reason": "duplicate of existing \"Symphony Space: NT Live — Les Liaisons Dangereuses\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "NT Live: All My Sons",
+    "date": "Aug 23",
+    "reason": "duplicate of existing \"Symphony Space: NT Live — All My Sons\"",
+    "source": "json-ld"
   },
   {
     "venue": "UnionDocs",
-    "event": "The Magical Image: &lt;br&gt; Special Effects as Documentary Method",
+    "event": "The Magical Image: Special Effects as Documentary Method",
     "date": "Jul 24",
-    "reason": "duplicate of existing (0.86 similarity to \"UnionDocs: The Magical Image — Special Effects as Documentary Method\")",
+    "reason": "duplicate of existing \"UnionDocs: The Magical Image — Special Effects as Documentary Method\"",
+    "source": "ics"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Winol: Developing film with red wine  — Bushwick Community Darkroom",
+    "date": "Jul 11",
+    "reason": "duplicate of existing \"Bushwick Community Darkroom: Winol — developing film with red wine\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "JAZZ - Joel Viera Trio",
+    "date": "Jul 5",
+    "reason": "duplicate of existing \"JAZZ - Joel Viera Trio\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "JAZZY IMPROV BAND w/ SINGER - Rokoko",
+    "date": "Jul 7",
+    "reason": "duplicate of existing \"JAZZY IMPROV BAND w/ SINGER - Rokoko\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Oct 24",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Oct 21",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Oct 18",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Oct 17",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Oct 10",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Oct 7",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Oct 4",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Oct 3",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Sep 27",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
     "source": "json-ld"
   }
 ]

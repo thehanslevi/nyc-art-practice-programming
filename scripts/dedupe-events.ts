@@ -10,7 +10,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { CalEvent, EventsData } from "../src/types.ts";
-import { isLikelyDuplicate } from "./scanner/dedupe.ts";
+import { collapseRuns, isLikelyDuplicate } from "./scanner/dedupe.ts";
 
 const FIX = process.argv.includes("--fix");
 const EVENTS_PATH = resolve("src/data/events.json");
@@ -73,23 +73,40 @@ for (let i = 0; i < refs.length; i++) {
   }
 }
 
-if (merges === 0) {
-  console.log("No duplicates found.");
-} else if (FIX) {
+let out: EventsData = data;
+if (merges > 0) {
   const removedByWeek = new Map<number, Set<number>>();
   for (const r of removed) {
     const s = removedByWeek.get(r.week) ?? new Set<number>();
     s.add(r.idx);
     removedByWeek.set(r.week, s);
   }
-  data.weeks = data.weeks
-    .map((w, wi) => ({
-      ...w,
-      events: w.events.filter((_, ei) => !removedByWeek.get(wi)?.has(ei)),
-    }))
-    .filter((w) => w.events.length > 0);
-  writeFileSync(EVENTS_PATH, JSON.stringify(data, null, 2) + "\n", "utf8");
-  console.log(`\nMerged ${merges} duplicates and wrote events.json.`);
+  out = {
+    ...data,
+    weeks: data.weeks
+      .map((w, wi) => ({
+        ...w,
+        events: w.events.filter((_, ei) => !removedByWeek.get(wi)?.has(ei)),
+      }))
+      .filter((w) => w.events.length > 0),
+  };
+}
+
+const year = new Date().getFullYear();
+const { data: collapsedData, collapsed } = collapseRuns(out, year);
+for (const c of collapsed) {
+  console.log(`RUN   ${c.kept.date}  ${c.kept.event}  (+${c.dropped} more dates collapsed)`);
+}
+
+if (merges === 0 && collapsed.length === 0) {
+  console.log("No duplicates or dense runs found.");
+} else if (FIX) {
+  writeFileSync(EVENTS_PATH, JSON.stringify(collapsedData, null, 2) + "\n", "utf8");
+  console.log(
+    `\nMerged ${merges} duplicates, collapsed ${collapsed.length} runs; wrote events.json.`,
+  );
 } else {
-  console.log(`\n${merges} duplicates found. Re-run with --fix to merge.`);
+  console.log(
+    `\n${merges} duplicates, ${collapsed.length} dense runs. Re-run with --fix to apply.`,
+  );
 }

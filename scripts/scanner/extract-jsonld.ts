@@ -107,7 +107,7 @@ function toCalEvent(
   return {
     day,
     date,
-    event: raw.name.trim(),
+    event: cleanTitle(raw.name, venue.name),
     where: locationString(raw.location) ?? venue.whereTemplate,
     cost,
     category: venue.category,
@@ -118,6 +118,24 @@ function toCalEvent(
     note: null,
     url: raw.url ?? venue.url,
   };
+}
+
+function cleanTitle(name: string, venueName: string): string {
+  let t = name
+    .replace(/&amp;/gi, "&")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&quot;/gi, '"')
+    .replace(/&#0?39;/g, "'")
+    .replace(/&apos;/gi, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+  // Platforms often append the venue to the event name ("Title — Venue").
+  const suffix = new RegExp(
+    `\\s*[—–\\-|·]\\s*${venueName.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+    "i",
+  );
+  t = t.replace(suffix, "").trim();
+  return t;
 }
 
 function parseIsoDate(s: string): Date | null {

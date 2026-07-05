@@ -2,15 +2,17 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { CalEvent, EventsData } from "../src/types.ts";
 import { extractFromEmail } from "./scanner/extract-email.ts";
-import { extractFromVenue } from "./scanner/extract.ts";
+import { extractFromVenue, getLlmAttempts } from "./scanner/extract.ts";
 import { closeBrowser } from "./scanner/fetchers.ts";
 import { makeGateRunner } from "./scanner/gates.ts";
+import { collapseRuns } from "./scanner/dedupe.ts";
 import { mergeIntoEvents } from "./scanner/merge.ts";
 import { VENUES } from "./scanner/venues.ts";
 
 const EVENTS_PATH = resolve("src/data/events.json");
 const REVIEW_PATH = resolve("scripts/scanner/candidates-review.json");
 const SUMMARY_PATH = resolve("scripts/scanner/last-run.json");
+const STATE_PATH = resolve("scripts/scanner/scan-state.json");
 
 interface Rejection {
   venue: string;
@@ -47,7 +49,20 @@ async function main(): Promise<void> {
     }
   > = {};
 
-  for (const venue of VENUES) {
+  // Round-robin: venues whose LLM turn came longest ago go first, so the
+  // small free-tier quota rotates across the whole list over successive
+  // runs instead of always burning on the same top of the list.
+  let scanState: Record<string, string> = {};
+  try {
+    scanState = JSON.parse(readFileSync(STATE_PATH, "utf8")) as Record<string, string>;
+  } catch {
+    /* first run */
+  }
+  const venuesOrdered = [...VENUES].sort((a, b) =>
+    (scanState[a.name] ?? "").localeCompare(scanState[b.name] ?? ""),
+  );
+
+  for (const venue of venuesOrdered) {
     console.log(`→ ${venue.name} · ${venue.url}`);
     perVenue[venue.name] = { accepted: 0, rejected: 0, source: "none" };
     try {
@@ -114,11 +129,20 @@ async function main(): Promise<void> {
     console.error(`   email pipeline FAILED: ${msg}`);
   }
 
-  const { data: merged, skippedDuplicates } = mergeIntoEvents(
+  for (const name of getLlmAttempts()) {
+    scanState[name] = now.toISOString();
+  }
+  writeFileSync(STATE_PATH, JSON.stringify(scanState, null, 2) + "\n", "utf8");
+
+  const { data: mergedRaw, skippedDuplicates } = mergeIntoEvents(
     events,
     accepted,
     year,
   );
+  const { data: merged, collapsed } = collapseRuns(mergedRaw, year);
+  for (const c of collapsed) {
+    console.log(`   collapsed run: ${c.kept.event} (+${c.dropped} more dates)`);
+  }
   writeFileSync(EVENTS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf8");
   writeFileSync(REVIEW_PATH, JSON.stringify(rejected, null, 2) + "\n", "utf8");
   writeFileSync(

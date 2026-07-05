@@ -33,6 +33,34 @@
           "url": "https://dadabar.nyc/go/events/6606827?feature_id=1003841&occurrence_id=766015707&popup=1"
         },
         {
+          "day": "Sun",
+          "date": "Jul 5",
+          "event": "CATCHBALL",
+          "where": "Governors Island Parade Ground, Governors Island",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://lmcc.net/events/catchball/"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 5",
+          "event": "CATCH Performance Series",
+          "where": "Lower Gallery, The Arts Center at Governors Island 110 Andes Road",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://lmcc.net/events/catch-5th-of-july-weekend-spectacular/"
+        },
+        {
           "day": "Mon",
           "date": "Jul 6",
           "event": "Practice Space: Recital",
@@ -59,6 +87,118 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/go/events/6622459?feature_id=1003841&occurrence_id=767559990&popup=1"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 8",
+          "event": "JAZZ - The Sean Temme Group",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "21:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6636729/769106038/jazz-the-sean-temme-group"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 9",
+          "event": "VIBEY/HOUSE DJs - GEOBALL w/ Gem & Geo",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "22:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6562740/761908985/vibey-house-djs-geoball-w-gem-geo"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 9",
+          "event": "Circling In Situ: Exhibition Opening Reception",
+          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "18:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 10",
+          "event": "DADA x TEM present: Rat City Sunrise, HALFTIME, Kevin Clark",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6636955/769107315/dada-x-tem-present-rat-city-sunrise-halftime-kevin-clark"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 10",
+          "event": "HOUSE DJS - are we there yet vol.4",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "22:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6629310/770007966/house-djs-are-we-there-yet-vol-4"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "Singer/Songwriter - ianianian & Steve Kelly + Eliza Edens and Teemer",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6583981/763701435/singer-songwriter-ianianian-steve-kelly-eliza-edens-and-teemer"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "HOUSE DJ - R Dubbs",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "22:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6644913/770008241/house-dj-r-dubbs"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "Artists' Admin Meetup: Brooklyn",
+          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "10:00",
+          "end": "13:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
         }
       ]
     },
@@ -771,6 +911,48 @@
           "url": "https://thetanknyc.org/tankcalendar"
         },
         {
+          "day": "Wed",
+          "date": "Jul 15",
+          "event": "The Tiny Musician: Violin & Loopstation",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "18:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6641952/769750619/the-tiny-musician-violin-loopstation"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 15",
+          "event": "JAZZ - The Simon Metzger Group",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6636735/769106048/jazz-the-simon-metzger-group"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 15",
+          "event": "Sustaining Creativity in the Home: A Zine Exploration",
+          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "20:30",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
+        },
+        {
           "day": "Thu",
           "date": "Jul 16",
           "event": "The Tank: In the dark times",
@@ -855,6 +1037,20 @@
           "url": "https://www.eventbrite.com/e/folkus-tickets-1979084278352?aff=oddtdtcreator"
         },
         {
+          "day": "Thu",
+          "date": "Jul 16",
+          "event": "A Brief History of Chasing Storms",
+          "where": "UnionDocs, 352 Onderdonk Avenue, 352 Onderdonk Avenue, Ridgewood, NY, 11385, United States",
+          "cost": "$12",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:30",
+          "end": "19:30",
+          "note": null,
+          "url": "https://uniondocs.org/event/a-brief-history-of-chasing-storms-2026-07-16/"
+        },
+        {
           "day": "Fri",
           "date": "Jul 17",
           "event": "Abrons Arts Center: Summer in the Plaza opens",
@@ -895,6 +1091,20 @@
           "end": "23:00",
           "note": "Drama with three Black women stuck behind in the annals of time.",
           "url": "https://thetanknyc.org/tankcalendar"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 17",
+          "event": "Drone Lab + Open Projector",
+          "where": "Delight Factory · 303 Saratoga Ave\n11233-4007\nUS",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": "23:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
         },
         {
           "day": "Sat",
@@ -1091,6 +1301,20 @@
           "end": "22:00",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 19",
+          "event": "Art x Embodiment",
+          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "11:00",
+          "end": "13:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
         }
       ]
     },
@@ -1308,6 +1532,48 @@
           "url": "https://www.wendyssubway.com/programs"
         },
         {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "July Open Studios",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "FREE",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "12:00",
+          "end": "17:00",
+          "note": null,
+          "url": "https://lmcc.net/events/july-open-studios/"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "Recycled Runway",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://lmcc.net/events/recycled-runway-art-workshop-with-sari-nordman/2026-07-25/"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "How to Talk About Your Art",
+          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:00",
+          "end": "16:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
+        },
+        {
           "day": "Sun",
           "date": "Jul 26",
           "event": "NYU Skirball: NT Live — Les Liaisons Dangereuses (screening)",
@@ -1367,6 +1633,20 @@
           "end": null,
           "note": "Tickets bought. Lynch sound collaborator. Live to picture.",
           "url": "https://pioneerworks.org/programs/false-harmonics-27-dean-hurley-c-lavender"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 28",
+          "event": "Siren Circle",
+          "where": "Delight Factory · 303 Saratoga Avenue\nBrooklyn, NY, 11233",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "22:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
         },
         {
           "day": "Wed",
@@ -1467,6 +1747,20 @@
           "url": "https://pools.events/event/htt1Fw2w/gushes-protein/"
         },
         {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "Circling Anniversary & Exhibition Closing Celebration",
+          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "22:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
+        },
+        {
           "day": "Sat",
           "date": "Aug 1",
           "event": "Bushwick Starr Bazaar",
@@ -1479,6 +1773,34 @@
           "end": null,
           "note": "Local vendor market — prints, ceramics, clothing. Kicks off Summers at the Starr.",
           "url": "https://www.thebushwickstarr.org/"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Hybrid Animal Encyclopedia",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://lmcc.net/events/hybrid-animal-encyclopedia-workshop-with-nobuho-nagasawa/2026-08-01/"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Ego Free Jam Acoustic",
+          "where": "Delight Factory · 303 Saratoga Avenue\nBrooklyn, NY, 11233\nUnited States",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:30",
+          "end": "23:55",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
         }
       ]
     },
@@ -1596,6 +1918,20 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 8",
+          "event": "esperanza spalding: In Concert",
+          "where": "Robert F. Wagner Jr. Park, 20 Battery Place, New York, NY, 10280, United States",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://lmcc.net/events/esperanza-spalding-in-concert/"
         }
       ]
     },
@@ -1659,6 +1995,20 @@
           "url": "https://www.abronsartscenter.org/performing-arts"
         },
         {
+          "day": "Sat",
+          "date": "Aug 15",
+          "event": "Hybrid Animal Encyclopedia",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://lmcc.net/events/hybrid-animal-encyclopedia-workshop-with-nobuho-nagasawa/2026-08-15/"
+        },
+        {
           "day": "Sun",
           "date": "Aug 16",
           "event": "Taiwanese Waves 10th: 9m88 + ØZI + YELLOW / Mong Tong + more",
@@ -1706,20 +2056,6 @@
       "label": "Aug 24–30",
       "events": [
         {
-          "day": "Fri",
-          "date": "Aug 28",
-          "event": "The Judson Weekend (spiritual/community retreat)",
-          "where": "Judson Memorial Church, 55 Washington Sq S",
-          "cost": "TBD",
-          "category": "community",
-          "flag": null,
-          "mode": "make",
-          "start": "17:00",
-          "end": null,
-          "note": "Runs Fri Aug 28 5pm through Sun Aug 30 3pm. Registration required.",
-          "url": "https://www.judson.org/calendar"
-        },
-        {
           "day": "Sat",
           "date": "Aug 22",
           "event": "Abrons Arts: The Rock It, Don't Stop It Double Dutch Showcase",
@@ -1732,6 +2068,20 @@
           "end": "17:00",
           "note": "Double dutch culture, community-rooted.",
           "url": "https://www.abronsartscenter.org/performing-arts"
+        },
+        {
+          "day": "Fri",
+          "date": "Aug 28",
+          "event": "The Judson Weekend (spiritual/community retreat)",
+          "where": "Judson Memorial Church, 55 Washington Sq S",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "make",
+          "start": "17:00",
+          "end": null,
+          "note": "Runs Fri Aug 28 5pm through Sun Aug 30 3pm. Registration required.",
+          "url": "https://www.judson.org/calendar"
         },
         {
           "day": "Fri",
@@ -1762,6 +2112,20 @@
           "url": "https://summerstage.org"
         },
         {
+          "day": "Sat",
+          "date": "Aug 29",
+          "event": "Recycled Runway",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://lmcc.net/events/recycled-runway-art-workshop-with-sari-nordman/2026-08-29/"
+        },
+        {
           "day": "Sun",
           "date": "Aug 30",
           "event": "Charlie Parker Fest Night 3: Ravi Coltrane / Kassa Overall / Vanisha Gould",
@@ -1780,6 +2144,20 @@
     {
       "label": "Sep 1–13",
       "events": [
+        {
+          "day": "Sat",
+          "date": "Sep 5",
+          "event": "Ego Free Jam",
+          "where": "Delight Factory · 303 Saratoga Avenue\nBrooklyn, NY, 11233\nUnited States",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:30",
+          "end": "23:30",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
+        },
         {
           "day": "Tue",
           "date": "Sep 8",
@@ -2190,6 +2568,20 @@
           "end": null,
           "note": "World premiere of Zorn's piano concerto — four trusted interpreters.",
           "url": "https://roulette.org/calendar"
+        },
+        {
+          "day": "Sun",
+          "date": "Sep 27",
+          "event": "KRAMER/FAUCI",
+          "where": "St. Ann’s Warehouse · 45 Water Street, Brooklyn",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:30",
+          "end": "20:30",
+          "note": "Runs through Oct 24 (24 dates)",
+          "url": "https://stannswarehouse.org/show/kramer-fauci/"
         },
         {
           "day": "Mon",

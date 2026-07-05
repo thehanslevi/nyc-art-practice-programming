@@ -4,6 +4,8 @@ import type { FetchStrategy } from "./fetchers";
 export interface Venue {
   name: string;
   url: string;
+  /** Published iCal feed — extracted deterministically, before HTML/LLM. */
+  icsUrl?: string;
   category: Category;
   defaultMode: Mode;
   whereTemplate: string;
@@ -56,6 +58,7 @@ export const VENUES: Venue[] = [
     category: "dance",
     defaultMode: "witness",
     whereTemplate: "Baryshnikov Arts Center, 450 W 37th St",
+    fetch: "playwright",
   },
   {
     name: "Symphony Space",
@@ -81,6 +84,7 @@ export const VENUES: Venue[] = [
   {
     name: "UnionDocs",
     url: "https://uniondocs.org/events/category/workshops/list/",
+    icsUrl: "https://uniondocs.org/events/?ical=1",
     category: "film",
     defaultMode: "make",
     whereTemplate: "UnionDocs, Ridgewood",
@@ -151,6 +155,7 @@ export const VENUES: Venue[] = [
   {
     name: "The Arts Center at Governors Island",
     url: "https://lmcc.net/lmcc-arts-center-at-governors-island/",
+    icsUrl: "https://lmcc.net/events/?ical=1",
     category: "theatre",
     defaultMode: "witness",
     whereTemplate: "The Arts Center at Governors Island (LMCC), Building 110",
@@ -224,6 +229,7 @@ export const VENUES: Venue[] = [
     category: "making",
     defaultMode: "witness",
     whereTemplate: "e-flux, 172 Classon Ave, Brooklyn",
+    fetch: "playwright",
   },
   {
     name: "Cybernetics Library",
