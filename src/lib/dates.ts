@@ -104,9 +104,13 @@ export interface DerivedWeek {
   events: CalEvent[];
 }
 
-/** Sunday that starts the week containing d. */
+/** Monday that starts the week containing d. */
 function weekStartOf(d: Date): Date {
-  return new Date(d.getFullYear(), d.getMonth(), d.getDate() - d.getDay());
+  return new Date(
+    d.getFullYear(),
+    d.getMonth(),
+    d.getDate() - ((d.getDay() + 6) % 7),
+  );
 }
 
 function formatWeekLabel(start: Date, end: Date): string {
@@ -118,7 +122,7 @@ function formatWeekLabel(start: Date, end: Date): string {
 }
 
 // The week buckets in events.json are hand/scanner-made and can overlap or
-// misfile events, so derive clean Sunday-start weeks from event dates.
+// misfile events, so derive clean Monday-start weeks from event dates.
 // Day names are recomputed from the date; events sort by date then time.
 export function groupEventsIntoWeeks(events: CalEvent[]): DerivedWeek[] {
   const dated = events

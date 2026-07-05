@@ -18,7 +18,7 @@ import { WeekSummary } from "./WeekSummary";
 
 const data = eventsData as EventsData;
 
-// Weeks are derived from event dates (Sunday-start), not the raw buckets in
+// Weeks are derived from event dates (Monday-start), not the raw buckets in
 // events.json, which can overlap or misfile events.
 const WEEKS = groupEventsIntoWeeks(
   data.weeks.flatMap((w) => w.events as CalEvent[]),
