@@ -8,6 +8,14 @@ import type { Venue } from "./venues";
 // free-tier request cap; pinning to 2.5-flash for a higher separate quota.
 const MODEL = "gemini-2.5-flash";
 
+// Once we hit Gemini's daily quota, further LLM calls just burn workflow time.
+// This module-level flag lets subsequent venues skip the LLM path fast.
+let llmQuotaExhausted = false;
+
+export function isQuotaExhausted(): boolean {
+  return llmQuotaExhausted;
+}
+
 export interface Candidate {
   event: CalEvent;
   venue: Venue;
@@ -134,6 +142,10 @@ async function tryUrl(
     console.warn(`   no JSON-LD and no GOOGLE_API_KEY — skipping ${venue.name}`);
     return [];
   }
+  if (llmQuotaExhausted) {
+    console.warn(`   quota exhausted earlier — skipping LLM for ${venue.name}`);
+    return [];
+  }
 
   const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
   const model = genAI.getGenerativeModel({
@@ -158,8 +170,18 @@ ${html.slice(0, 40000)}`;
   // Small delay to be gentle on per-minute rate limits when the scanner
   // is looping through many venues in a row.
   await new Promise((r) => setTimeout(r, 2000));
-  const response = await model.generateContent(userPrompt);
-  const text = response.response.text();
+  let text: string;
+  try {
+    const response = await model.generateContent(userPrompt);
+    text = response.response.text();
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    if (msg.includes("429") || msg.toLowerCase().includes("quota")) {
+      llmQuotaExhausted = true;
+      console.warn(`   Gemini quota exhausted — LLM disabled for rest of run`);
+    }
+    throw err;
+  }
   const parsed = safeParse(text);
   if (!parsed?.events) return [];
 

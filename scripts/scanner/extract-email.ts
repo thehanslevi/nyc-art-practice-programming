@@ -1,6 +1,7 @@
 import { ImapFlow } from "imapflow";
 import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 import type { CalEvent } from "../../src/types";
+import { isQuotaExhausted } from "./extract";
 import type { Candidate } from "./extract";
 
 const MODEL = "gemini-2.5-flash";
@@ -73,6 +74,10 @@ export async function extractFromEmail(todayISO: string): Promise<EmailCandidate
   }
   if (!process.env.GOOGLE_API_KEY) {
     console.warn("   Email pipeline needs GOOGLE_API_KEY too — skipping");
+    return [];
+  }
+  if (isQuotaExhausted()) {
+    console.warn("   Email pipeline skipped — Gemini quota already exhausted this run");
     return [];
   }
 

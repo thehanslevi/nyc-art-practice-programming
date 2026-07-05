@@ -151,13 +151,13 @@ export function makeGateRunner(
     if (!dateAppears) return fail("date not literally in source HTML");
 
     // Anti-hallucination: title tokens should mostly appear in source
-    const titleTokens = event.event
+    const titleTokensForOverlap = event.event
       .toLowerCase()
       .split(/[^a-z0-9]+/)
       .filter((t) => t.length > 3);
-    if (titleTokens.length > 0) {
-      const hits = titleTokens.filter((t) => html.includes(t)).length;
-      const ratio = hits / titleTokens.length;
+    if (titleTokensForOverlap.length > 0) {
+      const hits = titleTokensForOverlap.filter((t) => html.includes(t)).length;
+      const ratio = hits / titleTokensForOverlap.length;
       if (ratio < 0.5) return fail("title tokens missing from source");
     }
 
