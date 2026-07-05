@@ -3,7 +3,7 @@ import type { Browser } from "playwright";
 export type FetchStrategy = "static" | "playwright";
 
 const USER_AGENT =
-  "Mozilla/5.0 (compatible; NYCArtCalendarBot/1.0; +https://nyc-art-practice-programming.vercel.app)";
+  "Mozilla/5.0 (compatible; NYCArtCalendarBot/1.0; +https://nyc-art-cal.vercel.app)";
 
 let sharedBrowser: Browser | null = null;
 

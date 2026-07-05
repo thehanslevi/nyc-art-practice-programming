@@ -14,6 +14,12 @@ import type { CalEvent, EventsData } from "../src/types";
 const SUPABASE_URL = "https://djyzqifuckuwdeeltnej.supabase.co";
 const SUPABASE_KEY = "sb_publishable_EIeHwihJheYgPBZbqODuAg_0oCyic99";
 
+// SHA-256 of the curator's sync code. Only the hash lives here — the code
+// itself stays with the curator (entered once in the site's Device sync
+// panel). CURATOR_PASSPHRASE env overrides this if ever set.
+const CURATOR_HASH =
+  "a0bca4aafe518805cd71df84152a5a316bb186c9b1f69bdb071ed8c494b7f65a";
+
 interface FeedRequest {
   query: Record<string, string | string[] | undefined>;
 }
@@ -40,11 +46,13 @@ export default async function handler(
     return;
   }
 
-  // Unknown key or unconfigured curator feed → valid empty calendar, so
-  // subscriptions set up early keep working and fill in later.
+  // Unknown key → valid empty calendar, so subscriptions set up early keep
+  // working and fill in later.
   let ids = new Set<string>();
-  if (key) {
-    const hash = createHash("sha256").update(key.trim()).digest("hex");
+  if (key || curated) {
+    const hash = key
+      ? createHash("sha256").update(key.trim()).digest("hex")
+      : CURATOR_HASH;
     const r = await fetch(
       `${SUPABASE_URL}/rest/v1/picks?passphrase_hash=eq.${hash}&select=picks`,
       {

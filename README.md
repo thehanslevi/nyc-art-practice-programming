@@ -4,7 +4,7 @@ Built by Hannah Levinson • more at [hrlevinson.com](https://hrlevinson.com)
 
 **A personal calendar for making and seeing art in New York.**
 
-Live: https://nyc-art-practice-programming.vercel.app
+Live: https://nyc-art-cal.vercel.app
 
 Subscribe from Google Calendar or Apple Calendar:
 - All events → `/feed.ics`
@@ -75,5 +75,5 @@ Any event or venue lives in `src/data/`. Edit in the GitHub web editor, click Co
 
 ## Where it lives
 
-- **App:** https://nyc-art-practice-programming.vercel.app
+- **App:** https://nyc-art-cal.vercel.app
 - **Author:** [hrlevinson.com](https://hrlevinson.com)

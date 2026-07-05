@@ -1908,7 +1908,7 @@ a:hover {
   }
 
   .footer-bar::after {
-    content: "nyc-art-practice-programming.vercel.app";
+    content: "nyc-art-cal.vercel.app";
   }
 
   /* Poster mode: strip the chrome, keep the type and the inks */
