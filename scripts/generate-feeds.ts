@@ -22,27 +22,27 @@ const feeds: Feed[] = [
   {
     filename: "feed.ics",
     events: allEvents,
-    name: "NYC Art Practice & Programming Calendar",
+    name: "Art Cal (Making × Witnessing)",
     description:
-      "Every event on the NYC Art Practice & Programming Calendar. Classes, workshops, shows, screenings, everything.",
+      "Every event on Art Cal. Classes, workshops, shows, screenings, everything.",
   },
   {
     filename: "feed-attend.ics",
     events: allEvents.filter((e) => e.mode === "witness"),
-    name: "NYC Art Practice & Programming Calendar — Attend",
+    name: "Art Cal — Witnessing",
     description:
       "Shows, plays, concerts, screenings — things to witness.",
   },
   {
     filename: "feed-practice.ics",
     events: allEvents.filter((e) => e.mode === "make"),
-    name: "NYC Art Practice & Programming Calendar — Practice",
+    name: "Art Cal — Making",
     description: "Classes, workshops, participatory practice.",
   },
   {
     filename: "feed-free.ics",
     events: allEvents.filter(isFree),
-    name: "NYC Art Practice & Programming Calendar — Free",
+    name: "Art Cal — Free",
     description: "Only free / no-cost events.",
   },
 ];
@@ -62,7 +62,7 @@ for (const { category, label, description } of CATEGORIES) {
   feeds.push({
     filename: `feed-${category}.ics`,
     events: allEvents.filter((e) => e.category === category),
-    name: `NYC Art Practice & Programming Calendar — ${label}`,
+    name: `Art Cal — ${label}`,
     description,
   });
 }

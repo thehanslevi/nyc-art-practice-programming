@@ -79,8 +79,8 @@ export default async function handler(
 
   const ics = buildICal(events, {
     calendarName: curated
-      ? "NYC Art Practice & Programming Calendar — Curated Picks"
-      : "NYC Art Practice & Programming Calendar — My Picks",
+      ? "Art Cal — Curated Picks"
+      : "Art Cal — My Picks",
     calendarDescription: curated
       ? "Hand-picked highlights from the full calendar. Updates as the list is curated."
       : "Your starred picks. Updates automatically as you pick events on any synced device.",

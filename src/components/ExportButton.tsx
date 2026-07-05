@@ -39,7 +39,7 @@ export function ExportButton({ filter, tab, picks, picksOnly, freeOnly }: Props)
   ].filter(Boolean);
   const scopeText = bits.length ? ` ${bits.join(" ")}` : "";
   const label = `Export ${events.length}${scopeText}`;
-  const filename = `nyc-creative-calendar${bits.length ? "-" + bits.join("-") : ""}.ics`;
+  const filename = `art-cal${bits.length ? "-" + bits.join("-") : ""}.ics`;
   return (
     <button
       type="button"

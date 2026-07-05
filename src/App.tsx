@@ -181,9 +181,12 @@ function App() {
         <div className="zone-inner">
           <div className="app-header-row">
             <div>
-              <h1 className="app-title">NYC Art Practice &amp; Programming Calendar</h1>
+              <h1 className="app-title">
+                Art Cal
+                <span className="app-title-tag">(Making × Witnessing)</span>
+              </h1>
               <p className="app-subtitle">
-                Summer–Fall 2026 — classes, studios, shows across NYC.
+                Classes, collaborations, shows, studios
               </p>
               <p className="verified">
                 Today {todayLabel} · last verified {data.lastVerified}
@@ -300,7 +303,7 @@ function App() {
           </div>
           <Spaces filter={filter} tab={tab} />
           <div className="footer-bar">
-            <span>NYC Art Practice &amp; Programming Calendar</span>
+            <span>Art Cal (Making × Witnessing)</span>
             <a
               className="footer-submit"
               href="mailto:thehanslevi@proton.me?subject=Event%20for%20the%20calendar&body=What%3A%0AWhen%3A%0AWhere%3A%0ACost%3A%0ALink%3A%0A"

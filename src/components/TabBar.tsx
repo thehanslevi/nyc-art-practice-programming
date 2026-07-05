@@ -10,8 +10,8 @@ const OPTIONS: {
   label: string;
   sub: string;
 }[] = [
-  { value: "practice", label: "Practice", sub: "Classes + creative practice" },
-  { value: "attend", label: "Attend", sub: "Shows, plays, screenings" },
+  { value: "practice", label: "Making", sub: "Classes + participatory practice" },
+  { value: "attend", label: "Witnessing", sub: "Shows, plays, screenings" },
   { value: "all", label: "All", sub: "Everything" },
 ];
 

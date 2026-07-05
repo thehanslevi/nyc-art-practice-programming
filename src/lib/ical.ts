@@ -78,7 +78,7 @@ export function buildICal(
   const lines: string[] = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//NYC Creative Calendar//EN",
+    "PRODID:-//Art Cal//EN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
   ];
@@ -151,7 +151,7 @@ export function buildICal(
 
 export function downloadICal(
   events: CalEvent[],
-  filename = "nyc-creative-calendar.ics",
+  filename = "art-cal.ics",
   options: BuildICalOptions = {},
 ): void {
   const ics = buildICal(events, options);

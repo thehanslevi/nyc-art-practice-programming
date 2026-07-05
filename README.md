@@ -1,4 +1,4 @@
-# NYC Art Practice & Programming Calendar
+# Art Cal (Making × Witnessing)
 
 Built by Hannah Levinson • more at [hrlevinson.com](https://hrlevinson.com)
 
