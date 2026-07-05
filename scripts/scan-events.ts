@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { CalEvent, EventsData } from "../src/types.ts";
+import { extractFromEmail } from "./scanner/extract-email.ts";
 import { extractFromVenue } from "./scanner/extract.ts";
 import { closeBrowser } from "./scanner/fetchers.ts";
 import { makeGateRunner } from "./scanner/gates.ts";
@@ -16,7 +17,7 @@ interface Rejection {
   event: string;
   date: string;
   reason: string;
-  source: "json-ld" | "llm";
+  source: "json-ld" | "llm" | "email";
 }
 
 async function main(): Promise<void> {
@@ -78,6 +79,39 @@ async function main(): Promise<void> {
       console.error(`   FAILED: ${msg}`);
       perVenue[venue.name].error = msg;
     }
+  }
+
+  // Email/newsletter pipeline (opt-in via IMAP secrets)
+  let emailAccepted = 0;
+  let emailRejected = 0;
+  try {
+    const emailCandidates = await extractFromEmail(todayISO);
+    for (const c of emailCandidates) {
+      const gate = runGate(c);
+      if (gate.pass) {
+        accepted.push(c.event);
+        emailAccepted += 1;
+      } else {
+        rejected.push({
+          venue: c.emailFrom,
+          event: c.event.event,
+          date: c.event.date,
+          reason: gate.reason ?? "unknown",
+          source: "email",
+        });
+        emailRejected += 1;
+      }
+    }
+    if (emailAccepted + emailRejected > 0) {
+      perVenue["_email"] = {
+        accepted: emailAccepted,
+        rejected: emailRejected,
+        source: "llm",
+      };
+    }
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.error(`   email pipeline FAILED: ${msg}`);
   }
 
   const merged = mergeIntoEvents(events, accepted, year);
