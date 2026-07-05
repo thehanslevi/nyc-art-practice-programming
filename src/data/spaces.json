@@ -614,5 +614,85 @@
     "description": "Affordable rehearsal + class studio · Bushwick",
     "note": "Some of the lowest-cost dance rehearsal rates in NYC. Occasional showings + workshops.",
     "url": "https://www.chezbushwick.net/"
+  },
+  {
+    "name": "FourOneOne",
+    "category": "theatre",
+    "mode": "both",
+    "description": "Nonprofit performance space + residency · 411 Kent Ave, Williamsburg",
+    "note": "Performance rooted in community histories from South Asia, Caribbean, East Asia, N. Africa, Latin America, Chicago South Side, the Bronx. Space closed for renovation until March 2027; programming continues in partnerships.",
+    "url": "https://www.fouroneoneprojects.org/about"
+  },
+  {
+    "name": "Delight Factory",
+    "category": "community",
+    "mode": "both",
+    "description": "Art gallery + event space · 303 Saratoga Ave, Ocean Hill",
+    "note": "Sprung dance floor, sound system, instruments (piano, guitars, hand drums). Hosts storytelling, dinners, meetings for worship, dance parties, jams. Opened 2021.",
+    "url": "https://www.delightfactorynyc.com/events"
+  },
+  {
+    "name": "Museum of Reclaimed Urban Space (MoRUS)",
+    "category": "community",
+    "mode": "witness",
+    "description": "Grassroots community history museum · 155 Ave C, LES",
+    "note": "Documents squats, community gardens, and grassroots movements of the LES. Free/donation. Public programming + exhibitions.",
+    "url": "https://www.morusnyc.org/"
+  },
+  {
+    "name": "Embodied Earth",
+    "category": "community",
+    "mode": "make",
+    "description": "Somatic + ecological practice (venue TBD)",
+    "note": "Couldn't pin a specific NYC venue by this name — send me a URL or note and I'll swap in.",
+    "url": null
+  },
+  {
+    "name": "Recess",
+    "category": "making",
+    "mode": "both",
+    "description": "Inquiry-based artspace + residency · Clinton Hill",
+    "note": "Pairs artists with neighborhood groups. Free workshops, art builds, exhibitions, annual Brooklyn Art Book Fair.",
+    "url": "https://www.recessart.org/"
+  },
+  {
+    "name": "Sleepwalk",
+    "category": "sound",
+    "mode": "witness",
+    "description": "Music + burlesque + variety lounge · 251 Bushwick Ave, East Williamsburg",
+    "note": "70-cap intimate room, 1920s Shanghai / NY glam-rock decor. Live music + DJ + variety nightly. Opened 2022.",
+    "url": "https://sleepwalk.nyc/events"
+  },
+  {
+    "name": "e-flux",
+    "category": "making",
+    "mode": "witness",
+    "description": "Art journal + physical space · 172 Classon Ave, Brooklyn",
+    "note": "Screenings, talks, lectures, exhibitions. Longform theory-forward programming from a major international art publication.",
+    "url": "https://www.e-flux.com/live/"
+  },
+  {
+    "name": "Cybernetics Library",
+    "category": "literature",
+    "mode": "both",
+    "description": "Artist-run browsing library · hosted at Prime Produce, Hell's Kitchen",
+    "note": "Cybernetics in the expanded field. Open Hours + Reading Room sessions. Events calendar on Luma.",
+    "url": "https://luma.com/cyberneticslibrary"
+  },
+  {
+    "name": "Prime Produce",
+    "category": "community",
+    "mode": "both",
+    "description": "Cooperative co-working + event space · 424 W 54th St, Hell's Kitchen",
+    "note": "~7,000 sq ft standalone building. Hosts Cybernetics Library. Symposiums, exhibitions, performances, dinners. Membership co-op.",
+    "url": "https://www.primeproduce.coop/"
+  },
+  {
+    "name": "Brooklyn Peace Center",
+    "category": "community",
+    "mode": "both",
+    "description": "Interreligious community + arts hub · 23 Marcus Garvey Blvd, Bed-Stuy",
+    "note": "Founded 1891 as Beth Shalom. Sanctuary hall + fellowship + community room. Concerts, sound baths, workshops, celebrations. Peace Cafe on site.",
+    "url": "https://brooklynpeace.center/"
   }
 ]
