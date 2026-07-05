@@ -2,6 +2,67 @@
   "lastVerified": "2026-07-05",
   "weeks": [
     {
+      "label": "Jul 5–11",
+      "events": [
+        {
+          "day": "Sun",
+          "date": "Jul 5",
+          "event": "CATCH Fifth of July Weekend Spectacular",
+          "where": "Governors Island",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:30",
+          "end": null,
+          "note": "1:30pm CATCHBALL, 4:45pm Doors open",
+          "url": "https://pools.events/event/WwBLzTQJ/catch-5th-of-july-weekend-spectacular/"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 5",
+          "event": "JAZZ - Joel Viera Trio",
+          "where": "DADA, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/go/events/6606827?feature_id=1003841&occurrence_id=766015707&popup=1"
+        },
+        {
+          "day": "Mon",
+          "date": "Jul 6",
+          "event": "Practice Space: Recital",
+          "where": "SUPR OMEN, 1 Knickerbocker Ave, Brooklyn",
+          "cost": "$15",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": null,
+          "note": null,
+          "url": "https://pools.events/event/2fzpZ3xL/recital/"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 7",
+          "event": "JAZZY IMPROV BAND w/ SINGER - Rokoko",
+          "where": "DADA, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/go/events/6622459?feature_id=1003841&occurrence_id=767559990&popup=1"
+        }
+      ]
+    },
+    {
       "label": "Jul 6–12",
       "events": [
         {
@@ -45,6 +106,20 @@
           "end": null,
           "note": "Solo comedy, hit run from Edinburgh Fringe. Long run through Aug 16.",
           "url": "https://here.org/shows/"
+        },
+        {
+          "day": "Mon",
+          "date": "Jul 6",
+          "event": "Intro to Darkroom Printing (B&W Film) - July 6",
+          "where": "334 Himrod St, Bushwick",
+          "cost": "$150",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "20:00",
+          "note": "Learn the basics of black and white darkroom printing. This workshop covers film development, contact printing, and enlarging. All materials included.",
+          "url": "https://www.bushwickcommunitydarkroom.com/events/2026/7/6/intro-to-darkroom-printing-bw-film-july-6"
         },
         {
           "day": "Tue",
@@ -397,6 +472,34 @@
           "url": "https://www.eventbrite.com/e/january-6th-the-musical-tickets-1990835917822?aff=oddtdtcreator"
         },
         {
+          "day": "Fri",
+          "date": "Jul 10",
+          "event": "Cirkus Moxie Lab",
+          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "A laboratory (Variety Show) for circus and circus-adjacent performance and experimentation.",
+          "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 10",
+          "event": "No Fun New Perspectives: Carlos Giffoni, Lee Ranaldo, Raven Chacon, Keith Fullerton Whitman, and more (Night 2)",
+          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "cost": "$25",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": null,
+          "note": "A three-day fest with a dream lineup of avant-garde musicians in first-time collaborations.",
+          "url": "https://roulette.org/event/no-fun-new-perspectives-night-2/"
+        },
+        {
           "day": "Sat",
           "date": "Jul 11",
           "event": "The Tank: Alternative Medicine",
@@ -507,6 +610,20 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/hot-takes-nerdy-topics-tickets-1990020276216?aff=oddtdtcreator"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "Cirkus Moxie Lab",
+          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "A laboratory (Variety Show) for circus and circus-adjacent performance and experimentation.",
+          "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator"
         },
         {
           "day": "Sun",
@@ -1461,6 +1578,20 @@
           "url": "https://www.bam.org/"
         },
         {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "The Brick Aux: Strange Men",
+          "where": "Brick Aux, 628 Metropolitan Ave, Williamsburg",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "Opens Jul 30, runs through Aug 2. 100 min. Dark comedy on masculinity + vulnerability.",
+          "url": "https://www.bricktheater.com/"
+        },
+        {
           "day": "Fri",
           "date": "Jul 31",
           "event": "BRIC Celebrate Brooklyn!: CARRTOONS + Hailé Supreme + Sofía Valdés + Julia Zivic",
@@ -1489,18 +1620,18 @@
           "url": "https://www.bam.org/"
         },
         {
-          "day": "Thu",
-          "date": "Jul 30",
-          "event": "The Brick Aux: Strange Men",
-          "where": "Brick Aux, 628 Metropolitan Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "theatre",
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "DRIFT presents gushes: PROTEIN",
+          "where": "SUPR OMEN, 1 Knickerbocker Ave, Brooklyn",
+          "cost": "$15",
+          "category": "sound",
           "flag": null,
           "mode": "witness",
-          "start": null,
+          "start": "19:00",
           "end": null,
-          "note": "Opens Jul 30, runs through Aug 2. 100 min. Dark comedy on masculinity + vulnerability.",
-          "url": "https://www.bricktheater.com/"
+          "note": null,
+          "url": "https://pools.events/event/htt1Fw2w/gushes-protein/"
         },
         {
           "day": "Sat",
@@ -2504,6 +2635,20 @@
           "url": "https://www.abronsartscenter.org/performing-arts"
         },
         {
+          "day": "Sun",
+          "date": "Oct 18",
+          "event": "Intro to Wet Plate Collodion - Oct 18",
+          "where": "334 Himrod St, Bushwick",
+          "cost": "$300",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "10:00",
+          "end": "13:00",
+          "note": "Experience the magic of wet plate collodion photography. This intensive workshop covers preparing plates, exposure, and development to create unique tintypes. All materials included.",
+          "url": "https://www.bushwickcommunitydarkroom.com/events/2026/10/18/intro-to-wet-plate-collodion-oct-18"
+        },
+        {
           "day": "Mon",
           "date": "Oct 19",
           "event": "Baryshnikov Arts: Making Gay History with The Gorgeous Nothings",
@@ -2592,6 +2737,20 @@
     {
       "label": "Nov 1–15",
       "events": [
+        {
+          "day": "Mon",
+          "date": "Nov 2",
+          "event": "Intro to Darkroom Printing (B&W Film) - Nov 2",
+          "where": "334 Himrod St, Bushwick",
+          "cost": "$150",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "20:00",
+          "note": "Learn the basics of black and white darkroom printing. This workshop covers film development, contact printing, and enlarging. All materials included.",
+          "url": "https://www.bushwickcommunitydarkroom.com/events/2026/11/2/intro-to-darkroom-printing-bw-film-nov-2"
+        },
         {
           "day": "Wed",
           "date": "Nov 4",

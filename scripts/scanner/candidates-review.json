@@ -1,9 +1,632 @@
 [
   {
+    "venue": "Interference Archive",
+    "event": "Collections Management Working Group Meeting",
+    "date": "Jul 8",
+    "reason": "duplicate of existing (0.67 similarity to \"Interference Archive: Collections Management Working Group\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Interference Archive",
+    "event": "Audio Collage Workshop: Exploring the Archive through Audio",
+    "date": "Jul 26",
+    "reason": "duplicate of existing (0.57 similarity to \"Interference Archive: Audio Collage Workshop\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "FOLKUS",
+    "date": "Jul 9",
+    "reason": "duplicate of existing (1.00 similarity to \"FOLKUS\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "Cirkus Moxie Lab",
+    "date": "Jul 9",
+    "reason": "duplicate of existing (1.00 similarity to \"Cirkus Moxie Lab\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "January 6th the Musical",
+    "date": "Jul 10",
+    "reason": "duplicate of existing (0.50 similarity to \"Brooklyn Art Haus: January 6th the Musical\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "January 6th the Musical",
+    "date": "Jul 11",
+    "reason": "duplicate of existing (1.00 similarity to \"January 6th the Musical\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "Hot Takes & Nerdy Topics",
+    "date": "Jul 11",
+    "reason": "duplicate of existing (0.50 similarity to \"Brooklyn Art Haus: Hot Takes & Nerdy Topics (comedy)\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "Cirkus Moxie Lab",
+    "date": "Jul 12",
+    "reason": "duplicate of existing (1.00 similarity to \"Cirkus Moxie Lab\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "Star Vehicle",
+    "date": "Jul 14",
+    "reason": "duplicate of existing (1.00 similarity to \"Star Vehicle\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "Judy Garland is Fat at Carnegie Hall",
+    "date": "Jul 14",
+    "reason": "duplicate of existing (0.56 similarity to \"Brooklyn Art Haus: Judy Garland is Fat at Carnegie Hall (EdFest)\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "Emoji: The Hieroglyphs of Our Time...",
+    "date": "Jul 15",
+    "reason": "duplicate of existing (0.50 similarity to \"Brooklyn Art Haus: Emoji — The Hieroglyphs of Our Time (EdFest)\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Brooklyn Art Haus",
+    "event": "FOLKUS",
+    "date": "Jul 16",
+    "reason": "duplicate of existing (1.00 similarity to \"FOLKUS\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "Marion Davies - The Cardboard Lover",
+    "date": "Jul 18",
+    "reason": "duplicate of existing (0.50 similarity to \"Symphony Space: Marion Davies — The Cardboard Lover (silent film)\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "NT Live: Inter Alia (Encore)",
+    "date": "Aug 15",
+    "reason": "duplicate of existing (0.67 similarity to \"Symphony Space: NT Live — Inter Alia (Encore)\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "NT Live: Les Liaisons Dangereuses",
+    "date": "Aug 15",
+    "reason": "duplicate of existing (0.67 similarity to \"Symphony Space: NT Live — Les Liaisons Dangereuses\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "NT Live: All My Sons",
+    "date": "Aug 23",
+    "reason": "duplicate of existing (0.60 similarity to \"Symphony Space: NT Live — All My Sons\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "R.F. Kuang, Taipei Story",
+    "date": "Sep 12",
+    "reason": "duplicate of existing (0.60 similarity to \"Symphony Space: R.F. Kuang — Taipei Story\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "Kyle MacLachlan, Fictional Selves",
+    "date": "Sep 28",
+    "reason": "duplicate of existing (0.67 similarity to \"Symphony Space: Kyle MacLachlan — Fictional Selves\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "NT Live: Les Liaisons Dangereuses",
+    "date": "Sep 29",
+    "reason": "duplicate of existing (1.00 similarity to \"NT Live: Les Liaisons Dangereuses\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "DAYS AND NIGHTS IN THE FOREST",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "ROMERÍA",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "SHERMAN’S MARCH",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "THE THIRD MAN",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "NO PICNIC",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "ROMERÍA",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "THE THIRD MAN",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "SHERMAN’S MARCH",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "NO PICNIC",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "ROMERÍA",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "THE THIRD MAN",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "CAREFUL",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "SHERMAN’S MARCH",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "ROMERÍA",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "THE THIRD MAN",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "NO PICNIC",
+    "date": "Jul 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "DAYS AND NIGHTS IN THE FOREST",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "ROMERÍA",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "SHERMAN’S MARCH",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "THE THIRD MAN",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "NO PICNIC",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "ROMERÍA",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "THE THIRD MAN",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "SHERMAN’S MARCH",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "NO PICNIC",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "ROMERÍA",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "THE THIRD MAN",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "CAREFUL",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "SHERMAN’S MARCH",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Film Forum",
+    "event": "ROMERÍA",
+    "date": "Jul 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Wendy's Subway",
+    "event": "Maybe Sometimes: A Reading With Jo Barchi, Ted Dodson, Kristen Gallagher, Matt Longabucco, and Caroline Rayner",
+    "date": "Jul 18",
+    "reason": "duplicate of existing (1.00 similarity to \"Maybe Sometimes: A Reading With Jo Barchi, Ted Dodson, Kristen Gallagher, Matt Longabucco, and Caroline Rayner\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Wendy's Subway",
+    "event": "Bi-Weekly Writing Night",
+    "date": "Jul 23",
+    "reason": "duplicate of existing (0.50 similarity to \"Wendy's Subway: Bi-Weekly Writing Night\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Wendy's Subway",
+    "event": "Basic Instincts and Pure Desires Workshop with Nico Vela Page",
+    "date": "Jul 25",
+    "reason": "duplicate of existing (0.80 similarity to \"Wendy's Subway: Basic Instincts and Pure Desires — workshop with Nico Vela Page\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Wendy's Subway",
+    "event": "Bi-Weekly Writing Night",
+    "date": "Sep 17",
+    "reason": "duplicate of existing (0.50 similarity to \"Wendy's Subway: Bi-Weekly Writing Night\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Wendy's Subway",
+    "event": "Bi-Weekly Writing Night",
+    "date": "Oct 1",
+    "reason": "duplicate of existing (1.00 similarity to \"Bi-Weekly Writing Night\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Wendy's Subway",
+    "event": "Bi-Weekly Writing Night",
+    "date": "Oct 15",
+    "reason": "duplicate of existing (1.00 similarity to \"Bi-Weekly Writing Night\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Wendy's Subway",
+    "event": "Bi-Weekly Writing Night",
+    "date": "Oct 29",
+    "reason": "duplicate of existing (1.00 similarity to \"Bi-Weekly Writing Night\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Wendy's Subway",
+    "event": "Bi-Weekly Writing Night",
+    "date": "Nov 12",
+    "reason": "duplicate of existing (1.00 similarity to \"Bi-Weekly Writing Night\")",
+    "source": "llm"
+  },
+  {
     "venue": "UnionDocs",
     "event": "The Magical Image: &lt;br&gt; Special Effects as Documentary Method",
     "date": "Jul 24",
     "reason": "duplicate of existing (0.86 similarity to \"UnionDocs: The Magical Image — Special Effects as Documentary Method\")",
     "source": "json-ld"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Cyanotypes - July 12",
+    "date": "Jul 12",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Film Camera Maintenance Workshop - July 19",
+    "date": "Jul 19",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Darkroom Printing (B&W Film) - Aug 3",
+    "date": "Aug 3",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Gum Bichromate - Aug 9",
+    "date": "Aug 9",
+    "reason": "title tokens missing from source",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Large Format Photography Basics - Aug 16",
+    "date": "Aug 16",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Darkroom Printing (B&W Film) - Sep 7",
+    "date": "Sep 7",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Salt Prints - Sep 13",
+    "date": "Sep 13",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Developing Color Film (C-41) - Sep 20",
+    "date": "Sep 20",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Darkroom Printing (B&W Film) - Oct 5",
+    "date": "Oct 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Platinum/Palladium - Oct 11",
+    "date": "Oct 11",
+    "reason": "title tokens missing from source",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Albumen Prints - Nov 8",
+    "date": "Nov 8",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Color Darkroom Printing (RA-4) - Nov 15",
+    "date": "Nov 15",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Darkroom Printing (B&W Film) - Dec 7",
+    "date": "Dec 7",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Van Dyke Brown - Dec 13",
+    "date": "Dec 13",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Holiday Photo Card Printing Workshop - Dec 20",
+    "date": "Dec 20",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Darkroom Printing (B&W Film) - Jan 4",
+    "date": "Jan 4",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Gum Oil - Jan 10",
+    "date": "Jan 10",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Pinhole Photography - Jan 17",
+    "date": "Jan 17",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Darkroom Printing (B&W Film) - Feb 1",
+    "date": "Feb 1",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Anthotypes - Feb 7",
+    "date": "Feb 7",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Valentine's Day Tintype Portraits - Feb 14",
+    "date": "Feb 14",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Darkroom Printing (B&W Film) - Mar 1",
+    "date": "Mar 1",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Kallitypes - Mar 7",
+    "date": "Mar 7",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Developing Black and White Film - Mar 14",
+    "date": "Mar 14",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Intro to Darkroom Printing (B&W Film) - Apr 5",
+    "date": "Apr 5",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Advanced Alternative Process: Liquid Emulsion - Apr 11",
+    "date": "Apr 11",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Bushwick Community Darkroom",
+    "event": "Photogram Workshop - Apr 18",
+    "date": "Apr 18",
+    "reason": "date is in the past",
+    "source": "llm"
+  },
+  {
+    "venue": "Roulette",
+    "event": "No Fun New Perspectives: Bill Nace, Carlos Giffoni, Charmaine Lee, Twig Harper, and more (Night 1)",
+    "date": "Jul 9",
+    "reason": "duplicate of existing (0.58 similarity to \"No Fun Night 1: Giffoni, Charmaine Lee, Twig Harper + more\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Roulette",
+    "event": "No Fun New Perspectives: NIKA, Nate Wooley, Zeena Parkins, Ryan Sawyer, and more (Night 3)",
+    "date": "Jul 11",
+    "reason": "duplicate of existing (0.64 similarity to \"No Fun Night 3: NIKA, Nate Wooley, Zeena Parkins + more\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Roulette",
+    "event": "Katherine Young: BIOMES (Album Release)",
+    "date": "Sep 17",
+    "reason": "duplicate of existing (0.83 similarity to \"Roulette: Katherine Young — BIOMES (album release)\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Roulette",
+    "event": "The Scores Project: A Book Release Show w/ The Rise of the Novel",
+    "date": "Sep 24",
+    "reason": "duplicate of existing (0.75 similarity to \"Roulette: The Scores Project — book release + Rise of the Novel\")",
+    "source": "llm"
+  },
+  {
+    "venue": "Roulette",
+    "event": "John Zorn’s Alea Iacta Est (World Premiere)",
+    "date": "Sep 27",
+    "reason": "duplicate of existing (0.88 similarity to \"Roulette: John Zorn's Alea Iacta Est (World Premiere)\")",
+    "source": "llm"
   }
 ]
