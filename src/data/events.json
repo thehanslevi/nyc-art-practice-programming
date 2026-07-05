@@ -320,20 +320,6 @@
         {
           "day": "Thu",
           "date": "Jul 9",
-          "event": "Cirkus Moxie Lab",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 9",
           "event": "SHERMAN’S MARCH Pre-screening conversation with Filmmaker Ross McElwee and Film Director Mira Nair",
           "where": "Film Forum, 209 W Houston St",
           "cost": "$12-18",
@@ -460,20 +446,6 @@
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "January 6th the Musical",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.eventbrite.com/e/january-6th-the-musical-tickets-1990835917822?aff=oddtdtcreator"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 10",
           "event": "Cirkus Moxie Lab",
           "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
           "cost": "TBD",
@@ -484,20 +456,6 @@
           "end": null,
           "note": "A laboratory (Variety Show) for circus and circus-adjacent performance and experimentation.",
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 10",
-          "event": "No Fun New Perspectives: Carlos Giffoni, Lee Ranaldo, Raven Chacon, Keith Fullerton Whitman, and more (Night 2)",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
-          "cost": "$25",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": "20:00",
-          "end": null,
-          "note": "A three-day fest with a dream lineup of avant-garde musicians in first-time collaborations.",
-          "url": "https://roulette.org/event/no-fun-new-perspectives-night-2/"
         },
         {
           "day": "Sat",
@@ -596,20 +554,6 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/january-6th-the-musical-tickets-1990835917822?aff=oddtdtcreator"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 11",
-          "event": "Hot Takes & Nerdy Topics",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.eventbrite.com/e/hot-takes-nerdy-topics-tickets-1990020276216?aff=oddtdtcreator"
         },
         {
           "day": "Sat",
@@ -785,34 +729,6 @@
           "url": "https://thetanknyc.org/tankcalendar"
         },
         {
-          "day": "Tue",
-          "date": "Jul 14",
-          "event": "Star Vehicle",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.eventbrite.com/e/star-vehicle-tickets-1990933536803?aff=oddtdtcreator"
-        },
-        {
-          "day": "Tue",
-          "date": "Jul 14",
-          "event": "Judy Garland is Fat at Carnegie Hall",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.eventbrite.com/e/judy-garland-is-fat-at-carnegie-hall-tickets-1990934647124?aff=oddtdtcreator"
-        },
-        {
           "day": "Wed",
           "date": "Jul 15",
           "event": "Brooklyn Art Haus: Emoji — The Hieroglyphs of Our Time (EdFest)",
@@ -853,20 +769,6 @@
           "end": "23:00",
           "note": "Interactive invitation to audience participation.",
           "url": "https://thetanknyc.org/tankcalendar"
-        },
-        {
-          "day": "Wed",
-          "date": "Jul 15",
-          "event": "Emoji: The Hieroglyphs of Our Time...",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.eventbrite.com/e/emoji-the-hieroglyphs-of-our-time-tickets-1990935735379?aff=oddtdtcreator"
         },
         {
           "day": "Thu",
@@ -1109,20 +1011,6 @@
         {
           "day": "Sat",
           "date": "Jul 18",
-          "event": "Marion Davies - The Cardboard Lover",
-          "where": "Symphony Space, Upper West Side",
-          "cost": "TBD",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.symphonyspace.org/events/marion-davies-the-cardboard-lover"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 18",
           "event": "Maybe Sometimes: A Reading With Jo Barchi, Ted Dodson, Kristen Gallagher, Matt Longabucco, and Caroline Rayner",
           "where": "Wendy's Subway, Bushwick/Ridgewood border",
           "cost": "TBD",
@@ -1336,20 +1224,6 @@
           "url": "https://thetanknyc.org/tankcalendar"
         },
         {
-          "day": "Thu",
-          "date": "Jul 23",
-          "event": "Bi-Weekly Writing Night",
-          "where": "Wendy's Subway, Bushwick/Ridgewood border",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "make",
-          "start": "19:30",
-          "end": null,
-          "note": null,
-          "url": "https://www.wendyssubway.com/programs/events/writing-night"
-        },
-        {
           "day": "Fri",
           "date": "Jul 24",
           "event": "BRIC Celebrate Brooklyn!: Cindy Blackman Santana Group + Patricia Brennan Septet + Lucía (jazz)",
@@ -1396,7 +1270,7 @@
           "date": "Jul 24",
           "event": "UnionDocs: The Magical Image — Special Effects as Documentary Method",
           "where": "UnionDocs, Ridgewood",
-          "cost": "TBD",
+          "cost": "$295–350",
           "category": "film",
           "flag": "decide",
           "mode": "make",
@@ -1404,20 +1278,6 @@
           "end": "16:30",
           "note": "3-day intensive Jul 24–26, 10am–4:30pm daily. Faculty: Elsaesser, Stephens, Sharon Lockhart, Kienitz Wilkins, Cardone. Big commitment — decide fast.",
           "url": "https://uniondocs.org/events/category/workshops/list/"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 24",
-          "event": "The Magical Image: &lt;br&gt; Special Effects as Documentary Method",
-          "where": "UnionDocs, Ridgewood",
-          "cost": "$295–350",
-          "category": "film",
-          "flag": null,
-          "mode": "make",
-          "start": "14:00",
-          "end": "20:30",
-          "note": null,
-          "url": "https://uniondocs.org/event/the-magical-image-special-effects-as-documentary-method-2026-07-24/"
         },
         {
           "day": "Sat",
@@ -1446,20 +1306,6 @@
           "end": "14:30",
           "note": "Generative writing workshop.",
           "url": "https://www.wendyssubway.com/programs"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 25",
-          "event": "Basic Instincts and Pure Desires: Workshop with Nico Vela Page",
-          "where": "Wendy's Subway, Bushwick/Ridgewood border",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "make",
-          "start": "12:00",
-          "end": null,
-          "note": null,
-          "url": "https://www.wendyssubway.com/programs/workshops/basic-instincts-and-pure-desires"
         },
         {
           "day": "Sun",
@@ -1813,34 +1659,6 @@
           "url": "https://www.abronsartscenter.org/performing-arts"
         },
         {
-          "day": "Sat",
-          "date": "Aug 15",
-          "event": "NT Live: Inter Alia (Encore)",
-          "where": "Symphony Space, Upper West Side",
-          "cost": "TBD",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": "15:00",
-          "end": null,
-          "note": null,
-          "url": "https://www.symphonyspace.org/events/nt-live-inter-alia-encore"
-        },
-        {
-          "day": "Sat",
-          "date": "Aug 15",
-          "event": "NT Live: Les Liaisons Dangereuses",
-          "where": "Symphony Space, Upper West Side",
-          "cost": "TBD",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": "18:00",
-          "end": null,
-          "note": null,
-          "url": "https://www.symphonyspace.org/events/nt-live-les-liaisons-dangereuses-2"
-        },
-        {
           "day": "Sun",
           "date": "Aug 16",
           "event": "Taiwanese Waves 10th: 9m88 + ØZI + YELLOW / Mong Tong + more",
@@ -1881,20 +1699,6 @@
           "end": null,
           "note": "NT Live screening.",
           "url": "https://www.symphonyspace.org/"
-        },
-        {
-          "day": "Sun",
-          "date": "Aug 23",
-          "event": "NT Live: All My Sons",
-          "where": "Symphony Space, Upper West Side",
-          "cost": "TBD",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": "18:00",
-          "end": null,
-          "note": null,
-          "url": "https://www.symphonyspace.org/events/nt-live-all-my-sons-3"
         }
       ]
     },
@@ -2129,20 +1933,6 @@
           "end": "21:00",
           "note": "Only 4 seats. Advanced high-speed camera work.",
           "url": "http://mononoawarefilm.com/community-workshops"
-        },
-        {
-          "day": "Sat",
-          "date": "Sep 12",
-          "event": "R.F. Kuang, Taipei Story",
-          "where": "Symphony Space, Upper West Side",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "Acclaimed #1 New York Times bestselling author of Katabasis and Yellowface returns with her dazzling new novel.",
-          "url": "https://www.symphonyspace.org/events/r-f-kuang-taipei-story-at-symphony-space"
         }
       ]
     },
@@ -2232,20 +2022,6 @@
           "end": "21:30",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops"
-        },
-        {
-          "day": "Thu",
-          "date": "Sep 17",
-          "event": "Bi-Weekly Writing Night",
-          "where": "Wendy's Subway, Bushwick/Ridgewood border",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "make",
-          "start": "19:00",
-          "end": null,
-          "note": null,
-          "url": "https://www.wendyssubway.com/programs/events/writing-night"
         },
         {
           "day": "Fri",
@@ -2414,20 +2190,6 @@
           "end": null,
           "note": "World premiere of Zorn's piano concerto — four trusted interpreters.",
           "url": "https://roulette.org/calendar"
-        },
-        {
-          "day": "Mon",
-          "date": "Sep 28",
-          "event": "Symphony Space: Kyle MacLachlan — Fictional Selves",
-          "where": "Symphony Space, Upper West Side",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.symphonyspace.org/"
         },
         {
           "day": "Mon",

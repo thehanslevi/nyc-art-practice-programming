@@ -1,4 +1,5 @@
 import type { CalEvent, EventsData, Week } from "../../src/types";
+import { findDuplicateOf } from "./dedupe";
 
 const MONTHS: Record<string, number> = {
   Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5,
@@ -47,16 +48,31 @@ function weekLabelFor(date: Date): string {
   return `${startMonth} ${start.getDate()}–${endMonth} ${end.getDate()}`;
 }
 
+export interface MergeResult {
+  data: EventsData;
+  skippedDuplicates: { event: CalEvent; duplicateOf: CalEvent }[];
+}
+
 export function mergeIntoEvents(
   existing: EventsData,
   accepted: CalEvent[],
   year: number,
-): EventsData {
+): MergeResult {
   const weeks = [...existing.weeks];
+  const skippedDuplicates: MergeResult["skippedDuplicates"] = [];
 
   for (const event of accepted) {
     const d = parseEventDate(event.date, year);
     if (!d) continue;
+
+    // Final dedupe net: unlike the gate check (which runs against the file
+    // as it was at scan start), this also catches two candidates from the
+    // same run duplicating each other.
+    const dup = findDuplicateOf(event, weeks.flatMap((w) => w.events));
+    if (dup) {
+      skippedDuplicates.push({ event, duplicateOf: dup });
+      continue;
+    }
 
     // Try to find an existing week containing this date
     let targetIndex = weeks.findIndex((w) => {
@@ -90,7 +106,7 @@ export function mergeIntoEvents(
   }
 
   const isoDate = new Date().toISOString().slice(0, 10);
-  return { lastVerified: isoDate, weeks };
+  return { data: { lastVerified: isoDate, weeks }, skippedDuplicates };
 }
 
 function byDateAsc(year: number) {

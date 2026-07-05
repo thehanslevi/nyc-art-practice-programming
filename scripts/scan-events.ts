@@ -114,7 +114,11 @@ async function main(): Promise<void> {
     console.error(`   email pipeline FAILED: ${msg}`);
   }
 
-  const merged = mergeIntoEvents(events, accepted, year);
+  const { data: merged, skippedDuplicates } = mergeIntoEvents(
+    events,
+    accepted,
+    year,
+  );
   writeFileSync(EVENTS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf8");
   writeFileSync(REVIEW_PATH, JSON.stringify(rejected, null, 2) + "\n", "utf8");
   writeFileSync(
@@ -122,8 +126,13 @@ async function main(): Promise<void> {
     JSON.stringify(
       {
         ranAt: now.toISOString(),
-        acceptedTotal: accepted.length,
+        acceptedTotal: accepted.length - skippedDuplicates.length,
         rejectedTotal: rejected.length,
+        duplicatesSkipped: skippedDuplicates.map((s) => ({
+          event: s.event.event,
+          date: s.event.date,
+          duplicateOf: s.duplicateOf.event,
+        })),
         perVenue,
       },
       null,
@@ -133,7 +142,7 @@ async function main(): Promise<void> {
   );
 
   console.log(
-    `\nDONE · accepted ${accepted.length} · flagged ${rejected.length} for review`,
+    `\nDONE · accepted ${accepted.length - skippedDuplicates.length} · skipped ${skippedDuplicates.length} duplicates · flagged ${rejected.length} for review`,
   );
 }
 

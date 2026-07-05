@@ -1,5 +1,6 @@
 import type { CalEvent, EventsData } from "../../src/types";
 import type { Candidate } from "./extract";
+import { findDuplicateOf } from "./dedupe";
 
 const STOP_WORDS = new Set([
   "the", "a", "an", "and", "or", "at", "on", "in", "of", "to", "for",
@@ -105,8 +106,14 @@ export function makeGateRunner(
     maxAhead.setMonth(maxAhead.getMonth() + 18);
     if (eventDate > maxAhead) return fail("date more than 18 months out");
 
-    // Duplicate check: same date + significant title overlap
+    // Duplicate check: venue-stripped title similarity + venue/start-time
+    // matching (see scanner/dedupe.ts). Catches "Venue: Title" vs "Title".
     const existingOnDate = dateIndex.get(event.date) ?? [];
+    const dup = findDuplicateOf(event, existingOnDate);
+    if (dup) {
+      return fail(`duplicate of existing "${dup.event}"`);
+    }
+    // Legacy raw-title similarity as a second net.
     const candidateTokens = titleTokens(event.event);
     for (const existingEvent of existingOnDate) {
       const existingTokens = titleTokens(existingEvent.event);
