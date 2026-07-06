@@ -153,8 +153,8 @@ Venue's default category: ${venue.category}
 Venue's default mode: ${venue.defaultMode}
 Today's date (skip anything before): ${todayISO}
 
-HTML (truncated to 18k chars):
-${html.slice(0, 18000)}`;
+HTML (truncated to 14k chars):
+${html.slice(0, 14000)}`;
 
   // Small delay to be gentle on per-minute rate limits when the scanner
   // is looping through many venues in a row.

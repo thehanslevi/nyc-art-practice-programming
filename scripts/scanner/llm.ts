@@ -239,11 +239,29 @@ function dispatch(
 }
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
-const RATE_BACKOFF_MS = 15000;
-// Free tiers meter tokens-per-minute, so bursts 429 then recover. Only give
-// up on a hosted provider after this many consecutive rate-limited calls.
-const MAX_CONSECUTIVE_RATE_FAILS = 5;
+// A tokens-per-minute cap needs a full rolling-window wait; server congestion
+// clears faster.
+const TOKEN_LIMIT_BACKOFF_MS = 60000;
+const CONGESTION_BACKOFF_MS = 12000;
+// Pace calls so we don't burst over the TPM cap in the first place.
+const MIN_CALL_GAP_MS = 5000;
+const MAX_CONSECUTIVE_RATE_FAILS = 4;
 let consecutiveRateFails = 0;
+let lastCallAt = 0;
+
+function isTokenLimit(msg: string): boolean {
+  return /too_many_tokens|tokens per minute|tokens_per_minute/i.test(msg);
+}
+
+async function paced(spec: ModelSpec, sys: string, user: string): Promise<string> {
+  const wait = MIN_CALL_GAP_MS - (Date.now() - lastCallAt);
+  if (wait > 0) await sleep(wait);
+  try {
+    return await dispatch(spec, sys, user);
+  } finally {
+    lastCallAt = Date.now();
+  }
+}
 
 /** Returns raw JSON text, or null when no provider can serve this call. */
 export async function callLlm(
@@ -253,15 +271,15 @@ export async function callLlm(
   while (idx < CHAIN.length) {
     const spec = CHAIN[idx]!;
     try {
-      const out = await dispatch(spec, systemPrompt, userPrompt);
+      const out = await paced(spec, systemPrompt, userPrompt);
       consecutiveRateFails = 0;
       return out;
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
 
-      // Per-minute rate limit on a hosted (non-Gemini) provider: temporary.
-      // Back off once and retry the SAME provider; if still limited, skip
-      // this venue's LLM but keep the provider alive for later venues.
+      // Rate limit on a hosted (non-Gemini) provider is temporary. Wait long
+      // enough for the window to clear (a full minute for a TPM cap), retry
+      // the same provider once, then skip this venue but keep the provider.
       if (isQuotaError(msg) && spec.provider !== "gemini") {
         consecutiveRateFails += 1;
         if (consecutiveRateFails >= MAX_CONSECUTIVE_RATE_FAILS) {
@@ -269,10 +287,13 @@ export async function callLlm(
           idx += 1;
           continue;
         }
-        console.warn(`   rate-limited on ${spec.provider} (${msg.slice(0, 140)}); backing off ${RATE_BACKOFF_MS / 1000}s`);
-        await sleep(RATE_BACKOFF_MS);
+        const backoff = isTokenLimit(msg)
+          ? TOKEN_LIMIT_BACKOFF_MS
+          : CONGESTION_BACKOFF_MS;
+        console.warn(`   rate-limited on ${spec.provider} (${msg.slice(0, 120)}); backing off ${backoff / 1000}s`);
+        await sleep(backoff);
         try {
-          const out = await dispatch(spec, systemPrompt, userPrompt);
+          const out = await paced(spec, systemPrompt, userPrompt);
           consecutiveRateFails = 0;
           return out;
         } catch {
