@@ -221,7 +221,31 @@ function isQuotaError(msg: string): boolean {
   );
 }
 
-/** Returns raw JSON text, or null if quota is exhausted across all models. */
+function dispatch(
+  spec: ModelSpec,
+  systemPrompt: string,
+  userPrompt: string,
+): Promise<string> {
+  if (spec.provider === "gemini") {
+    return callGemini(systemPrompt, userPrompt, spec.model);
+  }
+  const [base, key] =
+    spec.provider === "groq"
+      ? ["https://api.groq.com/openai/v1", process.env.GROQ_API_KEY!]
+      : spec.provider === "cerebras"
+        ? ["https://api.cerebras.ai/v1", process.env.CEREBRAS_API_KEY!]
+        : [process.env.OPENAI_COMPAT_BASE_URL!, process.env.OPENAI_COMPAT_API_KEY!];
+  return callOpenAiCompat(systemPrompt, userPrompt, spec.model, base, key);
+}
+
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const RATE_BACKOFF_MS = 15000;
+// Free tiers meter tokens-per-minute, so bursts 429 then recover. Only give
+// up on a hosted provider after this many consecutive rate-limited calls.
+const MAX_CONSECUTIVE_RATE_FAILS = 5;
+let consecutiveRateFails = 0;
+
+/** Returns raw JSON text, or null when no provider can serve this call. */
 export async function callLlm(
   systemPrompt: string,
   userPrompt: string,
@@ -229,51 +253,43 @@ export async function callLlm(
   while (idx < CHAIN.length) {
     const spec = CHAIN[idx]!;
     try {
-      if (spec.provider === "gemini") {
-        return await callGemini(systemPrompt, userPrompt, spec.model);
-      }
-      if (spec.provider === "groq") {
-        return await callOpenAiCompat(
-          systemPrompt,
-          userPrompt,
-          spec.model,
-          "https://api.groq.com/openai/v1",
-          process.env.GROQ_API_KEY!,
-        );
-      }
-      if (spec.provider === "cerebras") {
-        return await callOpenAiCompat(
-          systemPrompt,
-          userPrompt,
-          spec.model,
-          "https://api.cerebras.ai/v1",
-          process.env.CEREBRAS_API_KEY!,
-        );
-      }
-      return await callOpenAiCompat(
-        systemPrompt,
-        userPrompt,
-        spec.model,
-        process.env.OPENAI_COMPAT_BASE_URL!,
-        process.env.OPENAI_COMPAT_API_KEY!,
-      );
+      const out = await dispatch(spec, systemPrompt, userPrompt);
+      consecutiveRateFails = 0;
+      return out;
     } catch (err) {
       const msg = err instanceof Error ? err.message : String(err);
-      if (isQuotaError(msg)) {
-        idx += 1;
-        if (idx < CHAIN.length) {
-          console.warn(
-            `   quota/rate limit on ${spec.provider}:${spec.model} — falling back to ${CHAIN[idx]!.provider}:${CHAIN[idx]!.model}`,
-          );
+
+      // Per-minute rate limit on a hosted (non-Gemini) provider: temporary.
+      // Back off once and retry the SAME provider; if still limited, skip
+      // this venue's LLM but keep the provider alive for later venues.
+      if (isQuotaError(msg) && spec.provider !== "gemini") {
+        consecutiveRateFails += 1;
+        if (consecutiveRateFails >= MAX_CONSECUTIVE_RATE_FAILS) {
+          console.warn(`   ${spec.provider} rate-limited repeatedly — dropping it for this run`);
+          idx += 1;
           continue;
         }
-        console.warn(`   all LLM providers exhausted — LLM disabled for rest of run`);
-        return null;
+        console.warn(`   rate-limited on ${spec.provider}; backing off ${RATE_BACKOFF_MS / 1000}s`);
+        await sleep(RATE_BACKOFF_MS);
+        try {
+          const out = await dispatch(spec, systemPrompt, userPrompt);
+          consecutiveRateFails = 0;
+          return out;
+        } catch {
+          return null; // skip this venue; provider stays in the chain
+        }
       }
-      // Non-quota error (bad model name, network): skip this model, try next.
-      console.warn(`   ${spec.provider}:${spec.model} error: ${msg.slice(0, 120)}`);
+
+      // Gemini quota is a hard daily cap; other errors are model/network —
+      // either way, advance to the next model in the chain.
+      if (idx + 1 < CHAIN.length) {
+        console.warn(
+          `   ${spec.provider}:${spec.model} unavailable (${msg.slice(0, 80)}) — trying ${CHAIN[idx + 1]!.provider}`,
+        );
+      } else {
+        console.warn(`   all LLM providers exhausted — LLM disabled for rest of run`);
+      }
       idx += 1;
-      if (idx >= CHAIN.length) return null;
     }
   }
   return null;
