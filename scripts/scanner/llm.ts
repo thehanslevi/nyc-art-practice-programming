@@ -111,12 +111,43 @@ async function callGemini(
   return res.response.text();
 }
 
-async function callOpenAiCompat(
-  systemPrompt: string,
-  userPrompt: string,
-  model: string,
+// Model catalogs vary by provider and account, so a hard-coded id can 404.
+// On the first such miss we ask /models what this key can actually use and
+// cache the pick per endpoint.
+const resolvedModel: Record<string, string> = {};
+
+async function discoverModel(
   baseUrl: string,
   apiKey: string,
+): Promise<string | null> {
+  try {
+    const res = await fetch(`${baseUrl.replace(/\/$/, "")}/models`, {
+      headers: { Authorization: `Bearer ${apiKey}` },
+    });
+    if (!res.ok) return null;
+    const json = (await res.json()) as { data?: { id?: string }[] };
+    const ids = (json.data ?? [])
+      .map((m) => m.id)
+      .filter((id): id is string => !!id && !/embed|whisper|tts/i.test(id));
+    // Prefer a mid/large instruct model; fall back to anything available.
+    return (
+      ids.find((id) => /llama.*(70b|3\.3)/i.test(id)) ??
+      ids.find((id) => /llama/i.test(id)) ??
+      ids.find((id) => /(qwen|gpt|glm|mixtral|gemma)/i.test(id)) ??
+      ids[0] ??
+      null
+    );
+  } catch {
+    return null;
+  }
+}
+
+async function postChat(
+  baseUrl: string,
+  apiKey: string,
+  model: string,
+  systemPrompt: string,
+  userPrompt: string,
 ): Promise<string> {
   const res = await fetch(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
     method: "POST",
@@ -141,13 +172,42 @@ async function callOpenAiCompat(
   });
   if (!res.ok) {
     const body = await res.text();
-    const err = new Error(`${res.status} ${body.slice(0, 200)}`);
-    throw err;
+    throw new Error(`${res.status} ${body.slice(0, 200)}`);
   }
   const json = (await res.json()) as {
     choices?: { message?: { content?: string } }[];
   };
   return json.choices?.[0]?.message?.content ?? "";
+}
+
+function isModelNotFound(msg: string): boolean {
+  const m = msg.toLowerCase();
+  return (
+    (msg.includes("404") || m.includes("not_found")) &&
+    (m.includes("model") || m.includes("does not exist"))
+  );
+}
+
+async function callOpenAiCompat(
+  systemPrompt: string,
+  userPrompt: string,
+  model: string,
+  baseUrl: string,
+  apiKey: string,
+): Promise<string> {
+  const pick = resolvedModel[baseUrl] ?? model;
+  try {
+    return await postChat(baseUrl, apiKey, pick, systemPrompt, userPrompt);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    if (!isModelNotFound(msg) || resolvedModel[baseUrl]) throw err;
+    // Configured model is unavailable — discover a valid one and retry once.
+    const discovered = await discoverModel(baseUrl, apiKey);
+    if (!discovered) throw err;
+    resolvedModel[baseUrl] = discovered;
+    console.warn(`   discovered usable model: ${discovered}`);
+    return await postChat(baseUrl, apiKey, discovered, systemPrompt, userPrompt);
+  }
 }
 
 function isQuotaError(msg: string): boolean {
