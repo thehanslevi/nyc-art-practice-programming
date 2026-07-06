@@ -1,23 +1,13 @@
 {
-  "ranAt": "2026-07-06T01:27:55.529Z",
-  "acceptedTotal": 0,
-  "rejectedTotal": 36,
+  "ranAt": "2026-07-06T04:10:38.489Z",
+  "acceptedTotal": 14,
+  "rejectedTotal": 47,
   "duplicatesSkipped": [],
   "perVenue": {
-    "Interference Archive": {
-      "accepted": 0,
-      "rejected": 2,
-      "source": "llm"
-    },
-    "The Tank": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
     "Brooklyn Art Haus": {
       "accepted": 0,
-      "rejected": 0,
-      "source": "none"
+      "rejected": 7,
+      "source": "llm"
     },
     "New York Live Arts": {
       "accepted": 0,
@@ -250,6 +240,236 @@
       "source": "none"
     },
     "Bedlam": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Textile Arts Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Gowanus Print Lab": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Center for Book Arts": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Penumbra Foundation": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "BKLYN CLAY": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Greenwich House Pottery": {
+      "accepted": 4,
+      "rejected": 5,
+      "source": "json-ld"
+    },
+    "Brooklyn Glass": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Brooklyn Craft Company": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Makerspace NYC": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "NYC Resistor": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Genspace": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Powrplnt": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Brooklyn Poets": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Flux Factory": {
+      "accepted": 1,
+      "rejected": 0,
+      "source": "json-ld"
+    },
+    "UrbanGlass": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Lower East Side Printshop": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Robert Blackburn Printmaking Workshop": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Manhattan Graphics Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "The Arm": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Dieu Donné": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Powerhouse Arts": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Artshack Brooklyn": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Choplet Ceramic Studio": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Gasworks NYC": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "BrickHouse Ceramic Art Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Brooklyn Metal Works": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Craftsman Ave": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Makeville Studio": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Gowanus Darkroom": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "International Center of Photography": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Loop of the Loom": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Art Students League of New York": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Materials for the Arts": {
+      "accepted": 2,
+      "rejected": 0,
+      "source": "json-ld"
+    },
+    "Millennium Film Workshop": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "DCTV": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "School for Poetic Computation": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Wonderville": {
+      "accepted": 7,
+      "rejected": 1,
+      "source": "json-ld"
+    },
+    "Harvestworks": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "343 Labs": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Center for Fiction": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Gotham Writers Workshop": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "NY Writers Coalition": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Bluestockings Cooperative": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Jamaica Center for Arts and Learning": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Interference Archive": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "The Tank": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"

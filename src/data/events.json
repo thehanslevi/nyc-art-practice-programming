@@ -75,6 +75,34 @@
           "url": "https://pools.events/event/2fzpZ3xL/recital/"
         },
         {
+          "day": "Mon",
+          "date": "Jul 6",
+          "event": "Stop Motion Animation (Summer 2026)",
+          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "cost": "$240",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "04:00",
+          "end": "03:59",
+          "note": null,
+          "url": "https://www.materialsforthearts.org/event/stop-motion-animation-summer-2026/"
+        },
+        {
+          "day": "Mon",
+          "date": "Jul 6",
+          "event": "BUGGED an album release party [presented by SLEAZURE]",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "00:00",
+          "end": "05:00",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
+        },
+        {
           "day": "Tue",
           "date": "Jul 7",
           "event": "JAZZY IMPROV BAND w/ SINGER - Rokoko",
@@ -87,6 +115,34 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/go/events/6622459?feature_id=1003841&occurrence_id=767559990&popup=1"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 7",
+          "event": "THE FORT90 BROADCAST SYSTEM presents THE FORT90 FILM CLUB: \"GOD BLESS THIS MESS\"",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "00:00",
+          "end": "09:00",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 7",
+          "event": "Play Scrapeboard!",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "23:00",
+          "end": "03:00",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
         },
         {
           "day": "Wed",
@@ -131,6 +187,20 @@
           "url": "https://dadabar.nyc/event/6562740/761908985/vibey-house-djs-geoball-w-gem-geo"
         },
         {
+          "day": "Thu",
+          "date": "Jul 9",
+          "event": "Killer Queen Open Hive Night",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "00:00",
+          "end": "04:30",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
+        },
+        {
           "day": "Fri",
           "date": "Jul 10",
           "event": "DADA x TEM present: Rat City Sunrise, HALFTIME, Kevin Clark",
@@ -157,6 +227,34 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6629310/770007966/house-djs-are-we-there-yet-vol-4"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 10",
+          "event": "QMA Presents: NYC Electric Vocal Artist Showcase",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "00:00",
+          "end": "05:00",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 10",
+          "event": "Party Like It’s 2009",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "21:55",
+          "end": "01:55",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
         },
         {
           "day": "Sat",
@@ -199,6 +297,20 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6644913/770008241/house-dj-r-dubbs"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "In Bass We Trust",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "02:00",
+          "end": "07:00",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
         }
       ]
     },
@@ -967,6 +1079,20 @@
           "url": "https://www.bkarthaus.com/shows-events"
         },
         {
+          "day": "Wed",
+          "date": "Jul 15",
+          "event": "Exhibition: Lotte Van den Audenaeren",
+          "where": "Flanders House New York &#8211; New York Times Building · 620 Eighth Avenue, 38th floor, New York",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "make",
+          "start": "21:00",
+          "end": "23:00",
+          "note": null,
+          "url": "https://www.fluxfactory.org/event/lotte-van-den-audenaeren/"
+        },
+        {
           "day": "Thu",
           "date": "Jul 16",
           "event": "Mavis Staples / Brother Wallace",
@@ -1063,6 +1189,20 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/folkus-tickets-1979084278352?aff=oddtdtcreator"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 16",
+          "event": "MFTA Designer-in-Residence Scooter LaForge",
+          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:30",
+          "end": "00:30",
+          "note": null,
+          "url": "https://www.materialsforthearts.org/event/mfta-designer-in-residence-scooter-laforge-event/"
         },
         {
           "day": "Fri",
@@ -1474,6 +1614,20 @@
           "end": null,
           "note": "Runs Jul 23–25.",
           "url": "https://thetanknyc.org/tankcalendar"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph",
+          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "cost": "TBD",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "21:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://greenwichhouse.org/event/ceramics-now-2025-artists/"
         },
         {
           "day": "Fri",
@@ -2389,6 +2543,20 @@
         },
         {
           "day": "Thu",
+          "date": "Sep 16",
+          "event": "&lt;em&gt;Vestiges&lt;/em&gt;, YoonJee Kwak",
+          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "cost": "TBD",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "21:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://greenwichhouse.org/event/vestiges-yoonjee-kwak/"
+        },
+        {
+          "day": "Thu",
           "date": "Sep 17",
           "event": "Wendy's Subway: Bi-Weekly Writing Night",
           "where": "Wendy's Subway, Bushwick/Ridgewood border",
@@ -2442,6 +2610,20 @@
           "end": null,
           "note": "Legendary musical extravaganza returns. Runs Sep 17 – Nov 1.",
           "url": "https://here.org/shows/"
+        },
+        {
+          "day": "Thu",
+          "date": "Sep 17",
+          "event": "Ryan Flores",
+          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "cost": "TBD",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "21:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://greenwichhouse.org/event/ryan-flores/"
         },
         {
           "day": "Fri",
@@ -3120,6 +3302,20 @@
           "end": null,
           "note": "Runs Nov 19–21. Landmark 50th-anniversary concert version.",
           "url": "https://www.bam.org/"
+        },
+        {
+          "day": "Thu",
+          "date": "Nov 19",
+          "event": "GHP Artists Exhibition 2026",
+          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "cost": "TBD",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:00",
+          "end": "22:00",
+          "note": null,
+          "url": "https://greenwichhouse.org/event/ghp-artists-exhibition-2026/"
         },
         {
           "day": "Fri",
