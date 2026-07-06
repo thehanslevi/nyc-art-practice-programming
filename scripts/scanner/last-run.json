@@ -1,7 +1,7 @@
 {
-  "ranAt": "2026-07-06T04:20:45.237Z",
-  "acceptedTotal": 0,
-  "rejectedTotal": 57,
+  "ranAt": "2026-07-06T04:30:43.987Z",
+  "acceptedTotal": 16,
+  "rejectedTotal": 54,
   "duplicatesSkipped": [],
   "perVenue": {
     "Symphony Space": {
@@ -9,35 +9,15 @@
       "rejected": 6,
       "source": "json-ld"
     },
-    "Film Forum": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Wendy's Subway": {
-      "accepted": 0,
-      "rejected": 3,
-      "source": "llm"
-    },
     "UnionDocs": {
       "accepted": 0,
       "rejected": 2,
       "source": "ics"
     },
-    "Mono No Aware": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
     "Bushwick Community Darkroom": {
       "accepted": 0,
       "rejected": 1,
       "source": "json-ld"
-    },
-    "ISSUE Project Room": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
     },
     "Roulette": {
       "accepted": 0,
@@ -405,7 +385,7 @@
       "source": "none"
     },
     "Wonderville": {
-      "accepted": 0,
+      "accepted": 3,
       "rejected": 8,
       "source": "json-ld"
     },
@@ -444,6 +424,111 @@
       "rejected": 0,
       "source": "none"
     },
+    "Pioneer Works": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Bushwick Print Lab": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Works in Progress NYC": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Manny Cantor Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Scratch Ceramics": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Uptown Clay": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "AlterWork Studios": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Bronx River Art Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Fat Cat Fab Lab": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Hack Manhattan": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Film-Makers' Cooperative": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Noguchi Museum": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Socrates Sculpture Park": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Studio Museum in Harlem": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Word Up Community Bookshop": {
+      "accepted": 1,
+      "rejected": 0,
+      "source": "json-ld"
+    },
+    "Building Beats": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Creative Music Studio": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "BKC": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "BRIC": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Museum of the Moving Image": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "El Museo del Barrio": {
+      "accepted": 12,
+      "rejected": 0,
+      "source": "json-ld"
+    },
     "Interference Archive": {
       "accepted": 0,
       "rejected": 0,
@@ -470,6 +555,26 @@
       "source": "none"
     },
     "Baryshnikov Arts Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Film Forum": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Wendy's Subway": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Mono No Aware": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "ISSUE Project Room": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"

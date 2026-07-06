@@ -145,6 +145,20 @@
           "url": "https://www.wonderville.nyc/events"
         },
         {
+          "day": "Tue",
+          "date": "Jul 7",
+          "event": "No Name Super Story Party",
+          "where": "2113 Amsterdam Avenue, New York2113 Amsterdam Avenue",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "23:00",
+          "end": "00:30",
+          "note": null,
+          "url": "https://wordupbooks.com/event/2026-07-07/no-name-super-story-party"
+        },
+        {
           "day": "Wed",
           "date": "Jul 8",
           "event": "JAZZ - The Sean Temme Group",
@@ -309,6 +323,20 @@
           "mode": "make",
           "start": "02:00",
           "end": "07:00",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 11",
+          "event": "Monthly 2 Hr GameJam Club: andstar",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "17:00",
+          "end": "21:00",
           "note": null,
           "url": "https://www.wonderville.nyc/events"
         }
@@ -848,6 +876,34 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 12",
+          "event": "Smash Bash Vol. 25",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "01:00",
+          "end": "06:00",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 12",
+          "event": "Patch Sessions – Performances by members of Matthew Ryals' teaching studio",
+          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "18:30",
+          "end": "22:00",
+          "note": null,
+          "url": "https://www.wonderville.nyc/events"
         }
       ]
     },
@@ -1469,6 +1525,20 @@
           "end": null,
           "note": "Profane, absurd debate where honor, faith, and righteous violence collapse.",
           "url": "https://thetanknyc.org/tankcalendar"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 19",
+          "event": "FIFA Men’s World Cup 2026 Final: Watch Party",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "17:00",
+          "end": "23:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/fifa-mens-world-cup-2026-final-watch-party/"
         }
       ]
     },
@@ -1628,6 +1698,20 @@
           "end": "21:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/ceramics-now-2025-artists/"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Uptown Bounce Co-Presented by the Museum of the City of New York",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:00",
+          "end": "01:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/uptown-bounce-co-presented-by-the-museum-of-the-city-of-new-york/"
         },
         {
           "day": "Fri",
@@ -1957,6 +2041,20 @@
           "url": "https://www.bam.org/"
         },
         {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "Open Studio | Double Exposures",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:00",
+          "end": "01:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/open-studio-double-exposures/"
+        },
+        {
           "day": "Sat",
           "date": "Aug 1",
           "event": "Hybrid Animal Encyclopedia",
@@ -2205,6 +2303,20 @@
           "url": "https://www.abronsartscenter.org/performing-arts"
         },
         {
+          "day": "Sat",
+          "date": "Aug 15",
+          "event": "En Familia | ART–BOOK–MAKE",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "14:00",
+          "end": "18:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/family-program-art-book-make/"
+        },
+        {
           "day": "Sun",
           "date": "Aug 16",
           "event": "Taiwanese Waves 10th: 9m88 + ØZI + YELLOW / Mong Tong + more",
@@ -2217,6 +2329,20 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 20",
+          "event": "Noches de Cine | August",
+          "where": "El Teatro @ El Museo · 1230 5th Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:30",
+          "end": "00:30",
+          "note": null,
+          "url": "https://elmuseo.org/event/film-screening-august/"
         },
         {
           "day": "Fri",
@@ -2514,6 +2640,20 @@
       "label": "Sep 14–30",
       "events": [
         {
+          "day": "Mon",
+          "date": "Sep 14",
+          "event": "Book Launch | Julia Alvarez: In the Time of the Butterflies",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "$5",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "23:00",
+          "end": "01:30",
+          "note": null,
+          "url": "https://elmuseo.org/event/book-launch-julia-alvarez-in-the-time-of-the-butterflies/"
+        },
+        {
           "day": "Tue",
           "date": "Sep 15",
           "event": "Mono No Aware: Super 8mm on Ektachrome (S2 of 4)",
@@ -2640,6 +2780,20 @@
           "url": "https://www.filmforum.org/now-playing"
         },
         {
+          "day": "Fri",
+          "date": "Sep 18",
+          "event": "El Museo After Dark | Disco and Desire",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "23:00",
+          "end": "02:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/el-museo-after-hours-disco-and-desire/"
+        },
+        {
           "day": "Sat",
           "date": "Sep 19",
           "event": "Mono No Aware: Bolex Rex5 (extended day, S3 of 5)",
@@ -2750,6 +2904,20 @@
           "end": null,
           "note": "Scholars of experimental notation discuss + members of Rise of the Novel perform.",
           "url": "https://roulette.org/calendar"
+        },
+        {
+          "day": "Thu",
+          "date": "Sep 24",
+          "event": "Noches de Cine | September",
+          "where": "El Teatro @ El Museo · 1230 5th Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:30",
+          "end": "00:30",
+          "note": null,
+          "url": "https://elmuseo.org/event/film-screening-september/"
         },
         {
           "day": "Fri",
@@ -2979,6 +3147,20 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night"
+        },
+        {
+          "day": "Thu",
+          "date": "Oct 15",
+          "event": "Community Conversations | Making Latinidad",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/community-conversations-making-latinidad/"
         }
       ]
     },
@@ -2998,6 +3180,20 @@
           "end": "16:00",
           "note": "Free community fall festival.",
           "url": "https://www.abronsartscenter.org/performing-arts"
+        },
+        {
+          "day": "Sat",
+          "date": "Oct 17",
+          "event": "En Familia | Día de Muertos",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "14:00",
+          "end": "18:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/family-program-dia-de-muertos/"
         },
         {
           "day": "Sun",
@@ -3096,6 +3292,20 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night"
+        },
+        {
+          "day": "Thu",
+          "date": "Oct 29",
+          "event": "Noches de Cine | October",
+          "where": "El Teatro @ El Museo · 1230 5th Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:30",
+          "end": "00:30",
+          "note": null,
+          "url": "https://elmuseo.org/event/film-screening-october/"
         }
       ]
     },
@@ -3171,6 +3381,20 @@
           "end": null,
           "note": "5th annual M³ festival — innovative music.",
           "url": "https://roulette.org/calendar"
+        },
+        {
+          "day": "Sat",
+          "date": "Nov 7",
+          "event": "For Educators | Teaching with Artist Books",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "15:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/for-educators-teaching-with-artist-books/"
         },
         {
           "day": "Wed",

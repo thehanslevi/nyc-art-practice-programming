@@ -42,27 +42,6 @@
     "source": "json-ld"
   },
   {
-    "venue": "Wendy's Subway",
-    "event": "Maybe Sometimes: A Reading With Jo Barchi, Ted Dodson, Kristen Gallagher, Matt Longabucco, and Caroline Rayner",
-    "date": "Jul 18",
-    "reason": "duplicate of existing \"Maybe Sometimes: A Reading With Jo Barchi, Ted Dodson, Kristen Gallagher, Matt Longabucco, and Caroline Rayner\"",
-    "source": "llm"
-  },
-  {
-    "venue": "Wendy's Subway",
-    "event": "Bi-Weekly Writing Night",
-    "date": "Jul 23",
-    "reason": "duplicate of existing \"Wendy's Subway: Bi-Weekly Writing Night\"",
-    "source": "llm"
-  },
-  {
-    "venue": "Wendy's Subway",
-    "event": "Basic Instincts and Pure Desires",
-    "date": "Jul 25",
-    "reason": "duplicate of existing \"Wendy's Subway: Basic Instincts and Pure Desires — workshop with Nico Vela Page\"",
-    "source": "llm"
-  },
-  {
     "venue": "UnionDocs",
     "event": "A Brief History of Chasing Storms",
     "date": "Jul 16",
