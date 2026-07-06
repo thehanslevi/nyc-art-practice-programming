@@ -1,7 +1,7 @@
 {
-  "ranAt": "2026-07-06T19:17:30.379Z",
-  "acceptedTotal": 15,
-  "rejectedTotal": 103,
+  "ranAt": "2026-07-06T19:49:34.805Z",
+  "acceptedTotal": 0,
+  "rejectedTotal": 60,
   "duplicatesSkipped": [],
   "perVenue": {
     "Symphony Space": {
@@ -35,8 +35,8 @@
       "source": "json-ld"
     },
     "Greenwich House Pottery": {
-      "accepted": 1,
-      "rejected": 8,
+      "accepted": 0,
+      "rejected": 9,
       "source": "json-ld"
     },
     "Flux Factory": {
@@ -47,6 +47,86 @@
     "Materials for the Arts": {
       "accepted": 0,
       "rejected": 2,
+      "source": "json-ld"
+    },
+    "Film Forum": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "AlterWork Studios": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Bronx River Art Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Fat Cat Fab Lab": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Hack Manhattan": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Film-Makers' Cooperative": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Noguchi Museum": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Socrates Sculpture Park": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Studio Museum in Harlem": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Word Up Community Bookshop": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Building Beats": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Creative Music Studio": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "BKC": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "BRIC": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Museum of the Moving Image": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "El Museo del Barrio": {
+      "accepted": 0,
+      "rejected": 12,
       "source": "json-ld"
     },
     "Interference Archive": {
@@ -75,11 +155,6 @@
       "source": "none"
     },
     "Baryshnikov Arts Center": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Film Forum": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
@@ -121,8 +196,8 @@
     },
     "SUPR OMEN": {
       "accepted": 0,
-      "rejected": 0,
-      "source": "none"
+      "rejected": 2,
+      "source": "llm"
     },
     "Francis Kite Club": {
       "accepted": 0,
@@ -335,9 +410,9 @@
       "source": "none"
     },
     "Lower East Side Printshop": {
-      "accepted": 5,
+      "accepted": 0,
       "rejected": 0,
-      "source": "llm"
+      "source": "none"
     },
     "Robert Blackburn Printmaking Workshop": {
       "accepted": 0,
@@ -406,8 +481,8 @@
     },
     "International Center of Photography": {
       "accepted": 0,
-      "rejected": 30,
-      "source": "llm"
+      "rejected": 0,
+      "source": "none"
     },
     "Loop of the Loom": {
       "accepted": 0,
@@ -430,9 +505,9 @@
       "source": "none"
     },
     "School for Poetic Computation": {
-      "accepted": 6,
+      "accepted": 0,
       "rejected": 0,
-      "source": "llm"
+      "source": "none"
     },
     "Harvestworks": {
       "accepted": 0,
@@ -450,9 +525,9 @@
       "source": "none"
     },
     "Gotham Writers Workshop": {
-      "accepted": 2,
-      "rejected": 28,
-      "source": "llm"
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
     },
     "NY Writers Coalition": {
       "accepted": 0,
@@ -480,9 +555,9 @@
       "source": "none"
     },
     "Works in Progress NYC": {
-      "accepted": 1,
+      "accepted": 0,
       "rejected": 0,
-      "source": "llm"
+      "source": "none"
     },
     "Manny Cantor Center": {
       "accepted": 0,
@@ -495,81 +570,6 @@
       "source": "none"
     },
     "Uptown Clay": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "AlterWork Studios": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Bronx River Art Center": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Fat Cat Fab Lab": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Hack Manhattan": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Film-Makers' Cooperative": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Noguchi Museum": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Socrates Sculpture Park": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Studio Museum in Harlem": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Word Up Community Bookshop": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Building Beats": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Creative Music Studio": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "BKC": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "BRIC": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Museum of the Moving Image": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "El Museo del Barrio": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"

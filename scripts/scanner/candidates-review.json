@@ -260,6 +260,13 @@
   },
   {
     "venue": "Greenwich House Pottery",
+    "event": "Venture Bond Jazz Quintet Concert",
+    "date": "Jul 7",
+    "reason": "duplicate of existing \"Venture Bond Jazz Quintet Concert\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Greenwich House Pottery",
     "event": "&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph",
     "date": "Jul 23",
     "reason": "duplicate of existing \"&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph\"",
@@ -315,409 +322,101 @@
     "source": "json-ld"
   },
   {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jan 12",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Jan 13",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jan 14",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Jan 15",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jan 16",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Jan 17",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Apr 13",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Apr 14",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Apr 15",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Apr 16",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Apr 17",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Apr 18",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jul 13",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jul 14",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Jul 14",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Jul 15",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jul 15",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jul 16",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Jul 16",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Jul 17",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jul 17",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Jul 18",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Jul 18",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
+    "venue": "El Museo del Barrio",
+    "event": "FIFA Men’s World Cup 2026 Final: Watch Party",
     "date": "Jul 19",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "reason": "duplicate of existing \"FIFA Men’s World Cup 2026 Final: Watch Party\"",
+    "source": "json-ld"
   },
   {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Oct 13",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "venue": "El Museo del Barrio",
+    "event": "Uptown Bounce Co-Presented by the Museum of the City of New York",
+    "date": "Jul 23",
+    "reason": "duplicate of existing \"Uptown Bounce Co-Presented by the Museum of the City of New York\"",
+    "source": "json-ld"
   },
   {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Oct 14",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "venue": "El Museo del Barrio",
+    "event": "Open Studio | Double Exposures",
+    "date": "Jul 31",
+    "reason": "duplicate of existing \"Open Studio | Double Exposures\"",
+    "source": "json-ld"
   },
   {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Oct 15",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "venue": "El Museo del Barrio",
+    "event": "En Familia | ART–BOOK–MAKE",
+    "date": "Aug 15",
+    "reason": "duplicate of existing \"En Familia | ART–BOOK–MAKE\"",
+    "source": "json-ld"
   },
   {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Oct 16",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "venue": "El Museo del Barrio",
+    "event": "Noches de Cine | August",
+    "date": "Aug 20",
+    "reason": "duplicate of existing \"Noches de Cine | August\"",
+    "source": "json-ld"
   },
   {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (Online)",
-    "date": "Oct 17",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "International Center of Photography",
-    "event": "The Art of the Photobook (In-Person)",
-    "date": "Oct 18",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Fiction Writing I",
-    "date": "Jan 11",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Memoir Writing I",
-    "date": "Jan 12",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Screenwriting I",
-    "date": "Jan 13",
-    "reason": "date is in the past",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Fiction Writing I",
+    "venue": "El Museo del Barrio",
+    "event": "Book Launch | Julia Alvarez: In the Time of the Butterflies",
     "date": "Sep 14",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "reason": "duplicate of existing \"Book Launch | Julia Alvarez: In the Time of the Butterflies\"",
+    "source": "json-ld"
   },
   {
-    "venue": "Gotham Writers Workshop",
-    "event": "Memoir Writing I",
-    "date": "Sep 15",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Screenwriting I",
-    "date": "Sep 16",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Poetry Writing I",
-    "date": "Sep 17",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Novel Writing I",
+    "venue": "El Museo del Barrio",
+    "event": "El Museo After Dark | Disco and Desire",
     "date": "Sep 18",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "reason": "duplicate of existing \"El Museo After Dark | Disco and Desire\"",
+    "source": "json-ld"
   },
   {
-    "venue": "Gotham Writers Workshop",
-    "event": "Creative Nonfiction I",
-    "date": "Sep 19",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "venue": "El Museo del Barrio",
+    "event": "Noches de Cine | September",
+    "date": "Sep 24",
+    "reason": "duplicate of existing \"Noches de Cine | September\"",
+    "source": "json-ld"
   },
   {
-    "venue": "Gotham Writers Workshop",
-    "event": "Short Story Writing I",
-    "date": "Sep 20",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "venue": "El Museo del Barrio",
+    "event": "Community Conversations | Making Latinidad",
+    "date": "Oct 15",
+    "reason": "duplicate of existing \"Community Conversations | Making Latinidad\"",
+    "source": "json-ld"
   },
   {
-    "venue": "Gotham Writers Workshop",
-    "event": "Business Writing",
-    "date": "Oct 5",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "venue": "El Museo del Barrio",
+    "event": "En Familia | Día de Muertos",
+    "date": "Oct 17",
+    "reason": "duplicate of existing \"En Familia | Día de Muertos\"",
+    "source": "json-ld"
   },
   {
-    "venue": "Gotham Writers Workshop",
-    "event": "Writing for Children",
-    "date": "Oct 6",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
+    "venue": "El Museo del Barrio",
+    "event": "Noches de Cine | October",
+    "date": "Oct 29",
+    "reason": "duplicate of existing \"Noches de Cine | October\"",
+    "source": "json-ld"
   },
   {
-    "venue": "Gotham Writers Workshop",
-    "event": "Playwriting I",
-    "date": "Oct 7",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "TV Writing I",
-    "date": "Oct 8",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Standup Comedy Writing",
-    "date": "Oct 9",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Writing for Video Games",
-    "date": "Oct 10",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Novel Writing II",
-    "date": "Oct 11",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Fiction Writing II",
-    "date": "Nov 2",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Screenwriting II",
-    "date": "Nov 4",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Poetry Writing II",
-    "date": "Nov 5",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Creative Nonfiction II",
+    "venue": "El Museo del Barrio",
+    "event": "For Educators | Teaching with Artist Books",
     "date": "Nov 7",
-    "reason": "date not literally in source HTML",
+    "reason": "duplicate of existing \"For Educators | Teaching with Artist Books\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "SUPR OMEN",
+    "event": "Practice Space: Recital",
+    "date": "Jul 6",
+    "reason": "duplicate of existing \"Practice Space: Recital\"",
     "source": "llm"
   },
   {
-    "venue": "Gotham Writers Workshop",
-    "event": "Short Story Writing II",
-    "date": "Nov 8",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Fiction Writing III",
-    "date": "Dec 7",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Memoir Writing III",
-    "date": "Dec 8",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Screenwriting III",
-    "date": "Dec 9",
-    "reason": "title tokens missing from source",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Poetry Writing III",
-    "date": "Dec 10",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Creative Nonfiction III",
-    "date": "Dec 12",
-    "reason": "date not literally in source HTML",
-    "source": "llm"
-  },
-  {
-    "venue": "Gotham Writers Workshop",
-    "event": "Short Story Writing III",
-    "date": "Dec 13",
-    "reason": "date not literally in source HTML",
+    "venue": "SUPR OMEN",
+    "event": "DRIFT presents gushes: PROTEIN",
+    "date": "Jul 31",
+    "reason": "duplicate of existing \"DRIFT presents gushes: PROTEIN\"",
     "source": "llm"
   }
 ]
