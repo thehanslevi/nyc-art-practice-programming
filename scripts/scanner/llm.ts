@@ -269,7 +269,7 @@ export async function callLlm(
           idx += 1;
           continue;
         }
-        console.warn(`   rate-limited on ${spec.provider}; backing off ${RATE_BACKOFF_MS / 1000}s`);
+        console.warn(`   rate-limited on ${spec.provider} (${msg.slice(0, 140)}); backing off ${RATE_BACKOFF_MS / 1000}s`);
         await sleep(RATE_BACKOFF_MS);
         try {
           const out = await dispatch(spec, systemPrompt, userPrompt);
