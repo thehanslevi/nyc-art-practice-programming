@@ -22,6 +22,7 @@ import { ExportButton } from "./components/ExportButton";
 import { FilterBar, computeCategoryCounts } from "./components/FilterBar";
 import { Spaces } from "./components/Spaces";
 import { SubscribePanel } from "./components/SubscribePanel";
+import { SubmitPanel } from "./components/SubmitPanel";
 import { SyncPanel, type SyncStatus } from "./components/SyncPanel";
 import { TabBar } from "./components/TabBar";
 
@@ -45,6 +46,7 @@ function App() {
   const [passphrase, setPassphrase] = useState<string | null>(() => loadPassphrase());
   const [syncStatus, setSyncStatus] = useState<SyncStatus>({ kind: "idle" });
   const [subscribeOpen, setSubscribeOpen] = useState(false);
+  const [submitOpen, setSubmitOpen] = useState(false);
   const todayLabel = useMemo(() => TODAY_FMT.format(today()), []);
   const uploadTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const skipNextUpload = useRef(false);
@@ -295,21 +297,20 @@ function App() {
               practice and experience some of the best of what's on offer in
               NYC. Maintained by H.R. Levinson (AI builder, film- and
               theatre-maker, funny philosopher, Prospect Heights denizen).{" "}
-              <a href="mailto:thehanslevi@proton.me?subject=Event%20for%20the%20calendar&body=What%3A%0AWhen%3A%0AWhere%3A%0ACost%3A%0ALink%3A%0A">
+              <button
+                type="button"
+                className="about-submit-link"
+                onClick={() => setSubmitOpen(true)}
+              >
                 Share what you want to see or what you're working on
-              </a>{" "}
+              </button>{" "}
               and I'll include it here and in the newsletter.
             </p>
           </div>
           <Spaces filter={filter} tab={tab} />
           <div className="footer-bar">
             <span>Art Cal (Making × Witnessing)</span>
-            <a
-              className="footer-submit"
-              href="mailto:thehanslevi@proton.me?subject=Event%20for%20the%20calendar&body=What%3A%0AWhen%3A%0AWhere%3A%0ACost%3A%0ALink%3A%0A"
-            >
-              Submit an event
-            </a>
+            <SubmitPanel open={submitOpen} onOpenChange={setSubmitOpen} />
             <span>Last verified {data.lastVerified}</span>
           </div>
         </div>

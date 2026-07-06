@@ -214,13 +214,135 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-submit {
-  color: #fff;
-  text-decoration-color: rgba(255, 255, 255, 0.5);
+/* Submit panel — reliable copyable-email replacement for a bare mailto */
+.submit-panel {
+  position: relative;
+  display: inline-block;
 }
 
-.footer-submit:hover {
+.footer-submit-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.5);
+  text-underline-offset: 2px;
+}
+
+.footer-submit-btn:hover {
   color: var(--accent-2);
+}
+
+/* Inline variant used inside the About prose (serif, pink like a link) */
+.about-submit-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--accent-2);
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 72, 176, 0.5);
+  text-underline-offset: 2px;
+}
+
+.about-submit-link:hover {
+  color: #fff;
+}
+
+.submit-popover {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+  z-index: 30;
+  width: 320px;
+  background: #fff;
+  border: 1px solid #000;
+  padding: 14px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.submit-title {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 6px;
+}
+
+.submit-copy {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1.45;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 0 12px;
+  text-transform: none;
+}
+
+.submit-email-row {
+  display: flex;
+  gap: 6px;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.submit-email {
+  flex: 1;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: #000;
+  background: #f0f0f0;
+  padding: 7px 9px;
+  border-radius: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.submit-copy-btn {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.submit-copy-btn.copied {
+  background: var(--tech);
+  border-color: var(--tech);
+  color: #000;
+}
+
+.submit-mailto {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.submit-mailto:hover {
+  color: #000;
+}
+
+@media (max-width: 640px) {
+  .submit-popover {
+    width: min(320px, calc(100vw - 40px));
+  }
 }
 
 /* Riso ornament between weeks */
@@ -1941,7 +2063,7 @@ a:hover {
   .calendar-controls,
   .past-toggle,
   .pick-btn,
-  .footer-submit,
+  .submit-panel,
   .spaces {
     display: none !important;
   }

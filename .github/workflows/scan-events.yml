@@ -34,6 +34,9 @@ jobs:
 
       - name: Run scanner
         env:
+          # LLM extraction for venues without feeds/structured data. Set any
+          # ONE (Groq's free tier is far larger than Gemini's ~20/day):
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           # Optional — email/newsletter pipeline. Leave unset to skip.
           IMAP_EMAIL: ${{ secrets.IMAP_EMAIL }}

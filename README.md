@@ -69,6 +69,28 @@ Fork the code, rewrite the JSON.
 - **Today-aware everywhere.** Days-until countdowns on events, current-week highlight, past-event dimming — all keyed to `today()` at load.
 - **Deployed on Vercel** with continuous deploy from `main`. Editing JSON on GitHub triggers a Vercel rebuild within a minute; GCal picks up feed changes on its next refresh (typically 12–24 hours).
 
+## Scanning
+
+A scheduled GitHub Action (`scripts/scan-events.ts`) sweeps the venue list in `scripts/scanner/venues.ts` and extracts upcoming events. It tries the cheapest, most reliable source first and only falls back when it must:
+
+1. **Published iCal feeds** (`icsUrl` on a venue) — parsed directly, no LLM.
+2. **JSON-LD** structured data on the listing page.
+3. **Detail-page crawl** — follows event links to pages that carry JSON-LD even when the listing doesn't.
+4. **Platform parsers** — server-rendered Squarespace event lists and WordPress "The Events Calendar" markup.
+5. **LLM extraction** — last resort for JS-rendered venues with no structured data.
+
+Every candidate passes gates (real future date present in source, title tokens present, valid category/mode) and a fuzzy dedupe check; dense performance runs collapse to one entry.
+
+### No-pay LLM setup
+
+Step 5 uses whichever free API key is present, preferring the largest free tier. Set **one** as a GitHub Actions secret:
+
+- `GROQ_API_KEY` — [Groq](https://console.groq.com) free tier (thousands of requests/day; covers every LLM-needing venue each run). **Recommended.**
+- `GOOGLE_API_KEY` — Gemini free tier (~20 requests/day; venues rotate across runs via `scan-state.json`).
+- `OPENAI_COMPAT_BASE_URL` + `OPENAI_COMPAT_API_KEY` (+ optional `OPENAI_COMPAT_MODEL`) — any OpenAI-compatible endpoint.
+
+With no key set, steps 1–4 still run, so feed/JSON-LD/CMS venues keep updating for free.
+
 ## Editing
 
 Any event or venue lives in `src/data/`. Edit in the GitHub web editor, click Commit — Vercel rebuilds automatically and your subscribed calendar reflects the change on its next refresh cycle.

@@ -1,7 +1,7 @@
 {
-  "ranAt": "2026-07-05T23:26:26.829Z",
-  "acceptedTotal": 51,
-  "rejectedTotal": 19,
+  "ranAt": "2026-07-05T23:55:25.501Z",
+  "acceptedTotal": 23,
+  "rejectedTotal": 47,
   "duplicatesSkipped": [],
   "perVenue": {
     "Interference Archive": {
@@ -50,8 +50,8 @@
       "source": "none"
     },
     "UnionDocs": {
-      "accepted": 1,
-      "rejected": 1,
+      "accepted": 0,
+      "rejected": 2,
       "source": "ics"
     },
     "Mono No Aware": {
@@ -90,8 +90,8 @@
       "source": "none"
     },
     "DADA": {
-      "accepted": 8,
-      "rejected": 2,
+      "accepted": 0,
+      "rejected": 10,
       "source": "json-ld"
     },
     "SUPR OMEN": {
@@ -100,8 +100,8 @@
       "source": "none"
     },
     "The Arts Center at Governors Island": {
-      "accepted": 8,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 8,
       "source": "ics"
     },
     "Francis Kite Club": {
@@ -130,8 +130,8 @@
       "source": "none"
     },
     "Delight Factory": {
-      "accepted": 10,
-      "rejected": 0,
+      "accepted": 0,
+      "rejected": 10,
       "source": "json-ld"
     },
     "Museum of Reclaimed Urban Space (MoRUS)": {
@@ -185,8 +185,8 @@
       "source": "none"
     },
     "St. Ann's Warehouse": {
-      "accepted": 24,
-      "rejected": 9,
+      "accepted": 23,
+      "rejected": 10,
       "source": "json-ld"
     },
     "National Sawdust": {

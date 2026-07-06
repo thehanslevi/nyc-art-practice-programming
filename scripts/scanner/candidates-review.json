@@ -43,6 +43,13 @@
   },
   {
     "venue": "UnionDocs",
+    "event": "A Brief History of Chasing Storms",
+    "date": "Jul 16",
+    "reason": "duplicate of existing \"A Brief History of Chasing Storms\"",
+    "source": "ics"
+  },
+  {
+    "venue": "UnionDocs",
     "event": "The Magical Image: Special Effects as Documentary Method",
     "date": "Jul 24",
     "reason": "duplicate of existing \"UnionDocs: The Magical Image — Special Effects as Documentary Method\"",
@@ -50,7 +57,7 @@
   },
   {
     "venue": "Bushwick Community Darkroom",
-    "event": "Winol: Developing film with red wine  — Bushwick Community Darkroom",
+    "event": "Winol: Developing film with red wine",
     "date": "Jul 11",
     "reason": "duplicate of existing \"Bushwick Community Darkroom: Winol — developing film with red wine\"",
     "source": "json-ld"
@@ -67,6 +74,195 @@
     "event": "JAZZY IMPROV BAND w/ SINGER - Rokoko",
     "date": "Jul 7",
     "reason": "duplicate of existing \"JAZZY IMPROV BAND w/ SINGER - Rokoko\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "JAZZ - The Sean Temme Group",
+    "date": "Jul 8",
+    "reason": "duplicate of existing \"JAZZ - The Sean Temme Group\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "VIBEY/HOUSE DJs - GEOBALL w/ Gem & Geo",
+    "date": "Jul 9",
+    "reason": "duplicate of existing \"VIBEY/HOUSE DJs - GEOBALL w/ Gem & Geo\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "DADA x TEM present: Rat City Sunrise, HALFTIME, Kevin Clark",
+    "date": "Jul 10",
+    "reason": "duplicate of existing \"DADA x TEM present: Rat City Sunrise, HALFTIME, Kevin Clark\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "HOUSE DJS - are we there yet vol.4",
+    "date": "Jul 10",
+    "reason": "duplicate of existing \"HOUSE DJS - are we there yet vol.4\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "Singer/Songwriter - ianianian & Steve Kelly + Eliza Edens and Teemer",
+    "date": "Jul 11",
+    "reason": "duplicate of existing \"Singer/Songwriter - ianianian & Steve Kelly + Eliza Edens and Teemer\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "HOUSE DJ - R Dubbs",
+    "date": "Jul 11",
+    "reason": "duplicate of existing \"HOUSE DJ - R Dubbs\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "The Tiny Musician: Violin & Loopstation",
+    "date": "Jul 15",
+    "reason": "duplicate of existing \"The Tiny Musician: Violin & Loopstation\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "DADA",
+    "event": "JAZZ - The Simon Metzger Group",
+    "date": "Jul 15",
+    "reason": "duplicate of existing \"JAZZ - The Simon Metzger Group\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "The Arts Center at Governors Island",
+    "event": "CATCHBALL",
+    "date": "Jul 5",
+    "reason": "duplicate of existing \"CATCHBALL\"",
+    "source": "ics"
+  },
+  {
+    "venue": "The Arts Center at Governors Island",
+    "event": "CATCH Performance Series",
+    "date": "Jul 5",
+    "reason": "duplicate of existing \"CATCH Performance Series\"",
+    "source": "ics"
+  },
+  {
+    "venue": "The Arts Center at Governors Island",
+    "event": "July Open Studios",
+    "date": "Jul 25",
+    "reason": "duplicate of existing \"July Open Studios\"",
+    "source": "ics"
+  },
+  {
+    "venue": "The Arts Center at Governors Island",
+    "event": "Recycled Runway",
+    "date": "Jul 25",
+    "reason": "duplicate of existing \"Recycled Runway\"",
+    "source": "ics"
+  },
+  {
+    "venue": "The Arts Center at Governors Island",
+    "event": "Hybrid Animal Encyclopedia",
+    "date": "Aug 1",
+    "reason": "duplicate of existing \"Hybrid Animal Encyclopedia\"",
+    "source": "ics"
+  },
+  {
+    "venue": "The Arts Center at Governors Island",
+    "event": "esperanza spalding: In Concert",
+    "date": "Aug 8",
+    "reason": "duplicate of existing \"esperanza spalding: In Concert\"",
+    "source": "ics"
+  },
+  {
+    "venue": "The Arts Center at Governors Island",
+    "event": "Hybrid Animal Encyclopedia",
+    "date": "Aug 15",
+    "reason": "duplicate of existing \"Hybrid Animal Encyclopedia\"",
+    "source": "ics"
+  },
+  {
+    "venue": "The Arts Center at Governors Island",
+    "event": "Recycled Runway",
+    "date": "Aug 29",
+    "reason": "duplicate of existing \"Recycled Runway\"",
+    "source": "ics"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Circling In Situ: Exhibition Opening Reception",
+    "date": "Jul 9",
+    "reason": "duplicate of existing \"Circling In Situ: Exhibition Opening Reception\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Artists' Admin Meetup: Brooklyn",
+    "date": "Jul 11",
+    "reason": "duplicate of existing \"Artists' Admin Meetup: Brooklyn\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Sustaining Creativity in the Home: A Zine Exploration",
+    "date": "Jul 15",
+    "reason": "duplicate of existing \"Sustaining Creativity in the Home: A Zine Exploration\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Drone Lab + Open Projector",
+    "date": "Jul 17",
+    "reason": "duplicate of existing \"Drone Lab + Open Projector\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Art x Embodiment",
+    "date": "Jul 19",
+    "reason": "duplicate of existing \"Art x Embodiment\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "How to Talk About Your Art",
+    "date": "Jul 25",
+    "reason": "duplicate of existing \"How to Talk About Your Art\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Siren Circle",
+    "date": "Jul 28",
+    "reason": "duplicate of existing \"Siren Circle\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Circling Anniversary & Exhibition Closing Celebration",
+    "date": "Jul 31",
+    "reason": "duplicate of existing \"Circling Anniversary & Exhibition Closing Celebration\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Ego Free Jam Acoustic",
+    "date": "Aug 1",
+    "reason": "duplicate of existing \"Ego Free Jam Acoustic\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Ego Free Jam",
+    "date": "Sep 5",
+    "reason": "duplicate of existing \"Ego Free Jam\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "St. Ann's Warehouse",
+    "event": "KRAMER/FAUCI",
+    "date": "Sep 27",
+    "reason": "duplicate of existing \"KRAMER/FAUCI\"",
     "source": "json-ld"
   },
   {
