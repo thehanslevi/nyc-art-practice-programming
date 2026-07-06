@@ -93,14 +93,20 @@ function toCalEvent(
   today: Date,
 ): CalEvent | null {
   if (!raw.name || !raw.startDate) return null;
-  const start = parseIsoDate(raw.startDate);
-  if (!start) return null;
+  const s = parseIsoToNY(raw.startDate);
+  if (!s) return null;
+  const start = new Date(s.y, s.mo, s.d);
   if (start < today) return null;
 
   const day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][start.getDay()];
-  const date = `${MONTH_NAMES[start.getMonth()]} ${start.getDate()}`;
-  const startTime = hasTime(raw.startDate) ? isoTimeString(raw.startDate) : null;
-  const endTime = raw.endDate && hasTime(raw.endDate) ? isoTimeString(raw.endDate) : null;
+  const date = `${MONTH_NAMES[s.mo]} ${s.d}`;
+  const startTime = s.hh !== null ? `${s.hh}:${s.mm}` : null;
+  const e = raw.endDate ? parseIsoToNY(raw.endDate) : null;
+  // Only keep an end time if it's the same calendar day (no cross-midnight).
+  const endTime =
+    e && e.hh !== null && e.y === s.y && e.mo === s.mo && e.d === s.d
+      ? `${e.hh}:${e.mm}`
+      : null;
 
   const cost = extractCost(raw.offers);
 
@@ -138,22 +144,52 @@ function cleanTitle(name: string, venueName: string): string {
   return t;
 }
 
-function parseIsoDate(s: string): Date | null {
-  const d = new Date(s);
-  if (Number.isNaN(d.getTime())) return null;
-  return d;
+interface LocalParts {
+  y: number;
+  mo: number; // 0-based
+  d: number;
+  hh: string | null;
+  mm: string | null;
 }
 
-function hasTime(iso: string): boolean {
-  return iso.includes("T");
-}
-
-function isoTimeString(iso: string): string | null {
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return null;
-  const h = String(d.getHours()).padStart(2, "0");
-  const m = String(d.getMinutes()).padStart(2, "0");
-  return `${h}:${m}`;
+// Parse a JSON-LD ISO datetime into America/New_York wall-clock parts.
+// A zoned timestamp (Z or ±offset) is an absolute instant → convert to NY.
+// A naive timestamp (no zone) is meant as venue-local → take it literally.
+// Crucially avoids the runner's own timezone (UTC in CI), which turned
+// evening events into "00:00".
+function parseIsoToNY(iso: string): LocalParts | null {
+  const m = iso.match(
+    /^(\d{4})-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2})(?::\d{2})?(?:\.\d+)?(Z|[+-]\d{2}:?\d{2})?)?/,
+  );
+  if (!m) return null;
+  const [, Y, Mo, D, H, Min, zone] = m;
+  if (H === undefined) {
+    return { y: +Y!, mo: +Mo! - 1, d: +D!, hh: null, mm: null };
+  }
+  if (zone) {
+    const inst = new Date(iso);
+    if (Number.isNaN(inst.getTime())) return null;
+    const parts = new Intl.DateTimeFormat("en-US", {
+      timeZone: "America/New_York",
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    }).formatToParts(inst);
+    const g = (t: string) => parts.find((p) => p.type === t)?.value ?? "";
+    let hh = g("hour");
+    if (hh === "24") hh = "00";
+    return {
+      y: +g("year"),
+      mo: +g("month") - 1,
+      d: +g("day"),
+      hh: hh.padStart(2, "0"),
+      mm: g("minute"),
+    };
+  }
+  return { y: +Y!, mo: +Mo! - 1, d: +D!, hh: H, mm: Min! };
 }
 
 function locationString(loc: unknown): string | null {

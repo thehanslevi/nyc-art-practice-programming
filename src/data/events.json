@@ -83,24 +83,10 @@
           "category": "making",
           "flag": null,
           "mode": "make",
-          "start": "04:00",
-          "end": "03:59",
+          "start": null,
+          "end": null,
           "note": null,
           "url": "https://www.materialsforthearts.org/event/stop-motion-animation-summer-2026/"
-        },
-        {
-          "day": "Mon",
-          "date": "Jul 6",
-          "event": "BUGGED an album release party [presented by SLEAZURE]",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "00:00",
-          "end": "05:00",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
         },
         {
           "day": "Tue",
@@ -115,34 +101,6 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/go/events/6622459?feature_id=1003841&occurrence_id=767559990&popup=1"
-        },
-        {
-          "day": "Tue",
-          "date": "Jul 7",
-          "event": "THE FORT90 BROADCAST SYSTEM presents THE FORT90 FILM CLUB: \"GOD BLESS THIS MESS\"",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "00:00",
-          "end": "09:00",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
-        },
-        {
-          "day": "Tue",
-          "date": "Jul 7",
-          "event": "Play Scrapeboard!",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "23:00",
-          "end": "03:00",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
         },
         {
           "day": "Tue",
@@ -201,20 +159,6 @@
           "url": "https://dadabar.nyc/event/6562740/761908985/vibey-house-djs-geoball-w-gem-geo"
         },
         {
-          "day": "Thu",
-          "date": "Jul 9",
-          "event": "Killer Queen Open Hive Night",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "00:00",
-          "end": "04:30",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
-        },
-        {
           "day": "Fri",
           "date": "Jul 10",
           "event": "DADA x TEM present: Rat City Sunrise, HALFTIME, Kevin Clark",
@@ -241,34 +185,6 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6629310/770007966/house-djs-are-we-there-yet-vol-4"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 10",
-          "event": "QMA Presents: NYC Electric Vocal Artist Showcase",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "00:00",
-          "end": "05:00",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 10",
-          "event": "Party Like It’s 2009",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "21:55",
-          "end": "01:55",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
         },
         {
           "day": "Sat",
@@ -311,34 +227,6 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6644913/770008241/house-dj-r-dubbs"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 11",
-          "event": "In Bass We Trust",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "02:00",
-          "end": "07:00",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 11",
-          "event": "Monthly 2 Hr GameJam Club: andstar",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "17:00",
-          "end": "21:00",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
         }
       ]
     },
@@ -876,34 +764,6 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator"
-        },
-        {
-          "day": "Sun",
-          "date": "Jul 12",
-          "event": "Smash Bash Vol. 25",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "01:00",
-          "end": "06:00",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
-        },
-        {
-          "day": "Sun",
-          "date": "Jul 12",
-          "event": "Patch Sessions – Performances by members of Matthew Ryals' teaching studio",
-          "where": "Wonderville · 1186 Broadway\nBrooklyn, NY, 11221\nUnited States",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "18:30",
-          "end": "22:00",
-          "note": null,
-          "url": "https://www.wonderville.nyc/events"
         }
       ]
     },

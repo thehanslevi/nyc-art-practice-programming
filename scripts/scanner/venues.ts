@@ -673,13 +673,6 @@ export const VENUES: Venue[] = [
     whereTemplate: "School for Poetic Computation, Lower East Side",
   },
   {
-    name: "Wonderville",
-    url: "https://www.wonderville.nyc/events",
-    category: "tech",
-    defaultMode: "make",
-    whereTemplate: "Wonderville, 1186 Broadway, Bushwick",
-  },
-  {
     name: "Harvestworks",
     url: "https://www.harvestworks.org/",
     category: "sound",
