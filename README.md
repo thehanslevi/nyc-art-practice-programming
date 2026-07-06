@@ -86,8 +86,9 @@ Every candidate passes gates (real future date present in source, title tokens p
 Step 5 uses whichever free API key is present, preferring the largest free tier. Set **one** as a GitHub Actions secret:
 
 - `GROQ_API_KEY` — [Groq](https://console.groq.com) free tier (thousands of requests/day; covers every LLM-needing venue each run). **Recommended.**
+- `CEREBRAS_API_KEY` (+ optional `CEREBRAS_MODEL`, default `llama-3.3-70b`) — [Cerebras](https://cloud.cerebras.ai) free tier; a strong alternative if Groq signup is down.
 - `GOOGLE_API_KEY` — Gemini free tier (~20 requests/day; venues rotate across runs via `scan-state.json`).
-- `OPENAI_COMPAT_BASE_URL` + `OPENAI_COMPAT_API_KEY` (+ optional `OPENAI_COMPAT_MODEL`) — any OpenAI-compatible endpoint.
+- `OPENAI_COMPAT_BASE_URL` + `OPENAI_COMPAT_API_KEY` (+ optional `OPENAI_COMPAT_MODEL`) — any OpenAI-compatible endpoint (OpenRouter, Together, …).
 
 With no key set, steps 1–4 still run, so feed/JSON-LD/CMS venues keep updating for free.
 

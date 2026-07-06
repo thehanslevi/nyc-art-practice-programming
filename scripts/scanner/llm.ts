@@ -4,15 +4,16 @@ import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 //
 // Free tiers, in preference order:
 //   1. Groq (GROQ_API_KEY) — OpenAI-compatible, thousands of req/day free.
-//   2. Any OpenAI-compatible endpoint (OPENAI_COMPAT_BASE_URL + _API_KEY) —
-//      e.g. Cerebras, Together, OpenRouter free models.
-//   3. Gemini (GOOGLE_API_KEY) — only ~20 req/day free, so it's last.
+//   2. Cerebras (CEREBRAS_API_KEY) — OpenAI-compatible, generous free tier.
+//   3. Any OpenAI-compatible endpoint (OPENAI_COMPAT_BASE_URL + _API_KEY) —
+//      e.g. OpenRouter free models, Together.
+//   4. Gemini (GOOGLE_API_KEY) — only ~20 req/day free, so it's last.
 //
 // On a 429/quota error we advance through the model list; once every model
 // is exhausted the run stops calling out (isQuotaExhausted() → true).
 
 interface ModelSpec {
-  provider: "groq" | "openai-compat" | "gemini";
+  provider: "groq" | "cerebras" | "openai-compat" | "gemini";
   model: string;
 }
 
@@ -22,6 +23,12 @@ function buildModelChain(): ModelSpec[] {
     chain.push(
       { provider: "groq", model: "llama-3.3-70b-versatile" },
       { provider: "groq", model: "llama-3.1-8b-instant" },
+    );
+  }
+  if (process.env.CEREBRAS_API_KEY) {
+    chain.push(
+      { provider: "cerebras", model: process.env.CEREBRAS_MODEL ?? "llama-3.3-70b" },
+      { provider: "cerebras", model: "llama3.1-8b" },
     );
   }
   if (process.env.OPENAI_COMPAT_API_KEY && process.env.OPENAI_COMPAT_BASE_URL) {
@@ -172,6 +179,15 @@ export async function callLlm(
           spec.model,
           "https://api.groq.com/openai/v1",
           process.env.GROQ_API_KEY!,
+        );
+      }
+      if (spec.provider === "cerebras") {
+        return await callOpenAiCompat(
+          systemPrompt,
+          userPrompt,
+          spec.model,
+          "https://api.cerebras.ai/v1",
+          process.env.CEREBRAS_API_KEY!,
         );
       }
       return await callOpenAiCompat(
