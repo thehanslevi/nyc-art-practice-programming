@@ -376,5 +376,89 @@
     "date": "Jul 11",
     "reason": "duplicate of existing \"In Bass We Trust\"",
     "source": "json-ld"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Creative Music Workshop with Joe McPherson",
+    "date": "Aug 2",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Improvisation and Composition with Tomeka Reid",
+    "date": "Sep 12",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Improvisation and Composition with Tomeka Reid",
+    "date": "Sep 13",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Improvisation and Composition with Tomeka Reid",
+    "date": "Sep 14",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Rhythm and Groove Workshop with Marcus Gilmore",
+    "date": "Oct 23",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Rhythm and Groove Workshop with Marcus Gilmore",
+    "date": "Oct 24",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Vocal Improvisation with Fay Victor",
+    "date": "Nov 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Vocal Improvisation with Fay Victor",
+    "date": "Nov 7",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Vocal Improvisation with Fay Victor",
+    "date": "Nov 8",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Electronic Music Production with Matana Roberts",
+    "date": "Dec 4",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Electronic Music Production with Matana Roberts",
+    "date": "Dec 5",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
+  },
+  {
+    "venue": "Creative Music Studio",
+    "event": "Electronic Music Production with Matana Roberts",
+    "date": "Dec 6",
+    "reason": "date not literally in source HTML",
+    "source": "llm"
   }
 ]

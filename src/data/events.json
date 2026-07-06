@@ -2095,6 +2095,20 @@
           "end": null,
           "note": "Local vendor market — prints, ceramics, clothing. Kicks off Summers at the Starr.",
           "url": "https://www.thebushwickstarr.org/"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Creative Music Workshop with Joe McPherson",
+          "where": "Creative Music Studio at Ibeam, 168 7th St, Gowanus",
+          "cost": "$450",
+          "category": "sound",
+          "flag": null,
+          "mode": "make",
+          "start": "10:00",
+          "end": "16:00",
+          "note": null,
+          "url": "https://creativemusic.org/event/creative-music-workshop-with-joe-mcpherson-2026/"
         }
       ]
     },
@@ -2142,6 +2156,20 @@
           "end": null,
           "note": null,
           "url": "https://pioneerworks.org"
+        },
+        {
+          "day": "Mon",
+          "date": "Aug 3",
+          "event": "Creative Music Workshop with Joe McPherson",
+          "where": "Creative Music Studio at Ibeam, 168 7th St, Gowanus",
+          "cost": "$450",
+          "category": "sound",
+          "flag": null,
+          "mode": "make",
+          "start": "10:00",
+          "end": "16:00",
+          "note": null,
+          "url": "https://creativemusic.org/event/creative-music-workshop-with-joe-mcpherson-2026/"
         },
         {
           "day": "Tue",
@@ -3278,6 +3306,20 @@
           "end": null,
           "note": "Runs Oct 24–30.",
           "url": "https://www.bam.org/"
+        },
+        {
+          "day": "Sun",
+          "date": "Oct 25",
+          "event": "Rhythm and Groove Workshop with Marcus Gilmore",
+          "where": "Creative Music Studio at Ibeam, 168 7th St, Gowanus",
+          "cost": "$475",
+          "category": "sound",
+          "flag": null,
+          "mode": "make",
+          "start": "13:00",
+          "end": "18:00",
+          "note": null,
+          "url": "https://creativemusic.org/event/rhythm-and-groove-workshop-with-marcus-gilmore-2026/"
         },
         {
           "day": "Thu",

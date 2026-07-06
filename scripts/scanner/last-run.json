@@ -1,7 +1,7 @@
 {
-  "ranAt": "2026-07-06T04:30:43.987Z",
-  "acceptedTotal": 16,
-  "rejectedTotal": 54,
+  "ranAt": "2026-07-06T16:26:53.913Z",
+  "acceptedTotal": 3,
+  "rejectedTotal": 66,
   "duplicatesSkipped": [],
   "perVenue": {
     "Symphony Space": {
@@ -18,6 +18,131 @@
       "accepted": 0,
       "rejected": 1,
       "source": "json-ld"
+    },
+    "DADA": {
+      "accepted": 0,
+      "rejected": 9,
+      "source": "json-ld"
+    },
+    "The Arts Center at Governors Island": {
+      "accepted": 0,
+      "rejected": 6,
+      "source": "ics"
+    },
+    "Delight Factory": {
+      "accepted": 0,
+      "rejected": 10,
+      "source": "json-ld"
+    },
+    "Greenwich House Pottery": {
+      "accepted": 0,
+      "rejected": 9,
+      "source": "json-ld"
+    },
+    "Flux Factory": {
+      "accepted": 0,
+      "rejected": 1,
+      "source": "json-ld"
+    },
+    "Choplet Ceramic Studio": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Materials for the Arts": {
+      "accepted": 0,
+      "rejected": 2,
+      "source": "json-ld"
+    },
+    "DCTV": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Wonderville": {
+      "accepted": 0,
+      "rejected": 8,
+      "source": "json-ld"
+    },
+    "Center for Fiction": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Gotham Writers Workshop": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Fat Cat Fab Lab": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Socrates Sculpture Park": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Word Up Community Bookshop": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "El Museo del Barrio": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Interference Archive": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "The Tank": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Brooklyn Art Haus": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "New York Live Arts": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Abrons Arts Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Baryshnikov Arts Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Film Forum": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Wendy's Subway": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Mono No Aware": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "ISSUE Project Room": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
     },
     "Roulette": {
       "accepted": 0,
@@ -39,20 +164,10 @@
       "rejected": 0,
       "source": "none"
     },
-    "DADA": {
-      "accepted": 0,
-      "rejected": 9,
-      "source": "json-ld"
-    },
     "SUPR OMEN": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
-    },
-    "The Arts Center at Governors Island": {
-      "accepted": 0,
-      "rejected": 6,
-      "source": "ics"
     },
     "Francis Kite Club": {
       "accepted": 0,
@@ -78,11 +193,6 @@
       "accepted": 0,
       "rejected": 0,
       "source": "none"
-    },
-    "Delight Factory": {
-      "accepted": 0,
-      "rejected": 10,
-      "source": "json-ld"
     },
     "Museum of Reclaimed Urban Space (MoRUS)": {
       "accepted": 0,
@@ -229,11 +339,6 @@
       "rejected": 0,
       "source": "none"
     },
-    "Greenwich House Pottery": {
-      "accepted": 0,
-      "rejected": 9,
-      "source": "json-ld"
-    },
     "Brooklyn Glass": {
       "accepted": 0,
       "rejected": 0,
@@ -268,11 +373,6 @@
       "accepted": 0,
       "rejected": 0,
       "source": "none"
-    },
-    "Flux Factory": {
-      "accepted": 0,
-      "rejected": 1,
-      "source": "json-ld"
     },
     "UrbanGlass": {
       "accepted": 0,
@@ -310,11 +410,6 @@
       "source": "none"
     },
     "Artshack Brooklyn": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Choplet Ceramic Studio": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
@@ -364,17 +459,7 @@
       "rejected": 0,
       "source": "none"
     },
-    "Materials for the Arts": {
-      "accepted": 0,
-      "rejected": 2,
-      "source": "json-ld"
-    },
     "Millennium Film Workshop": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "DCTV": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
@@ -384,27 +469,12 @@
       "rejected": 0,
       "source": "none"
     },
-    "Wonderville": {
-      "accepted": 3,
-      "rejected": 8,
-      "source": "json-ld"
-    },
     "Harvestworks": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
     },
     "343 Labs": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Center for Fiction": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Gotham Writers Workshop": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
@@ -464,11 +534,6 @@
       "rejected": 0,
       "source": "none"
     },
-    "Fat Cat Fab Lab": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
     "Hack Manhattan": {
       "accepted": 0,
       "rejected": 0,
@@ -484,20 +549,10 @@
       "rejected": 0,
       "source": "none"
     },
-    "Socrates Sculpture Park": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
     "Studio Museum in Harlem": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
-    },
-    "Word Up Community Bookshop": {
-      "accepted": 1,
-      "rejected": 0,
-      "source": "json-ld"
     },
     "Building Beats": {
       "accepted": 0,
@@ -505,9 +560,9 @@
       "source": "none"
     },
     "Creative Music Studio": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
+      "accepted": 3,
+      "rejected": 12,
+      "source": "llm"
     },
     "BKC": {
       "accepted": 0,
@@ -520,61 +575,6 @@
       "source": "none"
     },
     "Museum of the Moving Image": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "El Museo del Barrio": {
-      "accepted": 12,
-      "rejected": 0,
-      "source": "json-ld"
-    },
-    "Interference Archive": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "The Tank": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Brooklyn Art Haus": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "New York Live Arts": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Abrons Arts Center": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Baryshnikov Arts Center": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Film Forum": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Wendy's Subway": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Mono No Aware": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "ISSUE Project Room": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
