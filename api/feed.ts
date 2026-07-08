@@ -7,18 +7,13 @@
 // event data is corrected in src/data/events.json (bundled at deploy).
 import { createHash } from "node:crypto";
 import eventsData from "../src/data/events.json";
+import { CURATOR_HASH } from "../src/lib/curator";
 import { buildICal } from "../src/lib/ical";
 import { pickId } from "../src/lib/picks";
 import type { CalEvent, EventsData } from "../src/types";
 
 const SUPABASE_URL = "https://djyzqifuckuwdeeltnej.supabase.co";
 const SUPABASE_KEY = "sb_publishable_EIeHwihJheYgPBZbqODuAg_0oCyic99";
-
-// SHA-256 of the curator's sync code. Only the hash lives here — the code
-// itself stays with the curator (entered once in the site's Device sync
-// panel). CURATOR_PASSPHRASE env overrides this if ever set.
-const CURATOR_HASH =
-  "a0bca4aafe518805cd71df84152a5a316bb186c9b1f69bdb071ed8c494b7f65a";
 
 interface FeedRequest {
   query: Record<string, string | string[] | undefined>;

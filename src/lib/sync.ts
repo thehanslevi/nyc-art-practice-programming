@@ -52,14 +52,17 @@ export async function hashPassphrase(passphrase: string): Promise<string> {
 }
 
 export async function fetchPicks(passphrase: string): Promise<string[] | null> {
-  const hash = await hashPassphrase(passphrase);
+  return fetchPicksByHash(await hashPassphrase(passphrase));
+}
+
+/** Fetch a picks list by its passphrase hash directly (e.g. the curator's). */
+export async function fetchPicksByHash(hash: string): Promise<string[]> {
   const { data, error } = await supabase
     .from("picks")
     .select("picks")
     .eq("passphrase_hash", hash)
     .maybeSingle();
-  if (error) throw error;
-  if (!data) return null;
+  if (error || !data) return [];
   const picks = (data as { picks: unknown }).picks;
   if (!Array.isArray(picks)) return [];
   return picks.filter((p): p is string => typeof p === "string");
