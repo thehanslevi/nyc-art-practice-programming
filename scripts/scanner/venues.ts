@@ -25,6 +25,16 @@ export const VENUES: Venue[] = [
     whereTemplate: "314 7th St, Park Slope",
   },
   {
+    // Lincoln Center's big free summer festival — concerts, dance parties,
+    // silent discos, social dancing. JS-rendered, so playwright + LLM.
+    name: "Summer for the City",
+    url: "https://lincolncenter.org/series/summer-for-the-city",
+    category: "sound",
+    defaultMode: "witness",
+    whereTemplate: "Lincoln Center (Summer for the City)",
+    fetch: "playwright",
+  },
+  {
     name: "The Tank",
     url: "https://thetanknyc.org/tankcalendar",
     category: "theatre",

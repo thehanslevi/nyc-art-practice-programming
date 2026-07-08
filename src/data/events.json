@@ -269,6 +269,20 @@
           "end": "16:00",
           "note": "with Melanie Hoff",
           "url": "https://sfpc.study/sessions/future-schools/consensual-hacking"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 8",
+          "event": "Summer for the City: Madame Gandhi (silent disco DJ set)",
+          "where": "The Dance Floor, Lincoln Center",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "22:00",
+          "end": null,
+          "note": "Free World Club DJ dance party / silent disco kicking off the series — outdoors at Lincoln Center.",
+          "url": "https://lincolncenter.org/series/summer-for-the-city/madame-gandhi-218"
         }
       ]
     },
