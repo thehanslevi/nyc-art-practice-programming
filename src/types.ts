@@ -27,6 +27,10 @@ export interface CalEvent {
   end: string | null;
   note: string | null;
   url: string | null;
+  /** Curator's editorial marker — surfaces the event in the "Don't miss" lede. */
+  pick?: boolean;
+  /** One-line editorial reason shown with a curator pick. */
+  pickNote?: string | null;
 }
 
 export interface Week {

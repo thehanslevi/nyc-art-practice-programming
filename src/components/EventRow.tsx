@@ -1,5 +1,6 @@
 import type { CalEvent } from "../types";
 import { formatDaysUntil } from "../lib/dates";
+import { formatCost } from "../lib/cost";
 
 interface Props {
   event: CalEvent;
@@ -38,9 +39,8 @@ export function EventRow({
   onTogglePick,
 }: Props) {
   const label = flagLabel(event.flag);
-  const isFree = event.cost.toUpperCase() === "FREE";
+  const cost = formatCost(event.cost);
   const timeStr = formatTimeRange(event.start, event.end);
-  const modeChip = event.mode === "make" ? "make" : null;
   const countdown =
     typeof daysUntil === "number" ? formatDaysUntil(daysUntil) : null;
   const countdownClass =
@@ -87,11 +87,17 @@ export function EventRow({
           ) : (
             event.event
           )}
-          {modeChip ? <span className="mode-chip">make</span> : null}
         </div>
         <div className="event-where">{event.where}</div>
+        {event.pick && event.pickNote ? (
+          <div className="event-picknote">{event.pickNote}</div>
+        ) : null}
       </div>
-      <div className={`event-cost${isFree ? " free" : ""}`}>{event.cost}</div>
+      {cost ? (
+        <div className={`event-cost cost-${cost.kind}`}>{cost.text}</div>
+      ) : (
+        <span />
+      )}
       <span className={`pill pill-${event.category}`}>{event.category}</span>
       {label ? (
         <span className={`flag flag-${event.flag}`}>{label}</span>

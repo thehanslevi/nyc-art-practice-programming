@@ -32,8 +32,10 @@ function visibleEvents(
 
 export function ExportButton({ filter, tab, picks, picksOnly, freeOnly }: Props) {
   const events = visibleEvents(filter, tab, picks, picksOnly, freeOnly);
+  const tabLabel =
+    tab === "practice" ? "making" : tab === "attend" ? "witnessing" : null;
   const bits = [
-    picksOnly ? "picks" : tab === "all" ? null : tab,
+    picksOnly ? "picks" : tabLabel,
     filter === "all" ? null : filter,
     freeOnly ? "free" : null,
   ].filter(Boolean);

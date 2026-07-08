@@ -23,6 +23,7 @@ import { FilterBar, computeCategoryCounts } from "./components/FilterBar";
 import { Spaces } from "./components/Spaces";
 import { SubscribePanel } from "./components/SubscribePanel";
 import { SubmitPanel } from "./components/SubmitPanel";
+import { CuratorPicks } from "./components/CuratorPicks";
 import { SyncPanel, type SyncStatus } from "./components/SyncPanel";
 import { TabBar } from "./components/TabBar";
 
@@ -49,6 +50,7 @@ function App() {
   const [syncStatus, setSyncStatus] = useState<SyncStatus>({ kind: "idle" });
   const [subscribeOpen, setSubscribeOpen] = useState(false);
   const [submitOpen, setSubmitOpen] = useState(false);
+  const [weekendOnly, setWeekendOnly] = useState(false);
   const todayLabel = useMemo(() => TODAY_FMT.format(today()), []);
   const uploadTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const skipNextUpload = useRef(false);
@@ -242,6 +244,7 @@ function App() {
       </nav>
       <main className="zone zone-main">
         <div className="zone-inner">
+      <CuratorPicks />
       <div className="filter-row">
         <FilterBar active={filter} onChange={setFilter} counts={counts} />
         <button
@@ -272,6 +275,17 @@ function App() {
         >
           Free <span>({freeCount})</span>
         </button>
+        <button
+          type="button"
+          className={`weekend-toggle${weekendOnly ? " active" : ""}`}
+          onClick={() => setWeekendOnly((v) => !v)}
+          aria-pressed={weekendOnly}
+          title={
+            weekendOnly ? "Show all dates" : "Show only this weekend"
+          }
+        >
+          This weekend
+        </button>
         <ExportButton
           filter={filter}
           tab={tab}
@@ -286,6 +300,7 @@ function App() {
         picks={picks}
         picksOnly={picksOnly}
         freeOnly={freeOnly}
+        weekendOnly={weekendOnly}
         onTogglePick={togglePick}
       />
         </div>

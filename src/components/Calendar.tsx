@@ -7,6 +7,7 @@ import {
   isCurrentWeek,
   isPast,
   isPastWeek,
+  isThisWeekend,
   parseEventDate,
   today,
 } from "../lib/dates";
@@ -30,6 +31,7 @@ interface Props {
   picks: Set<string>;
   picksOnly: boolean;
   freeOnly: boolean;
+  weekendOnly: boolean;
   onTogglePick: (id: string) => void;
 }
 
@@ -47,6 +49,7 @@ export function Calendar({
   picks,
   picksOnly,
   freeOnly,
+  weekendOnly,
   onTogglePick,
 }: Props) {
   const [viewMode, setViewMode] = useState<"single" | "all">("single");
@@ -57,7 +60,7 @@ export function Calendar({
   // Reset user selection when filters change
   useEffect(() => {
     setUserWeekIndex(null);
-  }, [filter, tab, picksOnly, freeOnly]);
+  }, [filter, tab, picksOnly, freeOnly, weekendOnly]);
 
   const enrichedWeeks: EnrichedWeek[] = WEEKS.map((week) => {
     const range = { start: week.start, end: week.end };
@@ -67,7 +70,18 @@ export function Calendar({
       .filter((e) => filter === "all" || e.category === filter)
       .filter((e) => matchesTab(tab, e.mode))
       .filter((e) => !picksOnly || picks.has(pickId(e)))
-      .filter((e) => !freeOnly || isFree(e));
+      .filter((e) => !freeOnly || isFree(e))
+      .filter((e) => {
+        // Hide events that have already happened (unless "show past" is on).
+        if (showPast) return true;
+        const d = parseEventDate(e.date);
+        return !d || !isPast(d, now);
+      })
+      .filter((e) => {
+        if (!weekendOnly) return true;
+        const d = parseEventDate(e.date);
+        return d ? isThisWeekend(d, now) : false;
+      });
     return { label: week.label, range, past, current, visible };
   });
 
@@ -85,9 +99,11 @@ export function Calendar({
         <div className="empty-state">
           {picksOnly
             ? "No picks yet. Tap ☆ on events to add them to your picks."
-            : freeOnly
-              ? "No free events match the current filters."
-              : "No events match the current filters."}
+            : weekendOnly
+              ? "Nothing this weekend in the current filters."
+              : freeOnly
+                ? "No free events match the current filters."
+                : "No events match the current filters."}
         </div>
       </div>
     );
@@ -176,7 +192,7 @@ export function Calendar({
           ) : null}
         </div>
       </div>
-      {(viewMode === "single" ? [focused] : shownWeeks).map((week) => {
+      {(viewMode === "single" && !weekendOnly ? [focused] : shownWeeks).map((week) => {
         return (
           <section
             key={week.label}

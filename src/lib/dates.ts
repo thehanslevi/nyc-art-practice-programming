@@ -45,6 +45,24 @@ export function isPast(target: Date, from: Date = today()): boolean {
   return daysUntil(target, from) < 0;
 }
 
+/**
+ * The upcoming Saturday and Sunday. On a weekday, the next weekend; during a
+ * weekend, the current one (so "this weekend" stays meaningful through Sunday).
+ */
+export function upcomingWeekend(from: Date = today()): { sat: Date; sun: Date } {
+  const dow = from.getDay(); // 0 Sun … 6 Sat
+  const toSat = dow === 0 ? -1 : 6 - dow; // Sunday belongs to the weekend just ending
+  const sat = new Date(from.getFullYear(), from.getMonth(), from.getDate() + toSat);
+  const sun = new Date(sat.getFullYear(), sat.getMonth(), sat.getDate() + 1);
+  return { sat, sun };
+}
+
+export function isThisWeekend(target: Date, from: Date = today()): boolean {
+  const { sat, sun } = upcomingWeekend(from);
+  const t = target.getTime();
+  return t === sat.getTime() || t === sun.getTime();
+}
+
 export function formatDaysUntil(days: number): string {
   if (days < 0) {
     const abs = Math.abs(days);
