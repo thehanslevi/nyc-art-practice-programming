@@ -5,7 +5,7 @@ import { isPast, parseEventDate, today } from "../lib/dates";
 import { formatCost } from "../lib/cost";
 import { pickId } from "../lib/picks";
 import { CURATOR_HASH } from "../lib/curator";
-import { fetchPicksByHash } from "../lib/sync";
+import { fetchByHash, type PickNotes } from "../lib/sync";
 
 const data = eventsData as EventsData;
 const ALL: CalEvent[] = data.weeks.flatMap((w) => w.events as CalEvent[]);
@@ -13,17 +13,20 @@ const BY_ID = new Map(ALL.map((e) => [pickId(e), e]));
 
 // The editorial lede: the events the CURATOR has starred (under the shared
 // curator passphrase, synced to Supabase — the same identity that powers the
-// public "Curated Picks" feed). Starring on the live site is the curation;
-// no data editing. An optional `pickNote` in the data adds an editorial line.
+// public "Curated Picks" feed). Starring on the live site is the curation and
+// the note is written inline when starring — no data editing anywhere.
 export function CuratorPicks() {
   const now = useMemo(() => today(), []);
   const [ids, setIds] = useState<string[] | null>(null);
+  const [notes, setNotes] = useState<PickNotes>({});
 
   useEffect(() => {
     let cancelled = false;
-    fetchPicksByHash(CURATOR_HASH)
-      .then((picks) => {
-        if (!cancelled) setIds(picks);
+    fetchByHash(CURATOR_HASH)
+      .then(({ picks, notes: n }) => {
+        if (cancelled) return;
+        setIds(picks);
+        setNotes(n);
       })
       .catch(() => {
         if (!cancelled) setIds([]);
@@ -68,8 +71,8 @@ export function CuratorPicks() {
                     e.event
                   )}
                 </div>
-                {e.pickNote ? (
-                  <div className="curator-note">{e.pickNote}</div>
+                {notes[pickId(e)] ? (
+                  <div className="curator-note">{notes[pickId(e)]}</div>
                 ) : null}
                 <div className="curator-meta">
                   {e.where.split(/[·,]/)[0]?.trim()}

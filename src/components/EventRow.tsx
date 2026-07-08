@@ -8,6 +8,9 @@ interface Props {
   past?: boolean;
   picked?: boolean;
   onTogglePick?: () => void;
+  isCurator?: boolean;
+  note?: string;
+  onSetNote?: (text: string) => void;
 }
 
 function flagLabel(flag: CalEvent["flag"]): string | null {
@@ -37,6 +40,9 @@ export function EventRow({
   past = false,
   picked = false,
   onTogglePick,
+  isCurator = false,
+  note,
+  onSetNote,
 }: Props) {
   const label = flagLabel(event.flag);
   const cost = formatCost(event.cost);
@@ -89,8 +95,19 @@ export function EventRow({
           )}
         </div>
         <div className="event-where">{event.where}</div>
-        {event.pick && event.pickNote ? (
-          <div className="event-picknote">{event.pickNote}</div>
+        {isCurator && picked && onSetNote ? (
+          <input
+            type="text"
+            className="curator-note-input"
+            defaultValue={note ?? ""}
+            placeholder="Add a curator note — why this one…"
+            onBlur={(e) => onSetNote(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") e.currentTarget.blur();
+            }}
+          />
+        ) : note ? (
+          <div className="event-picknote">{note}</div>
         ) : null}
       </div>
       {cost ? (

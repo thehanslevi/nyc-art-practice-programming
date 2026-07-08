@@ -57,15 +57,32 @@ export async function fetchPicks(passphrase: string): Promise<string[] | null> {
 
 /** Fetch a picks list by its passphrase hash directly (e.g. the curator's). */
 export async function fetchPicksByHash(hash: string): Promise<string[]> {
+  return (await fetchByHash(hash)).picks;
+}
+
+export type PickNotes = Record<string, string>;
+
+/** Fetch both picks and curator notes for a passphrase hash. */
+export async function fetchByHash(
+  hash: string,
+): Promise<{ picks: string[]; notes: PickNotes }> {
   const { data, error } = await supabase
     .from("picks")
-    .select("picks")
+    .select("picks, notes")
     .eq("passphrase_hash", hash)
     .maybeSingle();
-  if (error || !data) return [];
-  const picks = (data as { picks: unknown }).picks;
-  if (!Array.isArray(picks)) return [];
-  return picks.filter((p): p is string => typeof p === "string");
+  if (error || !data) return { picks: [], notes: {} };
+  const raw = data as { picks: unknown; notes: unknown };
+  const picks = Array.isArray(raw.picks)
+    ? raw.picks.filter((p): p is string => typeof p === "string")
+    : [];
+  const notes: PickNotes = {};
+  if (raw.notes && typeof raw.notes === "object") {
+    for (const [k, v] of Object.entries(raw.notes as Record<string, unknown>)) {
+      if (typeof v === "string" && v.trim()) notes[k] = v;
+    }
+  }
+  return { picks, notes };
 }
 
 export async function uploadPicks(
@@ -73,10 +90,28 @@ export async function uploadPicks(
   picks: string[],
 ): Promise<void> {
   const hash = await hashPassphrase(passphrase);
+  // Only touch the picks column so a concurrent note write isn't clobbered.
   const { error } = await supabase.from("picks").upsert(
     {
       passphrase_hash: hash,
       picks,
+      updated_at: new Date().toISOString(),
+    },
+    { onConflict: "passphrase_hash" },
+  );
+  if (error) throw error;
+}
+
+/** Persist the curator's full notes map (pickId → editorial line). */
+export async function uploadNotes(
+  passphrase: string,
+  notes: PickNotes,
+): Promise<void> {
+  const hash = await hashPassphrase(passphrase);
+  const { error } = await supabase.from("picks").upsert(
+    {
+      passphrase_hash: hash,
+      notes,
       updated_at: new Date().toISOString(),
     },
     { onConflict: "passphrase_hash" },

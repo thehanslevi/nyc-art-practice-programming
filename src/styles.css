@@ -2019,6 +2019,32 @@ a:hover {
   font-style: italic;
 }
 
+/* Inline curator note editor (only shown to the curator on picked events) */
+.curator-note-input {
+  display: block;
+  width: 100%;
+  max-width: 460px;
+  margin-top: 6px;
+  padding: 5px 8px;
+  border: 1px dashed var(--border-strong);
+  border-radius: 0;
+  background: var(--surface);
+  color: var(--text-1);
+  font: inherit;
+  font-size: 13px;
+  font-style: italic;
+}
+.curator-note-input:focus {
+  outline: none;
+  border-style: solid;
+  border-color: var(--accent);
+  background: var(--bg);
+}
+.curator-note-input::placeholder {
+  color: var(--text-3);
+  font-style: normal;
+}
+
 .pill {
   display: inline-block;
   padding: 3px 10px;

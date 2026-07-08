@@ -33,6 +33,9 @@ interface Props {
   freeOnly: boolean;
   weekendOnly: boolean;
   onTogglePick: (id: string) => void;
+  isCurator?: boolean;
+  notes?: Record<string, string>;
+  onSetNote?: (id: string, text: string) => void;
 }
 
 interface EnrichedWeek {
@@ -51,6 +54,9 @@ export function Calendar({
   freeOnly,
   weekendOnly,
   onTogglePick,
+  isCurator = false,
+  notes = {},
+  onSetNote,
 }: Props) {
   const [viewMode, setViewMode] = useState<"single" | "all">("single");
   const [userWeekIndex, setUserWeekIndex] = useState<number | null>(null);
@@ -220,6 +226,9 @@ export function Calendar({
                   past={evPast}
                   picked={picks.has(id)}
                   onTogglePick={() => onTogglePick(id)}
+                  isCurator={isCurator}
+                  note={notes[id]}
+                  onSetNote={onSetNote ? (t) => onSetNote(id, t) : undefined}
                 />
               );
             })}

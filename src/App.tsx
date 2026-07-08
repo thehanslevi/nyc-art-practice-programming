@@ -10,12 +10,17 @@ import { isFree } from "./lib/cost";
 import { today } from "./lib/dates";
 import { loadPicks, pickId, savePicks } from "./lib/picks";
 import {
+  fetchByHash,
   fetchPicks,
   generateToken,
+  hashPassphrase,
   loadPassphrase,
   savePassphrase,
+  uploadNotes,
   uploadPicks,
+  type PickNotes,
 } from "./lib/sync";
+import { CURATOR_HASH } from "./lib/curator";
 import { matchesTab } from "./lib/tab";
 import { Calendar } from "./components/Calendar";
 import { ExportButton } from "./components/ExportButton";
@@ -51,9 +56,52 @@ function App() {
   const [subscribeOpen, setSubscribeOpen] = useState(false);
   const [submitOpen, setSubmitOpen] = useState(false);
   const [weekendOnly, setWeekendOnly] = useState(false);
+  const [isCurator, setIsCurator] = useState(false);
+  const [notes, setNotes] = useState<PickNotes>({});
   const todayLabel = useMemo(() => TODAY_FMT.format(today()), []);
   const uploadTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const notesTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const skipNextUpload = useRef(false);
+
+  // Detect the curator (the passphrase whose hash matches CURATOR_HASH) and,
+  // if so, load their existing notes so the inline editor is prefilled.
+  useEffect(() => {
+    if (!passphrase) {
+      setIsCurator(false);
+      setNotes({});
+      return;
+    }
+    let cancelled = false;
+    (async () => {
+      const curator = (await hashPassphrase(passphrase)) === CURATOR_HASH;
+      if (cancelled) return;
+      setIsCurator(curator);
+      if (curator) {
+        const { notes: remoteNotes } = await fetchByHash(CURATOR_HASH);
+        if (!cancelled) setNotes(remoteNotes);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [passphrase]);
+
+  const handleSetNote = useCallback(
+    (id: string, text: string) => {
+      if (!passphrase) return;
+      setNotes((prev) => {
+        const next = { ...prev };
+        if (text.trim()) next[id] = text.trim();
+        else delete next[id];
+        if (notesTimer.current) clearTimeout(notesTimer.current);
+        notesTimer.current = setTimeout(() => {
+          uploadNotes(passphrase, next).catch(() => {});
+        }, UPLOAD_DEBOUNCE_MS);
+        return next;
+      });
+    },
+    [passphrase],
+  );
 
   useEffect(() => {
     savePicks(picks);
@@ -302,6 +350,9 @@ function App() {
         freeOnly={freeOnly}
         weekendOnly={weekendOnly}
         onTogglePick={togglePick}
+        isCurator={isCurator}
+        notes={notes}
+        onSetNote={handleSetNote}
       />
         </div>
       </main>
