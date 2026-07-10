@@ -32,11 +32,13 @@ export interface EmailCandidate extends Candidate {
 }
 
 export async function extractFromEmail(todayISO: string): Promise<EmailCandidate[]> {
+  // Use || not ?? — CI passes unset secrets as empty strings, which must
+  // fall back to the defaults (an empty host would dial localhost:993).
   const address = process.env.IMAP_EMAIL;
   const password = process.env.IMAP_APP_PASSWORD;
-  const host = process.env.IMAP_HOST ?? "imap.gmail.com";
-  const port = Number(process.env.IMAP_PORT ?? 993);
-  const folder = process.env.IMAP_FOLDER ?? "INBOX";
+  const host = process.env.IMAP_HOST || "imap.gmail.com";
+  const port = Number(process.env.IMAP_PORT || 993);
+  const folder = process.env.IMAP_FOLDER || "INBOX";
 
   if (!address || !password) {
     console.log("→ Email pipeline skipped (IMAP_EMAIL / IMAP_APP_PASSWORD not set)");
