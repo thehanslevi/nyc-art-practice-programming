@@ -99,21 +99,36 @@ export async function extractFromEmail(todayISO: string): Promise<EmailCandidate
     await client.logout().catch(() => {});
   }
 
-  console.log(`   → ${messages.length} messages fetched, feeding to LLM`);
+  // Batch several newsletters into each LLM call. Free-tier request-per-minute
+  // caps make one-call-per-email unreliable (rate-limited emails get skipped),
+  // so a handful of calls is far more robust than 16.
+  const BATCH_SIZE = 4;
+  const PER_EMAIL_CHARS = 6000;
+  const batches: (typeof messages)[] = [];
+  for (let i = 0; i < messages.length; i += BATCH_SIZE) {
+    batches.push(messages.slice(i, i + BATCH_SIZE));
+  }
+  console.log(
+    `   → ${messages.length} messages in ${batches.length} batches, feeding to LLM`,
+  );
 
   const candidates: EmailCandidate[] = [];
-  for (const msg of messages) {
+  for (const batch of batches) {
     if (isQuotaExhausted()) {
       console.warn("   LLM exhausted — stopping email extraction early");
       break;
     }
-    try {
-      const prompt = `Newsletter from: ${msg.from}
-Subject: ${msg.subject}
+    const senders = batch.map((m) => m.from).join(", ");
+    const prompt = `Below are ${batch.length} newsletters, separated by "=====". Extract arts events from ALL of them.
 Today (skip anything before): ${todayISO}
 
-Body (first 14k chars):
-${msg.body.slice(0, 14000)}`;
+${batch
+      .map(
+        (m) =>
+          `===== NEWSLETTER =====\nFrom: ${m.from}\nSubject: ${m.subject}\n\n${m.body.slice(0, PER_EMAIL_CHARS)}`,
+      )
+      .join("\n\n")}`;
+    try {
       const text = await callLlm(SYSTEM_PROMPT, prompt);
       if (text === null) continue;
       const parsed = safeParse(text);
@@ -124,21 +139,21 @@ ${msg.body.slice(0, 14000)}`;
         candidates.push({
           event,
           venue: {
-            name: `Email: ${msg.from}`,
+            name: `Email: ${event.where}`,
             url: event.url,
             category: event.category,
             defaultMode: event.mode,
             whereTemplate: event.where,
           },
-          sourceHtml: msg.body,
+          sourceHtml: batch.map((m) => m.body).join("\n"),
           source: "email",
-          emailFrom: msg.from,
-          emailSubject: msg.subject,
+          emailFrom: senders,
+          emailSubject: "",
         });
       }
     } catch (err) {
       console.error(
-        `   email LLM extraction failed for '${msg.subject}':`,
+        `   email batch extraction failed:`,
         err instanceof Error ? err.message : err,
       );
     }
