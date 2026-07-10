@@ -1,10 +1,7 @@
 import { ImapFlow } from "imapflow";
-import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 import type { CalEvent } from "../../src/types";
-import { isQuotaExhausted } from "./extract";
 import type { Candidate } from "./extract";
-
-const MODEL = "gemini-2.5-flash";
+import { callLlm, hasLlm, isQuotaExhausted } from "./llm";
 
 const SYSTEM_PROMPT = `You extract dated cultural events from an email newsletter into strict JSON.
 
@@ -24,36 +21,9 @@ Mode:
 - make (class, workshop, participatory)
 - witness (show, screening, concert, reading)
 
-For each event fill: day, date, event title verbatim, where (venue name/address),
-cost (FREE / $X / $X-Y / TBD), category, mode, start/end HH:MM or null, url.`;
-
-const RESPONSE_SCHEMA = {
-  type: SchemaType.OBJECT,
-  properties: {
-    events: {
-      type: SchemaType.ARRAY,
-      items: {
-        type: SchemaType.OBJECT,
-        properties: {
-          day: { type: SchemaType.STRING },
-          date: { type: SchemaType.STRING },
-          event: { type: SchemaType.STRING },
-          where: { type: SchemaType.STRING },
-          cost: { type: SchemaType.STRING },
-          category: { type: SchemaType.STRING },
-          flag: { type: SchemaType.STRING, nullable: true },
-          mode: { type: SchemaType.STRING },
-          start: { type: SchemaType.STRING, nullable: true },
-          end: { type: SchemaType.STRING, nullable: true },
-          note: { type: SchemaType.STRING, nullable: true },
-          url: { type: SchemaType.STRING },
-        },
-        required: ["day", "date", "event", "where", "cost", "category", "mode", "url"],
-      },
-    },
-  },
-  required: ["events"],
-};
+Return a JSON object {"events": [ ... ]}. For each event fill: day, date, event
+title verbatim, where (venue name/address), cost (FREE / $X / $X-Y / TBD),
+category, mode, start/end HH:MM or null, url.`;
 
 export interface EmailCandidate extends Candidate {
   source: "email";
@@ -72,12 +42,12 @@ export async function extractFromEmail(todayISO: string): Promise<EmailCandidate
     console.log("→ Email pipeline skipped (IMAP_EMAIL / IMAP_APP_PASSWORD not set)");
     return [];
   }
-  if (!process.env.GOOGLE_API_KEY) {
-    console.warn("   Email pipeline needs GOOGLE_API_KEY too — skipping");
+  if (!hasLlm()) {
+    console.warn("   Email pipeline needs an LLM key (Groq/Cerebras/Gemini) — skipping");
     return [];
   }
   if (isQuotaExhausted()) {
-    console.warn("   Email pipeline skipped — Gemini quota already exhausted this run");
+    console.warn("   Email pipeline skipped — LLM providers already exhausted this run");
     return [];
   }
 
@@ -130,29 +100,22 @@ export async function extractFromEmail(todayISO: string): Promise<EmailCandidate
 
   console.log(`   → ${messages.length} messages fetched, feeding to LLM`);
 
-  const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
-  const model = genAI.getGenerativeModel({
-    model: MODEL,
-    systemInstruction: SYSTEM_PROMPT,
-    generationConfig: {
-      responseMimeType: "application/json",
-      responseSchema: RESPONSE_SCHEMA,
-      temperature: 0,
-    },
-  });
-
   const candidates: EmailCandidate[] = [];
   for (const msg of messages) {
-    await new Promise((r) => setTimeout(r, 2000));
+    if (isQuotaExhausted()) {
+      console.warn("   LLM exhausted — stopping email extraction early");
+      break;
+    }
     try {
       const prompt = `Newsletter from: ${msg.from}
 Subject: ${msg.subject}
 Today (skip anything before): ${todayISO}
 
-Body (first 40k chars):
-${msg.body.slice(0, 40000)}`;
-      const response = await model.generateContent(prompt);
-      const parsed = safeParse(response.response.text());
+Body (first 14k chars):
+${msg.body.slice(0, 14000)}`;
+      const text = await callLlm(SYSTEM_PROMPT, prompt);
+      if (text === null) continue;
+      const parsed = safeParse(text);
       if (!parsed?.events) continue;
       for (const raw of parsed.events) {
         const event = normalize(raw);
