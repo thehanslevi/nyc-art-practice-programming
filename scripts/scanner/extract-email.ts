@@ -102,8 +102,8 @@ export async function extractFromEmail(todayISO: string): Promise<EmailCandidate
   // Batch several newsletters into each LLM call. Free-tier request-per-minute
   // caps make one-call-per-email unreliable (rate-limited emails get skipped),
   // so a handful of calls is far more robust than 16.
-  const BATCH_SIZE = 4;
-  const PER_EMAIL_CHARS = 6000;
+  const BATCH_SIZE = 3;
+  const PER_EMAIL_CHARS = 9000;
   const batches: (typeof messages)[] = [];
   for (let i = 0; i < messages.length; i += BATCH_SIZE) {
     batches.push(messages.slice(i, i + BATCH_SIZE));
