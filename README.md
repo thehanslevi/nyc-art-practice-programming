@@ -1,4 +1,4 @@
-# Art Cal (Making × Witnessing)
+# Art Cal
 
 Built by Hannah Levinson • more at [hrlevinson.com](https://hrlevinson.com)
 
@@ -19,43 +19,41 @@ I wanted a personalized instrument for moving through the artworld and my own ar
 
 ## What it is
 
-- A weekly calendar of events across venues including theatre, dance, film, music, workshops, readings, and more.
-- Two modes: **Practice** (classes and workshops, `mode: make`) and **Attend** (shows and screenings, `mode: witness`).
-- A picks / shortlist system with passphrase-based cross-device sync — star on my phone, see it on my laptop.
-- A self-updating ICS feed so the whole thing lives in Google Calendar alongside everything else.
+- A weekly calendar of events across media and venues including theatre, dance, film, music, workshops, readings, and more.
+- Two modes: **Make** (classes and workshops) and **Witness** (shows and screenings).
+- A picks / shortlist system with passphrase-based cross-device sync — star on your phone, see it on your laptop.
+- A self-updating ICS feed.
 
 ## What it does
 
-- **Groups events by week, one week at a time by default.** Auto-focuses on the current week; arrows to move; jump-to-week dropdown.
+- **Groups events by week, one week at a time by default.** auto-focuses on the current week; arrows to move; jump-to-week dropdown.
 - **Every event carries structured metadata:** category, mode, start / end time, category-color left border.
 - **Weekly summary strip:** event count, cost range, making %, picked count and cost.
 - **Past events dim and hide by default** with a "show past" toggle.
-- **Places to make / see things:** every venue as an ongoing resource, collapsed below the calendar so it doesn't wall off the events.
+- **Places to make / see things:** comprehensive list of venues also provided as an ongoing resource, collapsed below the calendar.
 - **Cross-device picks sync via Supabase**, keyed to a passphrase hash — no account, no email.
 - **Filterable exportable feeds** that GCal auto-refreshes.
 
 ## The categories
 
 - **sound** — concerts, sound art, opera
-- **dance** — dance shows and classes
+- **dance** — dance classes and shows
 - **film** — screenings, workshops
-- **tech** — live-coding, generative visuals, AI, hardware
-- **make** — printmaking, book arts, woodworking, darkroom
-- **stage** — theatre, performance
-- **word** — writing groups, readings
-- **circle** — social practice, communal meals, meditation
+- **tech** — hardware, generative visuals, live-coding
+- **make** — book arts, darkroom, printmaking, woodworking
+- **stage** — performance art, theatre
+- **word** — readings, writing groups
+- **circle** — communal meals, meditations, social practice
 
-Each shows in a distinct color so I can scan a week in a second.
+## What Art Cal is not
 
-## What it is not
-
-- **Not a listings site.** It's a curated personal map. Every entry landed here because I directly verified it on the venue's own site — not from a scraped aggregator.
-- **Not a social product.** The picks-sync is one person's picks shared across their own devices. No feed, no other people, no sharing links.
-- **Not automated.** New events go in by editing JSON in the GitHub web editor. No scraping cron, no email-parsing pipeline. The friction of adding an event forces me to consider whether it belongs.
+- **Not a listings site.** It's a curated personal map, not a scraped aggregator.
+- **Not a social product.** The picks-sync is one person's picks shared across their own devices. No feed, other people, or sharing links.
+- **Not automated.** New events go in by editing a JSON in a GitHub web editor. No scraping cron, no email-parsing pipeline (for now).
 
 ## How it's specific to me
 
-The engine is generic. What's on the calendar reflects my personal practice and preferences.
+The tech build is generic; what's included in the calendar is a reflection of my personal practice and preferences.
 
 Fork the code, rewrite the JSON.
 
@@ -79,7 +77,7 @@ A scheduled GitHub Action (`scripts/scan-events.ts`) sweeps the venue list in `s
 4. **Platform parsers** — server-rendered Squarespace event lists and WordPress "The Events Calendar" markup.
 5. **LLM extraction** — last resort for JS-rendered venues with no structured data.
 
-Every candidate passes gates (real future date present in source, title tokens present, valid category/mode) and a fuzzy dedupe check; dense performance runs collapse to one entry.
+Every candidate passes gates (real future date present in source, title tokens present, valid category/mode) and a fuzzy dedupe check; dense performance runs collapse to one opening-night entry.
 
 ### No-pay LLM setup
 
