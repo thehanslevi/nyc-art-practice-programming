@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-07-06",
+  "lastVerified": "2026-07-12",
   "weeks": [
     {
       "label": "Jul 5–11",
@@ -862,6 +862,34 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 12",
+          "event": "Live Jazz Brunch for All Ages: Music Explorers (2 sets EVERY SUNDAY @ 10:30 & 11:30AM)",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "10:30",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/5998358/735086600/live-jazz-brunch-for-all-ages-music-explorers-2-sets-every-sunday-10-30-11-30am"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 12",
+          "event": "Monthly Jazz Jam presented by Ridgewood Jazz",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6656823/771421278/monthly-jazz-jam-presented-by-ridgewood-jazz"
         }
       ]
     },
@@ -909,6 +937,20 @@
           "end": null,
           "note": "Drama involving a curse and relationship conflict. Runs Jul 13–14.",
           "url": "https://thetanknyc.org/tankcalendar"
+        },
+        {
+          "day": "Mon",
+          "date": "Jul 13",
+          "event": "Posters to Podcasts: Art &#038; Social Activism (Summer 2026)",
+          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "cost": "$240",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "00:00",
+          "end": null,
+          "note": null,
+          "url": "https://www.materialsforthearts.org/event/posters-to-podcasts-summer-2026/"
         },
         {
           "day": "Tue",
@@ -1007,6 +1049,20 @@
           "end": null,
           "note": "EdFest — Edinburgh Fringe preview series.",
           "url": "https://www.bkarthaus.com/shows-events"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 14",
+          "event": "Kyle Sanna / Elsa Saade with Kinan Azmeh (live coding with ensemble / songs in Arabic)",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6656821/771421274/kyle-sanna-elsa-saade-with-kinan-azmeh-live-coding-with-ensemble-songs-in-arabic"
         },
         {
           "day": "Wed",
@@ -1217,6 +1273,20 @@
           "end": "00:30",
           "note": null,
           "url": "https://www.materialsforthearts.org/event/mfta-designer-in-residence-scooter-laforge-event/"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 16",
+          "event": "Snug Harbor: Soundtrack to a Coup d'État (film screening)",
+          "where": "Snug Harbor Cultural Center, Staten Island",
+          "cost": "FREE",
+          "category": "film",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://snug-harbor.org/"
         },
         {
           "day": "Fri",
@@ -1443,6 +1513,20 @@
           "url": "https://www.worksinprogressnyc.org/works-in-progress-shop/p/introduction-to-silk-screen-printing-class"
         },
         {
+          "day": "Sat",
+          "date": "Jul 18",
+          "event": "Brooklyn Metal Works Open Studios",
+          "where": "Brooklyn Metal Works, 640 Dean St. 2nd Floor, New York, NY 11238",
+          "cost": "TBD",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "18:00",
+          "note": null,
+          "url": "https://craftcouncil.org/events/national-craft-open-studios-weekend/"
+        },
+        {
           "day": "Sun",
           "date": "Jul 19",
           "event": "Art x Embodiment",
@@ -1539,20 +1623,6 @@
           "end": "23:00",
           "note": null,
           "url": "https://elmuseo.org/event/fifa-mens-world-cup-2026-final-watch-party/"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 16",
-          "event": "Snug Harbor: Soundtrack to a Coup d'État (film screening)",
-          "where": "Snug Harbor Cultural Center, Staten Island",
-          "cost": "FREE",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://snug-harbor.org/"
         },
         {
           "day": "Sun",
@@ -1656,6 +1726,20 @@
           "end": null,
           "note": "Best free dance viewing of the summer. Don't miss.",
           "url": "https://summerstage.org"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 22",
+          "event": "Brooklyn Poets: Creativity in Constriction — Experimenting With Form w/ Kayla Schwab",
+          "where": "Brooklyn Poets, Brooklyn",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": null,
+          "end": null,
+          "note": "Poetry workshop.",
+          "url": "https://brooklynpoets.org/workshops/all"
         },
         {
           "day": "Thu",
@@ -1882,6 +1966,20 @@
           "url": "https://bricartsmedia.org/events"
         },
         {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "Pataphysics 020",
+          "where": "Delight Factory · 303 Saratoga Avenue\nBrooklyn\nUnited States",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": "23:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events"
+        },
+        {
           "day": "Sun",
           "date": "Jul 26",
           "event": "Interference Archive: Audio Collage Workshop",
@@ -1922,20 +2020,6 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org"
-        },
-        {
-          "day": "Wed",
-          "date": "Jul 22",
-          "event": "Brooklyn Poets: Creativity in Constriction — Experimenting With Form w/ Kayla Schwab",
-          "where": "Brooklyn Poets, Brooklyn",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "make",
-          "start": null,
-          "end": null,
-          "note": "Poetry workshop.",
-          "url": "https://brooklynpoets.org/workshops/all"
         },
         {
           "day": "Sun",
@@ -2041,6 +2125,20 @@
           "url": "https://summerstage.org"
         },
         {
+          "day": "Wed",
+          "date": "Jul 29",
+          "event": "Brooklyn Poets: Artifacts of Grief w/ Gbenga Adesina",
+          "where": "Brooklyn Poets (online)",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": null,
+          "end": null,
+          "note": "Poetry workshop.",
+          "url": "https://brooklynpoets.org/workshops/all"
+        },
+        {
           "day": "Thu",
           "date": "Jul 30",
           "event": "UBB 40th: BreakBeat Lou / Lord Finesse / Diamond D + more",
@@ -2081,6 +2179,48 @@
           "end": null,
           "note": "Opens Jul 30, runs through Aug 2. 100 min. Dark comedy on masculinity + vulnerability.",
           "url": "https://www.bricktheater.com/"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "Brooklyn Poets: Punctuating Your Poems Just Right w/ Tara Skurtu",
+          "where": "Brooklyn Poets, Brooklyn",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": null,
+          "end": null,
+          "note": "Poetry workshop.",
+          "url": "https://brooklynpoets.org/workshops/all"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "Snug Harbor: Sounds of Summer Concert Series",
+          "where": "Snug Harbor Cultural Center, Staten Island",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://snug-harbor.org/"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 30",
+          "event": "Sounds of Summer Concert Series – Our Own Yokos Joan Caddell & The Midnight Choir",
+          "where": "Staten Island Borough President Vito Fossella’s Sounds of Summer Concert Series",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://t.e2ma.net/click/85ef5j/gw89v02d/0vtdjt"
         },
         {
           "day": "Fri",
@@ -2221,48 +2361,6 @@
           "end": "15:00",
           "note": "Aarati Akkapeddi",
           "url": "https://withfriends.events/event/NXWa8sJw/handmade-datasets-free-public-talk/"
-        },
-        {
-          "day": "Wed",
-          "date": "Jul 29",
-          "event": "Brooklyn Poets: Artifacts of Grief w/ Gbenga Adesina",
-          "where": "Brooklyn Poets (online)",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "make",
-          "start": null,
-          "end": null,
-          "note": "Poetry workshop.",
-          "url": "https://brooklynpoets.org/workshops/all"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 30",
-          "event": "Brooklyn Poets: Punctuating Your Poems Just Right w/ Tara Skurtu",
-          "where": "Brooklyn Poets, Brooklyn",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "make",
-          "start": null,
-          "end": null,
-          "note": "Poetry workshop.",
-          "url": "https://brooklynpoets.org/workshops/all"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 30",
-          "event": "Snug Harbor: Sounds of Summer Concert Series",
-          "where": "Snug Harbor Cultural Center, Staten Island",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://snug-harbor.org/"
         }
       ]
     },
@@ -3102,6 +3200,20 @@
           "url": "http://mononoawarefilm.com/community-workshops"
         },
         {
+          "day": "Wed",
+          "date": "Sep 23",
+          "event": "Selected Shorts: The Five Boroughs",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$19–26",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/selected-shorts-the-five-boroughs"
+        },
+        {
           "day": "Thu",
           "date": "Sep 24",
           "event": "Mono No Aware: Steenbeck Flatbed Editing + Ciro Splicer",
@@ -3254,6 +3366,20 @@
           "end": "21:30",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops"
+        },
+        {
+          "day": "Tue",
+          "date": "Sep 29",
+          "event": "NT Live: The Misanthrope",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$24",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:30",
+          "end": "19:30",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/nt-live-the-misanthrope"
         }
       ]
     },
@@ -3474,6 +3600,20 @@
           "end": null,
           "note": "Runs Oct 21–25.",
           "url": "https://www.bam.org/"
+        },
+        {
+          "day": "Wed",
+          "date": "Oct 21",
+          "event": "Selected Shorts: The Best American Short Stories 2026 with Viet Thanh Nguyen",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$19–26",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/selected-shorts-the-best-american-short-stories-2026-with-viet-thanh-nguyen"
         },
         {
           "day": "Thu",
@@ -3752,6 +3892,20 @@
           "url": "https://www.bam.org/"
         },
         {
+          "day": "Wed",
+          "date": "Nov 18",
+          "event": "Selected Shorts: The Most of Nora Ephron, hosted by Meg Wolitzer",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$19–26",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/selected-shorts-the-most-of-nora-ephron-hosted-by-meg-wolitzer"
+        },
+        {
           "day": "Thu",
           "date": "Nov 19",
           "event": "Baryshnikov Arts: In Conversation with Merce — New RainForest(s)",
@@ -3853,6 +4007,20 @@
           "end": "15:00",
           "note": null,
           "url": "https://www.writingclasses.com/classes/nyc/novel-writing-iii-in-person-fall-2026"
+        },
+        {
+          "day": "Wed",
+          "date": "Dec 9",
+          "event": "Selected Shorts: Objects with Roz Chast",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$19–26",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/selected-shorts-objects-with-roz-chast"
         }
       ]
     }

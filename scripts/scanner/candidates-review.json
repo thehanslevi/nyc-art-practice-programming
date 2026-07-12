@@ -56,73 +56,10 @@
     "source": "ics"
   },
   {
-    "venue": "Bushwick Community Darkroom",
-    "event": "Winol: Developing film with red wine",
-    "date": "Jul 11",
-    "reason": "duplicate of existing \"Bushwick Community Darkroom: Winol — developing film with red wine\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "DADA",
-    "event": "JAZZY IMPROV BAND w/ SINGER - Rokoko",
-    "date": "Jul 7",
-    "reason": "duplicate of existing \"JAZZY IMPROV BAND w/ SINGER - Rokoko\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "DADA",
-    "event": "JAZZ - The Sean Temme Group",
-    "date": "Jul 8",
-    "reason": "duplicate of existing \"JAZZ - The Sean Temme Group\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "DADA",
-    "event": "VIBEY/HOUSE DJs - GEOBALL w/ Gem & Geo",
-    "date": "Jul 9",
-    "reason": "duplicate of existing \"VIBEY/HOUSE DJs - GEOBALL w/ Gem & Geo\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "DADA",
-    "event": "DADA x TEM present: Rat City Sunrise, HALFTIME, Kevin Clark",
-    "date": "Jul 10",
-    "reason": "duplicate of existing \"DADA x TEM present: Rat City Sunrise, HALFTIME, Kevin Clark\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "DADA",
-    "event": "HOUSE DJS - are we there yet vol.4",
-    "date": "Jul 10",
-    "reason": "duplicate of existing \"HOUSE DJS - are we there yet vol.4\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "DADA",
-    "event": "Singer/Songwriter - ianianian & Steve Kelly + Eliza Edens and Teemer",
-    "date": "Jul 11",
-    "reason": "duplicate of existing \"Singer/Songwriter - ianianian & Steve Kelly + Eliza Edens and Teemer\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "DADA",
-    "event": "HOUSE DJ - R Dubbs",
-    "date": "Jul 11",
-    "reason": "duplicate of existing \"HOUSE DJ - R Dubbs\"",
-    "source": "json-ld"
-  },
-  {
     "venue": "DADA",
     "event": "The Tiny Musician: Violin & Loopstation",
     "date": "Jul 15",
     "reason": "duplicate of existing \"The Tiny Musician: Violin & Loopstation\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "DADA",
-    "event": "JAZZ - The Simon Metzger Group",
-    "date": "Jul 15",
-    "reason": "duplicate of existing \"JAZZ - The Simon Metzger Group\"",
     "source": "json-ld"
   },
   {
@@ -168,18 +105,11 @@
     "source": "ics"
   },
   {
-    "venue": "Delight Factory",
-    "event": "Circling In Situ: Exhibition Opening Reception",
-    "date": "Jul 9",
-    "reason": "duplicate of existing \"Circling In Situ: Exhibition Opening Reception\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "Delight Factory",
-    "event": "Artists' Admin Meetup: Brooklyn",
-    "date": "Jul 11",
-    "reason": "duplicate of existing \"Artists' Admin Meetup: Brooklyn\"",
-    "source": "json-ld"
+    "venue": "The Arts Center at Governors Island",
+    "event": "Recycled Runway",
+    "date": "Aug 29",
+    "reason": "duplicate of existing \"Recycled Runway\"",
+    "source": "ics"
   },
   {
     "venue": "Delight Factory",
@@ -260,13 +190,6 @@
   },
   {
     "venue": "Greenwich House Pottery",
-    "event": "Venture Bond Jazz Quintet Concert",
-    "date": "Jul 7",
-    "reason": "duplicate of existing \"Venture Bond Jazz Quintet Concert\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "Greenwich House Pottery",
     "event": "&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph",
     "date": "Jul 23",
     "reason": "duplicate of existing \"&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph\"",
@@ -305,13 +228,6 @@
     "event": "Exhibition: Lotte Van den Audenaeren",
     "date": "Jul 15",
     "reason": "duplicate of existing \"Exhibition: Lotte Van den Audenaeren\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "Materials for the Arts",
-    "event": "Stop Motion Animation (Summer 2026)",
-    "date": "Jul 6",
-    "reason": "duplicate of existing \"Stop Motion Animation (Summer 2026)\"",
     "source": "json-ld"
   },
   {
@@ -406,17 +322,10 @@
     "source": "json-ld"
   },
   {
-    "venue": "SUPR OMEN",
-    "event": "Practice Space: Recital",
-    "date": "Jul 6",
-    "reason": "duplicate of existing \"Practice Space: Recital\"",
-    "source": "llm"
-  },
-  {
-    "venue": "SUPR OMEN",
-    "event": "DRIFT presents gushes: PROTEIN",
-    "date": "Jul 31",
-    "reason": "duplicate of existing \"DRIFT presents gushes: PROTEIN\"",
-    "source": "llm"
+    "venue": "workshops@brooklynpoets.org, tq@technoqueers.com, info@snug-harbor.org",
+    "event": "Soundtrack to a Coup d’État (film screening)",
+    "date": "Jul 16",
+    "reason": "duplicate of existing \"Snug Harbor: Soundtrack to a Coup d'État (film screening)\"",
+    "source": "email"
   }
 ]
