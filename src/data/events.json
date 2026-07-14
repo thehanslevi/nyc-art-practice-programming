@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-07-06",
+  "lastVerified": "2026-07-12",
   "weeks": [
     {
       "label": "Jul 5–11",
@@ -17,7 +17,7 @@
           "end": null,
           "note": "1:30pm CATCHBALL, 4:45pm Doors open",
           "url": "https://pools.events/event/WwBLzTQJ/catch-5th-of-july-weekend-spectacular/",
-          "uid": "e_dce86a8d401d"
+          "uid": "e_1ee8718e4415"
         },
         {
           "day": "Sun",
@@ -32,7 +32,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/go/events/6606827?feature_id=1003841&occurrence_id=766015707&popup=1",
-          "uid": "e_1bca5679c7f4"
+          "uid": "e_a9d5ab0ff405"
         },
         {
           "day": "Sun",
@@ -47,7 +47,7 @@
           "end": null,
           "note": null,
           "url": "https://lmcc.net/events/catchball/",
-          "uid": "e_aefda6800c88"
+          "uid": "e_60b8f952d0c3"
         },
         {
           "day": "Sun",
@@ -62,7 +62,7 @@
           "end": null,
           "note": null,
           "url": "https://lmcc.net/events/catch-5th-of-july-weekend-spectacular/",
-          "uid": "e_71d47c2e7f2a"
+          "uid": "e_ed820e42543e"
         },
         {
           "day": "Mon",
@@ -77,7 +77,7 @@
           "end": null,
           "note": null,
           "url": "https://pools.events/event/2fzpZ3xL/recital/",
-          "uid": "e_f62c2facec63"
+          "uid": "e_3a078f08fd04"
         },
         {
           "day": "Mon",
@@ -92,7 +92,7 @@
           "end": null,
           "note": null,
           "url": "https://www.materialsforthearts.org/event/stop-motion-animation-summer-2026/",
-          "uid": "e_a0575515b5fb"
+          "uid": "e_b285c9f874ca"
         },
         {
           "day": "Tue",
@@ -107,7 +107,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/go/events/6622459?feature_id=1003841&occurrence_id=767559990&popup=1",
-          "uid": "e_426869a0d627"
+          "uid": "e_4fa1eea32368"
         },
         {
           "day": "Tue",
@@ -122,7 +122,7 @@
           "end": "00:30",
           "note": null,
           "url": "https://wordupbooks.com/event/2026-07-07/no-name-super-story-party",
-          "uid": "e_b552cddb705d"
+          "uid": "e_a410bf0a8d51"
         },
         {
           "day": "Tue",
@@ -137,7 +137,7 @@
           "end": "20:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/venture-bond-jazz-quintet-concert/",
-          "uid": "e_6f0137019146"
+          "uid": "e_a2d3af29e76f"
         },
         {
           "day": "Wed",
@@ -152,7 +152,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6636729/769106038/jazz-the-sean-temme-group",
-          "uid": "e_190cf0adaa9d"
+          "uid": "e_9d7c78969a15"
         },
         {
           "day": "Wed",
@@ -167,13 +167,13 @@
           "end": "21:00",
           "note": "4 Wednesdays",
           "url": "https://printshop.org/classes-workshops/intro-to-printmaking-ii",
-          "uid": "e_01f56e627103"
+          "uid": "e_37f4b0d9e638"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
           "event": "Circling In Situ: Exhibition Opening Reception",
-          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -182,7 +182,7 @@
           "end": "21:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_0838be701dd7"
+          "uid": "e_fc2c8e959aaf"
         },
         {
           "day": "Thu",
@@ -197,7 +197,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6562740/761908985/vibey-house-djs-geoball-w-gem-geo",
-          "uid": "e_d03127de8ab8"
+          "uid": "e_b4b1c8a58cdf"
         },
         {
           "day": "Fri",
@@ -212,7 +212,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6636955/769107315/dada-x-tem-present-rat-city-sunrise-halftime-kevin-clark",
-          "uid": "e_e515cfd702bd"
+          "uid": "e_39d98ca477c5"
         },
         {
           "day": "Fri",
@@ -227,13 +227,13 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6629310/770007966/house-djs-are-we-there-yet-vol-4",
-          "uid": "e_2835922ea773"
+          "uid": "e_79c6fafa9a72"
         },
         {
           "day": "Sat",
           "date": "Jul 11",
           "event": "Artists' Admin Meetup: Brooklyn",
-          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -242,7 +242,7 @@
           "end": "13:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_a62d78eb78f4"
+          "uid": "e_7eafbdb68a5e"
         },
         {
           "day": "Sat",
@@ -257,7 +257,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6583981/763701435/singer-songwriter-ianianian-steve-kelly-eliza-edens-and-teemer",
-          "uid": "e_3bb533642d1f"
+          "uid": "e_75e78a6c85f0"
         },
         {
           "day": "Sat",
@@ -272,7 +272,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6644913/770008241/house-dj-r-dubbs",
-          "uid": "e_65c3b39d621b"
+          "uid": "e_e6fd5442b6cc"
         },
         {
           "day": "Sat",
@@ -287,7 +287,7 @@
           "end": "16:00",
           "note": "with Melanie Hoff",
           "url": "https://sfpc.study/sessions/future-schools/consensual-hacking",
-          "uid": "e_aa83bc715beb"
+          "uid": "e_c77d93424494"
         },
         {
           "day": "Wed",
@@ -302,7 +302,7 @@
           "end": null,
           "note": "Free World Club DJ dance party / silent disco kicking off the series — outdoors at Lincoln Center.",
           "url": "https://lincolncenter.org/series/summer-for-the-city/madame-gandhi-218",
-          "uid": "e_78a6f636a1f1"
+          "uid": "e_0834037ae6c4"
         },
         {
           "day": "Fri",
@@ -317,7 +317,7 @@
           "end": null,
           "note": null,
           "url": "https://bronxmuseum.org/",
-          "uid": "e_db246100de3c"
+          "uid": "e_0b748e6de8a9"
         },
         {
           "day": "Sat",
@@ -332,7 +332,7 @@
           "end": null,
           "note": null,
           "url": "https://www.cccadi.org/events",
-          "uid": "e_76f805a81f4c"
+          "uid": "e_99fa355eb8c7"
         },
         {
           "day": "Sat",
@@ -347,7 +347,7 @@
           "end": null,
           "note": null,
           "url": "https://snug-harbor.org/",
-          "uid": "e_8814cc23d38c"
+          "uid": "e_4fc80494a58f"
         }
       ]
     },
@@ -367,7 +367,7 @@
           "end": null,
           "note": "Runs Jul 5–11 (Jul 2–4 were cancelled due to heat).",
           "url": "https://danspaceproject.org/calendar/",
-          "uid": "e_a0ff44631fc5"
+          "uid": "e_a94053d24fe5"
         },
         {
           "day": "Mon",
@@ -382,7 +382,7 @@
           "end": "20:00",
           "note": "Learn the basics of black and white darkroom printing. This workshop covers film development, contact printing, and enlarging. All materials included.",
           "url": "https://www.bushwickcommunitydarkroom.com/events/2026/7/6/intro-to-darkroom-printing-bw-film-july-6",
-          "uid": "e_5df3b8f35b6d"
+          "uid": "e_dac69e691c8e"
         },
         {
           "day": "Mon",
@@ -397,7 +397,7 @@
           "end": null,
           "note": "Kickoff for the 34th annual HOT Festival + 40 years of Dixon Place.",
           "url": "https://dixonplace.org/",
-          "uid": "e_41613934546d"
+          "uid": "e_227a371675a2"
         },
         {
           "day": "Mon",
@@ -412,7 +412,7 @@
           "end": null,
           "note": "Solo comedy, hit run from Edinburgh Fringe. Long run through Aug 16.",
           "url": "https://here.org/shows/",
-          "uid": "e_8ef4398389cf"
+          "uid": "e_f0edd57ee2e7"
         },
         {
           "day": "Tue",
@@ -427,7 +427,7 @@
           "end": "20:30",
           "note": "Uses WWII as analogy for the playwright's and her husband's struggle with his cancer.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_da2095fddcc2"
+          "uid": "e_75bd0db686c2"
         },
         {
           "day": "Tue",
@@ -442,7 +442,7 @@
           "end": null,
           "note": "\"Like if the Lorax did the Vagina Monologues.\" HOT Festival.",
           "url": "https://dixonplace.org/",
-          "uid": "e_cfe0a9796ba5"
+          "uid": "e_be0c38e3ce1a"
         },
         {
           "day": "Tue",
@@ -457,7 +457,7 @@
           "end": null,
           "note": "HOT Festival. Mixed bag of performance, personality, pleasure.",
           "url": "https://dixonplace.org/",
-          "uid": "e_1caeaa90f069"
+          "uid": "e_d855b63b2c2c"
         },
         {
           "day": "Wed",
@@ -472,7 +472,7 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_11b702e312b6"
+          "uid": "e_38c0d4616427"
         },
         {
           "day": "Wed",
@@ -487,7 +487,7 @@
           "end": "20:00",
           "note": "Sort donation requests, cataloging projects. Low-lift way to meet the collective.",
           "url": "https://interferencearchive.org/events/",
-          "uid": "e_5ba62b423a2d"
+          "uid": "e_e49ad84f24fc"
         },
         {
           "day": "Wed",
@@ -502,7 +502,7 @@
           "end": null,
           "note": null,
           "url": "https://filmforum.org/events/event/shermans-march-july-8",
-          "uid": "e_ff71d4b3dbff"
+          "uid": "e_6f4d37a0c6c0"
         },
         {
           "day": "Thu",
@@ -517,7 +517,7 @@
           "end": null,
           "note": "Walkable from Crown Heights, leads into Roulette",
           "url": "https://summerstage.org",
-          "uid": "e_9ae43cba2d3e"
+          "uid": "e_b1765f15677f"
         },
         {
           "day": "Thu",
@@ -532,7 +532,7 @@
           "end": null,
           "note": "Interactive gameshow play. Runs Jul 9–11.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_15428891ce54"
+          "uid": "e_af28d2b638f3"
         },
         {
           "day": "Thu",
@@ -547,7 +547,7 @@
           "end": null,
           "note": "Kaleidoscopic queer comedy deconstructing a forgotten Hollywood film. Long run — through Aug 2.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_b067feb2faa5"
+          "uid": "e_a578f338c923"
         },
         {
           "day": "Thu",
@@ -562,7 +562,7 @@
           "end": null,
           "note": null,
           "url": "https://filmforum.org/events/event/shermans-march-july-9",
-          "uid": "e_7a241fe4ffbc"
+          "uid": "e_ecdb38232e32"
         },
         {
           "day": "Thu",
@@ -577,7 +577,7 @@
           "end": null,
           "note": "Doors 7:30pm, music 8pm",
           "url": "https://roulette.org/event/no-fun-new-perspectives-night-1/",
-          "uid": "e_9cce3cc8cb7f"
+          "uid": "e_8aa0a10c2c55"
         },
         {
           "day": "Thu",
@@ -592,8 +592,9 @@
           "end": null,
           "note": "Recurring Thursday. Also Jul 16.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_4604151857f7",
+          "uid": "e_8695f4c22608",
           "aliases": [
+            "e_cd334b7df8ac",
             "Jul 9|FOLKUS"
           ]
         },
@@ -610,7 +611,7 @@
           "end": null,
           "note": "Runs Jul 9–12. Variety/circus performance.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_4d74772a758b"
+          "uid": "e_34428fea6e42"
         },
         {
           "day": "Thu",
@@ -625,7 +626,7 @@
           "end": null,
           "note": "Opens Jul 9, runs through Jul 25. 70 min. Presale $35 through Jun 15.",
           "url": "https://www.bricktheater.com/",
-          "uid": "e_2bd971c4dc3b"
+          "uid": "e_dea1422a0491"
         },
         {
           "day": "Fri",
@@ -640,7 +641,7 @@
           "end": null,
           "note": "Free outdoor festival — Habibi Festival celebrates Middle Eastern + North African artists.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_0e51cbcc4296"
+          "uid": "e_7152111174f1"
         },
         {
           "day": "Fri",
@@ -655,7 +656,7 @@
           "end": null,
           "note": "Stand-up on tech culture, immigrant expectations, dating French men. Runs Jul 10–12.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_339170900e4c"
+          "uid": "e_991c0068c470"
         },
         {
           "day": "Fri",
@@ -670,7 +671,7 @@
           "end": null,
           "note": "Go for Raven Chacon — Diné composer, Pulitzer 2022",
           "url": "https://roulette.org/event/no-fun-new-perspectives-night-2/",
-          "uid": "e_8c2d11495e4f"
+          "uid": "e_dc8338cf39b6"
         },
         {
           "day": "Fri",
@@ -685,7 +686,7 @@
           "end": null,
           "note": "New solo work: electric guitar, tenor banjo, five-string banjo.",
           "url": "https://issueprojectroom.org/calendar",
-          "uid": "e_12e549110cf8"
+          "uid": "e_0fc8c893f48a"
         },
         {
           "day": "Fri",
@@ -700,7 +701,7 @@
           "end": null,
           "note": "New McElwee run.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_2a870734b61a"
+          "uid": "e_553cbf3cf22e"
         },
         {
           "day": "Fri",
@@ -715,7 +716,7 @@
           "end": null,
           "note": "Runs Jul 10–23.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_dc30d4e625c5"
+          "uid": "e_d28df0908a2b"
         },
         {
           "day": "Fri",
@@ -730,7 +731,7 @@
           "end": null,
           "note": "Xhloe + Natasha, dir. Tom Costello. Final performances of their run.",
           "url": "https://arsnovanyc.com/upcoming",
-          "uid": "e_d2ecefd12b9f"
+          "uid": "e_d1da8cc32003"
         },
         {
           "day": "Fri",
@@ -745,7 +746,7 @@
           "end": null,
           "note": "Runs Jul 10–11.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_fc991bea88b5"
+          "uid": "e_2cbd3b7622a5"
         },
         {
           "day": "Fri",
@@ -760,7 +761,7 @@
           "end": null,
           "note": "A laboratory (Variety Show) for circus and circus-adjacent performance and experimentation.",
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator",
-          "uid": "e_abf4681d0071"
+          "uid": "e_c63386cee81a"
         },
         {
           "day": "Sat",
@@ -775,7 +776,7 @@
           "end": null,
           "note": "Matinee. Runs Jul 11–12.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_1c357fb8090b"
+          "uid": "e_ada5b5f47ab0"
         },
         {
           "day": "Sat",
@@ -790,7 +791,7 @@
           "end": null,
           "note": "Legal Aid Society presents Saint James Joy, Pahua, Puppetmobile.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_b200f13c550c"
+          "uid": "e_18f2f49628b0"
         },
         {
           "day": "Sat",
@@ -805,7 +806,7 @@
           "end": "21:00",
           "note": "Bring an exposed roll of film. Alt-process chemistry — develop in red wine. Conflicts with Roulette Night 3.",
           "url": "https://www.bushwickcommunitydarkroom.com/events",
-          "uid": "e_483b36267d49"
+          "uid": "e_e8e0e903e974"
         },
         {
           "day": "Sat",
@@ -820,7 +821,7 @@
           "end": null,
           "note": "Dense day. Conflicts with BCD Winol workshop.",
           "url": "https://roulette.org/event/no-fun-new-perspectives-night-3/",
-          "uid": "e_154290a55e76"
+          "uid": "e_c76f3eda53b2"
         },
         {
           "day": "Sat",
@@ -835,7 +836,7 @@
           "end": null,
           "note": "Stand-up comedy.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_285a65a3c4cd"
+          "uid": "e_5a8254f4e5af"
         },
         {
           "day": "Sat",
@@ -850,7 +851,7 @@
           "end": null,
           "note": "Fits between SFPC (ends 4pm) and Roulette Night 3 (8pm)",
           "url": "https://summerstage.org",
-          "uid": "e_c01c9b42e017"
+          "uid": "e_f58ba91cf757"
         },
         {
           "day": "Sat",
@@ -865,7 +866,7 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/january-6th-the-musical-tickets-1990835917822?aff=oddtdtcreator",
-          "uid": "e_c76ee6c31611"
+          "uid": "e_afe4cdfa7463"
         },
         {
           "day": "Sat",
@@ -880,7 +881,7 @@
           "end": null,
           "note": "A laboratory (Variety Show) for circus and circus-adjacent performance and experimentation.",
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator",
-          "uid": "e_ca9337117dbf"
+          "uid": "e_0b4f7367c537"
         },
         {
           "day": "Sun",
@@ -895,7 +896,7 @@
           "end": "18:00",
           "note": "ANIMAL [a listening gym] on view. Juma Sultan live 4–6pm. RSVP at pioneerworks.org",
           "url": "https://pioneerworks.org/programs/second-sundays-july-2026",
-          "uid": "e_e6532ed683e3"
+          "uid": "e_50d3997aca2d"
         },
         {
           "day": "Sun",
@@ -910,7 +911,37 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator",
-          "uid": "e_ef3d66ef6151"
+          "uid": "e_3b0eb682121a"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 12",
+          "event": "Live Jazz Brunch for All Ages: Music Explorers (2 sets EVERY SUNDAY @ 10:30 & 11:30AM)",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "10:30",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/5998358/735086600/live-jazz-brunch-for-all-ages-music-explorers-2-sets-every-sunday-10-30-11-30am",
+          "uid": "e_1303f1f0253d"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 12",
+          "event": "Monthly Jazz Jam presented by Ridgewood Jazz",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6656823/771421278/monthly-jazz-jam-presented-by-ridgewood-jazz",
+          "uid": "e_1e6bec658222"
         }
       ]
     },
@@ -930,7 +961,7 @@
           "end": "20:00",
           "note": null,
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_b923b600ea62"
+          "uid": "e_4d28c247b481"
         },
         {
           "day": "Mon",
@@ -945,7 +976,7 @@
           "end": "23:00",
           "note": "An experiment, a return to form, a performer in the dark.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_48693ba7cda5"
+          "uid": "e_5154ed317ddd"
         },
         {
           "day": "Mon",
@@ -960,7 +991,22 @@
           "end": null,
           "note": "Drama involving a curse and relationship conflict. Runs Jul 13–14.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_ba5bd4f8e9a0"
+          "uid": "e_5ce74e46986f"
+        },
+        {
+          "day": "Mon",
+          "date": "Jul 13",
+          "event": "Posters to Podcasts: Art & Social Activism (Summer 2026)",
+          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "cost": "$240",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "00:00",
+          "end": null,
+          "note": null,
+          "url": "https://www.materialsforthearts.org/event/posters-to-podcasts-summer-2026/",
+          "uid": "e_d80f9eb34a09"
         },
         {
           "day": "Tue",
@@ -975,7 +1021,7 @@
           "end": "20:00",
           "note": null,
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_e93ca1a907dc"
+          "uid": "e_4e22afccc3d5"
         },
         {
           "day": "Tue",
@@ -990,7 +1036,7 @@
           "end": null,
           "note": "Contemporary drama on how love + loss intertwine. Runs Jul 14–18.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_75000536843d"
+          "uid": "e_1006a06ce194"
         },
         {
           "day": "Tue",
@@ -1005,7 +1051,7 @@
           "end": "21:30",
           "note": "3-session evening class, Tuesdays Jul 14–28.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_eb47b586352c"
+          "uid": "e_aa27063f21f0"
         },
         {
           "day": "Tue",
@@ -1020,7 +1066,7 @@
           "end": null,
           "note": "Same night as Mono No Aware Producing Fundamentals — pick one.",
           "url": "https://pioneerworks.org/programs/false-harmonics-26-conrad-tao-aaron-turner-and-randall-dunn-charmaine-lee",
-          "uid": "e_2c706aeca12c"
+          "uid": "e_b8b6738cbc58"
         },
         {
           "day": "Tue",
@@ -1035,7 +1081,7 @@
           "end": null,
           "note": "\"oz is tired of Men. the most reasonable conclusion is to become God.\" Runs Jul 14–18.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_e5f8a55bddd3"
+          "uid": "e_3232d1453c67"
         },
         {
           "day": "Tue",
@@ -1050,7 +1096,7 @@
           "end": null,
           "note": "EdFest — Edinburgh Fringe preview series.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_8cc38f644141"
+          "uid": "e_a39d04df7294"
         },
         {
           "day": "Tue",
@@ -1065,7 +1111,22 @@
           "end": null,
           "note": "EdFest — Edinburgh Fringe preview series.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_2c59c61431f4"
+          "uid": "e_7dd360385e8c"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 14",
+          "event": "Kyle Sanna / Elsa Saade with Kinan Azmeh (live coding with ensemble / songs in Arabic)",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6656821/771421274/kyle-sanna-elsa-saade-with-kinan-azmeh-live-coding-with-ensemble-songs-in-arabic",
+          "uid": "e_c2adf9d996c9"
         },
         {
           "day": "Wed",
@@ -1080,7 +1141,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6641952/769750619/the-tiny-musician-violin-loopstation",
-          "uid": "e_d200a5344b6e"
+          "uid": "e_b6409bb018a6"
         },
         {
           "day": "Wed",
@@ -1095,13 +1156,13 @@
           "end": "20:30",
           "note": null,
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_a2735ed5acc4"
+          "uid": "e_81f8bb345182"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
           "event": "Sustaining Creativity in the Home: A Zine Exploration",
-          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -1110,7 +1171,7 @@
           "end": "20:30",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_d1e8be8781cd"
+          "uid": "e_3c6935667bfb"
         },
         {
           "day": "Wed",
@@ -1125,7 +1186,7 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6636735/769106048/jazz-the-simon-metzger-group",
-          "uid": "e_67aae44f2263"
+          "uid": "e_4be9ca27de2b"
         },
         {
           "day": "Wed",
@@ -1140,7 +1201,7 @@
           "end": "23:00",
           "note": "Interactive invitation to audience participation.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_24c247053b9b"
+          "uid": "e_1088cb9b19b1"
         },
         {
           "day": "Wed",
@@ -1155,13 +1216,13 @@
           "end": null,
           "note": "EdFest.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_c08bc53847f0"
+          "uid": "e_6b28d69d1e74"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
           "event": "Exhibition: Lotte Van den Audenaeren",
-          "where": "Flanders House New York &#8211; New York Times Building · 620 Eighth Avenue, 38th floor, New York",
+          "where": "Flanders House New York – New York Times Building · 620 Eighth Avenue, 38th floor, New York",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -1170,7 +1231,7 @@
           "end": "23:00",
           "note": null,
           "url": "https://www.fluxfactory.org/event/lotte-van-den-audenaeren/",
-          "uid": "e_fcea8e0a05af"
+          "uid": "e_78be5927845c"
         },
         {
           "day": "Thu",
@@ -1185,7 +1246,7 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_24c3d6353f02"
+          "uid": "e_1e8033c79ec7"
         },
         {
           "day": "Thu",
@@ -1200,7 +1261,7 @@
           "end": null,
           "note": "Part poetry reading, part immersive theater, set post-apocalyptically. Runs Jul 16–18.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_3fdc18dafbc3"
+          "uid": "e_941be459f4ba"
         },
         {
           "day": "Thu",
@@ -1215,7 +1276,7 @@
           "end": "19:30",
           "note": null,
           "url": "https://uniondocs.org/event/a-brief-history-of-chasing-storms-2026-07-16/",
-          "uid": "e_f549d5c7846c"
+          "uid": "e_f1bc819bf596"
         },
         {
           "day": "Thu",
@@ -1230,7 +1291,7 @@
           "end": "23:00",
           "note": "Immersive spiritual service focused on the ocean's healing properties.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_f7ac62b179e4"
+          "uid": "e_98c4c0b8fa16"
         },
         {
           "day": "Thu",
@@ -1245,8 +1306,9 @@
           "end": null,
           "note": null,
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_4cf0f13d8ff1",
+          "uid": "e_025879c38b9d",
           "aliases": [
+            "e_bdff167a7dcc",
             "Jul 16|FOLKUS"
           ]
         },
@@ -1263,7 +1325,7 @@
           "end": null,
           "note": "Screening run opens.",
           "url": "https://www.bam.org/",
-          "uid": "e_e4439e45ed71"
+          "uid": "e_3604f0094412"
         },
         {
           "day": "Thu",
@@ -1278,7 +1340,22 @@
           "end": "00:30",
           "note": null,
           "url": "https://www.materialsforthearts.org/event/mfta-designer-in-residence-scooter-laforge-event/",
-          "uid": "e_c1d4324a90d8"
+          "uid": "e_7a6b5341a086"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 16",
+          "event": "Snug Harbor: Soundtrack to a Coup d'État (film screening)",
+          "where": "Snug Harbor Cultural Center, Staten Island",
+          "cost": "FREE",
+          "category": "film",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://snug-harbor.org/",
+          "uid": "e_11c996338339"
         },
         {
           "day": "Fri",
@@ -1293,7 +1370,7 @@
           "end": "20:00",
           "note": "Free outdoor plaza programming, 6–8pm. Runs Jul 17 – Aug 15.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_f9e87434cd32"
+          "uid": "e_274e6cffdd40"
         },
         {
           "day": "Fri",
@@ -1308,13 +1385,13 @@
           "end": "20:30",
           "note": "All-female comedy team, original sketches.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_25f4f98d5d2a"
+          "uid": "e_9390df31ecfa"
         },
         {
           "day": "Fri",
           "date": "Jul 17",
           "event": "Drone Lab + Open Projector",
-          "where": "Delight Factory · 303 Saratoga Ave\n11233-4007\nUS",
+          "where": "Delight Factory · 303 Saratoga Ave 11233-4007 US",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -1323,7 +1400,7 @@
           "end": "23:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_f9859480361d"
+          "uid": "e_819906b089a2"
         },
         {
           "day": "Fri",
@@ -1338,7 +1415,7 @@
           "end": "23:00",
           "note": "Drama with three Black women stuck behind in the annals of time.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_75f24ea541d5"
+          "uid": "e_d4a4ff37998f"
         },
         {
           "day": "Sat",
@@ -1353,7 +1430,7 @@
           "end": null,
           "note": null,
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_a2e35f143de7"
+          "uid": "e_60c0c5e08247"
         },
         {
           "day": "Sat",
@@ -1368,7 +1445,7 @@
           "end": "22:00",
           "note": "One seat left. Advanced territory — not a beginner workshop.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_23d938cf2308"
+          "uid": "e_7a14c2717b6a"
         },
         {
           "day": "Sat",
@@ -1383,8 +1460,9 @@
           "end": null,
           "note": "Jo Barchi, Ted Dodson + others reading. Free/sliding.",
           "url": "https://www.wendyssubway.com/programs",
-          "uid": "e_ba01d820293f",
+          "uid": "e_2fc464866498",
           "aliases": [
+            "e_e28b32a916d5",
             "Jul 18|Maybe Sometimes: A Reading With Jo Barchi, Ted Dodson, Kristen Gallagher, Matt Longabucco, and Caroline Rayner"
           ]
         },
@@ -1401,7 +1479,7 @@
           "end": null,
           "note": "Benefit show, paid.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_997ecf737e11"
+          "uid": "e_02466ca830d6"
         },
         {
           "day": "Sat",
@@ -1416,7 +1494,7 @@
           "end": null,
           "note": "Matana Roberts (2009 AIR) + Ben Vida (2013 AIR) performing from Oblivion Seekers.",
           "url": "https://issueprojectroom.org/calendar",
-          "uid": "e_5acf6971e9df"
+          "uid": "e_e704231ba63a"
         },
         {
           "day": "Sat",
@@ -1431,7 +1509,7 @@
           "end": "23:00",
           "note": "Four unremarkable women defending Earth from a space threat.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_6c3ad63ce805"
+          "uid": "e_3e311e391506"
         },
         {
           "day": "Sat",
@@ -1446,7 +1524,7 @@
           "end": null,
           "note": "Rare milestone event. Live-coding collective, algorithmic sets projected onto walls. Bring a laptop.",
           "url": "https://livecode.nyc/events.html",
-          "uid": "e_d57ee20d4923"
+          "uid": "e_0b069b42e32d"
         },
         {
           "day": "Sat",
@@ -1461,7 +1539,7 @@
           "end": "16:00",
           "note": null,
           "url": "https://printshop.org/classes-workshops/pochoir-workshop-with-andrew-betancourt",
-          "uid": "e_e87a0aa9a0de"
+          "uid": "e_19b7c8254ba7"
         },
         {
           "day": "Sat",
@@ -1476,8 +1554,9 @@
           "end": null,
           "note": "Melanie Hoff",
           "url": "https://withfriends.events/event/ahNbaM8n/the-origin-of-the-word-free-public-talk/",
-          "uid": "e_f2e193c270db",
+          "uid": "e_ccbb6a7bc527",
           "aliases": [
+            "e_f0b69fee1f1c",
             "Jul 18|SFPC free talk: The Origin of the Word — Melanie Hoff"
           ]
         },
@@ -1494,13 +1573,28 @@
           "end": "14:00",
           "note": null,
           "url": "https://www.worksinprogressnyc.org/works-in-progress-shop/p/introduction-to-silk-screen-printing-class",
-          "uid": "e_b92399727654"
+          "uid": "e_0f7bd89bdd3d"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 18",
+          "event": "Brooklyn Metal Works Open Studios",
+          "where": "Brooklyn Metal Works, 640 Dean St. 2nd Floor, New York, NY 11238",
+          "cost": "TBD",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "18:00",
+          "note": null,
+          "url": "https://craftcouncil.org/events/national-craft-open-studios-weekend/",
+          "uid": "e_ba2f1d4d519e"
         },
         {
           "day": "Sun",
           "date": "Jul 19",
           "event": "Art x Embodiment",
-          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
+          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -1509,7 +1603,7 @@
           "end": "13:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_74b6b092477d"
+          "uid": "e_8753dce9783c"
         },
         {
           "day": "Sun",
@@ -1524,7 +1618,7 @@
           "end": "16:30",
           "note": "Handcrafted marionettes from scrap materials + physical theater. Matinee.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_d370cfb13700"
+          "uid": "e_6237ce39c56d"
         },
         {
           "day": "Sun",
@@ -1539,7 +1633,7 @@
           "end": "22:00",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_8354d864dbcc"
+          "uid": "e_9ab3b429d4c4"
         },
         {
           "day": "Sun",
@@ -1554,7 +1648,7 @@
           "end": null,
           "note": "Our complicated relationship to the ocean, conservation. Runs Jul 19–20.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_cb27ed806554"
+          "uid": "e_0eacfe1891b3"
         },
         {
           "day": "Sun",
@@ -1569,7 +1663,7 @@
           "end": "20:30",
           "note": "Raw, funny, unflinching on connection and relationships.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_c6d43ec41877"
+          "uid": "e_bc35d95c83f8"
         },
         {
           "day": "Sun",
@@ -1584,7 +1678,7 @@
           "end": null,
           "note": "Profane, absurd debate where honor, faith, and righteous violence collapse.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_b403928a7335"
+          "uid": "e_fd8bb74e18e1"
         },
         {
           "day": "Sun",
@@ -1599,22 +1693,7 @@
           "end": "23:00",
           "note": null,
           "url": "https://elmuseo.org/event/fifa-mens-world-cup-2026-final-watch-party/",
-          "uid": "e_0bf4703136f9"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 16",
-          "event": "Snug Harbor: Soundtrack to a Coup d'État (film screening)",
-          "where": "Snug Harbor Cultural Center, Staten Island",
-          "cost": "FREE",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://snug-harbor.org/",
-          "uid": "e_03348573bc4c"
+          "uid": "e_fbf70f202341"
         },
         {
           "day": "Sun",
@@ -1629,7 +1708,7 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_32015330d950"
+          "uid": "e_3e23fe17b02b"
         }
       ]
     },
@@ -1649,7 +1728,7 @@
           "end": "20:00",
           "note": "Performance inviting the audience to \"pay your respects\" during a solemn ceremony.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_37529b26b95c"
+          "uid": "e_12d8e51ea220"
         },
         {
           "day": "Mon",
@@ -1664,7 +1743,7 @@
           "end": null,
           "note": "Biblical reinterpretation comedy.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_010579b7cdd2"
+          "uid": "e_cde4a667113c"
         },
         {
           "day": "Tue",
@@ -1679,7 +1758,7 @@
           "end": "21:30",
           "note": "3-session evening class, Tuesdays Jul 14–28.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_1835bea09fd4"
+          "uid": "e_b31e93eae425"
         },
         {
           "day": "Tue",
@@ -1694,7 +1773,7 @@
           "end": null,
           "note": "Love, Denial and 20 Years of Barely Contained Fury. Runs Jul 21–22.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_6a912cf95306"
+          "uid": "e_e095c590360b"
         },
         {
           "day": "Wed",
@@ -1709,7 +1788,7 @@
           "end": null,
           "note": "Clown narrative — a childhood friend disappears. Long run through Jul 31.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_b202f8725667"
+          "uid": "e_738920461bca"
         },
         {
           "day": "Wed",
@@ -1724,292 +1803,7 @@
           "end": null,
           "note": "Best free dance viewing of the summer. Don't miss.",
           "url": "https://summerstage.org",
-          "uid": "e_442fcb4a26a0"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 23",
-          "event": "Judson McNally Jackson Book Talk: UNSAYABLE with Michael Cunningham & Sarah McNally",
-          "where": "Judson Memorial Church, 243 Thompson St",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "witness",
-          "start": "19:00",
-          "end": "22:00",
-          "note": "RSVP required.",
-          "url": "https://www.judson.org/calendar",
-          "uid": "e_0632efa6ec6a"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 23",
-          "event": "Wendy's Subway: Bi-Weekly Writing Night",
-          "where": "Wendy's Subway, Bushwick/Ridgewood border",
-          "cost": "sliding scale",
-          "category": "literature",
-          "flag": null,
-          "mode": "make",
-          "start": "19:30",
-          "end": "20:30",
-          "note": "Show up with a project; write for an hour alongside others.",
-          "url": "https://www.wendyssubway.com/programs",
-          "uid": "e_837a08d6de93"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 23",
-          "event": "The Tank: Where the Yetis Will Be",
-          "where": "The Tank, 312 W 36th St, Midtown West",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "Trans narrative exploring roommate relationships. Runs Jul 23–28.",
-          "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_b9be4836a143"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 23",
-          "event": "The Tank: Bedroom Pop",
-          "where": "The Tank, 312 W 36th St, Midtown West",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "Runs Jul 23–25.",
-          "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_5c9cf9ca0ef2"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 23",
-          "event": "&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph",
-          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
-          "cost": "TBD",
-          "category": "making",
-          "flag": null,
-          "mode": "make",
-          "start": "21:00",
-          "end": "21:00",
-          "note": null,
-          "url": "https://greenwichhouse.org/event/ceramics-now-2025-artists/",
-          "uid": "e_b0f27b6b020f"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 23",
-          "event": "Uptown Bounce Co-Presented by the Museum of the City of New York",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
-          "cost": "FREE",
-          "category": "making",
-          "flag": null,
-          "mode": "make",
-          "start": "22:00",
-          "end": "01:00",
-          "note": null,
-          "url": "https://elmuseo.org/event/uptown-bounce-co-presented-by-the-museum-of-the-city-of-new-york/",
-          "uid": "e_0cee4b384226"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 24",
-          "event": "UnionDocs: The Magical Image — Special Effects as Documentary Method",
-          "where": "UnionDocs, Ridgewood",
-          "cost": "$295–350",
-          "category": "film",
-          "flag": "decide",
-          "mode": "make",
-          "start": "10:00",
-          "end": "16:30",
-          "note": "3-day intensive Jul 24–26, 10am–4:30pm daily. Faculty: Elsaesser, Stephens, Sharon Lockhart, Kienitz Wilkins, Cardone. Big commitment — decide fast.",
-          "url": "https://uniondocs.org/events/category/workshops/list/",
-          "uid": "e_386c16a24d5d"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 24",
-          "event": "BRIC Celebrate Brooklyn!: Cindy Blackman Santana Group + Patricia Brennan Septet + Lucía (jazz)",
-          "where": "Lena Horne Bandshell, Prospect Park",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": "priority",
-          "mode": "witness",
-          "start": "18:00",
-          "end": null,
-          "note": "Free jazz night.",
-          "url": "https://bricartsmedia.org/events",
-          "uid": "e_9aee9e3ca77c"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 24",
-          "event": "Film Forum: WHITE NIGHTS (Visconti, 4K Restoration) opens",
-          "where": "Film Forum, 209 W Houston St",
-          "cost": "$12–18",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "Runs Jul 24–Aug 6.",
-          "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_69e9aea43fa7"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 24",
-          "event": "Film Forum: DREAD BEAT AN BLOOD (Franco Rosso doc + 1985 concert) opens",
-          "where": "Film Forum, 209 W Houston St",
-          "cost": "$12–18",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_0a5b15b37f64"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 24",
-          "event": "Extending Poetry Through Computation",
-          "where": "National Academy of Design",
-          "cost": "TBD",
-          "category": "tech",
-          "flag": null,
-          "mode": "make",
-          "start": "18:00",
-          "end": "21:00",
-          "note": "Two-day workshop, continues Sat Jul 25, 1-4pm ET. With Omayeli Arenyeka.",
-          "url": "https://sfpc.study/sessions/future-schools/extending-poetry-through-computation",
-          "uid": "e_c2437d29c222"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 25",
-          "event": "Wendy's Subway: Basic Instincts and Pure Desires — workshop with Nico Vela Page",
-          "where": "Wendy's Subway, Bushwick/Ridgewood border",
-          "cost": "sliding scale",
-          "category": "literature",
-          "flag": null,
-          "mode": "make",
-          "start": "12:00",
-          "end": "14:30",
-          "note": "Generative writing workshop.",
-          "url": "https://www.wendyssubway.com/programs",
-          "uid": "e_cb79e3aaf706"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 25",
-          "event": "July Open Studios",
-          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
-          "cost": "FREE",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": "12:00",
-          "end": "17:00",
-          "note": null,
-          "url": "https://lmcc.net/events/july-open-studios/",
-          "uid": "e_18bd0bb5348f"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 25",
-          "event": "Recycled Runway",
-          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": "13:00",
-          "end": "15:00",
-          "note": null,
-          "url": "https://lmcc.net/events/recycled-runway-art-workshop-with-sari-nordman/2026-07-25/",
-          "uid": "e_169d7a269a4f"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 25",
-          "event": "How to Talk About Your Art",
-          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
-          "cost": "TBD",
-          "category": "community",
-          "flag": null,
-          "mode": "witness",
-          "start": "13:00",
-          "end": "16:00",
-          "note": null,
-          "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_5cfb8ef18c9e"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 25",
-          "event": "BRIC Celebrate Brooklyn! at Brower Park: Black House Radio",
-          "where": "Brower Park, Park Place between Brooklyn & Kingston Ave — Crown Heights, walkable",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": "priority",
-          "mode": "witness",
-          "start": "15:00",
-          "end": null,
-          "note": "Free, in your neighborhood.",
-          "url": "https://bricartsmedia.org/events",
-          "uid": "e_1c3db7de5088"
-        },
-        {
-          "day": "Sun",
-          "date": "Jul 26",
-          "event": "Interference Archive: Audio Collage Workshop",
-          "where": "314 7th St, Park Slope",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": null,
-          "mode": "make",
-          "start": "19:30",
-          "end": "21:00",
-          "note": "Experimental audio making — record yourself reading archive materials. Small group.",
-          "url": "https://interferencearchive.org/event/audio-collage-workshop-exploring-the-archive-through-audio/",
-          "uid": "e_64a447152e9e"
-        },
-        {
-          "day": "Sun",
-          "date": "Jul 26",
-          "event": "NYU Skirball: NT Live — Les Liaisons Dangereuses (screening)",
-          "where": "NYU Skirball Center, Manhattan",
-          "cost": "TBD",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "National Theatre Live special screening.",
-          "url": "https://nyuskirball.org/events",
-          "uid": "e_78c1246fa99c"
-        },
-        {
-          "day": "Sun",
-          "date": "Jul 26",
-          "event": "Afro-Latinas: Luedji Luna ft. Liniker / Susana Baca + more",
-          "where": "Central Park",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://summerstage.org",
-          "uid": "e_34792872d39d"
+          "uid": "e_9499271ec19a"
         },
         {
           "day": "Wed",
@@ -2024,7 +1818,307 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_3fc572aff455"
+          "uid": "e_61276307bd3c"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Judson McNally Jackson Book Talk: UNSAYABLE with Michael Cunningham & Sarah McNally",
+          "where": "Judson Memorial Church, 243 Thompson St",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "22:00",
+          "note": "RSVP required.",
+          "url": "https://www.judson.org/calendar",
+          "uid": "e_50c42f490ed5"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Wendy's Subway: Bi-Weekly Writing Night",
+          "where": "Wendy's Subway, Bushwick/Ridgewood border",
+          "cost": "sliding scale",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "19:30",
+          "end": "20:30",
+          "note": "Show up with a project; write for an hour alongside others.",
+          "url": "https://www.wendyssubway.com/programs",
+          "uid": "e_e099e182794c"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "The Tank: Where the Yetis Will Be",
+          "where": "The Tank, 312 W 36th St, Midtown West",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "Trans narrative exploring roommate relationships. Runs Jul 23–28.",
+          "url": "https://thetanknyc.org/tankcalendar",
+          "uid": "e_2b27e22209f1"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "The Tank: Bedroom Pop",
+          "where": "The Tank, 312 W 36th St, Midtown West",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "Runs Jul 23–25.",
+          "url": "https://thetanknyc.org/tankcalendar",
+          "uid": "e_c787325c440b"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Ceramics Now, Lizzy Chemel, Amir Hariri, Melissa Joseph",
+          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "cost": "TBD",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "21:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://greenwichhouse.org/event/ceramics-now-2025-artists/",
+          "uid": "e_4438d1992ba6"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Uptown Bounce Co-Presented by the Museum of the City of New York",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:00",
+          "end": "01:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/uptown-bounce-co-presented-by-the-museum-of-the-city-of-new-york/",
+          "uid": "e_c1f15b07e340"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "UnionDocs: The Magical Image — Special Effects as Documentary Method",
+          "where": "UnionDocs, Ridgewood",
+          "cost": "$295–350",
+          "category": "film",
+          "flag": "decide",
+          "mode": "make",
+          "start": "10:00",
+          "end": "16:30",
+          "note": "3-day intensive Jul 24–26, 10am–4:30pm daily. Faculty: Elsaesser, Stephens, Sharon Lockhart, Kienitz Wilkins, Cardone. Big commitment — decide fast.",
+          "url": "https://uniondocs.org/events/category/workshops/list/",
+          "uid": "e_2dbd260a2e20"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "BRIC Celebrate Brooklyn!: Cindy Blackman Santana Group + Patricia Brennan Septet + Lucía (jazz)",
+          "where": "Lena Horne Bandshell, Prospect Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": "priority",
+          "mode": "witness",
+          "start": "18:00",
+          "end": null,
+          "note": "Free jazz night.",
+          "url": "https://bricartsmedia.org/events",
+          "uid": "e_29b9045866ad"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "Film Forum: WHITE NIGHTS (Visconti, 4K Restoration) opens",
+          "where": "Film Forum, 209 W Houston St",
+          "cost": "$12–18",
+          "category": "film",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "Runs Jul 24–Aug 6.",
+          "url": "https://www.filmforum.org/now-playing",
+          "uid": "e_98fa4f934af2"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "Film Forum: DREAD BEAT AN BLOOD (Franco Rosso doc + 1985 concert) opens",
+          "where": "Film Forum, 209 W Houston St",
+          "cost": "$12–18",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://www.filmforum.org/now-playing",
+          "uid": "e_e43d91c85933"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "Extending Poetry Through Computation",
+          "where": "National Academy of Design",
+          "cost": "TBD",
+          "category": "tech",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "21:00",
+          "note": "Two-day workshop, continues Sat Jul 25, 1-4pm ET. With Omayeli Arenyeka.",
+          "url": "https://sfpc.study/sessions/future-schools/extending-poetry-through-computation",
+          "uid": "e_687809e693f7"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "Wendy's Subway: Basic Instincts and Pure Desires — workshop with Nico Vela Page",
+          "where": "Wendy's Subway, Bushwick/Ridgewood border",
+          "cost": "sliding scale",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "12:00",
+          "end": "14:30",
+          "note": "Generative writing workshop.",
+          "url": "https://www.wendyssubway.com/programs",
+          "uid": "e_81b2bcdcfdf3"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "July Open Studios",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "FREE",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "12:00",
+          "end": "17:00",
+          "note": null,
+          "url": "https://lmcc.net/events/july-open-studios/",
+          "uid": "e_9e1d4b8dea32"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "Recycled Runway",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://lmcc.net/events/recycled-runway-art-workshop-with-sari-nordman/2026-07-25/",
+          "uid": "e_ef36ed4717be"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "How to Talk About Your Art",
+          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:00",
+          "end": "16:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events",
+          "uid": "e_202f0511bb79"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "BRIC Celebrate Brooklyn! at Brower Park: Black House Radio",
+          "where": "Brower Park, Park Place between Brooklyn & Kingston Ave — Crown Heights, walkable",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": "priority",
+          "mode": "witness",
+          "start": "15:00",
+          "end": null,
+          "note": "Free, in your neighborhood.",
+          "url": "https://bricartsmedia.org/events",
+          "uid": "e_501ed5576146"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "Pataphysics 020",
+          "where": "Delight Factory · 303 Saratoga Avenue Brooklyn United States",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": "23:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events",
+          "uid": "e_b1009a6f2c05"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 26",
+          "event": "Interference Archive: Audio Collage Workshop",
+          "where": "314 7th St, Park Slope",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "make",
+          "start": "19:30",
+          "end": "21:00",
+          "note": "Experimental audio making — record yourself reading archive materials. Small group.",
+          "url": "https://interferencearchive.org/event/audio-collage-workshop-exploring-the-archive-through-audio/",
+          "uid": "e_5f09f0fd6805"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 26",
+          "event": "NYU Skirball: NT Live — Les Liaisons Dangereuses (screening)",
+          "where": "NYU Skirball Center, Manhattan",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "National Theatre Live special screening.",
+          "url": "https://nyuskirball.org/events",
+          "uid": "e_448c2a3f26dc"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 26",
+          "event": "Afro-Latinas: Luedji Luna ft. Liniker / Susana Baca + more",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://summerstage.org",
+          "uid": "e_5769fe3066e4"
         },
         {
           "day": "Sun",
@@ -2039,7 +2133,7 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_861c15f959c7"
+          "uid": "e_6eca8fe3e9ed"
         },
         {
           "day": "Sun",
@@ -2054,7 +2148,7 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_2cbff0299290"
+          "uid": "e_c08638053bc7"
         }
       ]
     },
@@ -2065,7 +2159,7 @@
           "day": "Tue",
           "date": "Jul 28",
           "event": "Siren Circle",
-          "where": "Delight Factory · 303 Saratoga Avenue\nBrooklyn, NY, 11233",
+          "where": "Delight Factory · 303 Saratoga Avenue Brooklyn, NY, 11233",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2074,7 +2168,7 @@
           "end": "22:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_e265ac8871c0"
+          "uid": "e_21499ae5e085"
         },
         {
           "day": "Tue",
@@ -2089,7 +2183,7 @@
           "end": "21:30",
           "note": "3-session evening class, Tuesdays Jul 14–28.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_a0674d0b4fa8"
+          "uid": "e_2fed0d2046fe"
         },
         {
           "day": "Tue",
@@ -2104,7 +2198,7 @@
           "end": null,
           "note": "Tickets bought. Lynch sound collaborator. Live to picture.",
           "url": "https://pioneerworks.org/programs/false-harmonics-27-dean-hurley-c-lavender",
-          "uid": "e_f57a47954fca"
+          "uid": "e_e686d5187dcd"
         },
         {
           "day": "Tue",
@@ -2119,7 +2213,7 @@
           "end": "21:00",
           "note": "4 Tuesdays",
           "url": "https://printshop.org/classes-workshops/relief-printmaking-with-anat-keinan",
-          "uid": "e_4c3ac0e4c233"
+          "uid": "e_5014d7467e8c"
         },
         {
           "day": "Wed",
@@ -2134,205 +2228,7 @@
           "end": null,
           "note": "LAMC.",
           "url": "https://summerstage.org",
-          "uid": "e_c528f71ca877"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 30",
-          "event": "UBB 40th: BreakBeat Lou / Lord Finesse / Diamond D + more",
-          "where": "Central Park",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": "18:00",
-          "end": null,
-          "note": "Hip hop history.",
-          "url": "https://summerstage.org",
-          "uid": "e_a517426dc7bb"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 30",
-          "event": "BAM Film Comment Live: Play Me Something",
-          "where": "BAM Rose Cinemas, 30 Lafayette Ave",
-          "cost": "TBD",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "Film Comment Live conversation series.",
-          "url": "https://www.bam.org/",
-          "uid": "e_1b45696d1de1"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 30",
-          "event": "The Brick Aux: Strange Men",
-          "where": "Brick Aux, 628 Metropolitan Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "Opens Jul 30, runs through Aug 2. 100 min. Dark comedy on masculinity + vulnerability.",
-          "url": "https://www.bricktheater.com/",
-          "uid": "e_cd47c8d60279"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 31",
-          "event": "BRIC Celebrate Brooklyn!: CARRTOONS + Hailé Supreme + Sofía Valdés + Julia Zivic",
-          "where": "Lena Horne Bandshell, Prospect Park",
-          "cost": "FREE",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": "18:00",
-          "end": null,
-          "note": "Free.",
-          "url": "https://bricartsmedia.org/events",
-          "uid": "e_1771bc9813fa"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 31",
-          "event": "DRIFT presents gushes: PROTEIN",
-          "where": "SUPR OMEN, 1 Knickerbocker Ave, Brooklyn",
-          "cost": "$15",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": "19:00",
-          "end": null,
-          "note": null,
-          "url": "https://pools.events/event/htt1Fw2w/gushes-protein/",
-          "uid": "e_caba69819765"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 31",
-          "event": "Circling Anniversary & Exhibition Closing Celebration",
-          "where": "Delight Factory · 303 Saratoga Ave\nBrooklyn, NY 11233\nUSA",
-          "cost": "TBD",
-          "category": "community",
-          "flag": null,
-          "mode": "witness",
-          "start": "19:00",
-          "end": "22:00",
-          "note": null,
-          "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_c6838c6ae969"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 31",
-          "event": "BAM: Welcome II The Terrordome opens (film)",
-          "where": "BAM Rose Cinemas, 30 Lafayette Ave",
-          "cost": "TBD",
-          "category": "film",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "Runs Jul 31 – Aug 6.",
-          "url": "https://www.bam.org/",
-          "uid": "e_cca28e0d4247"
-        },
-        {
-          "day": "Fri",
-          "date": "Jul 31",
-          "event": "Open Studio | Double Exposures",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
-          "cost": "FREE",
-          "category": "making",
-          "flag": null,
-          "mode": "make",
-          "start": "22:00",
-          "end": "01:00",
-          "note": null,
-          "url": "https://elmuseo.org/event/open-studio-double-exposures/",
-          "uid": "e_edadfe9d6d40"
-        },
-        {
-          "day": "Sat",
-          "date": "Aug 1",
-          "event": "Hybrid Animal Encyclopedia",
-          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
-          "cost": "TBD",
-          "category": "theatre",
-          "flag": null,
-          "mode": "witness",
-          "start": "13:00",
-          "end": "15:00",
-          "note": null,
-          "url": "https://lmcc.net/events/hybrid-animal-encyclopedia-workshop-with-nobuho-nagasawa/2026-08-01/",
-          "uid": "e_adbfd22ab41f"
-        },
-        {
-          "day": "Sat",
-          "date": "Aug 1",
-          "event": "Ego Free Jam Acoustic",
-          "where": "Delight Factory · 303 Saratoga Avenue\nBrooklyn, NY, 11233\nUnited States",
-          "cost": "TBD",
-          "category": "community",
-          "flag": null,
-          "mode": "witness",
-          "start": "19:30",
-          "end": "23:55",
-          "note": null,
-          "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_d14c2de79fcf"
-        },
-        {
-          "day": "Sat",
-          "date": "Aug 1",
-          "event": "Bushwick Starr Bazaar",
-          "where": "The Bushwick Starr, Eldert Street",
-          "cost": "FREE",
-          "category": "community",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": "Local vendor market — prints, ceramics, clothing. Kicks off Summers at the Starr.",
-          "url": "https://www.thebushwickstarr.org/",
-          "uid": "e_944072188a87"
-        },
-        {
-          "day": "Sat",
-          "date": "Aug 1",
-          "event": "Creative Music Workshop with Joe McPherson",
-          "where": "Creative Music Studio at Ibeam, 168 7th St, Gowanus",
-          "cost": "$450",
-          "category": "sound",
-          "flag": null,
-          "mode": "make",
-          "start": "10:00",
-          "end": "16:00",
-          "note": null,
-          "url": "https://creativemusic.org/event/creative-music-workshop-with-joe-mcpherson-2026/",
-          "uid": "e_18b6f0bb50ca"
-        },
-        {
-          "day": "Sat",
-          "date": "Aug 1",
-          "event": "Handmade Datasets",
-          "where": "National Academy of Design",
-          "cost": "FREE",
-          "category": "tech",
-          "flag": null,
-          "mode": "witness",
-          "start": "13:30",
-          "end": "15:00",
-          "note": "Aarati Akkapeddi",
-          "url": "https://withfriends.events/event/NXWa8sJw/handmade-datasets-free-public-talk/",
-          "uid": "e_d2dacc2622ce",
-          "aliases": [
-            "Aug 1|SFPC free talk: Handmade Datasets — Aarati Akkapeddi"
-          ]
+          "uid": "e_30118acc9192"
         },
         {
           "day": "Wed",
@@ -2347,7 +2243,52 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_19fc4cfe2097"
+          "uid": "e_41032c83d716"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "UBB 40th: BreakBeat Lou / Lord Finesse / Diamond D + more",
+          "where": "Central Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "18:00",
+          "end": null,
+          "note": "Hip hop history.",
+          "url": "https://summerstage.org",
+          "uid": "e_215e3049d0b9"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "BAM Film Comment Live: Play Me Something",
+          "where": "BAM Rose Cinemas, 30 Lafayette Ave",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "Film Comment Live conversation series.",
+          "url": "https://www.bam.org/",
+          "uid": "e_7d91b230de40"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "The Brick Aux: Strange Men",
+          "where": "Brick Aux, 628 Metropolitan Ave, Williamsburg",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "Opens Jul 30, runs through Aug 2. 100 min. Dark comedy on masculinity + vulnerability.",
+          "url": "https://www.bricktheater.com/",
+          "uid": "e_151306cb9090"
         },
         {
           "day": "Thu",
@@ -2362,7 +2303,7 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_2fa95267279d"
+          "uid": "e_c3cdb0d7be6b"
         },
         {
           "day": "Thu",
@@ -2377,7 +2318,176 @@
           "end": null,
           "note": null,
           "url": "https://snug-harbor.org/",
-          "uid": "e_1a52efed57eb"
+          "uid": "e_b0fe49240760"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 30",
+          "event": "Sounds of Summer Concert Series – Our Own Yokos Joan Caddell & The Midnight Choir",
+          "where": "Staten Island Borough President Vito Fossella’s Sounds of Summer Concert Series",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://t.e2ma.net/click/85ef5j/gw89v02d/0vtdjt",
+          "uid": "e_d5027dd2aca7"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "BRIC Celebrate Brooklyn!: CARRTOONS + Hailé Supreme + Sofía Valdés + Julia Zivic",
+          "where": "Lena Horne Bandshell, Prospect Park",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "18:00",
+          "end": null,
+          "note": "Free.",
+          "url": "https://bricartsmedia.org/events",
+          "uid": "e_7f1bb6c7b7c3"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "DRIFT presents gushes: PROTEIN",
+          "where": "SUPR OMEN, 1 Knickerbocker Ave, Brooklyn",
+          "cost": "$15",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": null,
+          "note": null,
+          "url": "https://pools.events/event/htt1Fw2w/gushes-protein/",
+          "uid": "e_f51f0df5cbb2"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "Circling Anniversary & Exhibition Closing Celebration",
+          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "22:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events",
+          "uid": "e_9c7ce85288cc"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "BAM: Welcome II The Terrordome opens (film)",
+          "where": "BAM Rose Cinemas, 30 Lafayette Ave",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "Runs Jul 31 – Aug 6.",
+          "url": "https://www.bam.org/",
+          "uid": "e_0669af4357da"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "Open Studio | Double Exposures",
+          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "22:00",
+          "end": "01:00",
+          "note": null,
+          "url": "https://elmuseo.org/event/open-studio-double-exposures/",
+          "uid": "e_7ec42a1a20e9"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Hybrid Animal Encyclopedia",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "TBD",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://lmcc.net/events/hybrid-animal-encyclopedia-workshop-with-nobuho-nagasawa/2026-08-01/",
+          "uid": "e_0f2785310988"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Ego Free Jam Acoustic",
+          "where": "Delight Factory · 303 Saratoga Avenue Brooklyn, NY, 11233 United States",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:30",
+          "end": "23:55",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events",
+          "uid": "e_b3538aa10aee"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Bushwick Starr Bazaar",
+          "where": "The Bushwick Starr, Eldert Street",
+          "cost": "FREE",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": "Local vendor market — prints, ceramics, clothing. Kicks off Summers at the Starr.",
+          "url": "https://www.thebushwickstarr.org/",
+          "uid": "e_4ec6a1bdc0d9"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Creative Music Workshop with Joe McPherson",
+          "where": "Creative Music Studio at Ibeam, 168 7th St, Gowanus",
+          "cost": "$450",
+          "category": "sound",
+          "flag": null,
+          "mode": "make",
+          "start": "10:00",
+          "end": "16:00",
+          "note": null,
+          "url": "https://creativemusic.org/event/creative-music-workshop-with-joe-mcpherson-2026/",
+          "uid": "e_fdb216115085"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "Handmade Datasets",
+          "where": "National Academy of Design",
+          "cost": "FREE",
+          "category": "tech",
+          "flag": null,
+          "mode": "witness",
+          "start": "13:30",
+          "end": "15:00",
+          "note": "Aarati Akkapeddi",
+          "url": "https://withfriends.events/event/NXWa8sJw/handmade-datasets-free-public-talk/",
+          "uid": "e_5a29edf45331",
+          "aliases": [
+            "e_c71a9c0d9a9c",
+            "Aug 1|SFPC free talk: Handmade Datasets — Aarati Akkapeddi"
+          ]
         }
       ]
     },
@@ -2397,7 +2507,7 @@
           "end": "22:00",
           "note": "Green woodworking meetup. No one turned away. RSVP nycspoonclub@gmail.com. Conflicts with Summer Sings.",
           "url": "https://makeville.com/events/2026-3-23-nyc-spoon-club",
-          "uid": "e_bec6fd8b73ef"
+          "uid": "e_68720712c5b7"
         },
         {
           "day": "Mon",
@@ -2412,7 +2522,7 @@
           "end": null,
           "note": null,
           "url": "https://pioneerworks.org",
-          "uid": "e_f9d6f1792e5a"
+          "uid": "e_983cbd347f36"
         },
         {
           "day": "Mon",
@@ -2427,7 +2537,7 @@
           "end": "16:00",
           "note": null,
           "url": "https://creativemusic.org/event/creative-music-workshop-with-joe-mcpherson-2026/",
-          "uid": "e_0b7f9683f086"
+          "uid": "e_9335a6b7db79"
         },
         {
           "day": "Tue",
@@ -2442,7 +2552,7 @@
           "end": null,
           "note": null,
           "url": "https://pioneerworks.org",
-          "uid": "e_3de2bf8fd378"
+          "uid": "e_b4ec21e4441a"
         },
         {
           "day": "Thu",
@@ -2457,7 +2567,7 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_4fccfbfc69c1"
+          "uid": "e_f778316a8cf1"
         },
         {
           "day": "Fri",
@@ -2472,7 +2582,7 @@
           "end": null,
           "note": "Runs Aug 7–13.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_cf39e9726ab8"
+          "uid": "e_b542d3cdf1a8"
         },
         {
           "day": "Fri",
@@ -2487,7 +2597,7 @@
           "end": null,
           "note": null,
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_b9fe5a1e7026"
+          "uid": "e_2c1930f4e9df"
         },
         {
           "day": "Fri",
@@ -2502,7 +2612,7 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_cac070d52878"
+          "uid": "e_c6cacdfbebb8"
         },
         {
           "day": "Fri",
@@ -2517,7 +2627,7 @@
           "end": "18:00",
           "note": "Two-day workshop, continues Sat Aug 8, 1-4pm ET. With Chia Amisola.",
           "url": "https://sfpc.study/sessions/future-schools/becoming-hypertext",
-          "uid": "e_600d7f63442a"
+          "uid": "e_a229bae98746"
         },
         {
           "day": "Sat",
@@ -2532,7 +2642,7 @@
           "end": "21:00",
           "note": null,
           "url": "https://lmcc.net/events/esperanza-spalding-in-concert/",
-          "uid": "e_d852cf11fa15"
+          "uid": "e_d8057e54ec46"
         },
         {
           "day": "Sat",
@@ -2547,7 +2657,7 @@
           "end": "16:00",
           "note": "Drypoint with Chine Collé",
           "url": "https://printshop.org/classes-workshops/chine-colle-workshop-with-alejandra-arias-sevilla",
-          "uid": "e_04b1fa89f6cb"
+          "uid": "e_9b5e67a2e054"
         },
         {
           "day": "Sun",
@@ -2562,7 +2672,7 @@
           "end": "16:00",
           "note": "Chine Collé: Printing, Seaming, Mounting & Collaging",
           "url": "https://printshop.org/classes-workshops/chine-colle-workshop-with-alejandra-arias-sevilla",
-          "uid": "e_cee0578ada5d"
+          "uid": "e_918f52af2795"
         }
       ]
     },
@@ -2582,7 +2692,7 @@
           "end": null,
           "note": "Runs Aug 14–20.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_329f3ca80e1a"
+          "uid": "e_1c21182e569b"
         },
         {
           "day": "Sat",
@@ -2597,7 +2707,7 @@
           "end": "15:00",
           "note": null,
           "url": "https://lmcc.net/events/hybrid-animal-encyclopedia-workshop-with-nobuho-nagasawa/2026-08-15/",
-          "uid": "e_ddc631355223"
+          "uid": "e_358200b843d7"
         },
         {
           "day": "Sat",
@@ -2612,7 +2722,7 @@
           "end": null,
           "note": "National Theatre Live screening.",
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_e30232e499cf"
+          "uid": "e_ba9dba2dfe12"
         },
         {
           "day": "Sat",
@@ -2627,7 +2737,7 @@
           "end": null,
           "note": "NT Live screening — evening slot.",
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_6a12e8b59592"
+          "uid": "e_c1a161c57b7c"
         },
         {
           "day": "Sat",
@@ -2642,7 +2752,7 @@
           "end": "20:00",
           "note": "Final day of the free outdoor plaza series.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_965973c937b3"
+          "uid": "e_cd3dc22eda17"
         },
         {
           "day": "Sat",
@@ -2657,7 +2767,7 @@
           "end": "18:00",
           "note": null,
           "url": "https://elmuseo.org/event/family-program-art-book-make/",
-          "uid": "e_cf2d78ba9690"
+          "uid": "e_63cf2938301e"
         },
         {
           "day": "Sat",
@@ -2672,7 +2782,7 @@
           "end": null,
           "note": "with Ahana Ganguly",
           "url": "https://sfpc.study/sessions/future-schools/double-tap-long-press",
-          "uid": "e_6434870505d2"
+          "uid": "e_55164a6ba6a8"
         },
         {
           "day": "Sun",
@@ -2687,7 +2797,7 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_2609585f5889"
+          "uid": "e_2f514d4d0fb6"
         },
         {
           "day": "Thu",
@@ -2702,7 +2812,7 @@
           "end": "00:30",
           "note": null,
           "url": "https://elmuseo.org/event/film-screening-august/",
-          "uid": "e_0e24ebbc8166"
+          "uid": "e_5bbe4c7c78b6"
         },
         {
           "day": "Fri",
@@ -2717,7 +2827,7 @@
           "end": null,
           "note": "Massive Coppola retrospective. Runs Aug 21 – Sep 10.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_af47354275ac"
+          "uid": "e_ab72dd5d3092"
         },
         {
           "day": "Sun",
@@ -2732,7 +2842,7 @@
           "end": null,
           "note": "NT Live screening.",
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_c5c004368e8c"
+          "uid": "e_2b7a3f89d769"
         }
       ]
     },
@@ -2752,7 +2862,7 @@
           "end": "17:00",
           "note": "Double dutch culture, community-rooted.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_0bb6e284f8b8"
+          "uid": "e_aa80f028c534"
         },
         {
           "day": "Fri",
@@ -2767,7 +2877,7 @@
           "end": null,
           "note": "Runs Fri Aug 28 5pm through Sun Aug 30 3pm. Registration required.",
           "url": "https://www.judson.org/calendar",
-          "uid": "e_e1680db189b3"
+          "uid": "e_c83dc7365d20"
         },
         {
           "day": "Fri",
@@ -2782,7 +2892,7 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_18aec37526f6"
+          "uid": "e_be4a5f1af81d"
         },
         {
           "day": "Sat",
@@ -2797,7 +2907,7 @@
           "end": "15:00",
           "note": null,
           "url": "https://lmcc.net/events/recycled-runway-art-workshop-with-sari-nordman/2026-08-29/",
-          "uid": "e_44a7d2fe37f0"
+          "uid": "e_54836e73a275"
         },
         {
           "day": "Sat",
@@ -2812,7 +2922,7 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_2db8a737c781"
+          "uid": "e_f8709bdd4fb7"
         },
         {
           "day": "Sun",
@@ -2827,7 +2937,7 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_3b37a2c28cca"
+          "uid": "e_de3cd7e2c39d"
         }
       ]
     },
@@ -2838,7 +2948,7 @@
           "day": "Sat",
           "date": "Sep 5",
           "event": "Ego Free Jam",
-          "where": "Delight Factory · 303 Saratoga Avenue\nBrooklyn, NY, 11233\nUnited States",
+          "where": "Delight Factory · 303 Saratoga Avenue Brooklyn, NY, 11233 United States",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2847,7 +2957,7 @@
           "end": "23:30",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_9da0d2e49578"
+          "uid": "e_48eb2a16597a"
         },
         {
           "day": "Tue",
@@ -2862,7 +2972,7 @@
           "end": "21:30",
           "note": "Multi-week beginner course. Learn the Super 8mm camera, then take it out for 10 days. Continues Sep 15, 29, Oct 6.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_d98ad6a7cb66"
+          "uid": "e_0f152d44147a"
         },
         {
           "day": "Tue",
@@ -2877,7 +2987,7 @@
           "end": null,
           "note": "Runs Sep 8 – 20. BAM fall opener.",
           "url": "https://www.bam.org/",
-          "uid": "e_c15d2e9dbc2e"
+          "uid": "e_7506f6afb6ff"
         },
         {
           "day": "Wed",
@@ -2892,7 +3002,7 @@
           "end": "22:00",
           "note": "Only 4 seats. Frame-by-frame time-lapse work + week-long rental after.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_e35923688720"
+          "uid": "e_d34042c81722"
         },
         {
           "day": "Wed",
@@ -2907,7 +3017,7 @@
           "end": null,
           "note": "Live sound design by Marc Anthony Thompson. Runs Sep 9 – Oct 4.",
           "url": "https://www.nytw.org/2026-27-season/",
-          "uid": "e_a7d87356c840"
+          "uid": "e_20378a22b441"
         },
         {
           "day": "Wed",
@@ -2922,7 +3032,7 @@
           "end": "21:30",
           "note": "Full professional workflow beginning and ending on 16mm. Continues Sep 17 & Oct 1, 8, + Sat Sep 19 (9am–5pm).",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_b05ee19a3f96"
+          "uid": "e_ff136fc56814"
         },
         {
           "day": "Thu",
@@ -2937,7 +3047,7 @@
           "end": null,
           "note": "Music by Samora Pinderhughes. Runs Sep 10 + 12–13.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_7ef8d16c5598"
+          "uid": "e_3c2efd804dae"
         },
         {
           "day": "Fri",
@@ -2952,7 +3062,7 @@
           "end": null,
           "note": "Opening reception 4pm. Runs Sep 11 – Oct 18.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_380c0447693f"
+          "uid": "e_dda4aed811c3"
         },
         {
           "day": "Fri",
@@ -2967,7 +3077,7 @@
           "end": null,
           "note": "Runs Sep 11–17.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_2b40b156cebd"
+          "uid": "e_f154a7ab2414"
         },
         {
           "day": "Sat",
@@ -2982,7 +3092,7 @@
           "end": "15:00",
           "note": "Test + maintain your own Super 8 camera. Open to the public.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_1a2887180292"
+          "uid": "e_b324477badff"
         },
         {
           "day": "Sat",
@@ -2997,7 +3107,7 @@
           "end": "21:00",
           "note": "Only 4 seats. Advanced high-speed camera work.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_c0e139ab8a2d"
+          "uid": "e_55cb51d0332c"
         },
         {
           "day": "Sat",
@@ -3012,7 +3122,7 @@
           "end": null,
           "note": "Author appearance.",
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_4fcc61269f74"
+          "uid": "e_0fde406e1d04"
         }
       ]
     },
@@ -3032,7 +3142,7 @@
           "end": "01:30",
           "note": null,
           "url": "https://elmuseo.org/event/book-launch-julia-alvarez-in-the-time-of-the-butterflies/",
-          "uid": "e_7d751874b77c"
+          "uid": "e_b781cbdd664a"
         },
         {
           "day": "Tue",
@@ -3047,7 +3157,7 @@
           "end": "21:30",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_5fc870a205c6"
+          "uid": "e_9e082cd75da3"
         },
         {
           "day": "Wed",
@@ -3062,12 +3172,12 @@
           "end": null,
           "note": "Visual artist installation opens at NYLA.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_9d78f9ea235e"
+          "uid": "e_96e395a6e111"
         },
         {
           "day": "Thu",
           "date": "Sep 16",
-          "event": "&lt;em&gt;Vestiges&lt;/em&gt;, YoonJee Kwak",
+          "event": "Vestiges, YoonJee Kwak",
           "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
           "cost": "TBD",
           "category": "making",
@@ -3077,7 +3187,7 @@
           "end": "21:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/vestiges-yoonjee-kwak/",
-          "uid": "e_edeff517b200"
+          "uid": "e_fd4434e4382a"
         },
         {
           "day": "Thu",
@@ -3092,7 +3202,7 @@
           "end": "20:30",
           "note": "Fall series resumes.",
           "url": "https://www.wendyssubway.com/programs",
-          "uid": "e_f0e38f28e1ad"
+          "uid": "e_4e7c85dbb7c2"
         },
         {
           "day": "Wed",
@@ -3107,7 +3217,7 @@
           "end": "21:30",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_14376639754c"
+          "uid": "e_ffba7dc4c61a"
         },
         {
           "day": "Thu",
@@ -3122,7 +3232,7 @@
           "end": null,
           "note": "Bassoonist/composer w/ Olivia Block, Ben LaMar Gay, Brian Chase, Yarn/Wire. Conflicts with Wendy's Subway writing night.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_43e3a263fbe3"
+          "uid": "e_5319f9e0ce4d"
         },
         {
           "day": "Thu",
@@ -3137,7 +3247,7 @@
           "end": null,
           "note": "Legendary musical extravaganza returns. Runs Sep 17 – Nov 1.",
           "url": "https://here.org/shows/",
-          "uid": "e_eb55d557f9bd"
+          "uid": "e_63de0c03c8dc"
         },
         {
           "day": "Thu",
@@ -3152,7 +3262,7 @@
           "end": "21:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/ryan-flores/",
-          "uid": "e_2f3c2f4f7ce6"
+          "uid": "e_534eb52e274b"
         },
         {
           "day": "Fri",
@@ -3167,7 +3277,7 @@
           "end": null,
           "note": "Burnett restoration. Runs Sep 18–24.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_bb69ee079c26"
+          "uid": "e_08cb76cd562e"
         },
         {
           "day": "Fri",
@@ -3182,7 +3292,7 @@
           "end": "02:00",
           "note": null,
           "url": "https://elmuseo.org/event/el-museo-after-hours-disco-and-desire/",
-          "uid": "e_14bf62de0939"
+          "uid": "e_ede51dc8dbb0"
         },
         {
           "day": "Sat",
@@ -3197,7 +3307,7 @@
           "end": "17:00",
           "note": "Long day. Conflicts with Macro Cinematography same day.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_55f64ac7306e"
+          "uid": "e_4403a1ee6009"
         },
         {
           "day": "Sat",
@@ -3212,7 +3322,7 @@
           "end": "15:00",
           "note": "Extreme close-ups on 16mm. Conflicts with Bolex extended day.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_d2e257420810"
+          "uid": "e_8028e971974c"
         },
         {
           "day": "Sun",
@@ -3227,7 +3337,7 @@
           "end": "16:00",
           "note": "One-day intensive. 100 feet of film to take home. Strongest beginner entry into 16mm.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_17b76b05a6df"
+          "uid": "e_ba3b3a9e641c"
         },
         {
           "day": "Sun",
@@ -3242,7 +3352,7 @@
           "end": "21:00",
           "note": "Full-color titles on animation stand.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_4369d442e0ce"
+          "uid": "e_2d58600741e2"
         },
         {
           "day": "Tue",
@@ -3257,7 +3367,22 @@
           "end": "21:30",
           "note": "Thread, operate, maintain and exhibit 16mm film.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_57d3d7b2cfdc"
+          "uid": "e_2784a9d1c4e5"
+        },
+        {
+          "day": "Wed",
+          "date": "Sep 23",
+          "event": "Selected Shorts: The Five Boroughs",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$19–26",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/selected-shorts-the-five-boroughs",
+          "uid": "e_af3f81672f71"
         },
         {
           "day": "Thu",
@@ -3272,7 +3397,7 @@
           "end": "21:30",
           "note": "Edit in real time on a four-plate Steenbeck. Foundational analog editing.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_3dea8b3f6244"
+          "uid": "e_3bf3719bb629"
         },
         {
           "day": "Thu",
@@ -3287,7 +3412,7 @@
           "end": null,
           "note": "Boisterous, sweaty, glamorous. Runs Sep 24–26.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_405f54d74dd5"
+          "uid": "e_bc96c6f08524"
         },
         {
           "day": "Thu",
@@ -3302,7 +3427,7 @@
           "end": null,
           "note": "Scholars of experimental notation discuss + members of Rise of the Novel perform.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_dc2c7d688465"
+          "uid": "e_2a648625c5b9"
         },
         {
           "day": "Thu",
@@ -3317,7 +3442,7 @@
           "end": "00:30",
           "note": null,
           "url": "https://elmuseo.org/event/film-screening-september/",
-          "uid": "e_71917796172f"
+          "uid": "e_072d3bc132d5"
         },
         {
           "day": "Fri",
@@ -3332,7 +3457,7 @@
           "end": null,
           "note": "Runs Sep 25 – Oct 1.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_68c88fbf5042"
+          "uid": "e_30b4485ee61f"
         },
         {
           "day": "Sat",
@@ -3347,7 +3472,7 @@
           "end": "16:00",
           "note": "Only 6 seats. Optically enlarge a single 16mm frame to medium format.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_e9fe9f531fe1"
+          "uid": "e_002e5f342b76"
         },
         {
           "day": "Sun",
@@ -3362,7 +3487,7 @@
           "end": "20:30",
           "note": "Runs through Oct 24 (24 dates)",
           "url": "https://stannswarehouse.org/show/kramer-fauci/",
-          "uid": "e_6b8db39cf953"
+          "uid": "e_26a886b286e3"
         },
         {
           "day": "Sun",
@@ -3377,7 +3502,7 @@
           "end": null,
           "note": "World premiere of Zorn's piano concerto — four trusted interpreters.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_a5b8c1a40fd7"
+          "uid": "e_8ef3ce49e57b"
         },
         {
           "day": "Mon",
@@ -3392,7 +3517,7 @@
           "end": null,
           "note": "Actor Kyle MacLachlan joins us for an evening of conversation about his highly anticipated memoir, Fictional Selves.",
           "url": "https://www.symphonyspace.org/events/kyle-maclachlan-fictional-selves",
-          "uid": "e_b44c8276caac"
+          "uid": "e_d9dad9cdfe60"
         },
         {
           "day": "Tue",
@@ -3407,7 +3532,7 @@
           "end": null,
           "note": null,
           "url": "https://www.symphonyspace.org/events/nt-live-les-liaisons-dangereuses-2",
-          "uid": "e_6b60d3c2784d"
+          "uid": "e_06a8b20b7740"
         },
         {
           "day": "Tue",
@@ -3422,7 +3547,22 @@
           "end": "21:30",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_9e36efc15edc"
+          "uid": "e_a662101506e8"
+        },
+        {
+          "day": "Tue",
+          "date": "Sep 29",
+          "event": "NT Live: The Misanthrope",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$24",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:30",
+          "end": "19:30",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/nt-live-the-misanthrope",
+          "uid": "e_240a87086391"
         }
       ]
     },
@@ -3442,7 +3582,7 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night",
-          "uid": "e_34e27fdec03c"
+          "uid": "e_0227495df112"
         },
         {
           "day": "Fri",
@@ -3457,7 +3597,7 @@
           "end": null,
           "note": null,
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_99c9cf8d25aa"
+          "uid": "e_3b526b42e652"
         },
         {
           "day": "Fri",
@@ -3472,7 +3612,7 @@
           "end": null,
           "note": "Runs Oct 2–3.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_b3473319283f"
+          "uid": "e_1c604c93a1f7"
         },
         {
           "day": "Mon",
@@ -3487,7 +3627,7 @@
           "end": null,
           "note": "Special performance by Laurie Anderson at BAC's annual fête. Rare.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_d5d662e41fec"
+          "uid": "e_293417fa7b88"
         },
         {
           "day": "Wed",
@@ -3502,7 +3642,7 @@
           "end": null,
           "note": "Runs Oct 7–11. Theater + music.",
           "url": "https://www.bam.org/",
-          "uid": "e_eb703e90d5c7"
+          "uid": "e_73cb2d028be3"
         },
         {
           "day": "Thu",
@@ -3517,7 +3657,7 @@
           "end": null,
           "note": "Runs Oct 8–10.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_c661350aebe5"
+          "uid": "e_89dd2cfc4ba0"
         },
         {
           "day": "Tue",
@@ -3532,7 +3672,7 @@
           "end": null,
           "note": null,
           "url": "https://www.bam.org/",
-          "uid": "e_225010b30bd8"
+          "uid": "e_a5483560ae15"
         },
         {
           "day": "Tue",
@@ -3547,7 +3687,7 @@
           "end": null,
           "note": "FREE outdoor theater. Runs Oct 13–15.",
           "url": "https://www.bam.org/",
-          "uid": "e_d3424dd29f31"
+          "uid": "e_2198a43c85d6"
         },
         {
           "day": "Thu",
@@ -3562,7 +3702,7 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night",
-          "uid": "e_f5d46a2b64e4"
+          "uid": "e_5106c72bc239"
         },
         {
           "day": "Thu",
@@ -3577,7 +3717,7 @@
           "end": "21:00",
           "note": null,
           "url": "https://elmuseo.org/event/community-conversations-making-latinidad/",
-          "uid": "e_53960a990023"
+          "uid": "e_d9b6c0ac298a"
         }
       ]
     },
@@ -3597,7 +3737,7 @@
           "end": "16:00",
           "note": "Free community fall festival.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_f03d843420f0"
+          "uid": "e_e3ad060e44f7"
         },
         {
           "day": "Sat",
@@ -3612,7 +3752,7 @@
           "end": "18:00",
           "note": null,
           "url": "https://elmuseo.org/event/family-program-dia-de-muertos/",
-          "uid": "e_97fe37c1bcd2"
+          "uid": "e_bef3b0853914"
         },
         {
           "day": "Sun",
@@ -3627,7 +3767,7 @@
           "end": "13:00",
           "note": "Experience the magic of wet plate collodion photography. This intensive workshop covers preparing plates, exposure, and development to create unique tintypes. All materials included.",
           "url": "https://www.bushwickcommunitydarkroom.com/events/2026/10/18/intro-to-wet-plate-collodion-oct-18",
-          "uid": "e_9a31b6269f5c"
+          "uid": "e_de6bfc7ad6bc"
         },
         {
           "day": "Mon",
@@ -3642,7 +3782,7 @@
           "end": null,
           "note": null,
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_6ce5dfc6e033"
+          "uid": "e_2ad5cc00ee04"
         },
         {
           "day": "Wed",
@@ -3657,7 +3797,22 @@
           "end": null,
           "note": "Runs Oct 21–25.",
           "url": "https://www.bam.org/",
-          "uid": "e_92b80f0e5ec9"
+          "uid": "e_90fda3c012f1"
+        },
+        {
+          "day": "Wed",
+          "date": "Oct 21",
+          "event": "Selected Shorts: The Best American Short Stories 2026 with Viet Thanh Nguyen",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$19–26",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/selected-shorts-the-best-american-short-stories-2026-with-viet-thanh-nguyen",
+          "uid": "e_f9bb591caeb8"
         },
         {
           "day": "Thu",
@@ -3672,7 +3827,7 @@
           "end": null,
           "note": "Runs Oct 22–24. Clown-adjacent physical performance.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_bbec853e7968"
+          "uid": "e_e10cae0c931f"
         },
         {
           "day": "Fri",
@@ -3687,7 +3842,7 @@
           "end": null,
           "note": "Runs Oct 23–24. International commission.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_ab14e6ca4bab"
+          "uid": "e_6ebc4e32a984"
         },
         {
           "day": "Sat",
@@ -3702,7 +3857,7 @@
           "end": null,
           "note": "Runs Oct 24–30.",
           "url": "https://www.bam.org/",
-          "uid": "e_b0badcc03027"
+          "uid": "e_2baae8f3051e"
         },
         {
           "day": "Sun",
@@ -3717,7 +3872,7 @@
           "end": "18:00",
           "note": null,
           "url": "https://creativemusic.org/event/rhythm-and-groove-workshop-with-marcus-gilmore-2026/",
-          "uid": "e_bd51f1df54b7"
+          "uid": "e_fd4286cadd4c"
         },
         {
           "day": "Thu",
@@ -3732,7 +3887,7 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night",
-          "uid": "e_c6ecda87cbde"
+          "uid": "e_2be9e04a4710"
         },
         {
           "day": "Thu",
@@ -3747,7 +3902,7 @@
           "end": "00:30",
           "note": null,
           "url": "https://elmuseo.org/event/film-screening-october/",
-          "uid": "e_74da1aeda7d3"
+          "uid": "e_1de0a1b7386d"
         }
       ]
     },
@@ -3767,7 +3922,7 @@
           "end": "20:00",
           "note": "Learn the basics of black and white darkroom printing. This workshop covers film development, contact printing, and enlarging. All materials included.",
           "url": "https://www.bushwickcommunitydarkroom.com/events/2026/11/2/intro-to-darkroom-printing-bw-film-nov-2",
-          "uid": "e_c4203b9a7be4"
+          "uid": "e_b384bdce3cee"
         },
         {
           "day": "Tue",
@@ -3782,7 +3937,7 @@
           "end": "12:00",
           "note": null,
           "url": "https://www.writingclasses.com/classes/nyc/memoir-writing-ii-in-person-fall-2026",
-          "uid": "e_e86e11da6d0d"
+          "uid": "e_510c7b3dabf5"
         },
         {
           "day": "Wed",
@@ -3797,7 +3952,7 @@
           "end": null,
           "note": "Runs Nov 4–7.",
           "url": "https://www.bam.org/",
-          "uid": "e_6edc72770708"
+          "uid": "e_5295e87bc0b2"
         },
         {
           "day": "Thu",
@@ -3812,7 +3967,7 @@
           "end": null,
           "note": "Long run Nov 5 – Dec 20.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_d7002fc314ac"
+          "uid": "e_c03d7b18ba14"
         },
         {
           "day": "Fri",
@@ -3827,7 +3982,7 @@
           "end": null,
           "note": "Runs Nov 6–7, 11–14.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_83edd40b4b5f"
+          "uid": "e_c693b92fdaff"
         },
         {
           "day": "Sat",
@@ -3842,7 +3997,7 @@
           "end": null,
           "note": "5th annual M³ festival — innovative music.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_86d1a1f3065f"
+          "uid": "e_ff79a3de2092"
         },
         {
           "day": "Sat",
@@ -3857,7 +4012,7 @@
           "end": "21:00",
           "note": null,
           "url": "https://elmuseo.org/event/for-educators-teaching-with-artist-books/",
-          "uid": "e_64fe8f602a64"
+          "uid": "e_a12f990d69fb"
         },
         {
           "day": "Wed",
@@ -3872,7 +4027,7 @@
           "end": null,
           "note": "Runs Nov 11–15.",
           "url": "https://www.bam.org/",
-          "uid": "e_35a055cc1e35"
+          "uid": "e_01b1966b4ca5"
         },
         {
           "day": "Thu",
@@ -3887,7 +4042,7 @@
           "end": null,
           "note": "Runs Nov 12–13.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_6216d94ecce9"
+          "uid": "e_979f2ce612e8"
         },
         {
           "day": "Thu",
@@ -3902,7 +4057,7 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night",
-          "uid": "e_15bd0b9b7493"
+          "uid": "e_81f749c6e951"
         },
         {
           "day": "Thu",
@@ -3917,7 +4072,7 @@
           "end": null,
           "note": "Runs Nov 12–14. World premiere.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_0a59a7726dff"
+          "uid": "e_870aeb269a33"
         }
       ]
     },
@@ -3937,7 +4092,7 @@
           "end": null,
           "note": "Percussionist/composer/synthesist, new commission.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_af81d159380a"
+          "uid": "e_eaa3d38b29c6"
         },
         {
           "day": "Wed",
@@ -3952,7 +4107,22 @@
           "end": null,
           "note": "Long run Nov 18 – 29.",
           "url": "https://www.bam.org/",
-          "uid": "e_afa3cc26ca06"
+          "uid": "e_73cf775f9326"
+        },
+        {
+          "day": "Wed",
+          "date": "Nov 18",
+          "event": "Selected Shorts: The Most of Nora Ephron, hosted by Meg Wolitzer",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$19–26",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/selected-shorts-the-most-of-nora-ephron-hosted-by-meg-wolitzer",
+          "uid": "e_6bba90fde3d4"
         },
         {
           "day": "Thu",
@@ -3967,7 +4137,7 @@
           "end": null,
           "note": "Runs Nov 19–21. Merce Cunningham legacy work.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_c1c364281440"
+          "uid": "e_46e581a25871"
         },
         {
           "day": "Thu",
@@ -3982,7 +4152,7 @@
           "end": null,
           "note": "Choreographer working with movement + sound.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_e313afb87fe9"
+          "uid": "e_8e448f77e65b"
         },
         {
           "day": "Thu",
@@ -3997,7 +4167,7 @@
           "end": null,
           "note": "Runs Nov 19–21. Landmark 50th-anniversary concert version.",
           "url": "https://www.bam.org/",
-          "uid": "e_cbec8785d20e"
+          "uid": "e_f0bc8da52fc8"
         },
         {
           "day": "Thu",
@@ -4012,7 +4182,7 @@
           "end": "22:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/ghp-artists-exhibition-2026/",
-          "uid": "e_02a28edad850"
+          "uid": "e_d4dfd9158315"
         },
         {
           "day": "Fri",
@@ -4027,7 +4197,7 @@
           "end": null,
           "note": "Second night of the commission.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_772f8a963c56"
+          "uid": "e_1f871f90946b"
         },
         {
           "day": "Tue",
@@ -4042,7 +4212,7 @@
           "end": null,
           "note": "Nicole Taylor / John Tiffany. Runs Nov 24 – Jan 10, 2027.",
           "url": "https://www.nytw.org/2026-27-season/",
-          "uid": "e_132fd6891317"
+          "uid": "e_b052967479a1"
         }
       ]
     },
@@ -4062,7 +4232,22 @@
           "end": "15:00",
           "note": null,
           "url": "https://www.writingclasses.com/classes/nyc/novel-writing-iii-in-person-fall-2026",
-          "uid": "e_cc1662fb026f"
+          "uid": "e_758b6090c722"
+        },
+        {
+          "day": "Wed",
+          "date": "Dec 9",
+          "event": "Selected Shorts: Objects with Roz Chast",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$19–26",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/selected-shorts-objects-with-roz-chast",
+          "uid": "e_16ae07b3bfa2"
         }
       ]
     }
