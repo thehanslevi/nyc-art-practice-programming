@@ -14,6 +14,7 @@ import {
   isStale,
 } from "../lib/practices";
 import { today } from "../lib/dates";
+import { datedSessionsFor, sessionTitle } from "../lib/join";
 
 // Reuse the existing eight-ink palette rather than inventing colours for all
 // sixteen disciplines.
@@ -184,6 +185,9 @@ function PracticeRow({
   onThisWeek: boolean;
   now: Date;
 }) {
+  // A standing pattern says "8-week sessions"; the events feed knows the actual
+  // dates. Borrow them so the row can name the next real session.
+  const sessions = useMemo(() => datedSessionsFor(p, now), [p, now]);
   const stale = isStale(p, now);
   const cost = formatCost(p.cost);
   const gap = formatCostGap(p.cost);
@@ -212,6 +216,28 @@ function PracticeRow({
           {cost ? <span className="dir-cost"> · {cost}</span> : null}
           {gap ? <span className="dir-gap"> · {gap}</span> : null}
         </div>
+        {sessions.length ? (
+          <div className="dir-sessions">
+            <span className="dir-sessions-label">Next</span>
+            {sessions.slice(0, 2).map((e) => (
+              <span key={e.date + e.event} className="dir-session">
+                <b>{e.date}</b>{" "}
+                {e.url ? (
+                  <a href={e.url} target="_blank" rel="noreferrer">
+                    {sessionTitle(p, e)}
+                  </a>
+                ) : (
+                  sessionTitle(p, e)
+                )}
+              </span>
+            ))}
+            {sessions.length > 2 ? (
+              <span className="dir-session-more">
+                +{sessions.length - 2} more
+              </span>
+            ) : null}
+          </div>
+        ) : null}
         {p.availability && p.availability.status !== "running" ? (
           <div className="dir-dormant-note">{p.availability.note}</div>
         ) : null}

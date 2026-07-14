@@ -293,15 +293,16 @@ function App() {
             </div>
           </div>
           <p className="howto">
-            Star <span className="howto-star">★</span> anything you want, then{" "}
+            Star <span className="howto-star">★</span> events{" "}
+            <span className="howto-arrow">→</span>{" "}
             <button
               type="button"
               className="howto-link"
               onClick={handleCreateLink}
             >
-              get a calendar link
+              get your calendar link
             </button>{" "}
-            — no account. It stays current in Google or Apple Calendar.
+            <span className="howto-arrow">→</span> subscribe in Google/Apple Cal
           </p>
         </div>
       </header>
