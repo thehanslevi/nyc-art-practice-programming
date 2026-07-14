@@ -287,7 +287,7 @@
         "enroll-ahead"
       ],
       "verifiedOn": "2026-07-06",
-      "caveat": "No posted semester since June 23. Email mgc@powerhousearts.org. Shoestring Press is the active alternative.",
+      "caveat": "No posted semester since June 23. Email mgc@powerhousearts.org.",
       "availability": {
         "status": "unknown",
         "note": "No posted summer or fall semester since June 23."
@@ -891,7 +891,7 @@
         "enroll-ahead"
       ],
       "verifiedOn": "2026-07-06",
-      "caveat": "The only entry on this list that natively has a finish line: every workshop ends in a public screening.",
+      "caveat": "Every workshop ends in a free public screening. Stock, processing, cameras, and editing are included.",
       "availability": {
         "status": "running",
         "darkMonths": [
@@ -1305,7 +1305,7 @@
         "contact-first"
       ],
       "verifiedOn": "2026-07-14",
-      "caveat": "Was considered as the weekly dance anchor in June and dropped. The studio does not run regular classes and the site is down, so it fails this directory’s inclusion test (a recurring, public schedule). Kept as a pointer only. Check @wondrousnyc.",
+      "caveat": "No regular class schedule and the website is down; whether classes are running at all is unknown. Check @wondrousnyc.",
       "availability": {
         "status": "unknown",
         "note": "Unlocked as an anchor: no regular class schedule, and the website is down. Whether they are actively holding classes at all is unknown."
@@ -1342,7 +1342,7 @@
         "drop-in"
       ],
       "verifiedOn": "2026-07-06",
-      "caveat": "A float, not a weekly fixture (locked June 30). Midtown costs more transit and money per session than Wondrous. Book via Mindbody."
+      "caveat": "Dense weeknight schedule in Midtown. Book through Mindbody at ailey.org/classes."
     },
     {
       "id": "movers-bodega",
@@ -1466,7 +1466,7 @@
         "contact-first"
       ],
       "verifiedOn": "2026-07-06",
-      "caveat": "One C-train stop away. The rehearsal home for Build D prototyping (locked June 30). Confirm the actual subsidized rate: rentals@jackny.org."
+      "caveat": "One C-train stop from Crown Heights. Rehearsal rental is NYSCA-subsidized and applies to artistic projects; confirm the rate at rentals@jackny.org."
     },
     {
       "id": "bushwick-starr",
@@ -1491,7 +1491,7 @@
         "enroll-ahead"
       ],
       "verifiedOn": "2026-07-06",
-      "caveat": "The closest thing to a free devised-theater workshop anywhere on this list, and it costs nothing. Dates unconfirmed. Worth restructuring a week around.",
+      "caveat": "Summers at the Starr runs free community workshops in August, including devised-performance and bilingual storytelling. Specific dates not yet posted.",
       "availability": {
         "status": "dormant",
         "note": "Summers at the Starr runs in August; specific dates not yet posted.",
@@ -1792,7 +1792,7 @@
         "enroll-ahead"
       ],
       "verifiedOn": "2026-07-06",
-      "caveat": "Fee waivers and scholarships available. 60-75 minutes from Crown Heights; not a realistic weekly anchor."
+      "caveat": "Fee waivers and scholarships available. Roughly 60-75 minutes from Crown Heights."
     },
     {
       "id": "art-lab-snug-harbor",

@@ -1,4 +1,5 @@
 import raw from "../data/practices.json";
+import { STALE_AFTER_DAYS } from "../types/practice";
 import type {
   Access,
   Availability,
@@ -234,4 +235,32 @@ export function isAffordable(p: Practice): boolean {
 /** Brooklyn and Lower Manhattan are easy; Midtown is a trip. */
 export function isNearby(p: Practice, maxMin = 25): boolean {
   return p.travelMin !== null && p.travelMin <= maxMin;
+}
+
+const DAY_MS = 86_400_000;
+
+export function daysSinceVerified(p: Practice, now: Date): number {
+  const then = new Date(p.verifiedOn + "T00:00:00");
+  return Math.max(0, Math.floor((now.getTime() - then.getTime()) / DAY_MS));
+}
+
+/**
+ * Past STALE_AFTER_DAYS an entry is presented as suspect rather than true.
+ * Nothing is locked; a fact verified in June is a fact about June.
+ */
+export function isStale(p: Practice, now: Date): boolean {
+  return daysSinceVerified(p, now) > STALE_AFTER_DAYS;
+}
+
+/** "checked today" / "checked 8 days ago" / "checked 41 days ago". */
+export function formatVerified(p: Practice, now: Date): string {
+  const n = daysSinceVerified(p, now);
+  if (n === 0) return "checked today";
+  if (n === 1) return "checked yesterday";
+  return `checked ${n} days ago`;
+}
+
+/** The oldest check in the set, for the directory's own honesty line. */
+export function oldestCheck(now: Date, practices: Practice[] = PRACTICES): number {
+  return practices.reduce((max, p) => Math.max(max, daysSinceVerified(p, now)), 0);
 }

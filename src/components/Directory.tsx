@@ -1,16 +1,18 @@
 import { useMemo, useState } from "react";
 import type { Category } from "../types";
-import type { Discipline, Practice } from "../types/practice";
+import { STALE_AFTER_DAYS, type Discipline, type Practice } from "../types/practice";
 import {
-  LAST_VERIFIED,
   PRACTICES,
   availableThisWeek,
   formatAvailability,
   formatCost,
   formatCostGap,
   formatSchedule,
+  formatVerified,
   isAffordable,
   isNearby,
+  isStale,
+  oldestCheck,
 } from "../lib/practices";
 import { today } from "../lib/dates";
 
@@ -108,8 +110,11 @@ export function Directory() {
           watch it. Most publish a recurring public schedule; a few are
           contact-first collectives, flagged as such. Prices that aren’t here
           are usually not published anywhere, which is also worth knowing.
-          Verified {LAST_VERIFIED}; schedules rot fast, so reconfirm before you
-          go.
+        </p>
+        <p className="directory-decay">
+          Nothing here is settled. Oldest check: {oldestCheck(now)} days ago.
+          Schedules and prices rot, so anything unchecked for{" "}
+          {STALE_AFTER_DAYS} days is marked suspect. Reconfirm before you go.
         </p>
       </div>
 
@@ -169,7 +174,12 @@ export function Directory() {
       ) : (
         <ul className="dir-list">
           {visible.map((p) => (
-            <PracticeRow key={p.id} practice={p} onThisWeek={thisWeekIds.has(p.id)} />
+            <PracticeRow
+              key={p.id}
+              practice={p}
+              onThisWeek={thisWeekIds.has(p.id)}
+              now={now}
+            />
           ))}
         </ul>
       )}
@@ -180,10 +190,13 @@ export function Directory() {
 function PracticeRow({
   practice: p,
   onThisWeek,
+  now,
 }: {
   practice: Practice;
   onThisWeek: boolean;
+  now: Date;
 }) {
+  const stale = isStale(p, now);
   const cost = formatCost(p.cost);
   const gap = formatCostGap(p.cost);
   const avail = formatAvailability(p.availability);
@@ -228,6 +241,11 @@ function PracticeRow({
           </div>
         ) : null}
         {p.caveat ? <div className="dir-caveat">{p.caveat}</div> : null}
+        {stale ? (
+          <div className="dir-stale">
+            Suspect: {formatVerified(p, now)}. Reconfirm before relying on this.
+          </div>
+        ) : null}
       </div>
     </li>
   );

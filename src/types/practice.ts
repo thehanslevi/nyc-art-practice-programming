@@ -118,6 +118,19 @@ export type Availability =
   | { status: "waitlist"; note: string; resumes?: string }
   | { status: "unknown"; note: string };
 
+/**
+ * A fact about a venue, not a decision about it.
+ *
+ * This boundary is load-bearing and was got wrong once already. June's choices
+ * ("locked as the weekly anchor", "the rehearsal home", "not a realistic
+ * option") were written into these records as though they were properties of
+ * the venues. They are not. They were one person's decisions on one day, and
+ * when those decisions changed the records silently became lies.
+ *
+ * So: `caveat` states what is true of the place. Whether it is worth doing,
+ * ranked against alternatives, or currently chosen belongs in Commitment, where
+ * it carries a date and can be revisited. Nothing here is locked.
+ */
 export interface Practice {
   id: string;
   name: string;
@@ -148,6 +161,16 @@ export interface PracticesData {
   practices: Practice[];
 }
 
+/**
+ * Facts decay. A schedule verified in June is a fact about June.
+ *
+ * Nothing here is ever "locked": every Practice carries `verifiedOn`, and past
+ * this many days an entry is presented as suspect rather than true. This is not
+ * a cosmetic nicety. A hand-verified list eight days old already contained a
+ * dead URL, a wrong schedule, a wrong location, and an unverifiable claim.
+ */
+export const STALE_AFTER_DAYS = 30;
+
 // ---------------------------------------------------------------------------
 // The commitment layer.
 // ---------------------------------------------------------------------------
@@ -162,9 +185,18 @@ export const MAX_ACTIVE = 5;
 
 export type CommitmentStatus = "active" | "considering" | "done" | "dropped";
 
+/**
+ * A choice, with a date on it.
+ *
+ * There is no "locked" status and there will not be one. June was June. Every
+ * commitment records when it was decided so that a stale choice reads as stale
+ * rather than as settled fact.
+ */
 export interface Commitment {
   practiceId: string;
   status: CommitmentStatus;
+  /** ISO date the choice was made. Required: an undated decision is a rumour. */
+  decidedOn: string;
   /** Free text: "weekly", "Mondays Sep 14 - Nov 2", "one day". */
   cadence: string;
   startsOn?: string;
