@@ -1295,21 +1295,20 @@
       "url": "https://wondrousnyc.com",
       "cost": {
         "kind": "unknown",
-        "why": "not-checked"
+        "why": "blocked"
       },
       "schedule": {
         "kind": "irregular",
-        "note": "Adult beginner classes weekly; day and time unconfirmed"
+        "note": "No regular schedule published"
       },
       "access": [
-        "drop-in",
-        "enroll-ahead"
+        "contact-first"
       ],
-      "verifiedOn": "2026-07-06",
-      "caveat": "LOCKED as the weekly dance anchor since June 25, still unconfirmed. The site blocks automated searches. Visit wondrousnyc.com or @wondrousnyc directly. This is the single most load-bearing unknown on the list.",
+      "verifiedOn": "2026-07-14",
+      "caveat": "Was considered as the weekly dance anchor in June and dropped. The studio does not run regular classes and the site is down, so it fails this directory’s inclusion test (a recurring, public schedule). Kept as a pointer only. Check @wondrousnyc.",
       "availability": {
         "status": "unknown",
-        "note": "Adult beginner schedule unconfirmed since June 25. The site blocks automated searches; visit in person or via Instagram."
+        "note": "Unlocked as an anchor: no regular class schedule, and the website is down. Whether they are actively holding classes at all is unknown."
       }
     },
     {

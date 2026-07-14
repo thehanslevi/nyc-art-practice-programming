@@ -104,9 +104,12 @@ export function Directory() {
       <div className="directory-lede">
         <p className="directory-title">Where to make things</p>
         <p className="directory-sub">
-          {PRACTICES.length} NYC spaces that publish a recurring, public schedule
-          of participatory making. Not shows to attend. Places where you do the
-          work. Verified {LAST_VERIFIED}; always reconfirm before you register.
+          {PRACTICES.length} NYC spaces where you make the thing rather than
+          watch it. Most publish a recurring public schedule; a few are
+          contact-first collectives, flagged as such. Prices that aren’t here
+          are usually not published anywhere, which is also worth knowing.
+          Verified {LAST_VERIFIED}; schedules rot fast, so reconfirm before you
+          go.
         </p>
       </div>
 
