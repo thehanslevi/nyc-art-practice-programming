@@ -16,7 +16,6 @@ import type {
 const data = raw as unknown as PracticesData;
 
 export const PRACTICES: Practice[] = data.practices;
-export const LAST_VERIFIED = data.lastVerified;
 export const BY_ID = new Map(PRACTICES.map((p) => [p.id, p]));
 
 const WEEKDAYS: Weekday[] = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
@@ -116,10 +115,6 @@ function formatResumes(s: string): string {
   return m[3] ? `${month} ${Number(m[3])}` : month;
 }
 
-/** Running right now, on the given day. Drives the default Directory sort. */
-export function isRunningNow(p: Practice, date: Date): boolean {
-  return isRunningOn(p, date);
-}
 
 const DAY_LABEL: Record<Weekday, string> = {
   mon: "Mon",
@@ -197,25 +192,6 @@ export function formatCostGap(c: Cost): string | null {
   }
 }
 
-/**
- * Lower bound of what a practice costs to try once, for budget math. Unknown
- * costs return null rather than 0 so they can't silently understate a total.
- */
-export function costFloor(c: Cost): number | null {
-  switch (c.kind) {
-    case "free":
-      return 0;
-    case "sliding":
-    case "range":
-      return c.min;
-    case "fixed":
-    case "per-month":
-    case "per-session":
-      return c.amount;
-    case "unknown":
-      return null;
-  }
-}
 
 const NO_MONEY_BARRIER: Access[] = [
   "free",
@@ -260,7 +236,3 @@ export function formatVerified(p: Practice, now: Date): string {
   return `checked ${n} days ago`;
 }
 
-/** The oldest check in the set, for the directory's own honesty line. */
-export function oldestCheck(now: Date, practices: Practice[] = PRACTICES): number {
-  return practices.reduce((max, p) => Math.max(max, daysSinceVerified(p, now)), 0);
-}
