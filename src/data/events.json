@@ -584,20 +584,6 @@
           "url": "https://www.bricktheater.com/"
         },
         {
-          "day": "Thu",
-          "date": "Jul 9",
-          "event": "FOLKUS",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.eventbrite.com/e/folkus-tickets-1979084278352?aff=oddtdtcreator"
-        },
-        {
           "day": "Fri",
           "date": "Jul 10",
           "event": "BRIC Celebrate Brooklyn!: Habibi Festival",
@@ -1193,20 +1179,6 @@
         {
           "day": "Thu",
           "date": "Jul 16",
-          "event": "FOLKUS",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
-          "cost": "TBD",
-          "category": "sound",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://www.eventbrite.com/e/folkus-tickets-1979084278352?aff=oddtdtcreator"
-        },
-        {
-          "day": "Thu",
-          "date": "Jul 16",
           "event": "MFTA Designer-in-Residence Scooter LaForge",
           "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
           "cost": "FREE",
@@ -1319,20 +1291,6 @@
         {
           "day": "Sat",
           "date": "Jul 18",
-          "event": "Maybe Sometimes: A Reading With Jo Barchi, Ted Dodson, Kristen Gallagher, Matt Longabucco, and Caroline Rayner",
-          "where": "Wendy's Subway, Bushwick/Ridgewood border",
-          "cost": "TBD",
-          "category": "literature",
-          "flag": null,
-          "mode": "witness",
-          "start": "19:00",
-          "end": null,
-          "note": null,
-          "url": "https://www.wendyssubway.com/programs/events/maybe-sometimes-reading"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 18",
           "event": "BRIC Celebrate Brooklyn!: Royel Otis + Ax and the Hatchetmen",
           "where": "Lena Horne Bandshell, Prospect Park",
           "cost": "TBD",
@@ -1385,20 +1343,6 @@
           "end": null,
           "note": "Rare milestone event. Live-coding collective, algorithmic sets projected onto walls. Bring a laptop.",
           "url": "https://livecode.nyc/events.html"
-        },
-        {
-          "day": "Sat",
-          "date": "Jul 18",
-          "event": "SFPC free talk: The Origin of the Word — Melanie Hoff",
-          "where": "National Academy of Design, Manhattan",
-          "cost": "FREE",
-          "category": "tech",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://sfpc.study"
         },
         {
           "day": "Sat",
@@ -2269,20 +2213,6 @@
     {
       "label": "Aug 1–9",
       "events": [
-        {
-          "day": "Sat",
-          "date": "Aug 1",
-          "event": "SFPC free talk: Handmade Datasets — Aarati Akkapeddi",
-          "where": "National Academy of Design, Manhattan",
-          "cost": "FREE",
-          "category": "tech",
-          "flag": null,
-          "mode": "witness",
-          "start": null,
-          "end": null,
-          "note": null,
-          "url": "https://sfpc.study"
-        },
         {
           "day": "Mon",
           "date": "Aug 3",

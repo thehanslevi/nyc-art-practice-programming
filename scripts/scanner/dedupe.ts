@@ -31,6 +31,24 @@ function jaccard(a: Set<string>, b: Set<string>): number {
   return inter / (a.size + b.size - inter);
 }
 
+/**
+ * Overlap coefficient: how much of the SHORTER title lives inside the longer.
+ *
+ * Jaccard is symmetric, so it punishes a long title for its extra descriptive
+ * words even when the short one is entirely inside it. "SFPC free talk: The
+ * Origin of the Word — Melanie Hoff" vs "The Origin of the Word" scores 0.29
+ * by Jaccard and 1.0 here, and they are plainly the same talk. This is the
+ * signal for the same event scraped once with a venue prefix and once bare.
+ */
+function containment(a: Set<string>, b: Set<string>): number {
+  const small = a.size <= b.size ? a : b;
+  const large = a.size <= b.size ? b : a;
+  if (small.size === 0) return 0;
+  let inter = 0;
+  for (const t of small) if (large.has(t)) inter += 1;
+  return inter / small.size;
+}
+
 /** Title tokens minus the venue's own words. */
 function strippedTitleTokens(e: Pick<CalEvent, "event" | "where">): Set<string> {
   const t = tokens(e.event);
@@ -40,11 +58,20 @@ function strippedTitleTokens(e: Pick<CalEvent, "event" | "where">): Set<string> 
 
 export function isLikelyDuplicate(a: CalEvent, b: CalEvent): boolean {
   if (a.date !== b.date) return false;
-  const sim = jaccard(strippedTitleTokens(a), strippedTitleTokens(b));
+  const ta = strippedTitleTokens(a);
+  const tb = strippedTitleTokens(b);
+  const sim = jaccard(ta, tb);
   if (sim >= 0.6) return true;
+
   const va = norm(a.where);
   const vb = norm(b.where);
   const sameVenue = va !== "" && va.slice(0, 18) === vb.slice(0, 18);
+
+  // Same night, same venue, and one title sits wholly inside the other: the
+  // same event scraped twice, once prefixed by its venue and once bare.
+  // "Brooklyn Art Haus: FOLKUS (singer/songwriter night)" vs "FOLKUS".
+  if (sameVenue && containment(ta, tb) >= 0.9) return true;
+
   const sameStart = !!a.start && a.start === b.start;
   return sameVenue && sameStart && sim >= 0.3;
 }
