@@ -66,7 +66,7 @@
       "neighborhood": "Bushwick",
       "borough": "brooklyn",
       "travelMin": 20,
-      "url": "https://bushwickceramics.com/classes",
+      "url": "https://www.bushwickceramics.com/availableclasses",
       "cost": {
         "kind": "unknown",
         "why": "not-checked"
@@ -80,7 +80,7 @@
         "enroll-ahead",
         "membership"
       ],
-      "verifiedOn": "2026-07-06"
+      "verifiedOn": "2026-07-14"
     },
     {
       "id": "bklyn-clay",
@@ -247,7 +247,7 @@
       "neighborhood": "Washington Heights",
       "borough": "manhattan",
       "travelMin": 65,
-      "url": "https://www.uptown-clay.com/classes",
+      "url": "https://www.uptown-clay.com/adult-wheel-booking-page",
       "cost": {
         "kind": "unknown",
         "why": "not-checked"
@@ -260,7 +260,7 @@
         "drop-in",
         "membership"
       ],
-      "verifiedOn": "2026-07-06"
+      "verifiedOn": "2026-07-14"
     },
     {
       "id": "mgc",
@@ -447,8 +447,12 @@
         "free",
         "contact-first"
       ],
-      "verifiedOn": "2026-07-06",
-      "caveat": "Email info@mobileprintpower.com to join the Tuesday workshop. All welcome."
+      "verifiedOn": "2026-07-14",
+      "caveat": "Weekly workshop at Centro Corona, Tuesdays 7-9pm. Email info@mobileprintpower.com to join. Site was unreachable on Jul 14.",
+      "availability": {
+        "status": "unknown",
+        "note": "Their site did not resolve on Jul 14. The Tuesday workshop may still run; email info@mobileprintpower.com to confirm."
+      }
     },
     {
       "id": "secret-riso-club",
@@ -515,7 +519,7 @@
       "neighborhood": "Flatiron",
       "borough": "manhattan",
       "travelMin": 45,
-      "url": "https://centerforbookarts.org/classes-and-workshops",
+      "url": "https://centerforbookarts.org/classes",
       "cost": {
         "kind": "range",
         "min": 75,
@@ -530,7 +534,7 @@
         "enroll-ahead",
         "membership"
       ],
-      "verifiedOn": "2026-07-06",
+      "verifiedOn": "2026-07-14",
       "caveat": "Pay-what-you-can intensives offered periodically. $75/yr membership gives class discounts."
     },
     {
@@ -543,7 +547,7 @@
       "neighborhood": "Gowanus",
       "borough": "brooklyn",
       "travelMin": 22,
-      "url": "https://textileartscenter.com/classes",
+      "url": "https://textileartscenter.com/adult-classes/class-calendar/",
       "cost": {
         "kind": "range",
         "min": 60,
@@ -557,7 +561,7 @@
       "access": [
         "enroll-ahead"
       ],
-      "verifiedOn": "2026-07-06",
+      "verifiedOn": "2026-07-14",
       "caveat": "No sliding scale listed. TAC AIR residency exists for fiber artists."
     },
     {

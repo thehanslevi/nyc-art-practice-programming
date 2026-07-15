@@ -1,0 +1,87 @@
+name: Check practices
+
+# The Directory is hand-verified on purpose, so this never edits the data. It
+# does the mechanical half of the chore (dead links, moved pages, rows nobody
+# has re-checked in a season) and files the result as a checklist.
+#
+# Quarterly, keyed to when class schedules actually turn over rather than to
+# the calendar: mid-Jan (spring), mid-Apr (summer), mid-Jul (fall registration
+# opens late Jul), mid-Oct (winter).
+on:
+  schedule:
+    - cron: "0 13 15 1,4,7,10 *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci
+
+      - name: Probe links and staleness
+        id: check
+        run: |
+          npx tsx scripts/check-practices.ts --md > report.md
+          echo "needs_action=$(npx tsx scripts/check-practices.ts | grep -oE 'needs action [0-9]+' | grep -oE '[0-9]+')" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the checklist issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('report.md', 'utf8');
+            const needs = Number('${{ steps.check.outputs.needs_action }}' || '0');
+            const title = 'Practices re-check';
+
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'practices-check',
+            });
+            const existing = open.find(i => i.title.startsWith(title));
+
+            // Nothing to do and nothing already open: stay quiet. An issue that
+            // fires every quarter saying "all good" trains you to ignore it.
+            if (needs === 0 && !existing) {
+              core.info('All links resolve, nothing stale. No issue opened.');
+              return;
+            }
+            if (needs === 0 && existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.number,
+                body: 'Everything resolves and nothing is stale as of this run. Closing.',
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.number, state: 'closed',
+              });
+              return;
+            }
+
+            const full = body + '\n\n---\n' +
+              '_Tick a box once you have confirmed the venue and bumped its `verifiedOn` in `src/data/practices.json`. ' +
+              'Re-run any time from the Actions tab._';
+
+            if (existing) {
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: existing.number,
+                title: `${title} — ${needs} to look at`,
+                body: full,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title: `${title} — ${needs} to look at`,
+                body: full,
+                labels: ['practices-check'],
+              });
+            }

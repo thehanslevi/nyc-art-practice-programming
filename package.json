@@ -9,7 +9,8 @@
     "scan": "tsx scripts/scan-events.ts",
     "dedupe": "tsx scripts/dedupe-events.ts",
     "lint": "oxlint && tsx scripts/validate-practices.ts",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check:practices": "tsx scripts/check-practices.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

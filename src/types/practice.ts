@@ -165,11 +165,16 @@ export interface PracticesData {
  * Facts decay. A schedule verified in June is a fact about June.
  *
  * Nothing here is ever "locked": every Practice carries `verifiedOn`, and past
- * this many days an entry is presented as suspect rather than true. This is not
- * a cosmetic nicety. A hand-verified list eight days old already contained a
- * dead URL, a wrong schedule, a wrong location, and an unverifiable claim.
+ * this many days an entry is presented as suspect rather than true. A
+ * hand-verified list eight days old already contained a dead URL, a wrong
+ * schedule, a wrong location, and an unverifiable claim.
+ *
+ * 120 days, not 30. Class schedules turn over on semester boundaries, not
+ * weekly, and the re-check runs quarterly. At 30 days every row went suspect
+ * within a month of every pass, which flags all 65 at once and teaches you to
+ * ignore the flag. This window means "a whole re-check cycle was missed".
  */
-export const STALE_AFTER_DAYS = 30;
+export const STALE_AFTER_DAYS = 120;
 
 // ---------------------------------------------------------------------------
 // The commitment layer.
