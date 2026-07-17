@@ -38,6 +38,41 @@ function escapeText(s: string): string {
     .replace(/\n/g, "\\n");
 }
 
+/**
+ * RFC 5545 §3.1: content lines are capped at 75 octets, and longer ones must be
+ * folded onto continuation lines starting with a single space.
+ *
+ * We were emitting lines up to 235 octets. Strict parsers truncate or reject
+ * those, which is how a long event link reaches a subscriber broken.
+ *
+ * The limit counts octets, not characters, so this measures UTF-8 bytes and
+ * never splits a multi-byte character across a fold.
+ */
+function fold(line: string): string[] {
+  const enc = new TextEncoder();
+  if (enc.encode(line).length <= 75) return [line];
+
+  const out: string[] = [];
+  let cur = "";
+  let bytes = 0;
+  // Continuation lines carry a leading space, so they hold one octet less.
+  let limit = 75;
+  for (const ch of line) {
+    const n = enc.encode(ch).length;
+    if (bytes + n > limit) {
+      out.push(cur);
+      cur = ch;
+      bytes = n;
+      limit = 74;
+    } else {
+      cur += ch;
+      bytes += n;
+    }
+  }
+  if (cur) out.push(cur);
+  return out.map((l, i) => (i === 0 ? l : " " + l));
+}
+
 function nowStamp(): string {
   const d = new Date();
   const y = d.getUTCFullYear();
@@ -143,14 +178,23 @@ export function buildICal(
     lines.push(`LOCATION:${escapeText(e.where)}`);
     const descParts: string[] = [];
     if (e.note) descParts.push(e.note);
-    descParts.push(`Cost: ${e.cost}`);
-    descParts.push(`Category: ${e.category} · ${e.mode}`);
+    // "TBD" is what the old site printed when it didn't know the price. It told
+    // the reader nothing, so say nothing.
+    if (e.cost && e.cost.trim().toUpperCase() !== "TBD") {
+      descParts.push(`Cost: ${e.cost}`);
+    }
+    descParts.push(`${e.category} · ${e.mode}`);
+    // The link goes in the description because that is the only place every
+    // client shows it. Google Calendar ignores the URL property outright; Apple
+    // tucks it in a field that's easy to miss. Both auto-link description text.
+    // URL: is still emitted below for clients that do use it.
+    if (e.url) descParts.push("", e.url);
     lines.push(`DESCRIPTION:${escapeText(descParts.join("\n"))}`);
     if (e.url) lines.push(`URL:${e.url}`);
     lines.push("END:VEVENT");
   }
   lines.push("END:VCALENDAR");
-  return lines.join("\r\n");
+  return lines.flatMap(fold).join("\r\n");
 }
 
 export function downloadICal(
