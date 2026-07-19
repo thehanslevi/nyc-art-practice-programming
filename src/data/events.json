@@ -1,5 +1,5 @@
 {
-  "lastVerified": "2026-07-12",
+  "lastVerified": "2026-07-19",
   "weeks": [
     {
       "label": "Jul 5–11",
@@ -1709,6 +1709,66 @@
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
           "uid": "e_3e23fe17b02b"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 19",
+          "event": "Rediscovering Fanon",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$15",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "14:00",
+          "end": "14:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/vp-rediscovering-fanon",
+          "uid": "e_6a9589570dd5"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 19",
+          "event": "Live Jazz Brunch for All Ages: Music Explorers (2 sets EVERY SUNDAY @ 10:30 & 11:30AM)",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "10:30",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/5998358/735086601/live-jazz-brunch-for-all-ages-music-explorers-2-sets-every-sunday-10-30-11-30am",
+          "uid": "e_fd65110d2d76"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 19",
+          "event": "Verse4Verse: Drag + Poetry + Rap",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "18:30",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6652651/770906797/verse4verse-drag-poetry-rap",
+          "uid": "e_54827e352797"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 19",
+          "event": "Intro to Screenprint",
+          "where": "RBPMW",
+          "cost": "$340 Members // $390 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/classes?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_12cb9398b8fd"
         }
       ]
     },
@@ -1746,6 +1806,21 @@
           "uid": "e_cde4a667113c"
         },
         {
+          "day": "Mon",
+          "date": "Jul 20",
+          "event": "Paper Maker (Summer 2026)",
+          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "cost": "$240",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "00:00",
+          "end": null,
+          "note": null,
+          "url": "https://www.materialsforthearts.org/event/paper-maker-summer-2026/",
+          "uid": "e_ccb5fc1dcbb0"
+        },
+        {
           "day": "Tue",
           "date": "Jul 21",
           "event": "Mono No Aware: Producing Fundamentals (2 of 3)",
@@ -1774,6 +1849,21 @@
           "note": "Love, Denial and 20 Years of Barely Contained Fury. Runs Jul 21–22.",
           "url": "https://thetanknyc.org/tankcalendar",
           "uid": "e_e095c590360b"
+        },
+        {
+          "day": "Tue",
+          "date": "Jul 21",
+          "event": "Jazz in July – Aaron Diehl & John Patitucci Duo",
+          "where": "92Y (New York, NY)",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://click.92yemail.org/?qs%C2%ABB7InYiOjEsImQiOjQ5NDJ9AAoAAAAAApZviryKaYYxh3Yfb5DrZTS3a0Rv_K4u3ZixEPVpc6r-vdCe2xc6Umfj00bG_wc0ZITB8fCZAmIhqVWr--j9wHm-q9pwh2uZWdVHbh1Ni7w",
+          "uid": "e_c4c333963f7f"
         },
         {
           "day": "Wed",
@@ -1819,6 +1909,36 @@
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
           "uid": "e_61276307bd3c"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 22",
+          "event": "Classical/Jazz Improv Music - Kerry Lewis Jr. and Sunjay Jayaram/Terrarium",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "21:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6574099/762803091/classical-jazz-improv-music-kerry-lewis-jr-and-sunjay-jayaram-terrarium",
+          "uid": "e_e3862e58a45d"
+        },
+        {
+          "day": "Wed",
+          "date": "Jul 22",
+          "event": "Jazz in July – Kate Kortum & Aaron Diehl Trio (livestream)",
+          "where": "92Y (New York, NY)",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://click.92yemail.org/?qs%C2%ABB7InYiOjEsImQiOjQ5NDJ9AAoAAAAAApZviryOp9GtQbKQ5IJkO7Shm4mEb8yZqxl27cSJnlS8U_tNOrJI0ufIRwSxPrIgVD4uHuc1h11GDvzPLVtBMHc1QxhQFqv16-aC4iaXcFQ",
+          "uid": "e_cd3f48bd0d63"
         },
         {
           "day": "Thu",
@@ -1911,6 +2031,96 @@
           "uid": "e_c1f15b07e340"
         },
         {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Esther's Laboratory and Will Bollinger",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6660724/771809892/esther-s-laboratory-and-will-bollinger",
+          "uid": "e_ba306646f665"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "VIBEY/HOUSE DJs - GEOBALL w/ Gem & Geo",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "22:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6562743/761908987/vibey-house-djs-geoball-w-gem-geo",
+          "uid": "e_72e14d9f41aa"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 23",
+          "event": "Asian American Arts Alliance – July Town Hall: Film & Media",
+          "where": "Asian American Arts Alliance",
+          "cost": "TBD",
+          "category": "film",
+          "flag": null,
+          "mode": "witness",
+          "start": "18:30",
+          "end": "20:30",
+          "note": null,
+          "url": "https://info.icp.org/e3t/Ctc/ZY+113/d5ClgB04/VX74gj4D8ScrW1q4BPW5gsgkfW3wqskQ5Rtjz6N4KxWNs3prCCW95jsWP6lZ3nLW69S8qk46Zg7ZN8XtKttCQVbcW5gHkMv8_4ssxW30G4Jk7rfyJTW8SMrZS7q-SlhVVBwvT4F7cf4W7WNG8M4C77NhW52F0NB3qxDjxW6VNmcY2mcRkrMy_z-63tCfBW49wk8368xQ3zW99S2d04Mt5zkW1nV7jd12vxm4W5xzpb88y861JW3sN0HS2MWxxwW4Pg3_s7r7YL8N71ZGdPKS2YWW2JM0wq5kz7jsW2xkzX71_XTKwW1R0MN75C_2JGW7YN8yS9770K9W6zJkb52qhFdgW42jn9J8v7KpDVrCTym3rNTckW3wBQ7S5xHYDpW6-GVgF8hNclkW7TGLQw1CrSSRW5G6bmY2J9CXBW1_tTDk7LjK7SW5k31DB55Wl78f6JTd2404",
+          "uid": "e_d6a9b92231c0"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Photolitho: Digital Films",
+          "where": "RBPMW",
+          "cost": "$510 (3‑week) Members // $560 (3‑week) Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/3/9/photo-litho-digital-films-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_e4b259adac71"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Afro Latino Festival NYC – Talk with Susana Baca",
+          "where": "Ilé Oyin (208 E 126th St., NYC)",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://afrolatinofestnyc.com/",
+          "uid": "e_166a1e59e577"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 23",
+          "event": "Jazz in July – Terence Blanchard & Ravi Coltrane",
+          "where": "92Y (New York, NY)",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://click.92yemail.org/?qs%C2%ABB7InYiOjEsImQiOjQ5NDJ9AAoAAAAAApZviryMMnoes0NWP4lTerCMMGgXPhR_ezVsymRkjBuugyIryWXj2NsakzyXLUxS0oiqQ9wSBvul4CfgsxpLHTRJW2AG2YK-ZtOSHHKEjSw",
+          "uid": "e_7a6c244b0cbe"
+        },
+        {
           "day": "Fri",
           "date": "Jul 24",
           "event": "UnionDocs: The Magical Image — Special Effects as Documentary Method",
@@ -1984,6 +2194,81 @@
           "note": "Two-day workshop, continues Sat Jul 25, 1-4pm ET. With Omayeli Arenyeka.",
           "url": "https://sfpc.study/sessions/future-schools/extending-poetry-through-computation",
           "uid": "e_687809e693f7"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "The Lost Image Archives",
+          "where": "UnionDocs, 352 Onderdonk Avenue, 352 Onderdonk Avenue, Ridgewood, NY, 11385, United States",
+          "cost": "$12",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:30",
+          "end": "19:30",
+          "note": null,
+          "url": "https://uniondocs.org/event/the-lost-image-archives-2026-07-24/",
+          "uid": "e_b0a657aa0235"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "Indie Folk - The Interim, maybe so, Tuxis Giant",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "18:30",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6652552/770906672/indie-folk-the-interim-maybe-so-tuxis-giant",
+          "uid": "e_c35012e07842"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "UMORA: Zayd, Mantis Hands b2b selacuna, Tomás",
+          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "22:00",
+          "end": null,
+          "note": null,
+          "url": "https://dadabar.nyc/event/6664799/772712158/umora-zayd-mantis-hands-b2b-selacuna-tomas",
+          "uid": "e_53d1c9e30cf3"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "Afro Latino Festival NYC – Music Market",
+          "where": "Ilé Oyin (208 E 126th St., NYC)",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://afrolatinofestnyc.com/",
+          "uid": "e_104e85c94d57"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 24",
+          "event": "Summer Fridays w/ Soul Summit – July 24",
+          "where": "The Shed Outdoor Plaza (New York, NY)",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "17:00",
+          "end": "20:00",
+          "note": null,
+          "url": "https://www.theshed.org/program/522-latinx-freedom",
+          "uid": "e_bf31eb0679bd"
         },
         {
           "day": "Sat",
@@ -2076,6 +2361,51 @@
           "uid": "e_b1009a6f2c05"
         },
         {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "City of Water Day Panel",
+          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "cost": "FREE",
+          "category": "theatre",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://lmcc.net/events/city-of-water-day-panel/",
+          "uid": "e_747fb1724265"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "Discover Your Collagraph",
+          "where": "RBPMW",
+          "cost": "$290 Members // $340 Non-member",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/7/25/discover-your-collagraph-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_b6d81e0e9607"
+        },
+        {
+          "day": "Sat",
+          "date": "Jul 25",
+          "event": "Jazz in July – Ron Carter & Foursight Quartet",
+          "where": "92Y (New York, NY)",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://click.92yemail.org/?qs%C2%ABB7InYiOjEsImQiOjQ5NDJ9AAoAAAAAApZviryNZ0791UXKvRPdcaKtZ6I4ag9P-wfhic5Q2DDEdY7AP4J6dzNyG1m_3tE4rK5hFnRMDYwambdXjIRjgb-mLY3ZdY9dzwYKIuOmE34",
+          "uid": "e_be547b336b5d"
+        },
+        {
           "day": "Sun",
           "date": "Jul 26",
           "event": "Interference Archive: Audio Collage Workshop",
@@ -2149,6 +2479,21 @@
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
           "uid": "e_c08638053bc7"
+        },
+        {
+          "day": "Sun",
+          "date": "Jul 26",
+          "event": "Discover Your Collagraph",
+          "where": "RBPMW",
+          "cost": "$290 Members // $340 Non-member",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/7/25/discover-your-collagraph-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_ccf4012c6ba1"
         }
       ]
     },
@@ -2246,6 +2591,21 @@
           "uid": "e_41032c83d716"
         },
         {
+          "day": "Wed",
+          "date": "Jul 29",
+          "event": "Artifacts of Grief",
+          "where": "Brooklyn Poets",
+          "cost": "Sliding scale",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "18:30",
+          "end": "21:30",
+          "note": null,
+          "url": "https://brooklynpoets.org/workshop/p/artifacts-of-grief?utm_source=Brooklyn+Poets+Newsletter&utm_campaign=6f645e6944-Workshop_Spotlight_JUL_15&utm_medium=email&utm_term=0_-db863e3d07-516992572&mc_cid=6f645e6944&mc_eid=UNIQID",
+          "uid": "e_89e9c74b67bc"
+        },
+        {
           "day": "Thu",
           "date": "Jul 30",
           "event": "UBB 40th: BreakBeat Lou / Lord Finesse / Diamond D + more",
@@ -2336,6 +2696,36 @@
           "uid": "e_d5027dd2aca7"
         },
         {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "Summer Writing Spiral with Sara Jane Stoner",
+          "where": "Crown Heights Studio",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://www.eventbrite.com/e/belladonna-school-of-feminist-practice-and-poetics-summer-writing-spirals-tickets-1992023381558?aff=oddtdtcreator",
+          "uid": "e_d1ba10826499"
+        },
+        {
+          "day": "Thu",
+          "date": "Jul 30",
+          "event": "Photolitho: Digital Films",
+          "where": "RBPMW",
+          "cost": "$510 (3‑week) Members // $560 (3‑week) Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/3/9/photo-litho-digital-films-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_28c72d9e5643"
+        },
+        {
           "day": "Fri",
           "date": "Jul 31",
           "event": "BRIC Celebrate Brooklyn!: CARRTOONS + Hailé Supreme + Sofía Valdés + Julia Zivic",
@@ -2409,6 +2799,21 @@
           "note": null,
           "url": "https://elmuseo.org/event/open-studio-double-exposures/",
           "uid": "e_7ec42a1a20e9"
+        },
+        {
+          "day": "Fri",
+          "date": "Jul 31",
+          "event": "Uptown Fridays x On the Hush Songs",
+          "where": "Studio Museum in Harlem, 144 West 125th Street",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "18:00",
+          "end": "22:00",
+          "note": null,
+          "url": "https://www.studiomuseum.org/events/uptown-fridays-on-the-hush-songs",
+          "uid": "e_8bd1454cd126"
         },
         {
           "day": "Sat",
@@ -2488,6 +2893,81 @@
             "e_c71a9c0d9a9c",
             "Aug 1|SFPC free talk: Handmade Datasets — Aarati Akkapeddi"
           ]
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "- 애국소녀 K- Family Affairs",
+          "where": "UnionDocs, 352 Onderdonk Avenue, 352 Onderdonk Avenue, Ridgewood, NY, 11385, United States",
+          "cost": "$12",
+          "category": "film",
+          "flag": null,
+          "mode": "make",
+          "start": "19:30",
+          "end": "22:00",
+          "note": null,
+          "url": "https://uniondocs.org/event/%ec%95%a0%ea%b5%ad%ec%86%8c%eb%85%80-k-family-affairs-2026-08-01/",
+          "uid": "e_a4b98b9b8c75"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 1",
+          "event": "RISO",
+          "where": "RBPMW",
+          "cost": "$240 Members // $290 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "14:00",
+          "note": null,
+          "url": "https://efa-rbpmw.squarespace.com/new-events-1/2026/2/19/intro-to-screenprinting-february-5kta5-rr37b-an5m9?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_428c989663ad"
+        },
+        {
+          "day": "Sun",
+          "date": "Aug 2",
+          "event": "RISO",
+          "where": "RBPMW",
+          "cost": "$240 Members // $290 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "14:00",
+          "note": null,
+          "url": "https://efa-rbpmw.squarespace.com/new-events-1/2026/2/19/intro-to-screenprinting-february-5kta5-rr37b-an5m9?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_2c8b3ec96eb8"
+        },
+        {
+          "day": "Sun",
+          "date": "Aug 2",
+          "event": "River Through: Poems that Bleed",
+          "where": "Brooklyn Poets",
+          "cost": "Sliding scale",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "17:30",
+          "end": "20:30",
+          "note": null,
+          "url": "http://brooklynpoets.org/workshop/p/river-through?utm_source=Brooklyn+Poets+Newsletter&utm_campaign=6f645e6944-Workshop_Spotlight_JUL_15&utm_medium=email&utm_term=0_-db863e3d07-516992572&mc_cid=6f645e6944&mc_eid=UNIQID",
+          "uid": "e_d0b24b64bc69"
+        },
+        {
+          "day": "Sun",
+          "date": "Aug 2",
+          "event": "To the Marrow: Writing Short Poems",
+          "where": "Brooklyn Poets",
+          "cost": "Sliding scale",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "10:30",
+          "end": "13:30",
+          "note": null,
+          "url": "https://brooklynpoets.org/workshop/p/to-the-marrow?utm_source=Brooklyn+Poets+Newsletter&utm_campaign=6f645e6944-Workshop_Spotlight_JUL_15&utm_medium=email&utm_term=0_-db863e3d07-516992572&mc_cid=6f645e6944&mc_eid=UNIQID",
+          "uid": "e_9ec7681183d3"
         }
       ]
     },
@@ -2555,6 +3035,21 @@
           "uid": "e_b4ec21e4441a"
         },
         {
+          "day": "Wed",
+          "date": "Aug 5",
+          "event": "Collagraph Workshop: Exploring Texture & Translation",
+          "where": "RBPMW",
+          "cost": "$230 Members // $280 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/5/7/collagraph-workshop-exploring-texture-and-translation-august?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_b34f4d0b9b6f"
+        },
+        {
           "day": "Thu",
           "date": "Aug 6",
           "event": "Andrew Bird + Wordless Music Orchestra (20th anniversary)",
@@ -2568,6 +3063,81 @@
           "note": null,
           "url": "https://summerstage.org",
           "uid": "e_f778316a8cf1"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 6",
+          "event": "Opening • Itinerant Signal Institute (Rite of Spring)",
+          "where": "Flux IV · 56-21 2nd St, Long Island City",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://www.fluxfactory.org/event/opening-itinerant-signal-institute-rite-of-spring/",
+          "uid": "e_db0ae83b05cf"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 6",
+          "event": "Opening • 502 Bad Gateway: Error is Shadow",
+          "where": "Flux IV · 56-21 2nd St, Long Island City",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://www.fluxfactory.org/event/opening-502-bad-gateway-error-is-shadow/",
+          "uid": "e_f20cf9e333cb"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 6",
+          "event": "Summer Family Night",
+          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "20:30",
+          "note": null,
+          "url": "https://www.materialsforthearts.org/event/summer-family-night-2026/",
+          "uid": "e_bab5bafac74b"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 6",
+          "event": "Photolitho: Digital Films",
+          "where": "RBPMW",
+          "cost": "$510 (3‑week) Members // $560 (3‑week) Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/3/9/photo-litho-digital-films-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_164427460e36"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 6",
+          "event": "Versification: The What For",
+          "where": "Brooklyn Poets",
+          "cost": "Sliding scale",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "18:30",
+          "end": "21:30",
+          "note": null,
+          "url": "https://brooklynpoets.org/workshop/p/versification?utm_source=Brooklyn+Poets+Newsletter&utm_campaign=6f645e6944-Workshop_Spotlight_JUL_15&utm_medium=email&utm_term=0_-db863e3d07-516992572&mc_cid=6f645e6944&mc_eid=UNIQID",
+          "uid": "e_5f26b06993f0"
         },
         {
           "day": "Fri",
@@ -2630,6 +3200,21 @@
           "uid": "e_a229bae98746"
         },
         {
+          "day": "Fri",
+          "date": "Aug 7",
+          "event": "Summer Fridays w/ Soul Summit – Aug 7",
+          "where": "The Shed Outdoor Plaza (New York, NY)",
+          "cost": "FREE",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "17:00",
+          "end": "20:00",
+          "note": null,
+          "url": "https://www.theshed.org/program/522-latinx-freedom",
+          "uid": "e_bc5a592f7396"
+        },
+        {
           "day": "Sat",
           "date": "Aug 8",
           "event": "esperanza spalding: In Concert",
@@ -2660,6 +3245,21 @@
           "uid": "e_9b5e67a2e054"
         },
         {
+          "day": "Sat",
+          "date": "Aug 8",
+          "event": "How to Emboss Paper with & without a Press",
+          "where": "RBPMW",
+          "cost": "$230 Members // $280 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "14:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/how-to-emboss-paper-with-amp-without-a-press-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_10bf285b6944"
+        },
+        {
           "day": "Sun",
           "date": "Aug 9",
           "event": "Chine-Collé Weekend Workshop with Alejandra Arias Sevilla",
@@ -2673,12 +3273,102 @@
           "note": "Chine Collé: Printing, Seaming, Mounting & Collaging",
           "url": "https://printshop.org/classes-workshops/chine-colle-workshop-with-alejandra-arias-sevilla",
           "uid": "e_918f52af2795"
+        },
+        {
+          "day": "Sun",
+          "date": "Aug 9",
+          "event": "How to Emboss Paper with & without a Press",
+          "where": "RBPMW",
+          "cost": "$230 Members // $280 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "14:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/how-to-emboss-paper-with-amp-without-a-press-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_cbde92e99d01"
+        },
+        {
+          "day": "Sun",
+          "date": "Aug 9",
+          "event": "Give Us Back the World: On Poetic Closure",
+          "where": "Brooklyn Poets",
+          "cost": "Sliding scale",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "10:30",
+          "end": "13:30",
+          "note": null,
+          "url": "https://brooklynpoets.org/workshop/p/give-us-back-the-world?utm_source=Brooklyn+Poets+Newsletter&utm_campaign=6f645e6944-Workshop_Spotlight_JUL_15&utm_medium=email&utm_term=0_-db863e3d07-516992572&mc_cid=6f645e6944&mc_eid=UNIQID",
+          "uid": "e_5071e221524c"
         }
       ]
     },
     {
       "label": "Aug 10–23",
       "events": [
+        {
+          "day": "Tue",
+          "date": "Aug 11",
+          "event": "Summer Writing Spiral with Mel Elberg",
+          "where": "Crown Heights Studio",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "make",
+          "start": "19:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://www.eventbrite.com/e/belladonna-school-of-feminist-practice-and-poetics-summer-writing-spirals-tickets-1992023381558?aff=oddtdtcreator",
+          "uid": "e_9b10ae8492b4"
+        },
+        {
+          "day": "Wed",
+          "date": "Aug 12",
+          "event": "Collagraph Workshop: Exploring Texture & Translation",
+          "where": "RBPMW",
+          "cost": "$230 Members // $280 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "21:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/5/7/collagraph-workshop-exploring-texture-and-translation-august?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_e4547ec21062"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 13",
+          "event": "Artist Talk: Michelle Im",
+          "where": "Greenwich House Pottery · 16 Jones Street, New York",
+          "cost": "TBD",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "18:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://greenwichhouse.org/event/artist-talk-michelle-im/",
+          "uid": "e_5bf201c44e96"
+        },
+        {
+          "day": "Thu",
+          "date": "Aug 13",
+          "event": "Photolitho: Digital Films",
+          "where": "RBPMW",
+          "cost": "$510 (3‑week) Members // $560 (3‑week) Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/3/9/photo-litho-digital-films-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_f211dbe7eb50"
+        },
         {
           "day": "Fri",
           "date": "Aug 14",
@@ -2693,6 +3383,21 @@
           "note": "Runs Aug 14–20.",
           "url": "https://www.filmforum.org/now-playing",
           "uid": "e_1c21182e569b"
+        },
+        {
+          "day": "Fri",
+          "date": "Aug 14",
+          "event": "Oil Paint Stick Monotype",
+          "where": "RBPMW",
+          "cost": "$240 (2‑week) Members // $290 (2‑week) Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "14:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/oil-paint-stick-monotype-august?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_bc9a3da9fc96"
         },
         {
           "day": "Sat",
@@ -2785,6 +3490,36 @@
           "uid": "e_55164a6ba6a8"
         },
         {
+          "day": "Sat",
+          "date": "Aug 15",
+          "event": "Intro to Screenprint",
+          "where": "RBPMW",
+          "cost": "$340 Members // $390 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "http://https//www.rbpmw-efanyc.org/new-events-1/2026/2/19/intro-to-screenprint-august?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_4d01fa94bc34"
+        },
+        {
+          "day": "Sat",
+          "date": "Aug 15",
+          "event": "Stone Lithography",
+          "where": "RBPMW",
+          "cost": "$600 Members // $650 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "10:30",
+          "end": "16:30",
+          "note": "Runs through Aug 23 (4 dates)",
+          "url": "https://efa-rbpmw.squarespace.com/new-events-1/stone-litho-august?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_a71426c54c39"
+        },
+        {
           "day": "Sun",
           "date": "Aug 16",
           "event": "Taiwanese Waves 10th: 9m88 + ØZI + YELLOW / Mong Tong + more",
@@ -2798,6 +3533,21 @@
           "note": null,
           "url": "https://summerstage.org",
           "uid": "e_2f514d4d0fb6"
+        },
+        {
+          "day": "Sun",
+          "date": "Aug 16",
+          "event": "Intro to Screenprint",
+          "where": "RBPMW",
+          "cost": "$340 Members // $390 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "http://https//www.rbpmw-efanyc.org/new-events-1/2026/2/19/intro-to-screenprint-august?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_57ed50b5ce33"
         },
         {
           "day": "Thu",
@@ -2815,6 +3565,21 @@
           "uid": "e_5bbe4c7c78b6"
         },
         {
+          "day": "Thu",
+          "date": "Aug 20",
+          "event": "Photolitho: Digital Films",
+          "where": "RBPMW",
+          "cost": "$510 (3‑week) Members // $560 (3‑week) Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/2026/3/9/photo-litho-digital-films-july?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_ad7ffadb906f"
+        },
+        {
           "day": "Fri",
           "date": "Aug 21",
           "event": "Film Forum: COPPOLA 3-week retrospective (25 films) opens",
@@ -2828,6 +3593,36 @@
           "note": "Massive Coppola retrospective. Runs Aug 21 – Sep 10.",
           "url": "https://www.filmforum.org/now-playing",
           "uid": "e_ab72dd5d3092"
+        },
+        {
+          "day": "Fri",
+          "date": "Aug 21",
+          "event": "Drone Lab + Open Projector",
+          "where": "Delight Factory · 303 Saratoga Ave\n11233-4007\nUS",
+          "cost": "TBD",
+          "category": "community",
+          "flag": null,
+          "mode": "witness",
+          "start": "20:00",
+          "end": "23:00",
+          "note": null,
+          "url": "https://www.delightfactorynyc.com/events",
+          "uid": "e_361a3c11ff71"
+        },
+        {
+          "day": "Fri",
+          "date": "Aug 21",
+          "event": "Oil Paint Stick Monotype",
+          "where": "RBPMW",
+          "cost": "$240 (2‑week) Members // $290 (2‑week) Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "14:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/oil-paint-stick-monotype-august?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_e8484f702304"
         },
         {
           "day": "Sun",
@@ -2895,6 +3690,21 @@
           "uid": "e_be4a5f1af81d"
         },
         {
+          "day": "Fri",
+          "date": "Aug 28",
+          "event": "Oil Paint Stick Monotype",
+          "where": "RBPMW",
+          "cost": "$240 (2‑week) Members // $290 (2‑week) Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "14:00",
+          "note": null,
+          "url": "https://www.rbpmw-efanyc.org/new-events-1/oil-paint-stick-monotype-august?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_0e00825f2229"
+        },
+        {
           "day": "Sat",
           "date": "Aug 29",
           "event": "Recycled Runway",
@@ -2925,6 +3735,21 @@
           "uid": "e_f8709bdd4fb7"
         },
         {
+          "day": "Sat",
+          "date": "Aug 29",
+          "event": "Textile Screenprinting",
+          "where": "RBPMW",
+          "cost": "$340 Members // $390 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://efa-rbpmw.squarespace.com/new-events-1/2026/5/30/textile-screenprinting-may-3tpjz?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_5396300862b1"
+        },
+        {
           "day": "Sun",
           "date": "Aug 30",
           "event": "Charlie Parker Fest Night 3: Ravi Coltrane / Kassa Overall / Vanisha Gould",
@@ -2938,12 +3763,42 @@
           "note": null,
           "url": "https://summerstage.org",
           "uid": "e_de3cd7e2c39d"
+        },
+        {
+          "day": "Sun",
+          "date": "Aug 30",
+          "event": "Textile Screenprinting",
+          "where": "RBPMW",
+          "cost": "$340 Members // $390 Non-members",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "15:00",
+          "note": null,
+          "url": "https://efa-rbpmw.squarespace.com/new-events-1/2026/5/30/textile-screenprinting-may-3tpjz?utm_source=EFA+MAILING+LIST&utm_campaign=cd53510839-EMAIL_CAMPAIGN_2018_11_13_03_27_COPY_01&utm_medium=email&utm_term=0_bbdace2044-cd53510839-601232217&mc_cid=cd53510839&mc_eid=UNIQID",
+          "uid": "e_15203c38a8a7"
         }
       ]
     },
     {
       "label": "Sep 1–13",
       "events": [
+        {
+          "day": "Wed",
+          "date": "Sep 2",
+          "event": "Jim Curtis & Jennifer Aniston – The Book of Possibility",
+          "where": "92Y (New York, NY)",
+          "cost": "TBD",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://click.92yemail.org/?qs%C2%ABB7InYiOjEsImQiOjQ5NDJ9AAoAAAAAApZviryVuY9ae__zFUsejTNOWaUcQYu5BcZqnWceWDE-n1mOOubHftnvbyE77tCZAl-eC55Dgl2CFmNxw--JQdxD9jkR7BZRsNRGVibtyfc",
+          "uid": "e_de0756bf2585"
+        },
         {
           "day": "Sat",
           "date": "Sep 5",
@@ -3123,6 +3978,21 @@
           "note": "Author appearance.",
           "url": "https://www.symphonyspace.org/",
           "uid": "e_0fde406e1d04"
+        },
+        {
+          "day": "Sat",
+          "date": "Sep 12",
+          "event": "Socrates x Noguchi: Field Guide – Natural Materials Workshop",
+          "where": "Socrates Sculpture Park, 32-01 Vernon Blvd, Astoria, NY",
+          "cost": "FREE",
+          "category": "making",
+          "flag": null,
+          "mode": "make",
+          "start": "11:00",
+          "end": "13:00",
+          "note": null,
+          "url": "https://www.noguchi.org/museum/calendar/event/2026-09-12-1100-socrates-x-noguchi-field-guide-regeneration-natural-materials-with-julia-norton/",
+          "uid": "e_76d29f02b378"
         }
       ]
     },
@@ -3265,6 +4135,21 @@
           "uid": "e_534eb52e274b"
         },
         {
+          "day": "Thu",
+          "date": "Sep 17",
+          "event": "The Shed 2026 Gala",
+          "where": "The Shed, 545 West 30th Street, New York, NY",
+          "cost": "TBD",
+          "category": "sound",
+          "flag": null,
+          "mode": "witness",
+          "start": "17:30",
+          "end": "23:00",
+          "note": null,
+          "url": "https://www.theshed.org/program/561-the-shed-2026-gala#mmi-6898",
+          "uid": "e_5147c270bfb6"
+        },
+        {
           "day": "Fri",
           "date": "Sep 18",
           "event": "Film Forum: MY BROTHER'S WEDDING (Charles Burnett, 4K) opens",
@@ -3323,6 +4208,21 @@
           "note": "Extreme close-ups on 16mm. Conflicts with Bolex extended day.",
           "url": "http://mononoawarefilm.com/community-workshops",
           "uid": "e_8028e971974c"
+        },
+        {
+          "day": "Sat",
+          "date": "Sep 19",
+          "event": "The Essence of Us: A Cuban Story – Opening Night",
+          "where": "92Y (New York, NY)",
+          "cost": "TBD",
+          "category": "dance",
+          "flag": null,
+          "mode": "witness",
+          "start": null,
+          "end": null,
+          "note": null,
+          "url": "https://click.92yemail.org/?qs%C2%ABB7InYiOjEsImQiOjQ5NDJ9AAoAAAAAApZviryR2EnM-kdTvDlMqL2n9MKbZuZR3pC_IRgpPEhVT1Fc9YaSBnrHhxRC1PXfnr2TyFzEqgOSZBj2-PTOIBXMvu4XsKH-aHw82MkJ4mY",
+          "uid": "e_d11a0a23d941"
         },
         {
           "day": "Sun",
@@ -3563,6 +4463,21 @@
           "note": null,
           "url": "https://www.symphonyspace.org/events/nt-live-the-misanthrope",
           "uid": "e_240a87086391"
+        },
+        {
+          "day": "Tue",
+          "date": "Sep 29",
+          "event": "Eric Idle, Idle in Provence",
+          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "cost": "$43",
+          "category": "literature",
+          "flag": null,
+          "mode": "witness",
+          "start": "19:00",
+          "end": "19:00",
+          "note": null,
+          "url": "https://www.symphonyspace.org/events/eric-idle-idle-in-provence",
+          "uid": "e_6f06cfeb53f2"
         }
       ]
     },

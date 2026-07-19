@@ -1,13 +1,6 @@
 [
   {
     "venue": "Symphony Space",
-    "event": "Marion Davies - The Cardboard Lover",
-    "date": "Jul 18",
-    "reason": "duplicate of existing \"Symphony Space: Marion Davies — The Cardboard Lover (silent film)\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "Symphony Space",
     "event": "NT Live: Inter Alia (Encore)",
     "date": "Aug 15",
     "reason": "duplicate of existing \"Symphony Space: NT Live — Inter Alia (Encore)\"",
@@ -36,17 +29,45 @@
   },
   {
     "venue": "Symphony Space",
+    "event": "Selected Shorts: The Five Boroughs",
+    "date": "Sep 23",
+    "reason": "duplicate of existing \"Selected Shorts: The Five Boroughs\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Symphony Space",
     "event": "Kyle MacLachlan, Fictional Selves",
     "date": "Sep 28",
     "reason": "duplicate of existing \"Kyle MacLachlan, Fictional Selves\"",
     "source": "json-ld"
   },
   {
-    "venue": "UnionDocs",
-    "event": "A Brief History of Chasing Storms",
-    "date": "Jul 16",
-    "reason": "duplicate of existing \"A Brief History of Chasing Storms\"",
-    "source": "ics"
+    "venue": "Symphony Space",
+    "event": "NT Live: The Misanthrope",
+    "date": "Sep 29",
+    "reason": "duplicate of existing \"NT Live: The Misanthrope\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "Selected Shorts: The Best American Short Stories 2026 with Viet Thanh Nguyen",
+    "date": "Oct 21",
+    "reason": "duplicate of existing \"Selected Shorts: The Best American Short Stories 2026 with Viet Thanh Nguyen\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "Selected Shorts: The Most of Nora Ephron, hosted by Meg Wolitzer",
+    "date": "Nov 18",
+    "reason": "duplicate of existing \"Selected Shorts: The Most of Nora Ephron, hosted by Meg Wolitzer\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Symphony Space",
+    "event": "Selected Shorts: Objects with Roz Chast",
+    "date": "Dec 9",
+    "reason": "duplicate of existing \"Selected Shorts: Objects with Roz Chast\"",
+    "source": "json-ld"
   },
   {
     "venue": "UnionDocs",
@@ -54,13 +75,6 @@
     "date": "Jul 24",
     "reason": "duplicate of existing \"UnionDocs: The Magical Image — Special Effects as Documentary Method\"",
     "source": "ics"
-  },
-  {
-    "venue": "DADA",
-    "event": "The Tiny Musician: Violin & Loopstation",
-    "date": "Jul 15",
-    "reason": "duplicate of existing \"The Tiny Musician: Violin & Loopstation\"",
-    "source": "json-ld"
   },
   {
     "venue": "The Arts Center at Governors Island",
@@ -85,7 +99,7 @@
   },
   {
     "venue": "The Arts Center at Governors Island",
-    "event": "esperanza spalding: In Concert",
+    "event": "esperanza spalding",
     "date": "Aug 8",
     "reason": "duplicate of existing \"esperanza spalding: In Concert\"",
     "source": "ics"
@@ -105,27 +119,6 @@
     "source": "ics"
   },
   {
-    "venue": "The Arts Center at Governors Island",
-    "event": "Recycled Runway",
-    "date": "Aug 29",
-    "reason": "duplicate of existing \"Recycled Runway\"",
-    "source": "ics"
-  },
-  {
-    "venue": "Delight Factory",
-    "event": "Sustaining Creativity in the Home: A Zine Exploration",
-    "date": "Jul 15",
-    "reason": "duplicate of existing \"Sustaining Creativity in the Home: A Zine Exploration\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "Delight Factory",
-    "event": "Drone Lab + Open Projector",
-    "date": "Jul 17",
-    "reason": "duplicate of existing \"Drone Lab + Open Projector\"",
-    "source": "json-ld"
-  },
-  {
     "venue": "Delight Factory",
     "event": "Art x Embodiment",
     "date": "Jul 19",
@@ -137,6 +130,13 @@
     "event": "How to Talk About Your Art",
     "date": "Jul 25",
     "reason": "duplicate of existing \"How to Talk About Your Art\"",
+    "source": "json-ld"
+  },
+  {
+    "venue": "Delight Factory",
+    "event": "Pataphysics 020",
+    "date": "Jul 25",
+    "reason": "duplicate of existing \"Pataphysics 020\"",
     "source": "json-ld"
   },
   {
@@ -192,21 +192,21 @@
     "venue": "Greenwich House Pottery",
     "event": "&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph",
     "date": "Jul 23",
-    "reason": "duplicate of existing \"&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph\"",
+    "reason": "duplicate of existing \"Ceramics Now, Lizzy Chemel, Amir Hariri, Melissa Joseph\"",
     "source": "json-ld"
   },
   {
     "venue": "Greenwich House Pottery",
     "event": "Opening Reception &lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph",
     "date": "Jul 23",
-    "reason": "duplicate of existing \"&lt;em&gt;Ceramics Now&lt;/em&gt;, Lizzy Chemel, Amir Hariri, Melissa Joseph\"",
+    "reason": "duplicate of existing \"Ceramics Now, Lizzy Chemel, Amir Hariri, Melissa Joseph\"",
     "source": "json-ld"
   },
   {
     "venue": "Greenwich House Pottery",
     "event": "&lt;em&gt;Vestiges&lt;/em&gt;, YoonJee Kwak",
     "date": "Sep 16",
-    "reason": "duplicate of existing \"&lt;em&gt;Vestiges&lt;/em&gt;, YoonJee Kwak\"",
+    "reason": "duplicate of existing \"Vestiges, YoonJee Kwak\"",
     "source": "json-ld"
   },
   {
@@ -225,107 +225,261 @@
   },
   {
     "venue": "Flux Factory",
-    "event": "Exhibition: Lotte Van den Audenaeren",
-    "date": "Jul 15",
-    "reason": "duplicate of existing \"Exhibition: Lotte Van den Audenaeren\"",
+    "event": "Opening • Itinerant Signal Institute (Rite of Spring)",
+    "date": "Aug 6",
+    "reason": "duplicate of existing \"Opening • Itinerant Signal Institute (Rite of Spring)\"",
     "source": "json-ld"
   },
   {
-    "venue": "Materials for the Arts",
-    "event": "MFTA Designer-in-Residence Scooter LaForge",
-    "date": "Jul 16",
-    "reason": "duplicate of existing \"MFTA Designer-in-Residence Scooter LaForge\"",
+    "venue": "Flux Factory",
+    "event": "Opening • 502 Bad Gateway: Error is Shadow",
+    "date": "Aug 6",
+    "reason": "duplicate of existing \"Opening • 502 Bad Gateway: Error is Shadow\"",
     "source": "json-ld"
   },
   {
-    "venue": "El Museo del Barrio",
-    "event": "FIFA Men’s World Cup 2026 Final: Watch Party",
-    "date": "Jul 19",
-    "reason": "duplicate of existing \"FIFA Men’s World Cup 2026 Final: Watch Party\"",
-    "source": "json-ld"
+    "venue": "jon@screenslate.com, events@mailer.e-flux.com, hello@brooklyncraftcompany.com",
+    "event": "The World Becomes a Sign (Leap of Faith screening series)",
+    "date": "Jul 7",
+    "reason": "date is in the past",
+    "source": "email"
   },
   {
-    "venue": "El Museo del Barrio",
-    "event": "Uptown Bounce Co-Presented by the Museum of the City of New York",
-    "date": "Jul 23",
-    "reason": "duplicate of existing \"Uptown Bounce Co-Presented by the Museum of the City of New York\"",
-    "source": "json-ld"
+    "venue": "jon@screenslate.com, events@mailer.e-flux.com, hello@brooklyncraftcompany.com",
+    "event": "Playback 0034 with Lesley Mok",
+    "date": "Jul 8",
+    "reason": "date is in the past",
+    "source": "email"
   },
   {
-    "venue": "El Museo del Barrio",
-    "event": "Open Studio | Double Exposures",
-    "date": "Jul 31",
-    "reason": "duplicate of existing \"Open Studio | Double Exposures\"",
-    "source": "json-ld"
+    "venue": "media@bronxmuseum.org, info@queensmuseum.org, info@cccadi.org",
+    "event": "First Friday: The Robyn Party",
+    "date": "Jul 10",
+    "reason": "date is in the past",
+    "source": "email"
   },
   {
-    "venue": "El Museo del Barrio",
-    "event": "En Familia | ART–BOOK–MAKE",
-    "date": "Aug 15",
-    "reason": "duplicate of existing \"En Familia | ART–BOOK–MAKE\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "El Museo del Barrio",
-    "event": "Noches de Cine | August",
-    "date": "Aug 20",
-    "reason": "duplicate of existing \"Noches de Cine | August\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "El Museo del Barrio",
-    "event": "Book Launch | Julia Alvarez: In the Time of the Butterflies",
-    "date": "Sep 14",
-    "reason": "duplicate of existing \"Book Launch | Julia Alvarez: In the Time of the Butterflies\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "El Museo del Barrio",
-    "event": "El Museo After Dark | Disco and Desire",
-    "date": "Sep 18",
-    "reason": "duplicate of existing \"El Museo After Dark | Disco and Desire\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "El Museo del Barrio",
-    "event": "Noches de Cine | September",
-    "date": "Sep 24",
-    "reason": "duplicate of existing \"Noches de Cine | September\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "El Museo del Barrio",
-    "event": "Community Conversations | Making Latinidad",
-    "date": "Oct 15",
-    "reason": "duplicate of existing \"Community Conversations | Making Latinidad\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "El Museo del Barrio",
-    "event": "En Familia | Día de Muertos",
-    "date": "Oct 17",
-    "reason": "duplicate of existing \"En Familia | Día de Muertos\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "El Museo del Barrio",
-    "event": "Noches de Cine | October",
-    "date": "Oct 29",
-    "reason": "duplicate of existing \"Noches de Cine | October\"",
-    "source": "json-ld"
-  },
-  {
-    "venue": "El Museo del Barrio",
-    "event": "For Educators | Teaching with Artist Books",
-    "date": "Nov 7",
-    "reason": "duplicate of existing \"For Educators | Teaching with Artist Books\"",
-    "source": "json-ld"
+    "venue": "media@bronxmuseum.org, info@queensmuseum.org, info@cccadi.org",
+    "event": "Calypso Rose 1991 Performance",
+    "date": "Jul 11",
+    "reason": "date is in the past",
+    "source": "email"
   },
   {
     "venue": "workshops@brooklynpoets.org, tq@technoqueers.com, info@snug-harbor.org",
-    "event": "Soundtrack to a Coup d’État (film screening)",
-    "date": "Jul 16",
-    "reason": "duplicate of existing \"Snug Harbor: Soundtrack to a Coup d'État (film screening)\"",
+    "event": "Sounds of Summer Concert Series – Our Own Yokos Joan Caddell & The Midnight Choir",
+    "date": "Jul 30",
+    "reason": "duplicate of existing \"Sounds of Summer Concert Series – Our Own Yokos Joan Caddell & The Midnight Choir\"",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "The Crossword Play (Or Ezmeranda's Gift)",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "Are You Mad At Me??",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "Big Feelings",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "Drunk Romeo & Juliet",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "Heathers",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "Music City",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "Shifters",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "The 25th Annual Putnam County Spelling Bee",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "The Play That Goes Wrong",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "What a World! What a World!",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "A Walk on the Moon",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "Dad Don't Read This",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "Heated Rivalry",
+    "date": "Jul 13",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "stagespotlightnyc@mail.beehiiv.com, info@sewright.com, events@mailer.e-flux.com",
+    "event": "The Absolute Demand (Leap of Faith – Film Screening)",
+    "date": "Jul 14",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "belladonnaseries@116607770.mailchimpapp.com, rbpmw@efanyc.org, workshops@brooklynpoets.org",
+    "event": "Intro to Screenprint",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "belladonnaseries@116607770.mailchimpapp.com, rbpmw@efanyc.org, workshops@brooklynpoets.org",
+    "event": "Creativity in Constriction: Experimenting With Form",
+    "date": "Jul 22",
+    "reason": "duplicate of existing (0.50 similarity to \"Brooklyn Poets: Creativity in Constriction — Experimenting With Form w/ Kayla Schwab\")",
+    "source": "email"
+  },
+  {
+    "venue": "belladonnaseries@116607770.mailchimpapp.com, rbpmw@efanyc.org, workshops@brooklynpoets.org",
+    "event": "Give Us Back the World: On Poetic Closure",
+    "date": "Jul 26",
+    "reason": "duplicate of existing \"Brooklyn Poets: Give Us Back the World — On Poetic Closure w/ D.S. Waldman\"",
+    "source": "email"
+  },
+  {
+    "venue": "belladonnaseries@116607770.mailchimpapp.com, rbpmw@efanyc.org, workshops@brooklynpoets.org",
+    "event": "Punctuating Your Poems Just Right",
+    "date": "Jul 30",
+    "reason": "duplicate of existing \"Brooklyn Poets: Punctuating Your Poems Just Right w/ Tara Skurtu\"",
+    "source": "email"
+  },
+  {
+    "venue": "akia@bronxriverart.ccsend.com, education@noguchi.org, events@icp.org",
+    "event": "Socrates x Noguchi: Field Guide – Mixed-media Sculpture Workshop",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Gazillion Bubble Show",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "The Very Hungry Caterpillar Show",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Cool At Camp",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Acts of Breaking Silence",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Birthright",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Confirmed",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Henry VI: A Trilogy in Two Parts (Part 1: Foreign Wars)",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Masquerade",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "A Walk on the Moon",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Are You Now Or Have You Ever Been",
+    "date": "Jul 18",
+    "reason": "date is in the past",
+    "source": "email"
+  },
+  {
+    "venue": "tq@technoqueers.com, stagespotlightnyc@mail.beehiiv.com, media@studiomuseum.org",
+    "event": "Forget I Said Anything",
+    "date": "Jul 18",
+    "reason": "date is in the past",
     "source": "email"
   }
 ]

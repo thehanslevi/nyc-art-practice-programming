@@ -1,63 +1,158 @@
 {
-  "ranAt": "2026-07-12T13:10:51.552Z",
-  "acceptedTotal": 12,
-  "rejectedTotal": 47,
+  "ranAt": "2026-07-19T13:07:42.958Z",
+  "acceptedTotal": 64,
+  "rejectedTotal": 69,
   "duplicatesSkipped": [],
   "perVenue": {
+    "Symphony Space": {
+      "accepted": 2,
+      "rejected": 10,
+      "source": "json-ld"
+    },
+    "UnionDocs": {
+      "accepted": 2,
+      "rejected": 1,
+      "source": "ics"
+    },
+    "DADA": {
+      "accepted": 7,
+      "rejected": 0,
+      "source": "json-ld"
+    },
+    "The Arts Center at Governors Island": {
+      "accepted": 1,
+      "rejected": 6,
+      "source": "ics"
+    },
+    "Delight Factory": {
+      "accepted": 1,
+      "rejected": 7,
+      "source": "json-ld"
+    },
+    "Greenwich House Pottery": {
+      "accepted": 1,
+      "rejected": 8,
+      "source": "json-ld"
+    },
+    "Flux Factory": {
+      "accepted": 2,
+      "rejected": 2,
+      "source": "json-ld"
+    },
+    "Materials for the Arts": {
+      "accepted": 2,
+      "rejected": 0,
+      "source": "json-ld"
+    },
+    "El Museo del Barrio": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Interference Archive": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
     "Summer for the City": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
     },
-    "Symphony Space": {
-      "accepted": 5,
-      "rejected": 6,
-      "source": "json-ld"
-    },
-    "UnionDocs": {
+    "The Tank": {
       "accepted": 0,
-      "rejected": 2,
-      "source": "ics"
+      "rejected": 0,
+      "source": "none"
+    },
+    "Brooklyn Art Haus": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "New York Live Arts": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Abrons Arts Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Baryshnikov Arts Center": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Film Forum": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Wendy's Subway": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Mono No Aware": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
     },
     "Bushwick Community Darkroom": {
       "accepted": 0,
       "rejected": 0,
       "source": "none"
     },
-    "DADA": {
-      "accepted": 3,
-      "rejected": 1,
-      "source": "json-ld"
-    },
-    "The Arts Center at Governors Island": {
+    "ISSUE Project Room": {
       "accepted": 0,
-      "rejected": 7,
-      "source": "ics"
+      "rejected": 0,
+      "source": "none"
     },
-    "Delight Factory": {
-      "accepted": 1,
-      "rejected": 8,
-      "source": "json-ld"
-    },
-    "Greenwich House Pottery": {
+    "Roulette": {
       "accepted": 0,
-      "rejected": 8,
-      "source": "json-ld"
+      "rejected": 0,
+      "source": "none"
     },
-    "Flux Factory": {
+    "New York Theatre Workshop": {
       "accepted": 0,
-      "rejected": 1,
-      "source": "json-ld"
+      "rejected": 0,
+      "source": "none"
     },
-    "Materials for the Arts": {
-      "accepted": 1,
-      "rejected": 1,
-      "source": "json-ld"
-    },
-    "El Museo del Barrio": {
+    "CATCH!": {
       "accepted": 0,
-      "rejected": 12,
-      "source": "json-ld"
+      "rejected": 0,
+      "source": "none"
+    },
+    "Wavefield": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "SUPR OMEN": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Francis Kite Club": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Telepathy": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Performance Space New York": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
+    },
+    "Chez Bushwick": {
+      "accepted": 0,
+      "rejected": 0,
+      "source": "none"
     },
     "Footlight Presents (Windjammer)": {
       "accepted": 0,
@@ -414,101 +509,6 @@
       "rejected": 0,
       "source": "none"
     },
-    "Interference Archive": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "The Tank": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Brooklyn Art Haus": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "New York Live Arts": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Abrons Arts Center": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Baryshnikov Arts Center": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Film Forum": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Wendy's Subway": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Mono No Aware": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "ISSUE Project Room": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Roulette": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "New York Theatre Workshop": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "CATCH!": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Wavefield": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "SUPR OMEN": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Francis Kite Club": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Telepathy": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Performance Space New York": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
-    "Chez Bushwick": {
-      "accepted": 0,
-      "rejected": 0,
-      "source": "none"
-    },
     "AlterWork Studios": {
       "accepted": 0,
       "rejected": 0,
@@ -580,8 +580,8 @@
       "source": "none"
     },
     "_email": {
-      "accepted": 2,
-      "rejected": 1,
+      "accepted": 46,
+      "rejected": 35,
       "source": "llm"
     }
   }
