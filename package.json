@@ -8,9 +8,10 @@
     "build": "tsc -b && vite build && tsx scripts/generate-feeds.ts",
     "scan": "tsx scripts/scan-events.ts",
     "dedupe": "tsx scripts/dedupe-events.ts",
-    "lint": "oxlint && tsx scripts/validate-practices.ts",
+    "lint": "oxlint && tsx scripts/validate-practices.ts && tsx scripts/validate-events.ts",
     "preview": "vite preview",
-    "check:practices": "tsx scripts/check-practices.ts"
+    "check:practices": "tsx scripts/check-practices.ts",
+    "usage": "tsx scripts/usage-report.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

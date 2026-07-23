@@ -36,6 +36,7 @@ import { SubmitPanel } from "./components/SubmitPanel";
 import { CuratorPicks } from "./components/CuratorPicks";
 import { Directory } from "./components/Directory";
 import { PRACTICES_VERIFIED } from "./lib/practices";
+import { track } from "./lib/usage";
 import { SyncPanel, type SyncStatus } from "./components/SyncPanel";
 
 // The two halves of "Making × Witnessing" have different native shapes, so they
@@ -196,6 +197,7 @@ function App() {
       const next = new Set(s);
       if (next.has(id)) next.delete(id);
       else next.add(id);
+      track("star", { on: !s.has(id) });
       return next;
     });
   }, []);
@@ -217,6 +219,7 @@ function App() {
       setPassphrase(token);
     }
     setSubscribeOpen(true);
+    track("calendar-link");
   }, [passphrase]);
 
   const handleSyncNow = useCallback(async () => {
@@ -311,25 +314,31 @@ function App() {
       </header>
       <nav className="zone zone-band">
         <div className="zone-inner">
-          <div className="view-switch" role="tablist" aria-label="Making or Witnessing">
+          <div className="view-switch" role="tablist" aria-label="Places or What’s on">
             <button
               type="button"
               role="tab"
               aria-selected={view === "making"}
               className={`view-btn${view === "making" ? " active" : ""}`}
-              onClick={() => setView("making")}
+              onClick={() => {
+                setView("making");
+                track("view", { view: "places" });
+              }}
             >
-              Making
+              Places
             </button>
-            <span className="view-x">×</span>
+            <span className="view-x">/</span>
             <button
               type="button"
               role="tab"
               aria-selected={view === "witnessing"}
               className={`view-btn${view === "witnessing" ? " active" : ""}`}
-              onClick={() => setView("witnessing")}
+              onClick={() => {
+                setView("witnessing");
+                track("view", { view: "whats-on" });
+              }}
             >
-              Witnessing
+              What&rsquo;s on
             </button>
           </div>
         </div>

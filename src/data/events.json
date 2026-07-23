@@ -17,13 +17,16 @@
           "end": null,
           "note": "1:30pm CATCHBALL, 4:45pm Doors open",
           "url": "https://pools.events/event/WwBLzTQJ/catch-5th-of-july-weekend-spectacular/",
-          "uid": "e_1ee8718e4415"
+          "uid": "e_1ee8718e4415",
+          "venue": "Governors Island",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sun",
           "date": "Jul 5",
           "event": "JAZZ - Joel Viera Trio",
-          "where": "DADA, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -32,7 +35,10 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/go/events/6606827?feature_id=1003841&occurrence_id=766015707&popup=1",
-          "uid": "e_a9d5ab0ff405"
+          "uid": "e_a9d5ab0ff405",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": null
         },
         {
           "day": "Sun",
@@ -47,13 +53,16 @@
           "end": null,
           "note": null,
           "url": "https://lmcc.net/events/catchball/",
-          "uid": "e_60b8f952d0c3"
+          "uid": "e_60b8f952d0c3",
+          "venue": "Governors Island Parade Ground",
+          "neighborhood": "Governors Island",
+          "address": null
         },
         {
           "day": "Sun",
           "date": "Jul 5",
           "event": "CATCH Performance Series",
-          "where": "Lower Gallery, The Arts Center at Governors Island 110 Andes Road",
+          "where": "Lower Gallery",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -62,13 +71,16 @@
           "end": null,
           "note": null,
           "url": "https://lmcc.net/events/catch-5th-of-july-weekend-spectacular/",
-          "uid": "e_ed820e42543e"
+          "uid": "e_ed820e42543e",
+          "venue": "Lower Gallery",
+          "neighborhood": null,
+          "address": "The Arts Center at Governors Island 110 Andes Road"
         },
         {
           "day": "Mon",
           "date": "Jul 6",
           "event": "Practice Space: Recital",
-          "where": "SUPR OMEN, 1 Knickerbocker Ave, Brooklyn",
+          "where": "SUPR OMEN, Brooklyn",
           "cost": "$15",
           "category": "sound",
           "flag": null,
@@ -77,13 +89,16 @@
           "end": null,
           "note": null,
           "url": "https://pools.events/event/2fzpZ3xL/recital/",
-          "uid": "e_3a078f08fd04"
+          "uid": "e_3a078f08fd04",
+          "venue": "SUPR OMEN",
+          "neighborhood": "Brooklyn",
+          "address": "1 Knickerbocker Ave"
         },
         {
           "day": "Mon",
           "date": "Jul 6",
           "event": "Stop Motion Animation (Summer 2026)",
-          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "where": "Materials for the Arts, Long Island City",
           "cost": "$240",
           "category": "making",
           "flag": null,
@@ -92,13 +107,16 @@
           "end": null,
           "note": null,
           "url": "https://www.materialsforthearts.org/event/stop-motion-animation-summer-2026/",
-          "uid": "e_b285c9f874ca"
+          "uid": "e_b285c9f874ca",
+          "venue": "Materials for the Arts",
+          "neighborhood": "Long Island City",
+          "address": "33-00 Northern Blvd, 3rd Floor"
         },
         {
           "day": "Tue",
           "date": "Jul 7",
           "event": "JAZZY IMPROV BAND w/ SINGER - Rokoko",
-          "where": "DADA, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -107,13 +125,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/go/events/6622459?feature_id=1003841&occurrence_id=767559990&popup=1",
-          "uid": "e_4fa1eea32368"
+          "uid": "e_4fa1eea32368",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": null
         },
         {
           "day": "Tue",
           "date": "Jul 7",
           "event": "No Name Super Story Party",
-          "where": "2113 Amsterdam Avenue, New York2113 Amsterdam Avenue",
+          "where": "Word Up Books",
           "cost": "TBD",
           "category": "literature",
           "flag": null,
@@ -122,13 +143,16 @@
           "end": "00:30",
           "note": null,
           "url": "https://wordupbooks.com/event/2026-07-07/no-name-super-story-party",
-          "uid": "e_a410bf0a8d51"
+          "uid": "e_a410bf0a8d51",
+          "venue": "Word Up Books",
+          "neighborhood": null,
+          "address": "2113 Amsterdam Avenue, New York2113 Amsterdam Avenue"
         },
         {
           "day": "Tue",
           "date": "Jul 7",
           "event": "Venture Bond Jazz Quintet Concert",
-          "where": "Greenwich House Music School · 46 Barrow Street, New York",
+          "where": "Greenwich House Music School",
           "cost": "FREE",
           "category": "sound",
           "flag": null,
@@ -137,13 +161,16 @@
           "end": "20:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/venture-bond-jazz-quintet-concert/",
-          "uid": "e_a2d3af29e76f"
+          "uid": "e_a2d3af29e76f",
+          "venue": "Greenwich House Music School",
+          "neighborhood": null,
+          "address": "46 Barrow Street"
         },
         {
           "day": "Wed",
           "date": "Jul 8",
           "event": "JAZZ - The Sean Temme Group",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -152,13 +179,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6636729/769106038/jazz-the-sean-temme-group",
-          "uid": "e_9d7c78969a15"
+          "uid": "e_9d7c78969a15",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Wed",
           "date": "Jul 8",
           "event": "Intro to Printmaking II with Julia Elsas",
-          "where": "Lower East Side Printshop, 306 W 37th St, Garment District",
+          "where": "Lower East Side Printshop, Garment District",
           "cost": "$425",
           "category": "making",
           "flag": null,
@@ -167,13 +197,16 @@
           "end": "21:00",
           "note": "4 Wednesdays",
           "url": "https://printshop.org/classes-workshops/intro-to-printmaking-ii",
-          "uid": "e_37f4b0d9e638"
+          "uid": "e_37f4b0d9e638",
+          "venue": "Lower East Side Printshop",
+          "neighborhood": "Garment District",
+          "address": "306 W 37th St"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
           "event": "Circling In Situ: Exhibition Opening Reception",
-          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -182,13 +215,16 @@
           "end": "21:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_fc2c8e959aaf"
+          "uid": "e_fc2c8e959aaf",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Ave Brooklyn"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
           "event": "VIBEY/HOUSE DJs - GEOBALL w/ Gem & Geo",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -197,13 +233,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6562740/761908985/vibey-house-djs-geoball-w-gem-geo",
-          "uid": "e_b4b1c8a58cdf"
+          "uid": "e_b4b1c8a58cdf",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "DADA x TEM present: Rat City Sunrise, HALFTIME, Kevin Clark",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "event": "Rat City Sunrise, HALFTIME, Kevin Clark",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -212,13 +251,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6636955/769107315/dada-x-tem-present-rat-city-sunrise-halftime-kevin-clark",
-          "uid": "e_39d98ca477c5"
+          "uid": "e_39d98ca477c5",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
           "event": "HOUSE DJS - are we there yet vol.4",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -227,13 +269,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6629310/770007966/house-djs-are-we-there-yet-vol-4",
-          "uid": "e_79c6fafa9a72"
+          "uid": "e_79c6fafa9a72",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Sat",
           "date": "Jul 11",
           "event": "Artists' Admin Meetup: Brooklyn",
-          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -242,13 +287,16 @@
           "end": "13:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_7eafbdb68a5e"
+          "uid": "e_7eafbdb68a5e",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Ave Brooklyn"
         },
         {
           "day": "Sat",
           "date": "Jul 11",
           "event": "Singer/Songwriter - ianianian & Steve Kelly + Eliza Edens and Teemer",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -257,13 +305,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6583981/763701435/singer-songwriter-ianianian-steve-kelly-eliza-edens-and-teemer",
-          "uid": "e_75e78a6c85f0"
+          "uid": "e_75e78a6c85f0",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Sat",
           "date": "Jul 11",
           "event": "HOUSE DJ - R Dubbs",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -272,7 +323,10 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6644913/770008241/house-dj-r-dubbs",
-          "uid": "e_e6fd5442b6cc"
+          "uid": "e_e6fd5442b6cc",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Sat",
@@ -287,7 +341,10 @@
           "end": "16:00",
           "note": "with Melanie Hoff",
           "url": "https://sfpc.study/sessions/future-schools/consensual-hacking",
-          "uid": "e_c77d93424494"
+          "uid": "e_c77d93424494",
+          "venue": "National Academy of Design",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Wed",
@@ -302,13 +359,16 @@
           "end": null,
           "note": "Free World Club DJ dance party / silent disco kicking off the series — outdoors at Lincoln Center.",
           "url": "https://lincolncenter.org/series/summer-for-the-city/madame-gandhi-218",
-          "uid": "e_0834037ae6c4"
+          "uid": "e_0834037ae6c4",
+          "venue": "The Dance Floor",
+          "neighborhood": "Lincoln Center",
+          "address": null
         },
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "Bronx Museum: First Friday — The Robyn Party",
-          "where": "The Bronx Museum, 1040 Grand Concourse, Bronx",
+          "event": "First Friday — The Robyn Party",
+          "where": "The Bronx Museum, Bronx",
           "cost": "FREE",
           "category": "sound",
           "flag": null,
@@ -317,7 +377,10 @@
           "end": null,
           "note": null,
           "url": "https://bronxmuseum.org/",
-          "uid": "e_0b748e6de8a9"
+          "uid": "e_0b748e6de8a9",
+          "venue": "The Bronx Museum",
+          "neighborhood": "Bronx",
+          "address": "1040 Grand Concourse"
         },
         {
           "day": "Sat",
@@ -332,12 +395,15 @@
           "end": null,
           "note": null,
           "url": "https://www.cccadi.org/events",
-          "uid": "e_99fa355eb8c7"
+          "uid": "e_99fa355eb8c7",
+          "venue": "Josie Robertson Plaza",
+          "neighborhood": "Lincoln Center",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 11",
-          "event": "Snug Harbor: Serpentine Sibyls — Opening with a Shakuhachi Flute Performance",
+          "event": "Serpentine Sibyls — Opening with a Shakuhachi Flute Performance",
           "where": "Snug Harbor Cultural Center, Staten Island",
           "cost": "FREE",
           "category": "sound",
@@ -347,7 +413,10 @@
           "end": null,
           "note": null,
           "url": "https://snug-harbor.org/",
-          "uid": "e_4fc80494a58f"
+          "uid": "e_4fc80494a58f",
+          "venue": "Snug Harbor Cultural Center",
+          "neighborhood": "Staten Island",
+          "address": null
         }
       ]
     },
@@ -357,8 +426,8 @@
         {
           "day": "Sun",
           "date": "Jul 5",
-          "event": "Danspace Project: Dorrance Dance — SOUNDspace",
-          "where": "Danspace, St. Mark's Church, 131 E 10th St",
+          "event": "Dorrance Dance — SOUNDspace",
+          "where": "Danspace",
           "cost": "$35",
           "category": "dance",
           "flag": "priority",
@@ -367,13 +436,16 @@
           "end": null,
           "note": "Runs Jul 5–11 (Jul 2–4 were cancelled due to heat).",
           "url": "https://danspaceproject.org/calendar/",
-          "uid": "e_a94053d24fe5"
+          "uid": "e_a94053d24fe5",
+          "venue": "Danspace",
+          "neighborhood": null,
+          "address": "St. Mark's Church, 131 E 10th St"
         },
         {
           "day": "Mon",
           "date": "Jul 6",
           "event": "Intro to Darkroom Printing (B&W Film) - July 6",
-          "where": "334 Himrod St, Bushwick",
+          "where": "Bushwick Community Darkroom, Bushwick",
           "cost": "$150",
           "category": "making",
           "flag": null,
@@ -382,13 +454,16 @@
           "end": "20:00",
           "note": "Learn the basics of black and white darkroom printing. This workshop covers film development, contact printing, and enlarging. All materials included.",
           "url": "https://www.bushwickcommunitydarkroom.com/events/2026/7/6/intro-to-darkroom-printing-bw-film-july-6",
-          "uid": "e_dac69e691c8e"
+          "uid": "e_dac69e691c8e",
+          "venue": "Bushwick Community Darkroom",
+          "neighborhood": "Bushwick",
+          "address": "334 Himrod St"
         },
         {
           "day": "Mon",
           "date": "Jul 6",
-          "event": "Dixon Place: HOT Festival Opening Night Party (34th annual)",
-          "where": "Dixon Place, 161A Chrystie St, LES",
+          "event": "HOT Festival Opening Night Party (34th annual)",
+          "where": "Dixon Place, LES",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -397,13 +472,16 @@
           "end": null,
           "note": "Kickoff for the 34th annual HOT Festival + 40 years of Dixon Place.",
           "url": "https://dixonplace.org/",
-          "uid": "e_227a371675a2"
+          "uid": "e_227a371675a2",
+          "venue": "Dixon Place",
+          "neighborhood": "LES",
+          "address": "161A Chrystie St"
         },
         {
           "day": "Mon",
           "date": "Jul 6",
-          "event": "HERE Arts: Bryan Safi — Are You Mad At Me??",
-          "where": "HERE Arts Center, 145 6th Ave, Manhattan",
+          "event": "Bryan Safi — Are You Mad At Me??",
+          "where": "HERE Arts Center, Manhattan",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -412,13 +490,16 @@
           "end": null,
           "note": "Solo comedy, hit run from Edinburgh Fringe. Long run through Aug 16.",
           "url": "https://here.org/shows/",
-          "uid": "e_f0edd57ee2e7"
+          "uid": "e_f0edd57ee2e7",
+          "venue": "HERE Arts Center",
+          "neighborhood": "Manhattan",
+          "address": "145 6th Ave"
         },
         {
           "day": "Tue",
           "date": "Jul 7",
-          "event": "The Tank: The Battle of Guadalcanal",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "The Battle of Guadalcanal",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -427,13 +508,16 @@
           "end": "20:30",
           "note": "Uses WWII as analogy for the playwright's and her husband's struggle with his cancer.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_75bd0db686c2"
+          "uid": "e_75bd0db686c2",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Tue",
           "date": "Jul 7",
-          "event": "Dixon Place: FOOGA!",
-          "where": "Dixon Place, 161A Chrystie St, LES",
+          "event": "FOOGA!",
+          "where": "Dixon Place, LES",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -442,13 +526,16 @@
           "end": null,
           "note": "\"Like if the Lorax did the Vagina Monologues.\" HOT Festival.",
           "url": "https://dixonplace.org/",
-          "uid": "e_be0c38e3ce1a"
+          "uid": "e_be0c38e3ce1a",
+          "venue": "Dixon Place",
+          "neighborhood": "LES",
+          "address": "161A Chrystie St"
         },
         {
           "day": "Tue",
           "date": "Jul 7",
-          "event": "Dixon Place: Mixed Fruit — Queer Variety 2026",
-          "where": "Dixon Place, 161A Chrystie St, LES",
+          "event": "Mixed Fruit — Queer Variety 2026",
+          "where": "Dixon Place, LES",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -457,7 +544,10 @@
           "end": null,
           "note": "HOT Festival. Mixed bag of performance, personality, pleasure.",
           "url": "https://dixonplace.org/",
-          "uid": "e_d855b63b2c2c"
+          "uid": "e_d855b63b2c2c",
+          "venue": "Dixon Place",
+          "neighborhood": "LES",
+          "address": "161A Chrystie St"
         },
         {
           "day": "Wed",
@@ -472,13 +562,16 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_38c0d4616427"
+          "uid": "e_38c0d4616427",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Wed",
           "date": "Jul 8",
-          "event": "Interference Archive: Collections Management Working Group",
-          "where": "314 7th St, Park Slope (hybrid — Zoom option)",
+          "event": "Collections Management Working Group",
+          "where": "Interference Archive, Park Slope (hybrid",
           "cost": "FREE",
           "category": "community",
           "flag": null,
@@ -487,13 +580,16 @@
           "end": "20:00",
           "note": "Sort donation requests, cataloging projects. Low-lift way to meet the collective.",
           "url": "https://interferencearchive.org/events/",
-          "uid": "e_e49ad84f24fc"
+          "uid": "e_e49ad84f24fc",
+          "venue": "Interference Archive",
+          "neighborhood": "Park Slope (hybrid",
+          "address": "314 7th St"
         },
         {
           "day": "Wed",
           "date": "Jul 8",
           "event": "SHERMAN’S MARCH Q&A with Filmmaker Ross McElwee",
-          "where": "Film Forum, 209 W Houston St",
+          "where": "Film Forum",
           "cost": "$12-18",
           "category": "film",
           "flag": null,
@@ -502,7 +598,10 @@
           "end": null,
           "note": null,
           "url": "https://filmforum.org/events/event/shermans-march-july-8",
-          "uid": "e_6f4d37a0c6c0"
+          "uid": "e_6f4d37a0c6c0",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Thu",
@@ -517,13 +616,16 @@
           "end": null,
           "note": "Walkable from Crown Heights, leads into Roulette",
           "url": "https://summerstage.org",
-          "uid": "e_b1765f15677f"
+          "uid": "e_b1765f15677f",
+          "venue": "Herbert Von King Park",
+          "neighborhood": "Brooklyn",
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Jul 9",
-          "event": "The Tank: (No) Refunds — Red, White, and Blonde",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "(No) Refunds — Red, White, and Blonde",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -532,13 +634,16 @@
           "end": null,
           "note": "Interactive gameshow play. Runs Jul 9–11.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_af28d2b638f3"
+          "uid": "e_af28d2b638f3",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
-          "event": "The Tank: WHAT A WORLD, WHAT A WORLD",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "WHAT A WORLD, WHAT A WORLD",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -547,13 +652,16 @@
           "end": null,
           "note": "Kaleidoscopic queer comedy deconstructing a forgotten Hollywood film. Long run — through Aug 2.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_a578f338c923"
+          "uid": "e_a578f338c923",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
           "event": "SHERMAN’S MARCH Pre-screening conversation with Filmmaker Ross McElwee and Film Director Mira Nair",
-          "where": "Film Forum, 209 W Houston St",
+          "where": "Film Forum",
           "cost": "$12-18",
           "category": "film",
           "flag": null,
@@ -562,13 +670,16 @@
           "end": null,
           "note": null,
           "url": "https://filmforum.org/events/event/shermans-march-july-9",
-          "uid": "e_ecdb38232e32"
+          "uid": "e_ecdb38232e32",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
           "event": "No Fun Night 1: Giffoni, Charmaine Lee, Twig Harper + more",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "where": "Roulette, Brooklyn",
           "cost": "$25",
           "category": "sound",
           "flag": null,
@@ -577,13 +688,16 @@
           "end": null,
           "note": "Doors 7:30pm, music 8pm",
           "url": "https://roulette.org/event/no-fun-new-perspectives-night-1/",
-          "uid": "e_8aa0a10c2c55"
+          "uid": "e_8aa0a10c2c55",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
-          "event": "Brooklyn Art Haus: FOLKUS (singer/songwriter night)",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "event": "FOLKUS (singer/songwriter night)",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -596,13 +710,16 @@
           "aliases": [
             "e_cd334b7df8ac",
             "Jul 9|FOLKUS"
-          ]
+          ],
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
-          "event": "Brooklyn Art Haus: Cirkus Moxie Lab (variety/circus)",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "event": "Cirkus Moxie Lab (variety/circus)",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -611,13 +728,16 @@
           "end": null,
           "note": "Runs Jul 9–12. Variety/circus performance.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_34428fea6e42"
+          "uid": "e_34428fea6e42",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Thu",
           "date": "Jul 9",
-          "event": "The Brick: GOODBYE HORSES — an unauthorized retelling of Silence of the Lambs",
-          "where": "The Brick, 579 Metropolitan Ave, Williamsburg",
+          "event": "GOODBYE HORSES — an unauthorized retelling of Silence of the Lambs",
+          "where": "The Brick, Williamsburg",
           "cost": "$35–45",
           "category": "theatre",
           "flag": null,
@@ -626,7 +746,10 @@
           "end": null,
           "note": "Opens Jul 9, runs through Jul 25. 70 min. Presale $35 through Jun 15.",
           "url": "https://www.bricktheater.com/",
-          "uid": "e_dea1422a0491"
+          "uid": "e_dea1422a0491",
+          "venue": "The Brick",
+          "neighborhood": "Williamsburg",
+          "address": "579 Metropolitan Ave"
         },
         {
           "day": "Fri",
@@ -641,13 +764,16 @@
           "end": null,
           "note": "Free outdoor festival — Habibi Festival celebrates Middle Eastern + North African artists.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_7152111174f1"
+          "uid": "e_7152111174f1",
+          "venue": "Lena Horne Bandshell",
+          "neighborhood": "Prospect Park",
+          "address": null
         },
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "The Tank: Golden Child",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Golden Child",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -656,13 +782,16 @@
           "end": null,
           "note": "Stand-up on tech culture, immigrant expectations, dating French men. Runs Jul 10–12.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_991c0068c470"
+          "uid": "e_991c0068c470",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
           "event": "No Fun Night 2: Raven Chacon, Lee Ranaldo, KFW + more",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "where": "Roulette, Brooklyn",
           "cost": "$25",
           "category": "sound",
           "flag": "priority",
@@ -671,13 +800,16 @@
           "end": null,
           "note": "Go for Raven Chacon — Diné composer, Pulitzer 2022",
           "url": "https://roulette.org/event/no-fun-new-perspectives-night-2/",
-          "uid": "e_dc8338cf39b6"
+          "uid": "e_dc8338cf39b6",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "ISSUE Project Room: Webb Crawford — Spiriting Off (Artist-in-Residence)",
-          "where": "ISSUE Project Room, 22 Boerum Pl, Downtown Brooklyn",
+          "event": "Webb Crawford — Spiriting Off (Artist-in-Residence)",
+          "where": "ISSUE Project Room, Downtown Brooklyn",
           "cost": "TBD",
           "category": "sound",
           "flag": "priority",
@@ -686,13 +818,16 @@
           "end": null,
           "note": "New solo work: electric guitar, tenor banjo, five-string banjo.",
           "url": "https://issueprojectroom.org/calendar",
-          "uid": "e_0fc8c893f48a"
+          "uid": "e_0fc8c893f48a",
+          "venue": "ISSUE Project Room",
+          "neighborhood": "Downtown Brooklyn",
+          "address": "22 Boerum Pl"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "Film Forum: REMAKE — Ross McElwee opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "REMAKE — Ross McElwee opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": null,
@@ -701,13 +836,16 @@
           "end": null,
           "note": "New McElwee run.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_553cbf3cf22e"
+          "uid": "e_553cbf3cf22e",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "Film Forum: LAUREL & HARDY (25+ films, some w/ live piano) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "LAUREL & HARDY (25+ films, some w/ live piano) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": null,
@@ -716,13 +854,16 @@
           "end": null,
           "note": "Runs Jul 10–23.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_d28df0908a2b"
+          "uid": "e_d28df0908a2b",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "Ars Nova: AND THEN THE RODEO BURNED DOWN — closing week",
-          "where": "Ars Nova, 511 W 54th St, Hell's Kitchen",
+          "event": "AND THEN THE RODEO BURNED DOWN — closing week",
+          "where": "Ars Nova, Hell's Kitchen",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -731,13 +872,16 @@
           "end": null,
           "note": "Xhloe + Natasha, dir. Tom Costello. Final performances of their run.",
           "url": "https://arsnovanyc.com/upcoming",
-          "uid": "e_d1da8cc32003"
+          "uid": "e_d1da8cc32003",
+          "venue": "Ars Nova",
+          "neighborhood": "Hell's Kitchen",
+          "address": "511 W 54th St"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
-          "event": "Brooklyn Art Haus: January 6th the Musical",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "event": "January 6th the Musical",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -746,13 +890,16 @@
           "end": null,
           "note": "Runs Jul 10–11.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_2cbd3b7622a5"
+          "uid": "e_2cbd3b7622a5",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Fri",
           "date": "Jul 10",
           "event": "Cirkus Moxie Lab",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -761,13 +908,16 @@
           "end": null,
           "note": "A laboratory (Variety Show) for circus and circus-adjacent performance and experimentation.",
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator",
-          "uid": "e_c63386cee81a"
+          "uid": "e_c63386cee81a",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Sat",
           "date": "Jul 11",
-          "event": "The Tank: Alternative Medicine",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Alternative Medicine",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -776,7 +926,10 @@
           "end": null,
           "note": "Matinee. Runs Jul 11–12.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_ada5b5f47ab0"
+          "uid": "e_ada5b5f47ab0",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Sat",
@@ -791,13 +944,16 @@
           "end": null,
           "note": "Legal Aid Society presents Saint James Joy, Pahua, Puppetmobile.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_18f2f49628b0"
+          "uid": "e_18f2f49628b0",
+          "venue": "Lena Horne Bandshell",
+          "neighborhood": "Prospect Park",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 11",
-          "event": "Bushwick Community Darkroom: Winol — developing film with red wine",
-          "where": "334 Himrod St, Bushwick",
+          "event": "Winol — developing film with red wine",
+          "where": "Bushwick Community Darkroom, Bushwick",
           "cost": "TBD",
           "category": "making",
           "flag": null,
@@ -806,13 +962,16 @@
           "end": "21:00",
           "note": "Bring an exposed roll of film. Alt-process chemistry — develop in red wine. Conflicts with Roulette Night 3.",
           "url": "https://www.bushwickcommunitydarkroom.com/events",
-          "uid": "e_e8e0e903e974"
+          "uid": "e_e8e0e903e974",
+          "venue": "Bushwick Community Darkroom",
+          "neighborhood": "Bushwick",
+          "address": "334 Himrod St"
         },
         {
           "day": "Sat",
           "date": "Jul 11",
           "event": "No Fun Night 3: NIKA, Nate Wooley, Zeena Parkins + more",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "where": "Roulette, Brooklyn",
           "cost": "$25",
           "category": "sound",
           "flag": null,
@@ -821,13 +980,16 @@
           "end": null,
           "note": "Dense day. Conflicts with BCD Winol workshop.",
           "url": "https://roulette.org/event/no-fun-new-perspectives-night-3/",
-          "uid": "e_c76f3eda53b2"
+          "uid": "e_c76f3eda53b2",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Sat",
           "date": "Jul 11",
-          "event": "Brooklyn Art Haus: Hot Takes & Nerdy Topics (comedy)",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "event": "Hot Takes & Nerdy Topics (comedy)",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -836,7 +998,10 @@
           "end": null,
           "note": "Stand-up comedy.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_5a8254f4e5af"
+          "uid": "e_5a8254f4e5af",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Sat",
@@ -851,13 +1016,16 @@
           "end": null,
           "note": "Fits between SFPC (ends 4pm) and Roulette Night 3 (8pm)",
           "url": "https://summerstage.org",
-          "uid": "e_f58ba91cf757"
+          "uid": "e_f58ba91cf757",
+          "venue": "Herbert Von King Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 11",
           "event": "January 6th the Musical",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -866,13 +1034,16 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/january-6th-the-musical-tickets-1990835917822?aff=oddtdtcreator",
-          "uid": "e_afe4cdfa7463"
+          "uid": "e_afe4cdfa7463",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Sat",
           "date": "Jul 11",
           "event": "Cirkus Moxie Lab",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -881,13 +1052,16 @@
           "end": null,
           "note": "A laboratory (Variety Show) for circus and circus-adjacent performance and experimentation.",
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator",
-          "uid": "e_0b4f7367c537"
+          "uid": "e_0b4f7367c537",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Sun",
           "date": "Jul 12",
-          "event": "Pioneer Works Second Sundays — LaJuné McMillian open studio",
-          "where": "Pioneer Works, 604 Van Brunt St, Red Hook",
+          "event": "Second Sundays — LaJuné McMillian open studio",
+          "where": "Pioneer Works, Red Hook",
           "cost": "FREE",
           "category": "tech",
           "flag": "priority",
@@ -896,13 +1070,16 @@
           "end": "18:00",
           "note": "ANIMAL [a listening gym] on view. Juma Sultan live 4–6pm. RSVP at pioneerworks.org",
           "url": "https://pioneerworks.org/programs/second-sundays-july-2026",
-          "uid": "e_50d3997aca2d"
+          "uid": "e_50d3997aca2d",
+          "venue": "Pioneer Works",
+          "neighborhood": "Red Hook",
+          "address": "604 Van Brunt St"
         },
         {
           "day": "Sun",
           "date": "Jul 12",
           "event": "Cirkus Moxie Lab",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -911,13 +1088,16 @@
           "end": null,
           "note": null,
           "url": "https://www.eventbrite.com/e/cirkus-moxie-lab-tickets-1992029994337?aff=oddtdtcreator",
-          "uid": "e_3b0eb682121a"
+          "uid": "e_3b0eb682121a",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Sun",
           "date": "Jul 12",
           "event": "Live Jazz Brunch for All Ages: Music Explorers (2 sets EVERY SUNDAY @ 10:30 & 11:30AM)",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -926,13 +1106,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/5998358/735086600/live-jazz-brunch-for-all-ages-music-explorers-2-sets-every-sunday-10-30-11-30am",
-          "uid": "e_1303f1f0253d"
+          "uid": "e_1303f1f0253d",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Sun",
           "date": "Jul 12",
           "event": "Monthly Jazz Jam presented by Ridgewood Jazz",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -941,7 +1124,10 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6656823/771421278/monthly-jazz-jam-presented-by-ridgewood-jazz",
-          "uid": "e_1e6bec658222"
+          "uid": "e_1e6bec658222",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         }
       ]
     },
@@ -951,8 +1137,8 @@
         {
           "day": "Mon",
           "date": "Jul 13",
-          "event": "The Tank: MEAT",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "MEAT",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -961,13 +1147,16 @@
           "end": "20:00",
           "note": null,
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_4d28c247b481"
+          "uid": "e_4d28c247b481",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Mon",
           "date": "Jul 13",
-          "event": "The Tank: a cold evening with ethan and lee",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "a cold evening with ethan and lee",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -976,13 +1165,16 @@
           "end": "23:00",
           "note": "An experiment, a return to form, a performer in the dark.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_5154ed317ddd"
+          "uid": "e_5154ed317ddd",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Mon",
           "date": "Jul 13",
-          "event": "The Tank: Bird-Brained / Feathers",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Bird-Brained / Feathers",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -991,13 +1183,16 @@
           "end": null,
           "note": "Drama involving a curse and relationship conflict. Runs Jul 13–14.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_5ce74e46986f"
+          "uid": "e_5ce74e46986f",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Mon",
           "date": "Jul 13",
           "event": "Posters to Podcasts: Art & Social Activism (Summer 2026)",
-          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "where": "Materials for the Arts, Long Island City",
           "cost": "$240",
           "category": "making",
           "flag": null,
@@ -1006,13 +1201,16 @@
           "end": null,
           "note": null,
           "url": "https://www.materialsforthearts.org/event/posters-to-podcasts-summer-2026/",
-          "uid": "e_d80f9eb34a09"
+          "uid": "e_d80f9eb34a09",
+          "venue": "Materials for the Arts",
+          "neighborhood": "Long Island City",
+          "address": "33-00 Northern Blvd, 3rd Floor"
         },
         {
           "day": "Tue",
           "date": "Jul 14",
-          "event": "The Tank: The Devil You Know",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "The Devil You Know",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1021,13 +1219,16 @@
           "end": "20:00",
           "note": null,
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_4e22afccc3d5"
+          "uid": "e_4e22afccc3d5",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Tue",
           "date": "Jul 14",
-          "event": "The Tank: Where Grief Gathers",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Where Grief Gathers",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -1036,7 +1237,10 @@
           "end": null,
           "note": "Contemporary drama on how love + loss intertwine. Runs Jul 14–18.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_1006a06ce194"
+          "uid": "e_1006a06ce194",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Tue",
@@ -1051,7 +1255,10 @@
           "end": "21:30",
           "note": "3-session evening class, Tuesdays Jul 14–28.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_aa27063f21f0"
+          "uid": "e_aa27063f21f0",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Tue",
@@ -1066,13 +1273,16 @@
           "end": null,
           "note": "Same night as Mono No Aware Producing Fundamentals — pick one.",
           "url": "https://pioneerworks.org/programs/false-harmonics-26-conrad-tao-aaron-turner-and-randall-dunn-charmaine-lee",
-          "uid": "e_b8b6738cbc58"
+          "uid": "e_b8b6738cbc58",
+          "venue": "Pioneer Works",
+          "neighborhood": "Red Hook",
+          "address": null
         },
         {
           "day": "Tue",
           "date": "Jul 14",
-          "event": "The Tank: post-modern prometheus",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "post-modern prometheus",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1081,13 +1291,16 @@
           "end": null,
           "note": "\"oz is tired of Men. the most reasonable conclusion is to become God.\" Runs Jul 14–18.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_3232d1453c67"
+          "uid": "e_3232d1453c67",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Tue",
           "date": "Jul 14",
-          "event": "Brooklyn Art Haus: Star Vehicle (EdFest)",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "event": "Star Vehicle (EdFest)",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1096,13 +1309,16 @@
           "end": null,
           "note": "EdFest — Edinburgh Fringe preview series.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_a39d04df7294"
+          "uid": "e_a39d04df7294",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Tue",
           "date": "Jul 14",
-          "event": "Brooklyn Art Haus: Judy Garland is Fat at Carnegie Hall (EdFest)",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "event": "Judy Garland is Fat at Carnegie Hall (EdFest)",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1111,13 +1327,16 @@
           "end": null,
           "note": "EdFest — Edinburgh Fringe preview series.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_7dd360385e8c"
+          "uid": "e_7dd360385e8c",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Tue",
           "date": "Jul 14",
           "event": "Kyle Sanna / Elsa Saade with Kinan Azmeh (live coding with ensemble / songs in Arabic)",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -1126,13 +1345,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6656821/771421274/kyle-sanna-elsa-saade-with-kinan-azmeh-live-coding-with-ensemble-songs-in-arabic",
-          "uid": "e_c2adf9d996c9"
+          "uid": "e_c2adf9d996c9",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
           "event": "The Tiny Musician: Violin & Loopstation",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -1141,13 +1363,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6641952/769750619/the-tiny-musician-violin-loopstation",
-          "uid": "e_b6409bb018a6"
+          "uid": "e_b6409bb018a6",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
-          "event": "The Tank: DIM",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "DIM",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1156,13 +1381,16 @@
           "end": "20:30",
           "note": null,
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_81f8bb345182"
+          "uid": "e_81f8bb345182",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
           "event": "Sustaining Creativity in the Home: A Zine Exploration",
-          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -1171,13 +1399,16 @@
           "end": "20:30",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_3c6935667bfb"
+          "uid": "e_3c6935667bfb",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Ave Brooklyn"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
           "event": "JAZZ - The Simon Metzger Group",
-          "where": "DADA · 60-47 Myrtle Ave, Ridgewood, NY",
+          "where": "DADA, Ridgewood",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -1186,13 +1417,16 @@
           "end": null,
           "note": null,
           "url": "https://dadabar.nyc/event/6636735/769106048/jazz-the-simon-metzger-group",
-          "uid": "e_4be9ca27de2b"
+          "uid": "e_4be9ca27de2b",
+          "venue": "DADA",
+          "neighborhood": "Ridgewood",
+          "address": "60-47 Myrtle Ave"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
-          "event": "The Tank: Track My Feet Please!",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Track My Feet Please!",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1201,13 +1435,16 @@
           "end": "23:00",
           "note": "Interactive invitation to audience participation.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_1088cb9b19b1"
+          "uid": "e_1088cb9b19b1",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
-          "event": "Brooklyn Art Haus: Emoji — The Hieroglyphs of Our Time (EdFest)",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "event": "Emoji — The Hieroglyphs of Our Time (EdFest)",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1216,13 +1453,16 @@
           "end": null,
           "note": "EdFest.",
           "url": "https://www.bkarthaus.com/shows-events",
-          "uid": "e_6b28d69d1e74"
+          "uid": "e_6b28d69d1e74",
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Wed",
           "date": "Jul 15",
           "event": "Exhibition: Lotte Van den Audenaeren",
-          "where": "Flanders House New York – New York Times Building · 620 Eighth Avenue, 38th floor, New York",
+          "where": "Flanders House New York, New York Times Building",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -1231,7 +1471,10 @@
           "end": "23:00",
           "note": null,
           "url": "https://www.fluxfactory.org/event/lotte-van-den-audenaeren/",
-          "uid": "e_78be5927845c"
+          "uid": "e_78be5927845c",
+          "venue": "Flanders House New York",
+          "neighborhood": "New York Times Building",
+          "address": "620 Eighth Avenue, 38th floor"
         },
         {
           "day": "Thu",
@@ -1246,13 +1489,16 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_1e8033c79ec7"
+          "uid": "e_1e8033c79ec7",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Jul 16",
-          "event": "The Tank: In the dark times",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "In the dark times",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -1261,13 +1507,16 @@
           "end": null,
           "note": "Part poetry reading, part immersive theater, set post-apocalyptically. Runs Jul 16–18.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_941be459f4ba"
+          "uid": "e_941be459f4ba",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Thu",
           "date": "Jul 16",
           "event": "A Brief History of Chasing Storms",
-          "where": "UnionDocs, 352 Onderdonk Avenue, 352 Onderdonk Avenue, Ridgewood, NY, 11385, United States",
+          "where": "UnionDocs, Ridgewood",
           "cost": "$12",
           "category": "film",
           "flag": null,
@@ -1276,13 +1525,16 @@
           "end": "19:30",
           "note": null,
           "url": "https://uniondocs.org/event/a-brief-history-of-chasing-storms-2026-07-16/",
-          "uid": "e_f1bc819bf596"
+          "uid": "e_f1bc819bf596",
+          "venue": "UnionDocs",
+          "neighborhood": "Ridgewood",
+          "address": "352 Onderdonk Avenue"
         },
         {
           "day": "Thu",
           "date": "Jul 16",
-          "event": "The Tank: Beach Pageant",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Beach Pageant",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -1291,13 +1543,16 @@
           "end": "23:00",
           "note": "Immersive spiritual service focused on the ocean's healing properties.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_98c4c0b8fa16"
+          "uid": "e_98c4c0b8fa16",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Thu",
           "date": "Jul 16",
-          "event": "Brooklyn Art Haus: FOLKUS (singer/songwriter night)",
-          "where": "Brooklyn Art Haus, 25 Marcy Ave, Williamsburg",
+          "event": "FOLKUS (singer/songwriter night)",
+          "where": "Brooklyn Art Haus, Williamsburg",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -1310,13 +1565,16 @@
           "aliases": [
             "e_bdff167a7dcc",
             "Jul 16|FOLKUS"
-          ]
+          ],
+          "venue": "Brooklyn Art Haus",
+          "neighborhood": "Williamsburg",
+          "address": "25 Marcy Ave"
         },
         {
           "day": "Thu",
           "date": "Jul 16",
           "event": "BAM: The Odyssey opens (film)",
-          "where": "BAM Rose Cinemas, 30 Lafayette Ave",
+          "where": "BAM Rose Cinemas",
           "cost": "TBD",
           "category": "film",
           "flag": null,
@@ -1325,13 +1583,16 @@
           "end": null,
           "note": "Screening run opens.",
           "url": "https://www.bam.org/",
-          "uid": "e_3604f0094412"
+          "uid": "e_3604f0094412",
+          "venue": "BAM Rose Cinemas",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Thu",
           "date": "Jul 16",
           "event": "MFTA Designer-in-Residence Scooter LaForge",
-          "where": "Materials for the Arts · 33-00 Northern Blvd, 3rd Floor, Long Island City",
+          "where": "Materials for the Arts, Long Island City",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -1340,12 +1601,15 @@
           "end": "00:30",
           "note": null,
           "url": "https://www.materialsforthearts.org/event/mfta-designer-in-residence-scooter-laforge-event/",
-          "uid": "e_7a6b5341a086"
+          "uid": "e_7a6b5341a086",
+          "venue": "Materials for the Arts",
+          "neighborhood": "Long Island City",
+          "address": "33-00 Northern Blvd, 3rd Floor"
         },
         {
           "day": "Thu",
           "date": "Jul 16",
-          "event": "Snug Harbor: Soundtrack to a Coup d'État (film screening)",
+          "event": "Soundtrack to a Coup d'État (film screening)",
           "where": "Snug Harbor Cultural Center, Staten Island",
           "cost": "FREE",
           "category": "film",
@@ -1355,13 +1619,16 @@
           "end": null,
           "note": null,
           "url": "https://snug-harbor.org/",
-          "uid": "e_11c996338339"
+          "uid": "e_11c996338339",
+          "venue": "Snug Harbor Cultural Center",
+          "neighborhood": "Staten Island",
+          "address": null
         },
         {
           "day": "Fri",
           "date": "Jul 17",
-          "event": "Abrons Arts Center: Summer in the Plaza opens",
-          "where": "Abrons Arts Center, 466 Grand St, LES",
+          "event": "Summer in the Plaza opens",
+          "where": "Abrons Arts Center, LES",
           "cost": "FREE",
           "category": "community",
           "flag": null,
@@ -1370,13 +1637,16 @@
           "end": "20:00",
           "note": "Free outdoor plaza programming, 6–8pm. Runs Jul 17 – Aug 15.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_274e6cffdd40"
+          "uid": "e_274e6cffdd40",
+          "venue": "Abrons Arts Center",
+          "neighborhood": "LES",
+          "address": "466 Grand St"
         },
         {
           "day": "Fri",
           "date": "Jul 17",
-          "event": "The Tank: Trashy Humans",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Trashy Humans",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1385,13 +1655,16 @@
           "end": "20:30",
           "note": "All-female comedy team, original sketches.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_9390df31ecfa"
+          "uid": "e_9390df31ecfa",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Fri",
           "date": "Jul 17",
           "event": "Drone Lab + Open Projector",
-          "where": "Delight Factory · 303 Saratoga Ave 11233-4007 US",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -1400,13 +1673,16 @@
           "end": "23:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_819906b089a2"
+          "uid": "e_819906b089a2",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Ave"
         },
         {
           "day": "Fri",
           "date": "Jul 17",
-          "event": "The Tank: Waiting in a Time of Revelation",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Waiting in a Time of Revelation",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1415,12 +1691,15 @@
           "end": "23:00",
           "note": "Drama with three Black women stuck behind in the annals of time.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_d4a4ff37998f"
+          "uid": "e_d4a4ff37998f",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Sat",
           "date": "Jul 18",
-          "event": "Symphony Space: Marion Davies — The Cardboard Lover (silent film)",
+          "event": "Marion Davies — The Cardboard Lover (silent film)",
           "where": "Symphony Space, Upper West Side",
           "cost": "TBD",
           "category": "film",
@@ -1430,7 +1709,10 @@
           "end": null,
           "note": null,
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_60c0c5e08247"
+          "uid": "e_60c0c5e08247",
+          "venue": "Symphony Space",
+          "neighborhood": "Upper West Side",
+          "address": null
         },
         {
           "day": "Sat",
@@ -1445,12 +1727,15 @@
           "end": "22:00",
           "note": "One seat left. Advanced territory — not a beginner workshop.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_7a14c2717b6a"
+          "uid": "e_7a14c2717b6a",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 18",
-          "event": "Wendy's Subway: Maybe Sometimes — a reading",
+          "event": "Maybe Sometimes — a reading",
           "where": "Wendy's Subway, Bushwick/Ridgewood border",
           "cost": "sliding scale",
           "category": "literature",
@@ -1464,7 +1749,10 @@
           "aliases": [
             "e_e28b32a916d5",
             "Jul 18|Maybe Sometimes: A Reading With Jo Barchi, Ted Dodson, Kristen Gallagher, Matt Longabucco, and Caroline Rayner"
-          ]
+          ],
+          "venue": "Wendy's Subway",
+          "neighborhood": "Bushwick/Ridgewood border",
+          "address": null
         },
         {
           "day": "Sat",
@@ -1479,13 +1767,16 @@
           "end": null,
           "note": "Benefit show, paid.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_02466ca830d6"
+          "uid": "e_02466ca830d6",
+          "venue": "Lena Horne Bandshell",
+          "neighborhood": "Prospect Park",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 18",
-          "event": "ISSUE Project Room: Matana Roberts / Ben Vida + Sara Magenheimer",
-          "where": "ISSUE Project Room, 22 Boerum Pl, Downtown Brooklyn",
+          "event": "Matana Roberts / Ben Vida + Sara Magenheimer",
+          "where": "ISSUE Project Room, Downtown Brooklyn",
           "cost": "TBD",
           "category": "sound",
           "flag": "priority",
@@ -1494,13 +1785,16 @@
           "end": null,
           "note": "Matana Roberts (2009 AIR) + Ben Vida (2013 AIR) performing from Oblivion Seekers.",
           "url": "https://issueprojectroom.org/calendar",
-          "uid": "e_e704231ba63a"
+          "uid": "e_e704231ba63a",
+          "venue": "ISSUE Project Room",
+          "neighborhood": "Downtown Brooklyn",
+          "address": "22 Boerum Pl"
         },
         {
           "day": "Sat",
           "date": "Jul 18",
-          "event": "The Tank: S.E.R.V.E.",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "S.E.R.V.E.",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1509,13 +1803,16 @@
           "end": "23:00",
           "note": "Four unremarkable women defending Earth from a space threat.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_3e311e391506"
+          "uid": "e_3e311e391506",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Sat",
           "date": "Jul 18",
           "event": "LiveCode.NYC 10th Anniversary Algorave",
-          "where": "Brooklyn (venue TBA — check livecode.nyc)",
+          "where": "Brooklyn (venue TBA, check livecode.nyc)",
           "cost": "TBD",
           "category": "tech",
           "flag": "priority",
@@ -1524,13 +1821,16 @@
           "end": null,
           "note": "Rare milestone event. Live-coding collective, algorithmic sets projected onto walls. Bring a laptop.",
           "url": "https://livecode.nyc/events.html",
-          "uid": "e_0b069b42e32d"
+          "uid": "e_0b069b42e32d",
+          "venue": "Brooklyn (venue TBA",
+          "neighborhood": "check livecode.nyc)",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 18",
           "event": "Pochoir and Relief Workshop with Andrew Betancourt",
-          "where": "Lower East Side Printshop, 306 W 37th St, Garment District",
+          "where": "Lower East Side Printshop, Garment District",
           "cost": "$175",
           "category": "making",
           "flag": null,
@@ -1539,7 +1839,10 @@
           "end": "16:00",
           "note": null,
           "url": "https://printshop.org/classes-workshops/pochoir-workshop-with-andrew-betancourt",
-          "uid": "e_19b7c8254ba7"
+          "uid": "e_19b7c8254ba7",
+          "venue": "Lower East Side Printshop",
+          "neighborhood": "Garment District",
+          "address": "306 W 37th St"
         },
         {
           "day": "Sat",
@@ -1558,7 +1861,10 @@
           "aliases": [
             "e_f0b69fee1f1c",
             "Jul 18|SFPC free talk: The Origin of the Word — Melanie Hoff"
-          ]
+          ],
+          "venue": "National Academy of Design",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sat",
@@ -1573,13 +1879,16 @@
           "end": "14:00",
           "note": null,
           "url": "https://www.worksinprogressnyc.org/works-in-progress-shop/p/introduction-to-silk-screen-printing-class",
-          "uid": "e_0f7bd89bdd3d"
+          "uid": "e_0f7bd89bdd3d",
+          "venue": "Works in Progress NYC",
+          "neighborhood": "East Village",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 18",
-          "event": "Brooklyn Metal Works Open Studios",
-          "where": "Brooklyn Metal Works, 640 Dean St. 2nd Floor, New York, NY 11238",
+          "event": "Open Studios",
+          "where": "Brooklyn Metal Works",
           "cost": "TBD",
           "category": "making",
           "flag": null,
@@ -1588,13 +1897,16 @@
           "end": "18:00",
           "note": null,
           "url": "https://craftcouncil.org/events/national-craft-open-studios-weekend/",
-          "uid": "e_ba2f1d4d519e"
+          "uid": "e_ba2f1d4d519e",
+          "venue": "Brooklyn Metal Works",
+          "neighborhood": null,
+          "address": "640 Dean St. 2nd Floor"
         },
         {
           "day": "Sun",
           "date": "Jul 19",
           "event": "Art x Embodiment",
-          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -1603,13 +1915,16 @@
           "end": "13:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_8753dce9783c"
+          "uid": "e_8753dce9783c",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Ave Brooklyn"
         },
         {
           "day": "Sun",
           "date": "Jul 19",
-          "event": "The Tank: Imagination Strings — Art, Puppets & Participation",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Imagination Strings — Art, Puppets & Participation",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -1618,7 +1933,10 @@
           "end": "16:30",
           "note": "Handcrafted marionettes from scrap materials + physical theater. Matinee.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_6237ce39c56d"
+          "uid": "e_6237ce39c56d",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Sun",
@@ -1633,13 +1951,16 @@
           "end": "22:00",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_9ab3b429d4c4"
+          "uid": "e_9ab3b429d4c4",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sun",
           "date": "Jul 19",
-          "event": "The Tank: big blue",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "big blue",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1648,13 +1969,16 @@
           "end": null,
           "note": "Our complicated relationship to the ocean, conservation. Runs Jul 19–20.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_0eacfe1891b3"
+          "uid": "e_0eacfe1891b3",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Sun",
           "date": "Jul 19",
-          "event": "The Tank: Woman Seeking Cuddles",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Woman Seeking Cuddles",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1663,13 +1987,16 @@
           "end": "20:30",
           "note": "Raw, funny, unflinching on connection and relationships.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_bc35d95c83f8"
+          "uid": "e_bc35d95c83f8",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Sun",
           "date": "Jul 19",
-          "event": "The Tank: Honor Shmonor",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Honor Shmonor",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1678,13 +2005,16 @@
           "end": null,
           "note": "Profane, absurd debate where honor, faith, and righteous violence collapse.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_fd8bb74e18e1"
+          "uid": "e_fd8bb74e18e1",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Sun",
           "date": "Jul 19",
           "event": "FIFA Men’s World Cup 2026 Final: Watch Party",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -1693,12 +2023,15 @@
           "end": "23:00",
           "note": null,
           "url": "https://elmuseo.org/event/fifa-mens-world-cup-2026-final-watch-party/",
-          "uid": "e_fbf70f202341"
+          "uid": "e_fbf70f202341",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         },
         {
           "day": "Sun",
           "date": "Jul 19",
-          "event": "Brooklyn Poets: Scene and Song w/ Matthew Gellman",
+          "event": "Scene and Song w/ Matthew Gellman",
           "where": "Brooklyn Poets (online)",
           "cost": "TBD",
           "category": "literature",
@@ -1708,7 +2041,10 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_3e23fe17b02b"
+          "uid": "e_3e23fe17b02b",
+          "venue": "Brooklyn Poets (online)",
+          "neighborhood": null,
+          "address": null
         }
       ]
     },
@@ -1718,8 +2054,8 @@
         {
           "day": "Mon",
           "date": "Jul 20",
-          "event": "The Tank: Dog Funeral",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Dog Funeral",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1728,13 +2064,16 @@
           "end": "20:00",
           "note": "Performance inviting the audience to \"pay your respects\" during a solemn ceremony.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_12d8e51ea220"
+          "uid": "e_12d8e51ea220",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Mon",
           "date": "Jul 20",
-          "event": "The Tank: Alternative Canon",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Alternative Canon",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1743,7 +2082,10 @@
           "end": null,
           "note": "Biblical reinterpretation comedy.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_cde4a667113c"
+          "uid": "e_cde4a667113c",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Tue",
@@ -1758,13 +2100,16 @@
           "end": "21:30",
           "note": "3-session evening class, Tuesdays Jul 14–28.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_b31e93eae425"
+          "uid": "e_b31e93eae425",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Tue",
           "date": "Jul 21",
-          "event": "The Tank: How to Swallow a Volcano",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "How to Swallow a Volcano",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1773,13 +2118,16 @@
           "end": null,
           "note": "Love, Denial and 20 Years of Barely Contained Fury. Runs Jul 21–22.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_e095c590360b"
+          "uid": "e_e095c590360b",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Wed",
           "date": "Jul 22",
-          "event": "The Tank: Five Step Skincare Routine",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Five Step Skincare Routine",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -1788,7 +2136,10 @@
           "end": null,
           "note": "Clown narrative — a childhood friend disappears. Long run through Jul 31.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_738920461bca"
+          "uid": "e_738920461bca",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Wed",
@@ -1803,12 +2154,15 @@
           "end": null,
           "note": "Best free dance viewing of the summer. Don't miss.",
           "url": "https://summerstage.org",
-          "uid": "e_9499271ec19a"
+          "uid": "e_9499271ec19a",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Wed",
           "date": "Jul 22",
-          "event": "Brooklyn Poets: Creativity in Constriction — Experimenting With Form w/ Kayla Schwab",
+          "event": "Creativity in Constriction — Experimenting With Form w/ Kayla Schwab",
           "where": "Brooklyn Poets, Brooklyn",
           "cost": "TBD",
           "category": "literature",
@@ -1818,13 +2172,16 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_61276307bd3c"
+          "uid": "e_61276307bd3c",
+          "venue": "Brooklyn Poets",
+          "neighborhood": "Brooklyn",
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Jul 23",
           "event": "Judson McNally Jackson Book Talk: UNSAYABLE with Michael Cunningham & Sarah McNally",
-          "where": "Judson Memorial Church, 243 Thompson St",
+          "where": "Judson Memorial Church",
           "cost": "TBD",
           "category": "literature",
           "flag": null,
@@ -1833,12 +2190,15 @@
           "end": "22:00",
           "note": "RSVP required.",
           "url": "https://www.judson.org/calendar",
-          "uid": "e_50c42f490ed5"
+          "uid": "e_50c42f490ed5",
+          "venue": "Judson Memorial Church",
+          "neighborhood": null,
+          "address": "243 Thompson St"
         },
         {
           "day": "Thu",
           "date": "Jul 23",
-          "event": "Wendy's Subway: Bi-Weekly Writing Night",
+          "event": "Bi-Weekly Writing Night",
           "where": "Wendy's Subway, Bushwick/Ridgewood border",
           "cost": "sliding scale",
           "category": "literature",
@@ -1848,13 +2208,16 @@
           "end": "20:30",
           "note": "Show up with a project; write for an hour alongside others.",
           "url": "https://www.wendyssubway.com/programs",
-          "uid": "e_e099e182794c"
+          "uid": "e_e099e182794c",
+          "venue": "Wendy's Subway",
+          "neighborhood": "Bushwick/Ridgewood border",
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Jul 23",
-          "event": "The Tank: Where the Yetis Will Be",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Where the Yetis Will Be",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1863,13 +2226,16 @@
           "end": null,
           "note": "Trans narrative exploring roommate relationships. Runs Jul 23–28.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_2b27e22209f1"
+          "uid": "e_2b27e22209f1",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Thu",
           "date": "Jul 23",
-          "event": "The Tank: Bedroom Pop",
-          "where": "The Tank, 312 W 36th St, Midtown West",
+          "event": "Bedroom Pop",
+          "where": "The Tank, Midtown West",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -1878,13 +2244,16 @@
           "end": null,
           "note": "Runs Jul 23–25.",
           "url": "https://thetanknyc.org/tankcalendar",
-          "uid": "e_c787325c440b"
+          "uid": "e_c787325c440b",
+          "venue": "The Tank",
+          "neighborhood": "Midtown West",
+          "address": "312 W 36th St"
         },
         {
           "day": "Thu",
           "date": "Jul 23",
           "event": "Ceramics Now, Lizzy Chemel, Amir Hariri, Melissa Joseph",
-          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "where": "Jane Hartsook Gallery",
           "cost": "TBD",
           "category": "making",
           "flag": null,
@@ -1893,13 +2262,16 @@
           "end": "21:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/ceramics-now-2025-artists/",
-          "uid": "e_4438d1992ba6"
+          "uid": "e_4438d1992ba6",
+          "venue": "Jane Hartsook Gallery",
+          "neighborhood": null,
+          "address": "16 Jones Street"
         },
         {
           "day": "Thu",
           "date": "Jul 23",
           "event": "Uptown Bounce Co-Presented by the Museum of the City of New York",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -1908,12 +2280,15 @@
           "end": "01:00",
           "note": null,
           "url": "https://elmuseo.org/event/uptown-bounce-co-presented-by-the-museum-of-the-city-of-new-york/",
-          "uid": "e_c1f15b07e340"
+          "uid": "e_c1f15b07e340",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         },
         {
           "day": "Fri",
           "date": "Jul 24",
-          "event": "UnionDocs: The Magical Image — Special Effects as Documentary Method",
+          "event": "The Magical Image — Special Effects as Documentary Method",
           "where": "UnionDocs, Ridgewood",
           "cost": "$295–350",
           "category": "film",
@@ -1923,7 +2298,10 @@
           "end": "16:30",
           "note": "3-day intensive Jul 24–26, 10am–4:30pm daily. Faculty: Elsaesser, Stephens, Sharon Lockhart, Kienitz Wilkins, Cardone. Big commitment — decide fast.",
           "url": "https://uniondocs.org/events/category/workshops/list/",
-          "uid": "e_2dbd260a2e20"
+          "uid": "e_2dbd260a2e20",
+          "venue": "UnionDocs",
+          "neighborhood": "Ridgewood",
+          "address": null
         },
         {
           "day": "Fri",
@@ -1938,13 +2316,16 @@
           "end": null,
           "note": "Free jazz night.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_29b9045866ad"
+          "uid": "e_29b9045866ad",
+          "venue": "Lena Horne Bandshell",
+          "neighborhood": "Prospect Park",
+          "address": null
         },
         {
           "day": "Fri",
           "date": "Jul 24",
-          "event": "Film Forum: WHITE NIGHTS (Visconti, 4K Restoration) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "WHITE NIGHTS (Visconti, 4K Restoration) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": null,
@@ -1953,13 +2334,16 @@
           "end": null,
           "note": "Runs Jul 24–Aug 6.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_98fa4f934af2"
+          "uid": "e_98fa4f934af2",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Fri",
           "date": "Jul 24",
-          "event": "Film Forum: DREAD BEAT AN BLOOD (Franco Rosso doc + 1985 concert) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "DREAD BEAT AN BLOOD (Franco Rosso doc + 1985 concert) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "sound",
           "flag": null,
@@ -1968,7 +2352,10 @@
           "end": null,
           "note": null,
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_e43d91c85933"
+          "uid": "e_e43d91c85933",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Fri",
@@ -1983,12 +2370,15 @@
           "end": "21:00",
           "note": "Two-day workshop, continues Sat Jul 25, 1-4pm ET. With Omayeli Arenyeka.",
           "url": "https://sfpc.study/sessions/future-schools/extending-poetry-through-computation",
-          "uid": "e_687809e693f7"
+          "uid": "e_687809e693f7",
+          "venue": "National Academy of Design",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 25",
-          "event": "Wendy's Subway: Basic Instincts and Pure Desires — workshop with Nico Vela Page",
+          "event": "Basic Instincts and Pure Desires — workshop with Nico Vela Page",
           "where": "Wendy's Subway, Bushwick/Ridgewood border",
           "cost": "sliding scale",
           "category": "literature",
@@ -1998,13 +2388,16 @@
           "end": "14:30",
           "note": "Generative writing workshop.",
           "url": "https://www.wendyssubway.com/programs",
-          "uid": "e_81b2bcdcfdf3"
+          "uid": "e_81b2bcdcfdf3",
+          "venue": "Wendy's Subway",
+          "neighborhood": "Bushwick/Ridgewood border",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 25",
           "event": "July Open Studios",
-          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "where": "LMCC’s Arts Center at Governors Island, Governors Island",
           "cost": "FREE",
           "category": "theatre",
           "flag": null,
@@ -2013,13 +2406,16 @@
           "end": "17:00",
           "note": null,
           "url": "https://lmcc.net/events/july-open-studios/",
-          "uid": "e_9e1d4b8dea32"
+          "uid": "e_9e1d4b8dea32",
+          "venue": "LMCC’s Arts Center at Governors Island",
+          "neighborhood": "Governors Island",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 25",
           "event": "Recycled Runway",
-          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "where": "LMCC’s Arts Center at Governors Island, Governors Island",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -2028,13 +2424,16 @@
           "end": "15:00",
           "note": null,
           "url": "https://lmcc.net/events/recycled-runway-art-workshop-with-sari-nordman/2026-07-25/",
-          "uid": "e_ef36ed4717be"
+          "uid": "e_ef36ed4717be",
+          "venue": "LMCC’s Arts Center at Governors Island",
+          "neighborhood": "Governors Island",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Jul 25",
           "event": "How to Talk About Your Art",
-          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2043,13 +2442,16 @@
           "end": "16:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_202f0511bb79"
+          "uid": "e_202f0511bb79",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Ave Brooklyn"
         },
         {
           "day": "Sat",
           "date": "Jul 25",
           "event": "BRIC Celebrate Brooklyn! at Brower Park: Black House Radio",
-          "where": "Brower Park, Park Place between Brooklyn & Kingston Ave — Crown Heights, walkable",
+          "where": "Brower Park, Crown Heights",
           "cost": "FREE",
           "category": "sound",
           "flag": "priority",
@@ -2058,13 +2460,16 @@
           "end": null,
           "note": "Free, in your neighborhood.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_501ed5576146"
+          "uid": "e_501ed5576146",
+          "venue": "Brower Park",
+          "neighborhood": "Crown Heights",
+          "address": "Park Place between Brooklyn & Kingston Ave"
         },
         {
           "day": "Sat",
           "date": "Jul 25",
           "event": "Pataphysics 020",
-          "where": "Delight Factory · 303 Saratoga Avenue Brooklyn United States",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2073,13 +2478,16 @@
           "end": "23:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_b1009a6f2c05"
+          "uid": "e_b1009a6f2c05",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Avenue Brooklyn"
         },
         {
           "day": "Sun",
           "date": "Jul 26",
-          "event": "Interference Archive: Audio Collage Workshop",
-          "where": "314 7th St, Park Slope",
+          "event": "Audio Collage Workshop",
+          "where": "Interference Archive, Park Slope",
           "cost": "FREE",
           "category": "sound",
           "flag": null,
@@ -2088,12 +2496,15 @@
           "end": "21:00",
           "note": "Experimental audio making — record yourself reading archive materials. Small group.",
           "url": "https://interferencearchive.org/event/audio-collage-workshop-exploring-the-archive-through-audio/",
-          "uid": "e_5f09f0fd6805"
+          "uid": "e_5f09f0fd6805",
+          "venue": "Interference Archive",
+          "neighborhood": "Park Slope",
+          "address": "314 7th St"
         },
         {
           "day": "Sun",
           "date": "Jul 26",
-          "event": "NYU Skirball: NT Live — Les Liaisons Dangereuses (screening)",
+          "event": "NT Live — Les Liaisons Dangereuses (screening)",
           "where": "NYU Skirball Center, Manhattan",
           "cost": "TBD",
           "category": "film",
@@ -2103,7 +2514,10 @@
           "end": null,
           "note": "National Theatre Live special screening.",
           "url": "https://nyuskirball.org/events",
-          "uid": "e_448c2a3f26dc"
+          "uid": "e_448c2a3f26dc",
+          "venue": "NYU Skirball Center",
+          "neighborhood": "Manhattan",
+          "address": null
         },
         {
           "day": "Sun",
@@ -2118,12 +2532,15 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_5769fe3066e4"
+          "uid": "e_5769fe3066e4",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sun",
           "date": "Jul 26",
-          "event": "Brooklyn Poets: Cryptids & Creatures — Mythology and the Monstrous in Modern Poetry w/ Maya Salameh",
+          "event": "Cryptids & Creatures — Mythology and the Monstrous in Modern Poetry w/ Maya Salameh",
           "where": "Brooklyn Poets (online)",
           "cost": "TBD",
           "category": "literature",
@@ -2133,12 +2550,15 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_6eca8fe3e9ed"
+          "uid": "e_6eca8fe3e9ed",
+          "venue": "Brooklyn Poets (online)",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sun",
           "date": "Jul 26",
-          "event": "Brooklyn Poets: Give Us Back the World — On Poetic Closure w/ D.S. Waldman",
+          "event": "Give Us Back the World — On Poetic Closure w/ D.S. Waldman",
           "where": "Brooklyn Poets, Brooklyn",
           "cost": "TBD",
           "category": "literature",
@@ -2148,7 +2568,10 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_c08638053bc7"
+          "uid": "e_c08638053bc7",
+          "venue": "Brooklyn Poets",
+          "neighborhood": "Brooklyn",
+          "address": null
         }
       ]
     },
@@ -2159,7 +2582,7 @@
           "day": "Tue",
           "date": "Jul 28",
           "event": "Siren Circle",
-          "where": "Delight Factory · 303 Saratoga Avenue Brooklyn, NY, 11233",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2168,7 +2591,10 @@
           "end": "22:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_21499ae5e085"
+          "uid": "e_21499ae5e085",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Avenue Brooklyn"
         },
         {
           "day": "Tue",
@@ -2183,7 +2609,10 @@
           "end": "21:30",
           "note": "3-session evening class, Tuesdays Jul 14–28.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_2fed0d2046fe"
+          "uid": "e_2fed0d2046fe",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Tue",
@@ -2198,13 +2627,16 @@
           "end": null,
           "note": "Tickets bought. Lynch sound collaborator. Live to picture.",
           "url": "https://pioneerworks.org/programs/false-harmonics-27-dean-hurley-c-lavender",
-          "uid": "e_e686d5187dcd"
+          "uid": "e_e686d5187dcd",
+          "venue": "Pioneer Works",
+          "neighborhood": "Red Hook",
+          "address": null
         },
         {
           "day": "Tue",
           "date": "Jul 28",
           "event": "Relief Printmaking with Anat Keinan",
-          "where": "Lower East Side Printshop, 306 W 37th St, Garment District",
+          "where": "Lower East Side Printshop, Garment District",
           "cost": "$425",
           "category": "making",
           "flag": null,
@@ -2213,7 +2645,10 @@
           "end": "21:00",
           "note": "4 Tuesdays",
           "url": "https://printshop.org/classes-workshops/relief-printmaking-with-anat-keinan",
-          "uid": "e_5014d7467e8c"
+          "uid": "e_5014d7467e8c",
+          "venue": "Lower East Side Printshop",
+          "neighborhood": "Garment District",
+          "address": "306 W 37th St"
         },
         {
           "day": "Wed",
@@ -2228,12 +2663,15 @@
           "end": null,
           "note": "LAMC.",
           "url": "https://summerstage.org",
-          "uid": "e_30118acc9192"
+          "uid": "e_30118acc9192",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Wed",
           "date": "Jul 29",
-          "event": "Brooklyn Poets: Artifacts of Grief w/ Gbenga Adesina",
+          "event": "Artifacts of Grief w/ Gbenga Adesina",
           "where": "Brooklyn Poets (online)",
           "cost": "TBD",
           "category": "literature",
@@ -2243,7 +2681,10 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_41032c83d716"
+          "uid": "e_41032c83d716",
+          "venue": "Brooklyn Poets (online)",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Thu",
@@ -2258,13 +2699,16 @@
           "end": null,
           "note": "Hip hop history.",
           "url": "https://summerstage.org",
-          "uid": "e_215e3049d0b9"
+          "uid": "e_215e3049d0b9",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Jul 30",
           "event": "BAM Film Comment Live: Play Me Something",
-          "where": "BAM Rose Cinemas, 30 Lafayette Ave",
+          "where": "BAM Rose Cinemas",
           "cost": "TBD",
           "category": "film",
           "flag": null,
@@ -2273,13 +2717,16 @@
           "end": null,
           "note": "Film Comment Live conversation series.",
           "url": "https://www.bam.org/",
-          "uid": "e_7d91b230de40"
+          "uid": "e_7d91b230de40",
+          "venue": "BAM Rose Cinemas",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Thu",
           "date": "Jul 30",
-          "event": "The Brick Aux: Strange Men",
-          "where": "Brick Aux, 628 Metropolitan Ave, Williamsburg",
+          "event": "Strange Men",
+          "where": "Brick Aux, Williamsburg",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -2288,12 +2735,15 @@
           "end": null,
           "note": "Opens Jul 30, runs through Aug 2. 100 min. Dark comedy on masculinity + vulnerability.",
           "url": "https://www.bricktheater.com/",
-          "uid": "e_151306cb9090"
+          "uid": "e_151306cb9090",
+          "venue": "Brick Aux",
+          "neighborhood": "Williamsburg",
+          "address": "628 Metropolitan Ave"
         },
         {
           "day": "Thu",
           "date": "Jul 30",
-          "event": "Brooklyn Poets: Punctuating Your Poems Just Right w/ Tara Skurtu",
+          "event": "Punctuating Your Poems Just Right w/ Tara Skurtu",
           "where": "Brooklyn Poets, Brooklyn",
           "cost": "TBD",
           "category": "literature",
@@ -2303,12 +2753,15 @@
           "end": null,
           "note": "Poetry workshop.",
           "url": "https://brooklynpoets.org/workshops/all",
-          "uid": "e_c3cdb0d7be6b"
+          "uid": "e_c3cdb0d7be6b",
+          "venue": "Brooklyn Poets",
+          "neighborhood": "Brooklyn",
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Jul 30",
-          "event": "Snug Harbor: Sounds of Summer Concert Series",
+          "event": "Sounds of Summer Concert Series",
           "where": "Snug Harbor Cultural Center, Staten Island",
           "cost": "FREE",
           "category": "sound",
@@ -2318,7 +2771,10 @@
           "end": null,
           "note": null,
           "url": "https://snug-harbor.org/",
-          "uid": "e_b0fe49240760"
+          "uid": "e_b0fe49240760",
+          "venue": "Snug Harbor Cultural Center",
+          "neighborhood": "Staten Island",
+          "address": null
         },
         {
           "day": "Tue",
@@ -2333,7 +2789,10 @@
           "end": null,
           "note": null,
           "url": "https://t.e2ma.net/click/85ef5j/gw89v02d/0vtdjt",
-          "uid": "e_d5027dd2aca7"
+          "uid": "e_d5027dd2aca7",
+          "venue": "Staten Island Borough President Vito Fossella’s Sounds of Summer Concert Series",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Fri",
@@ -2348,13 +2807,16 @@
           "end": null,
           "note": "Free.",
           "url": "https://bricartsmedia.org/events",
-          "uid": "e_7f1bb6c7b7c3"
+          "uid": "e_7f1bb6c7b7c3",
+          "venue": "Lena Horne Bandshell",
+          "neighborhood": "Prospect Park",
+          "address": null
         },
         {
           "day": "Fri",
           "date": "Jul 31",
           "event": "DRIFT presents gushes: PROTEIN",
-          "where": "SUPR OMEN, 1 Knickerbocker Ave, Brooklyn",
+          "where": "SUPR OMEN, Brooklyn",
           "cost": "$15",
           "category": "sound",
           "flag": null,
@@ -2363,13 +2825,16 @@
           "end": null,
           "note": null,
           "url": "https://pools.events/event/htt1Fw2w/gushes-protein/",
-          "uid": "e_f51f0df5cbb2"
+          "uid": "e_f51f0df5cbb2",
+          "venue": "SUPR OMEN",
+          "neighborhood": "Brooklyn",
+          "address": "1 Knickerbocker Ave"
         },
         {
           "day": "Fri",
           "date": "Jul 31",
           "event": "Circling Anniversary & Exhibition Closing Celebration",
-          "where": "Delight Factory · 303 Saratoga Ave Brooklyn, NY 11233 USA",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2378,13 +2843,16 @@
           "end": "22:00",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_9c7ce85288cc"
+          "uid": "e_9c7ce85288cc",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Ave Brooklyn"
         },
         {
           "day": "Fri",
           "date": "Jul 31",
           "event": "BAM: Welcome II The Terrordome opens (film)",
-          "where": "BAM Rose Cinemas, 30 Lafayette Ave",
+          "where": "BAM Rose Cinemas",
           "cost": "TBD",
           "category": "film",
           "flag": null,
@@ -2393,13 +2861,16 @@
           "end": null,
           "note": "Runs Jul 31 – Aug 6.",
           "url": "https://www.bam.org/",
-          "uid": "e_0669af4357da"
+          "uid": "e_0669af4357da",
+          "venue": "BAM Rose Cinemas",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Fri",
           "date": "Jul 31",
           "event": "Open Studio | Double Exposures",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -2408,13 +2879,16 @@
           "end": "01:00",
           "note": null,
           "url": "https://elmuseo.org/event/open-studio-double-exposures/",
-          "uid": "e_7ec42a1a20e9"
+          "uid": "e_7ec42a1a20e9",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         },
         {
           "day": "Sat",
           "date": "Aug 1",
           "event": "Hybrid Animal Encyclopedia",
-          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "where": "LMCC’s Arts Center at Governors Island, Governors Island",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -2423,13 +2897,16 @@
           "end": "15:00",
           "note": null,
           "url": "https://lmcc.net/events/hybrid-animal-encyclopedia-workshop-with-nobuho-nagasawa/2026-08-01/",
-          "uid": "e_0f2785310988"
+          "uid": "e_0f2785310988",
+          "venue": "LMCC’s Arts Center at Governors Island",
+          "neighborhood": "Governors Island",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Aug 1",
           "event": "Ego Free Jam Acoustic",
-          "where": "Delight Factory · 303 Saratoga Avenue Brooklyn, NY, 11233 United States",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2438,13 +2915,16 @@
           "end": "23:55",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_b3538aa10aee"
+          "uid": "e_b3538aa10aee",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Avenue Brooklyn"
         },
         {
           "day": "Sat",
           "date": "Aug 1",
-          "event": "Bushwick Starr Bazaar",
-          "where": "The Bushwick Starr, Eldert Street",
+          "event": "Bazaar",
+          "where": "The Bushwick Starr",
           "cost": "FREE",
           "category": "community",
           "flag": null,
@@ -2453,13 +2933,16 @@
           "end": null,
           "note": "Local vendor market — prints, ceramics, clothing. Kicks off Summers at the Starr.",
           "url": "https://www.thebushwickstarr.org/",
-          "uid": "e_4ec6a1bdc0d9"
+          "uid": "e_4ec6a1bdc0d9",
+          "venue": "The Bushwick Starr",
+          "neighborhood": null,
+          "address": "Eldert Street"
         },
         {
           "day": "Sat",
           "date": "Aug 1",
           "event": "Creative Music Workshop with Joe McPherson",
-          "where": "Creative Music Studio at Ibeam, 168 7th St, Gowanus",
+          "where": "Creative Music Studio at Ibeam, Gowanus",
           "cost": "$450",
           "category": "sound",
           "flag": null,
@@ -2468,7 +2951,10 @@
           "end": "16:00",
           "note": null,
           "url": "https://creativemusic.org/event/creative-music-workshop-with-joe-mcpherson-2026/",
-          "uid": "e_fdb216115085"
+          "uid": "e_fdb216115085",
+          "venue": "Creative Music Studio at Ibeam",
+          "neighborhood": "Gowanus",
+          "address": "168 7th St"
         },
         {
           "day": "Sat",
@@ -2487,7 +2973,10 @@
           "aliases": [
             "e_c71a9c0d9a9c",
             "Aug 1|SFPC free talk: Handmade Datasets — Aarati Akkapeddi"
-          ]
+          ],
+          "venue": "National Academy of Design",
+          "neighborhood": null,
+          "address": null
         }
       ]
     },
@@ -2498,7 +2987,7 @@
           "day": "Mon",
           "date": "Aug 3",
           "event": "NYC Spoon Club at Makeville",
-          "where": "Makeville Studio, 119 8th St, Gowanus",
+          "where": "Makeville Studio, Gowanus",
           "cost": "$10 sliding",
           "category": "making",
           "flag": null,
@@ -2507,7 +2996,10 @@
           "end": "22:00",
           "note": "Green woodworking meetup. No one turned away. RSVP nycspoonclub@gmail.com. Conflicts with Summer Sings.",
           "url": "https://makeville.com/events/2026-3-23-nyc-spoon-club",
-          "uid": "e_68720712c5b7"
+          "uid": "e_68720712c5b7",
+          "venue": "Makeville Studio",
+          "neighborhood": "Gowanus",
+          "address": "119 8th St"
         },
         {
           "day": "Mon",
@@ -2522,13 +3014,16 @@
           "end": null,
           "note": null,
           "url": "https://pioneerworks.org",
-          "uid": "e_983cbd347f36"
+          "uid": "e_983cbd347f36",
+          "venue": "Pioneer Works",
+          "neighborhood": "Red Hook",
+          "address": null
         },
         {
           "day": "Mon",
           "date": "Aug 3",
           "event": "Creative Music Workshop with Joe McPherson",
-          "where": "Creative Music Studio at Ibeam, 168 7th St, Gowanus",
+          "where": "Creative Music Studio at Ibeam, Gowanus",
           "cost": "$450",
           "category": "sound",
           "flag": null,
@@ -2537,7 +3032,10 @@
           "end": "16:00",
           "note": null,
           "url": "https://creativemusic.org/event/creative-music-workshop-with-joe-mcpherson-2026/",
-          "uid": "e_9335a6b7db79"
+          "uid": "e_9335a6b7db79",
+          "venue": "Creative Music Studio at Ibeam",
+          "neighborhood": "Gowanus",
+          "address": "168 7th St"
         },
         {
           "day": "Tue",
@@ -2552,7 +3050,10 @@
           "end": null,
           "note": null,
           "url": "https://pioneerworks.org",
-          "uid": "e_b4ec21e4441a"
+          "uid": "e_b4ec21e4441a",
+          "venue": "Pioneer Works",
+          "neighborhood": "Red Hook",
+          "address": null
         },
         {
           "day": "Thu",
@@ -2567,13 +3068,16 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_f778316a8cf1"
+          "uid": "e_f778316a8cf1",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Fri",
           "date": "Aug 7",
-          "event": "Film Forum: CENTER STAGE (Stanley Kwan, 4K) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "CENTER STAGE (Stanley Kwan, 4K) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": null,
@@ -2582,13 +3086,16 @@
           "end": null,
           "note": "Runs Aug 7–13.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_b542d3cdf1a8"
+          "uid": "e_b542d3cdf1a8",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Fri",
           "date": "Aug 7",
-          "event": "Film Forum: LATE FAME (Kent Jones, w/ Willem Dafoe) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "LATE FAME (Kent Jones, w/ Willem Dafoe) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": null,
@@ -2597,7 +3104,10 @@
           "end": null,
           "note": null,
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_2c1930f4e9df"
+          "uid": "e_2c1930f4e9df",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Fri",
@@ -2612,7 +3122,10 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_c6cacdfbebb8"
+          "uid": "e_c6cacdfbebb8",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Fri",
@@ -2627,13 +3140,16 @@
           "end": "18:00",
           "note": "Two-day workshop, continues Sat Aug 8, 1-4pm ET. With Chia Amisola.",
           "url": "https://sfpc.study/sessions/future-schools/becoming-hypertext",
-          "uid": "e_a229bae98746"
+          "uid": "e_a229bae98746",
+          "venue": "National Academy of Design",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Aug 8",
           "event": "esperanza spalding: In Concert",
-          "where": "Robert F. Wagner Jr. Park, 20 Battery Place, New York, NY, 10280, United States",
+          "where": "Robert F. Wagner Jr. Park",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -2642,13 +3158,16 @@
           "end": "21:00",
           "note": null,
           "url": "https://lmcc.net/events/esperanza-spalding-in-concert/",
-          "uid": "e_d8057e54ec46"
+          "uid": "e_d8057e54ec46",
+          "venue": "Robert F. Wagner Jr. Park",
+          "neighborhood": null,
+          "address": "20 Battery Place"
         },
         {
           "day": "Sat",
           "date": "Aug 8",
           "event": "Chine-Collé Weekend Workshop with Alejandra Arias Sevilla",
-          "where": "Lower East Side Printshop, 306 W 37th St, Garment District",
+          "where": "Lower East Side Printshop, Garment District",
           "cost": "$160",
           "category": "making",
           "flag": null,
@@ -2657,13 +3176,16 @@
           "end": "16:00",
           "note": "Drypoint with Chine Collé",
           "url": "https://printshop.org/classes-workshops/chine-colle-workshop-with-alejandra-arias-sevilla",
-          "uid": "e_9b5e67a2e054"
+          "uid": "e_9b5e67a2e054",
+          "venue": "Lower East Side Printshop",
+          "neighborhood": "Garment District",
+          "address": "306 W 37th St"
         },
         {
           "day": "Sun",
           "date": "Aug 9",
           "event": "Chine-Collé Weekend Workshop with Alejandra Arias Sevilla",
-          "where": "Lower East Side Printshop, 306 W 37th St, Garment District",
+          "where": "Lower East Side Printshop, Garment District",
           "cost": "$160",
           "category": "making",
           "flag": null,
@@ -2672,7 +3194,10 @@
           "end": "16:00",
           "note": "Chine Collé: Printing, Seaming, Mounting & Collaging",
           "url": "https://printshop.org/classes-workshops/chine-colle-workshop-with-alejandra-arias-sevilla",
-          "uid": "e_918f52af2795"
+          "uid": "e_918f52af2795",
+          "venue": "Lower East Side Printshop",
+          "neighborhood": "Garment District",
+          "address": "306 W 37th St"
         }
       ]
     },
@@ -2682,8 +3207,8 @@
         {
           "day": "Fri",
           "date": "Aug 14",
-          "event": "Film Forum: BILLY LIAR (John Schlesinger, 4K) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "BILLY LIAR (John Schlesinger, 4K) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": null,
@@ -2692,13 +3217,16 @@
           "end": null,
           "note": "Runs Aug 14–20.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_1c21182e569b"
+          "uid": "e_1c21182e569b",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Sat",
           "date": "Aug 15",
           "event": "Hybrid Animal Encyclopedia",
-          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "where": "LMCC’s Arts Center at Governors Island, Governors Island",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -2707,12 +3235,15 @@
           "end": "15:00",
           "note": null,
           "url": "https://lmcc.net/events/hybrid-animal-encyclopedia-workshop-with-nobuho-nagasawa/2026-08-15/",
-          "uid": "e_358200b843d7"
+          "uid": "e_358200b843d7",
+          "venue": "LMCC’s Arts Center at Governors Island",
+          "neighborhood": "Governors Island",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Aug 15",
-          "event": "Symphony Space: NT Live — Inter Alia (Encore)",
+          "event": "NT Live — Inter Alia (Encore)",
           "where": "Symphony Space, Upper West Side",
           "cost": "TBD",
           "category": "film",
@@ -2722,12 +3253,15 @@
           "end": null,
           "note": "National Theatre Live screening.",
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_ba9dba2dfe12"
+          "uid": "e_ba9dba2dfe12",
+          "venue": "Symphony Space",
+          "neighborhood": "Upper West Side",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Aug 15",
-          "event": "Symphony Space: NT Live — Les Liaisons Dangereuses",
+          "event": "NT Live — Les Liaisons Dangereuses",
           "where": "Symphony Space, Upper West Side",
           "cost": "TBD",
           "category": "film",
@@ -2737,13 +3271,16 @@
           "end": null,
           "note": "NT Live screening — evening slot.",
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_c1a161c57b7c"
+          "uid": "e_c1a161c57b7c",
+          "venue": "Symphony Space",
+          "neighborhood": "Upper West Side",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Aug 15",
-          "event": "Abrons Arts: Summer in the Plaza closes",
-          "where": "Abrons Arts Center, 466 Grand St, LES",
+          "event": "Summer in the Plaza closes",
+          "where": "Abrons Arts Center, LES",
           "cost": "FREE",
           "category": "community",
           "flag": null,
@@ -2752,13 +3289,16 @@
           "end": "20:00",
           "note": "Final day of the free outdoor plaza series.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_cd3dc22eda17"
+          "uid": "e_cd3dc22eda17",
+          "venue": "Abrons Arts Center",
+          "neighborhood": "LES",
+          "address": "466 Grand St"
         },
         {
           "day": "Sat",
           "date": "Aug 15",
           "event": "En Familia | ART–BOOK–MAKE",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -2767,7 +3307,10 @@
           "end": "18:00",
           "note": null,
           "url": "https://elmuseo.org/event/family-program-art-book-make/",
-          "uid": "e_63cf2938301e"
+          "uid": "e_63cf2938301e",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         },
         {
           "day": "Sat",
@@ -2782,7 +3325,10 @@
           "end": null,
           "note": "with Ahana Ganguly",
           "url": "https://sfpc.study/sessions/future-schools/double-tap-long-press",
-          "uid": "e_55164a6ba6a8"
+          "uid": "e_55164a6ba6a8",
+          "venue": "National Academy of Design",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sun",
@@ -2797,13 +3343,16 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_2f514d4d0fb6"
+          "uid": "e_2f514d4d0fb6",
+          "venue": "Central Park",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Aug 20",
           "event": "Noches de Cine | August",
-          "where": "El Teatro @ El Museo · 1230 5th Avenue, New York",
+          "where": "El Teatro @ El Museo",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -2812,13 +3361,16 @@
           "end": "00:30",
           "note": null,
           "url": "https://elmuseo.org/event/film-screening-august/",
-          "uid": "e_5bbe4c7c78b6"
+          "uid": "e_5bbe4c7c78b6",
+          "venue": "El Teatro @ El Museo",
+          "neighborhood": null,
+          "address": "1230 5th Avenue"
         },
         {
           "day": "Fri",
           "date": "Aug 21",
-          "event": "Film Forum: COPPOLA 3-week retrospective (25 films) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "COPPOLA 3-week retrospective (25 films) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": "priority",
@@ -2827,12 +3379,15 @@
           "end": null,
           "note": "Massive Coppola retrospective. Runs Aug 21 – Sep 10.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_ab72dd5d3092"
+          "uid": "e_ab72dd5d3092",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Sun",
           "date": "Aug 23",
-          "event": "Symphony Space: NT Live — All My Sons",
+          "event": "NT Live — All My Sons",
           "where": "Symphony Space, Upper West Side",
           "cost": "TBD",
           "category": "film",
@@ -2842,7 +3397,10 @@
           "end": null,
           "note": "NT Live screening.",
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_2b7a3f89d769"
+          "uid": "e_2b7a3f89d769",
+          "venue": "Symphony Space",
+          "neighborhood": "Upper West Side",
+          "address": null
         }
       ]
     },
@@ -2852,8 +3410,8 @@
         {
           "day": "Sat",
           "date": "Aug 22",
-          "event": "Abrons Arts: The Rock It, Don't Stop It Double Dutch Showcase",
-          "where": "Abrons Arts Center, 466 Grand St, LES",
+          "event": "The Rock It, Don't Stop It Double Dutch Showcase",
+          "where": "Abrons Arts Center, LES",
           "cost": "TBD",
           "category": "dance",
           "flag": "priority",
@@ -2862,13 +3420,16 @@
           "end": "17:00",
           "note": "Double dutch culture, community-rooted.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_aa80f028c534"
+          "uid": "e_aa80f028c534",
+          "venue": "Abrons Arts Center",
+          "neighborhood": "LES",
+          "address": "466 Grand St"
         },
         {
           "day": "Fri",
           "date": "Aug 28",
           "event": "The Judson Weekend (spiritual/community retreat)",
-          "where": "Judson Memorial Church, 55 Washington Sq S",
+          "where": "Judson Memorial Church",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2877,7 +3438,10 @@
           "end": null,
           "note": "Runs Fri Aug 28 5pm through Sun Aug 30 3pm. Registration required.",
           "url": "https://www.judson.org/calendar",
-          "uid": "e_c83dc7365d20"
+          "uid": "e_c83dc7365d20",
+          "venue": "Judson Memorial Church",
+          "neighborhood": null,
+          "address": "55 Washington Sq S"
         },
         {
           "day": "Fri",
@@ -2892,13 +3456,16 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_be4a5f1af81d"
+          "uid": "e_be4a5f1af81d",
+          "venue": "Marcus Garvey Park",
+          "neighborhood": "Harlem",
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Aug 29",
           "event": "Recycled Runway",
-          "where": "LMCC’s Arts Center at Governors Island, Building 110, Governors Island, New York, NY, United States",
+          "where": "LMCC’s Arts Center at Governors Island, Governors Island",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -2907,7 +3474,10 @@
           "end": "15:00",
           "note": null,
           "url": "https://lmcc.net/events/recycled-runway-art-workshop-with-sari-nordman/2026-08-29/",
-          "uid": "e_54836e73a275"
+          "uid": "e_54836e73a275",
+          "venue": "LMCC’s Arts Center at Governors Island",
+          "neighborhood": "Governors Island",
+          "address": null
         },
         {
           "day": "Sat",
@@ -2922,7 +3492,10 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_f8709bdd4fb7"
+          "uid": "e_f8709bdd4fb7",
+          "venue": "Marcus Garvey Park",
+          "neighborhood": "Harlem",
+          "address": null
         },
         {
           "day": "Sun",
@@ -2937,7 +3510,10 @@
           "end": null,
           "note": null,
           "url": "https://summerstage.org",
-          "uid": "e_de3cd7e2c39d"
+          "uid": "e_de3cd7e2c39d",
+          "venue": "Tompkins Square Park",
+          "neighborhood": null,
+          "address": null
         }
       ]
     },
@@ -2948,7 +3524,7 @@
           "day": "Sat",
           "date": "Sep 5",
           "event": "Ego Free Jam",
-          "where": "Delight Factory · 303 Saratoga Avenue Brooklyn, NY, 11233 United States",
+          "where": "Delight Factory",
           "cost": "TBD",
           "category": "community",
           "flag": null,
@@ -2957,7 +3533,10 @@
           "end": "23:30",
           "note": null,
           "url": "https://www.delightfactorynyc.com/events",
-          "uid": "e_48eb2a16597a"
+          "uid": "e_48eb2a16597a",
+          "venue": "Delight Factory",
+          "neighborhood": null,
+          "address": "303 Saratoga Avenue Brooklyn"
         },
         {
           "day": "Tue",
@@ -2972,13 +3551,16 @@
           "end": "21:30",
           "note": "Multi-week beginner course. Learn the Super 8mm camera, then take it out for 10 days. Continues Sep 15, 29, Oct 6.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_0f152d44147a"
+          "uid": "e_0f152d44147a",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Tue",
           "date": "Sep 8",
           "event": "BAM: The Ford/Hill Project opens (theater)",
-          "where": "BAM Harvey Theater, 651 Fulton St",
+          "where": "BAM Harvey Theater",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -2987,7 +3569,10 @@
           "end": null,
           "note": "Runs Sep 8 – 20. BAM fall opener.",
           "url": "https://www.bam.org/",
-          "uid": "e_7506f6afb6ff"
+          "uid": "e_7506f6afb6ff",
+          "venue": "BAM Harvey Theater",
+          "neighborhood": null,
+          "address": "651 Fulton St"
         },
         {
           "day": "Wed",
@@ -3002,13 +3587,16 @@
           "end": "22:00",
           "note": "Only 4 seats. Frame-by-frame time-lapse work + week-long rental after.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_d34042c81722"
+          "uid": "e_d34042c81722",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Wed",
           "date": "Sep 9",
           "event": "NYTW: In Honor of Jean-Michel Basquiat — Roger Guenveur Smith",
-          "where": "New York Theatre Workshop, 79 E 4th St",
+          "where": "New York Theatre Workshop",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -3017,7 +3605,10 @@
           "end": null,
           "note": "Live sound design by Marc Anthony Thompson. Runs Sep 9 – Oct 4.",
           "url": "https://www.nytw.org/2026-27-season/",
-          "uid": "e_20378a22b441"
+          "uid": "e_20378a22b441",
+          "venue": "New York Theatre Workshop",
+          "neighborhood": null,
+          "address": "79 E 4th St"
         },
         {
           "day": "Wed",
@@ -3032,13 +3623,16 @@
           "end": "21:30",
           "note": "Full professional workflow beginning and ending on 16mm. Continues Sep 17 & Oct 1, 8, + Sat Sep 19 (9am–5pm).",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_ff136fc56814"
+          "uid": "e_ff136fc56814",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Sep 10",
-          "event": "New York Live Arts: Bill T. Jones — Curriculum IV: Spin and Spin! Turn! Turn! Turn!",
-          "where": "New York Live Arts, 219 W 19th St, Chelsea",
+          "event": "Bill T. Jones — Curriculum IV: Spin and Spin! Turn! Turn! Turn!",
+          "where": "New York Live Arts, Chelsea",
           "cost": "TBD",
           "category": "dance",
           "flag": "priority",
@@ -3047,13 +3641,16 @@
           "end": null,
           "note": "Music by Samora Pinderhughes. Runs Sep 10 + 12–13.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_3c2efd804dae"
+          "uid": "e_3c2efd804dae",
+          "venue": "New York Live Arts",
+          "neighborhood": "Chelsea",
+          "address": "219 W 19th St"
         },
         {
           "day": "Fri",
           "date": "Sep 11",
-          "event": "Abrons Arts: Everyday Royalty exhibition opens (Henry Street Settlement)",
-          "where": "Abrons Arts Center, 466 Grand St, LES",
+          "event": "Everyday Royalty exhibition opens (Henry Street Settlement)",
+          "where": "Abrons Arts Center, LES",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -3062,13 +3659,16 @@
           "end": null,
           "note": "Opening reception 4pm. Runs Sep 11 – Oct 18.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_dda4aed811c3"
+          "uid": "e_dda4aed811c3",
+          "venue": "Abrons Arts Center",
+          "neighborhood": "LES",
+          "address": "466 Grand St"
         },
         {
           "day": "Fri",
           "date": "Sep 11",
-          "event": "Film Forum: KWAIDAN (Kobayashi, 4K) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "KWAIDAN (Kobayashi, 4K) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": null,
@@ -3077,7 +3677,10 @@
           "end": null,
           "note": "Runs Sep 11–17.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_f154a7ab2414"
+          "uid": "e_f154a7ab2414",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Sat",
@@ -3092,7 +3695,10 @@
           "end": "15:00",
           "note": "Test + maintain your own Super 8 camera. Open to the public.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_b324477badff"
+          "uid": "e_b324477badff",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sat",
@@ -3107,12 +3713,15 @@
           "end": "21:00",
           "note": "Only 4 seats. Advanced high-speed camera work.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_55cb51d0332c"
+          "uid": "e_55cb51d0332c",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sat",
           "date": "Sep 12",
-          "event": "Symphony Space: R.F. Kuang — Taipei Story",
+          "event": "R.F. Kuang — Taipei Story",
           "where": "Symphony Space, Upper West Side",
           "cost": "TBD",
           "category": "literature",
@@ -3122,7 +3731,10 @@
           "end": null,
           "note": "Author appearance.",
           "url": "https://www.symphonyspace.org/",
-          "uid": "e_0fde406e1d04"
+          "uid": "e_0fde406e1d04",
+          "venue": "Symphony Space",
+          "neighborhood": "Upper West Side",
+          "address": null
         }
       ]
     },
@@ -3133,7 +3745,7 @@
           "day": "Mon",
           "date": "Sep 14",
           "event": "Book Launch | Julia Alvarez: In the Time of the Butterflies",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "$5",
           "category": "literature",
           "flag": null,
@@ -3142,7 +3754,10 @@
           "end": "01:30",
           "note": null,
           "url": "https://elmuseo.org/event/book-launch-julia-alvarez-in-the-time-of-the-butterflies/",
-          "uid": "e_b781cbdd664a"
+          "uid": "e_b781cbdd664a",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         },
         {
           "day": "Tue",
@@ -3157,13 +3772,16 @@
           "end": "21:30",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_9e082cd75da3"
+          "uid": "e_9e082cd75da3",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Wed",
           "date": "Sep 16",
-          "event": "New York Live Arts: Hank Willis Thomas — Opening Reception",
-          "where": "New York Live Arts, 219 W 19th St, Chelsea",
+          "event": "Hank Willis Thomas — Opening Reception",
+          "where": "New York Live Arts, Chelsea",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -3172,13 +3790,16 @@
           "end": null,
           "note": "Visual artist installation opens at NYLA.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_96e395a6e111"
+          "uid": "e_96e395a6e111",
+          "venue": "New York Live Arts",
+          "neighborhood": "Chelsea",
+          "address": "219 W 19th St"
         },
         {
           "day": "Thu",
           "date": "Sep 16",
           "event": "Vestiges, YoonJee Kwak",
-          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "where": "Jane Hartsook Gallery",
           "cost": "TBD",
           "category": "making",
           "flag": null,
@@ -3187,12 +3808,15 @@
           "end": "21:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/vestiges-yoonjee-kwak/",
-          "uid": "e_fd4434e4382a"
+          "uid": "e_fd4434e4382a",
+          "venue": "Jane Hartsook Gallery",
+          "neighborhood": null,
+          "address": "16 Jones Street"
         },
         {
           "day": "Thu",
           "date": "Sep 17",
-          "event": "Wendy's Subway: Bi-Weekly Writing Night",
+          "event": "Bi-Weekly Writing Night",
           "where": "Wendy's Subway, Bushwick/Ridgewood border",
           "cost": "sliding scale",
           "category": "literature",
@@ -3202,7 +3826,10 @@
           "end": "20:30",
           "note": "Fall series resumes.",
           "url": "https://www.wendyssubway.com/programs",
-          "uid": "e_4e7c85dbb7c2"
+          "uid": "e_4e7c85dbb7c2",
+          "venue": "Wendy's Subway",
+          "neighborhood": "Bushwick/Ridgewood border",
+          "address": null
         },
         {
           "day": "Wed",
@@ -3217,13 +3844,16 @@
           "end": "21:30",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_ffba7dc4c61a"
+          "uid": "e_ffba7dc4c61a",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Sep 17",
-          "event": "Roulette: Katherine Young — BIOMES (album release)",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "event": "Katherine Young — BIOMES (album release)",
+          "where": "Roulette, Brooklyn",
           "cost": "$25",
           "category": "sound",
           "flag": null,
@@ -3232,13 +3862,16 @@
           "end": null,
           "note": "Bassoonist/composer w/ Olivia Block, Ben LaMar Gay, Brian Chase, Yarn/Wire. Conflicts with Wendy's Subway writing night.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_5319f9e0ce4d"
+          "uid": "e_5319f9e0ce4d",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Thu",
           "date": "Sep 17",
-          "event": "HERE Arts: Arias with a Twist opens (Joey Arias + Basil Twist)",
-          "where": "HERE Arts Center, 145 6th Ave, Manhattan",
+          "event": "Arias with a Twist opens (Joey Arias + Basil Twist)",
+          "where": "HERE Arts Center, Manhattan",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -3247,13 +3880,16 @@
           "end": null,
           "note": "Legendary musical extravaganza returns. Runs Sep 17 – Nov 1.",
           "url": "https://here.org/shows/",
-          "uid": "e_63de0c03c8dc"
+          "uid": "e_63de0c03c8dc",
+          "venue": "HERE Arts Center",
+          "neighborhood": "Manhattan",
+          "address": "145 6th Ave"
         },
         {
           "day": "Thu",
           "date": "Sep 17",
           "event": "Ryan Flores",
-          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "where": "Jane Hartsook Gallery",
           "cost": "TBD",
           "category": "making",
           "flag": null,
@@ -3262,13 +3898,16 @@
           "end": "21:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/ryan-flores/",
-          "uid": "e_534eb52e274b"
+          "uid": "e_534eb52e274b",
+          "venue": "Jane Hartsook Gallery",
+          "neighborhood": null,
+          "address": "16 Jones Street"
         },
         {
           "day": "Fri",
           "date": "Sep 18",
-          "event": "Film Forum: MY BROTHER'S WEDDING (Charles Burnett, 4K) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "MY BROTHER'S WEDDING (Charles Burnett, 4K) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": "priority",
@@ -3277,13 +3916,16 @@
           "end": null,
           "note": "Burnett restoration. Runs Sep 18–24.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_08cb76cd562e"
+          "uid": "e_08cb76cd562e",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Fri",
           "date": "Sep 18",
           "event": "El Museo After Dark | Disco and Desire",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -3292,7 +3934,10 @@
           "end": "02:00",
           "note": null,
           "url": "https://elmuseo.org/event/el-museo-after-hours-disco-and-desire/",
-          "uid": "e_ede51dc8dbb0"
+          "uid": "e_ede51dc8dbb0",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         },
         {
           "day": "Sat",
@@ -3307,7 +3952,10 @@
           "end": "17:00",
           "note": "Long day. Conflicts with Macro Cinematography same day.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_4403a1ee6009"
+          "uid": "e_4403a1ee6009",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sat",
@@ -3322,7 +3970,10 @@
           "end": "15:00",
           "note": "Extreme close-ups on 16mm. Conflicts with Bolex extended day.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_8028e971974c"
+          "uid": "e_8028e971974c",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sun",
@@ -3337,7 +3988,10 @@
           "end": "16:00",
           "note": "One-day intensive. 100 feet of film to take home. Strongest beginner entry into 16mm.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_ba3b3a9e641c"
+          "uid": "e_ba3b3a9e641c",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sun",
@@ -3352,7 +4006,10 @@
           "end": "21:00",
           "note": "Full-color titles on animation stand.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_2d58600741e2"
+          "uid": "e_2d58600741e2",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Tue",
@@ -3367,13 +4024,16 @@
           "end": "21:30",
           "note": "Thread, operate, maintain and exhibit 16mm film.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_2784a9d1c4e5"
+          "uid": "e_2784a9d1c4e5",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Wed",
           "date": "Sep 23",
           "event": "Selected Shorts: The Five Boroughs",
-          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "where": "Symphony Space",
           "cost": "$19–26",
           "category": "literature",
           "flag": null,
@@ -3382,7 +4042,10 @@
           "end": "19:00",
           "note": null,
           "url": "https://www.symphonyspace.org/events/selected-shorts-the-five-boroughs",
-          "uid": "e_af3f81672f71"
+          "uid": "e_af3f81672f71",
+          "venue": "Symphony Space",
+          "neighborhood": null,
+          "address": "2537 Broadway at 95th St."
         },
         {
           "day": "Thu",
@@ -3397,13 +4060,16 @@
           "end": "21:30",
           "note": "Edit in real time on a four-plate Steenbeck. Foundational analog editing.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_3bf3719bb629"
+          "uid": "e_3bf3719bb629",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Sep 24",
-          "event": "Baryshnikov Arts: \"I Believed It Too\" — Kashia Kancey (director/choreographer)",
-          "where": "Baryshnikov Arts Center, 450 W 37th St",
+          "event": "\"I Believed It Too\" — Kashia Kancey (director/choreographer)",
+          "where": "Baryshnikov Arts Center",
           "cost": "TBD",
           "category": "dance",
           "flag": "priority",
@@ -3412,13 +4078,16 @@
           "end": null,
           "note": "Boisterous, sweaty, glamorous. Runs Sep 24–26.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_bc96c6f08524"
+          "uid": "e_bc96c6f08524",
+          "venue": "Baryshnikov Arts Center",
+          "neighborhood": null,
+          "address": "450 W 37th St"
         },
         {
           "day": "Thu",
           "date": "Sep 24",
-          "event": "Roulette: The Scores Project — book release + Rise of the Novel",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "event": "The Scores Project — book release + Rise of the Novel",
+          "where": "Roulette, Brooklyn",
           "cost": "$25",
           "category": "sound",
           "flag": null,
@@ -3427,13 +4096,16 @@
           "end": null,
           "note": "Scholars of experimental notation discuss + members of Rise of the Novel perform.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_2a648625c5b9"
+          "uid": "e_2a648625c5b9",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Thu",
           "date": "Sep 24",
           "event": "Noches de Cine | September",
-          "where": "El Teatro @ El Museo · 1230 5th Avenue, New York",
+          "where": "El Teatro @ El Museo",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -3442,13 +4114,16 @@
           "end": "00:30",
           "note": null,
           "url": "https://elmuseo.org/event/film-screening-september/",
-          "uid": "e_072d3bc132d5"
+          "uid": "e_072d3bc132d5",
+          "venue": "El Teatro @ El Museo",
+          "neighborhood": null,
+          "address": "1230 5th Avenue"
         },
         {
           "day": "Fri",
           "date": "Sep 25",
-          "event": "Film Forum: UNZIPPED (Isaac Mizrahi, 4K) opens",
-          "where": "Film Forum, 209 W Houston St",
+          "event": "UNZIPPED (Isaac Mizrahi, 4K) opens",
+          "where": "Film Forum",
           "cost": "$12–18",
           "category": "film",
           "flag": null,
@@ -3457,7 +4132,10 @@
           "end": null,
           "note": "Runs Sep 25 – Oct 1.",
           "url": "https://www.filmforum.org/now-playing",
-          "uid": "e_30b4485ee61f"
+          "uid": "e_30b4485ee61f",
+          "venue": "Film Forum",
+          "neighborhood": null,
+          "address": "209 W Houston St"
         },
         {
           "day": "Sat",
@@ -3472,13 +4150,16 @@
           "end": "16:00",
           "note": "Only 6 seats. Optically enlarge a single 16mm frame to medium format.",
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_002e5f342b76"
+          "uid": "e_002e5f342b76",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Sun",
           "date": "Sep 27",
           "event": "KRAMER/FAUCI",
-          "where": "St. Ann’s Warehouse · 45 Water Street, Brooklyn",
+          "where": "St. Ann’s Warehouse, Brooklyn",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -3487,13 +4168,16 @@
           "end": "20:30",
           "note": "Runs through Oct 24 (24 dates)",
           "url": "https://stannswarehouse.org/show/kramer-fauci/",
-          "uid": "e_26a886b286e3"
+          "uid": "e_26a886b286e3",
+          "venue": "St. Ann’s Warehouse",
+          "neighborhood": "Brooklyn",
+          "address": "45 Water Street"
         },
         {
           "day": "Sun",
           "date": "Sep 27",
-          "event": "Roulette: John Zorn's Alea Iacta Est (World Premiere)",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "event": "John Zorn's Alea Iacta Est (World Premiere)",
+          "where": "Roulette, Brooklyn",
           "cost": "$35",
           "category": "sound",
           "flag": "priority",
@@ -3502,7 +4186,10 @@
           "end": null,
           "note": "World premiere of Zorn's piano concerto — four trusted interpreters.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_8ef3ce49e57b"
+          "uid": "e_8ef3ce49e57b",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Mon",
@@ -3517,7 +4204,10 @@
           "end": null,
           "note": "Actor Kyle MacLachlan joins us for an evening of conversation about his highly anticipated memoir, Fictional Selves.",
           "url": "https://www.symphonyspace.org/events/kyle-maclachlan-fictional-selves",
-          "uid": "e_d9dad9cdfe60"
+          "uid": "e_d9dad9cdfe60",
+          "venue": "Symphony Space",
+          "neighborhood": "Upper West Side",
+          "address": null
         },
         {
           "day": "Tue",
@@ -3532,7 +4222,10 @@
           "end": null,
           "note": null,
           "url": "https://www.symphonyspace.org/events/nt-live-les-liaisons-dangereuses-2",
-          "uid": "e_06a8b20b7740"
+          "uid": "e_06a8b20b7740",
+          "venue": "Symphony Space",
+          "neighborhood": "Upper West Side",
+          "address": null
         },
         {
           "day": "Tue",
@@ -3547,13 +4240,16 @@
           "end": "21:30",
           "note": null,
           "url": "http://mononoawarefilm.com/community-workshops",
-          "uid": "e_a662101506e8"
+          "uid": "e_a662101506e8",
+          "venue": "Downtown Brooklyn",
+          "neighborhood": null,
+          "address": null
         },
         {
           "day": "Tue",
           "date": "Sep 29",
           "event": "NT Live: The Misanthrope",
-          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "where": "Symphony Space",
           "cost": "$24",
           "category": "literature",
           "flag": null,
@@ -3562,7 +4258,10 @@
           "end": "19:30",
           "note": null,
           "url": "https://www.symphonyspace.org/events/nt-live-the-misanthrope",
-          "uid": "e_240a87086391"
+          "uid": "e_240a87086391",
+          "venue": "Symphony Space",
+          "neighborhood": null,
+          "address": "2537 Broadway at 95th St."
         }
       ]
     },
@@ -3582,13 +4281,16 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night",
-          "uid": "e_0227495df112"
+          "uid": "e_0227495df112",
+          "venue": "Wendy's Subway",
+          "neighborhood": "Bushwick/Ridgewood border",
+          "address": null
         },
         {
           "day": "Fri",
           "date": "Oct 2",
-          "event": "New York Live Arts: Bill Chats — Bill T. Jones, Joanna Kotze & guests",
-          "where": "New York Live Arts, 219 W 19th St, Chelsea",
+          "event": "Bill Chats — Bill T. Jones, Joanna Kotze & guests",
+          "where": "New York Live Arts, Chelsea",
           "cost": "TBD",
           "category": "dance",
           "flag": null,
@@ -3597,13 +4299,16 @@
           "end": null,
           "note": null,
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_3b526b42e652"
+          "uid": "e_3b526b42e652",
+          "venue": "New York Live Arts",
+          "neighborhood": "Chelsea",
+          "address": "219 W 19th St"
         },
         {
           "day": "Fri",
           "date": "Oct 2",
-          "event": "Abrons Arts: Broadway Does Punk",
-          "where": "Abrons Arts Center, 466 Grand St, LES",
+          "event": "Broadway Does Punk",
+          "where": "Abrons Arts Center, LES",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -3612,13 +4317,16 @@
           "end": null,
           "note": "Runs Oct 2–3.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_1c604c93a1f7"
+          "uid": "e_1c604c93a1f7",
+          "venue": "Abrons Arts Center",
+          "neighborhood": "LES",
+          "address": "466 Grand St"
         },
         {
           "day": "Mon",
           "date": "Oct 5",
           "event": "Baryshnikov Arts Fall Fête — Laurie Anderson performance",
-          "where": "Baryshnikov Arts Center, 450 W 37th St",
+          "where": "Baryshnikov Arts Center",
           "cost": "TBD",
           "category": "sound",
           "flag": "priority",
@@ -3627,13 +4335,16 @@
           "end": null,
           "note": "Special performance by Laurie Anderson at BAC's annual fête. Rare.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_293417fa7b88"
+          "uid": "e_293417fa7b88",
+          "venue": "Baryshnikov Arts Center",
+          "neighborhood": null,
+          "address": "450 W 37th St"
         },
         {
           "day": "Wed",
           "date": "Oct 7",
           "event": "BAM: Hewa Rwanda — Letter to the absent",
-          "where": "BAM Fisher, 321 Ashland Pl",
+          "where": "BAM Fisher",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -3642,13 +4353,16 @@
           "end": null,
           "note": "Runs Oct 7–11. Theater + music.",
           "url": "https://www.bam.org/",
-          "uid": "e_73cb2d028be3"
+          "uid": "e_73cb2d028be3",
+          "venue": "BAM Fisher",
+          "neighborhood": null,
+          "address": "321 Ashland Pl"
         },
         {
           "day": "Thu",
           "date": "Oct 8",
-          "event": "New York Live Arts: Allegra — Benjamin Akio Kimitch",
-          "where": "New York Live Arts, 219 W 19th St, Chelsea",
+          "event": "Allegra — Benjamin Akio Kimitch",
+          "where": "New York Live Arts, Chelsea",
           "cost": "TBD",
           "category": "dance",
           "flag": null,
@@ -3657,13 +4371,16 @@
           "end": null,
           "note": "Runs Oct 8–10.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_89dd2cfc4ba0"
+          "uid": "e_89dd2cfc4ba0",
+          "venue": "New York Live Arts",
+          "neighborhood": "Chelsea",
+          "address": "219 W 19th St"
         },
         {
           "day": "Tue",
           "date": "Oct 13",
-          "event": "BAM: VIBE — Secrets of Strong Connections in a Lonely World (talk)",
-          "where": "BAM, 30 Lafayette Ave",
+          "event": "VIBE — Secrets of Strong Connections in a Lonely World (talk)",
+          "where": "BAM",
           "cost": "TBD",
           "category": "literature",
           "flag": null,
@@ -3672,13 +4389,16 @@
           "end": null,
           "note": null,
           "url": "https://www.bam.org/",
-          "uid": "e_a5483560ae15"
+          "uid": "e_a5483560ae15",
+          "venue": "BAM",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Tue",
           "date": "Oct 13",
           "event": "BAM: PRELUDE (free outdoor)",
-          "where": "BAM outdoor plaza, 30 Lafayette Ave",
+          "where": "BAM outdoor plaza",
           "cost": "FREE",
           "category": "theatre",
           "flag": "priority",
@@ -3687,7 +4407,10 @@
           "end": null,
           "note": "FREE outdoor theater. Runs Oct 13–15.",
           "url": "https://www.bam.org/",
-          "uid": "e_2198a43c85d6"
+          "uid": "e_2198a43c85d6",
+          "venue": "BAM outdoor plaza",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Thu",
@@ -3702,13 +4425,16 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night",
-          "uid": "e_5106c72bc239"
+          "uid": "e_5106c72bc239",
+          "venue": "Wendy's Subway",
+          "neighborhood": "Bushwick/Ridgewood border",
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Oct 15",
           "event": "Community Conversations | Making Latinidad",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -3717,7 +4443,10 @@
           "end": "21:00",
           "note": null,
           "url": "https://elmuseo.org/event/community-conversations-making-latinidad/",
-          "uid": "e_d9b6c0ac298a"
+          "uid": "e_d9b6c0ac298a",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         }
       ]
     },
@@ -3727,8 +4456,8 @@
         {
           "day": "Sat",
           "date": "Oct 17",
-          "event": "Abrons Arts: Fall Festival",
-          "where": "Abrons Arts Center, 466 Grand St, LES",
+          "event": "Fall Festival",
+          "where": "Abrons Arts Center, LES",
           "cost": "FREE",
           "category": "community",
           "flag": null,
@@ -3737,13 +4466,16 @@
           "end": "16:00",
           "note": "Free community fall festival.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_e3ad060e44f7"
+          "uid": "e_e3ad060e44f7",
+          "venue": "Abrons Arts Center",
+          "neighborhood": "LES",
+          "address": "466 Grand St"
         },
         {
           "day": "Sat",
           "date": "Oct 17",
           "event": "En Familia | Día de Muertos",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -3752,13 +4484,16 @@
           "end": "18:00",
           "note": null,
           "url": "https://elmuseo.org/event/family-program-dia-de-muertos/",
-          "uid": "e_bef3b0853914"
+          "uid": "e_bef3b0853914",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         },
         {
           "day": "Sun",
           "date": "Oct 18",
           "event": "Intro to Wet Plate Collodion - Oct 18",
-          "where": "334 Himrod St, Bushwick",
+          "where": "Bushwick Community Darkroom, Bushwick",
           "cost": "$300",
           "category": "making",
           "flag": null,
@@ -3767,13 +4502,16 @@
           "end": "13:00",
           "note": "Experience the magic of wet plate collodion photography. This intensive workshop covers preparing plates, exposure, and development to create unique tintypes. All materials included.",
           "url": "https://www.bushwickcommunitydarkroom.com/events/2026/10/18/intro-to-wet-plate-collodion-oct-18",
-          "uid": "e_de6bfc7ad6bc"
+          "uid": "e_de6bfc7ad6bc",
+          "venue": "Bushwick Community Darkroom",
+          "neighborhood": "Bushwick",
+          "address": "334 Himrod St"
         },
         {
           "day": "Mon",
           "date": "Oct 19",
-          "event": "Baryshnikov Arts: Making Gay History with The Gorgeous Nothings",
-          "where": "Baryshnikov Arts Center, 450 W 37th St",
+          "event": "Making Gay History with The Gorgeous Nothings",
+          "where": "Baryshnikov Arts Center",
           "cost": "TBD",
           "category": "literature",
           "flag": null,
@@ -3782,13 +4520,16 @@
           "end": null,
           "note": null,
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_2ad5cc00ee04"
+          "uid": "e_2ad5cc00ee04",
+          "venue": "Baryshnikov Arts Center",
+          "neighborhood": null,
+          "address": "450 W 37th St"
         },
         {
           "day": "Wed",
           "date": "Oct 21",
           "event": "BAM: How does it feel to look at nothing (music/opera)",
-          "where": "BAM Opera House, 30 Lafayette Ave",
+          "where": "BAM Opera House",
           "cost": "TBD",
           "category": "sound",
           "flag": null,
@@ -3797,13 +4538,16 @@
           "end": null,
           "note": "Runs Oct 21–25.",
           "url": "https://www.bam.org/",
-          "uid": "e_90fda3c012f1"
+          "uid": "e_90fda3c012f1",
+          "venue": "BAM Opera House",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Wed",
           "date": "Oct 21",
           "event": "Selected Shorts: The Best American Short Stories 2026 with Viet Thanh Nguyen",
-          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "where": "Symphony Space",
           "cost": "$19–26",
           "category": "literature",
           "flag": null,
@@ -3812,13 +4556,16 @@
           "end": "19:00",
           "note": null,
           "url": "https://www.symphonyspace.org/events/selected-shorts-the-best-american-short-stories-2026-with-viet-thanh-nguyen",
-          "uid": "e_f9bb591caeb8"
+          "uid": "e_f9bb591caeb8",
+          "venue": "Symphony Space",
+          "neighborhood": null,
+          "address": "2537 Broadway at 95th St."
         },
         {
           "day": "Thu",
           "date": "Oct 22",
-          "event": "Baryshnikov Arts: GREEF — Christina Gelsone",
-          "where": "Baryshnikov Arts Center, 450 W 37th St",
+          "event": "GREEF — Christina Gelsone",
+          "where": "Baryshnikov Arts Center",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -3827,13 +4574,16 @@
           "end": null,
           "note": "Runs Oct 22–24. Clown-adjacent physical performance.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_e10cae0c931f"
+          "uid": "e_e10cae0c931f",
+          "venue": "Baryshnikov Arts Center",
+          "neighborhood": null,
+          "address": "450 W 37th St"
         },
         {
           "day": "Fri",
           "date": "Oct 23",
-          "event": "New York Live Arts: Toi, moi, Tituba — Dorothée Munyaneza / Kadidi Company",
-          "where": "New York Live Arts, 219 W 19th St, Chelsea",
+          "event": "Toi, moi, Tituba — Dorothée Munyaneza / Kadidi Company",
+          "where": "New York Live Arts, Chelsea",
           "cost": "TBD",
           "category": "dance",
           "flag": "priority",
@@ -3842,13 +4592,16 @@
           "end": null,
           "note": "Runs Oct 23–24. International commission.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_6ebc4e32a984"
+          "uid": "e_6ebc4e32a984",
+          "venue": "New York Live Arts",
+          "neighborhood": "Chelsea",
+          "address": "219 W 19th St"
         },
         {
           "day": "Sat",
           "date": "Oct 24",
-          "event": "BAM: I Guess It Was My Destiny To Live So Long (poetry)",
-          "where": "BAM, 30 Lafayette Ave",
+          "event": "I Guess It Was My Destiny To Live So Long (poetry)",
+          "where": "BAM",
           "cost": "TBD",
           "category": "literature",
           "flag": null,
@@ -3857,13 +4610,16 @@
           "end": null,
           "note": "Runs Oct 24–30.",
           "url": "https://www.bam.org/",
-          "uid": "e_2baae8f3051e"
+          "uid": "e_2baae8f3051e",
+          "venue": "BAM",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Sun",
           "date": "Oct 25",
           "event": "Rhythm and Groove Workshop with Marcus Gilmore",
-          "where": "Creative Music Studio at Ibeam, 168 7th St, Gowanus",
+          "where": "Creative Music Studio at Ibeam, Gowanus",
           "cost": "$475",
           "category": "sound",
           "flag": null,
@@ -3872,7 +4628,10 @@
           "end": "18:00",
           "note": null,
           "url": "https://creativemusic.org/event/rhythm-and-groove-workshop-with-marcus-gilmore-2026/",
-          "uid": "e_fd4286cadd4c"
+          "uid": "e_fd4286cadd4c",
+          "venue": "Creative Music Studio at Ibeam",
+          "neighborhood": "Gowanus",
+          "address": "168 7th St"
         },
         {
           "day": "Thu",
@@ -3887,13 +4646,16 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night",
-          "uid": "e_2be9e04a4710"
+          "uid": "e_2be9e04a4710",
+          "venue": "Wendy's Subway",
+          "neighborhood": "Bushwick/Ridgewood border",
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Oct 29",
           "event": "Noches de Cine | October",
-          "where": "El Teatro @ El Museo · 1230 5th Avenue, New York",
+          "where": "El Teatro @ El Museo",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -3902,7 +4664,10 @@
           "end": "00:30",
           "note": null,
           "url": "https://elmuseo.org/event/film-screening-october/",
-          "uid": "e_1de0a1b7386d"
+          "uid": "e_1de0a1b7386d",
+          "venue": "El Teatro @ El Museo",
+          "neighborhood": null,
+          "address": "1230 5th Avenue"
         }
       ]
     },
@@ -3913,7 +4678,7 @@
           "day": "Mon",
           "date": "Nov 2",
           "event": "Intro to Darkroom Printing (B&W Film) - Nov 2",
-          "where": "334 Himrod St, Bushwick",
+          "where": "Bushwick Community Darkroom, Bushwick",
           "cost": "$150",
           "category": "making",
           "flag": null,
@@ -3922,13 +4687,16 @@
           "end": "20:00",
           "note": "Learn the basics of black and white darkroom printing. This workshop covers film development, contact printing, and enlarging. All materials included.",
           "url": "https://www.bushwickcommunitydarkroom.com/events/2026/11/2/intro-to-darkroom-printing-bw-film-nov-2",
-          "uid": "e_b384bdce3cee"
+          "uid": "e_b384bdce3cee",
+          "venue": "Bushwick Community Darkroom",
+          "neighborhood": "Bushwick",
+          "address": "334 Himrod St"
         },
         {
           "day": "Tue",
           "date": "Nov 3",
           "event": "Memoir Writing II",
-          "where": "Gotham Writers Workshop, 555 8th Ave, Midtown",
+          "where": "Gotham Writers Workshop, Midtown",
           "cost": "$495",
           "category": "literature",
           "flag": null,
@@ -3937,13 +4705,16 @@
           "end": "12:00",
           "note": null,
           "url": "https://www.writingclasses.com/classes/nyc/memoir-writing-ii-in-person-fall-2026",
-          "uid": "e_510c7b3dabf5"
+          "uid": "e_510c7b3dabf5",
+          "venue": "Gotham Writers Workshop",
+          "neighborhood": "Midtown",
+          "address": "555 8th Ave"
         },
         {
           "day": "Wed",
           "date": "Nov 4",
-          "event": "BAM: Turn. Turning. TURNT. (dance)",
-          "where": "BAM, 30 Lafayette Ave",
+          "event": "Turn. Turning. TURNT. (dance)",
+          "where": "BAM",
           "cost": "TBD",
           "category": "dance",
           "flag": null,
@@ -3952,13 +4723,16 @@
           "end": null,
           "note": "Runs Nov 4–7.",
           "url": "https://www.bam.org/",
-          "uid": "e_5295e87bc0b2"
+          "uid": "e_5295e87bc0b2",
+          "venue": "BAM",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Thu",
           "date": "Nov 5",
-          "event": "Abrons Arts: Natalia Lassalle-Morillo — En Parábola / Conversations on Tragedy opens",
-          "where": "Abrons Arts Center, 466 Grand St, LES",
+          "event": "Natalia Lassalle-Morillo — En Parábola / Conversations on Tragedy opens",
+          "where": "Abrons Arts Center, LES",
           "cost": "TBD",
           "category": "theatre",
           "flag": "priority",
@@ -3967,13 +4741,16 @@
           "end": null,
           "note": "Long run Nov 5 – Dec 20.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_c03d7b18ba14"
+          "uid": "e_c03d7b18ba14",
+          "venue": "Abrons Arts Center",
+          "neighborhood": "LES",
+          "address": "466 Grand St"
         },
         {
           "day": "Fri",
           "date": "Nov 6",
-          "event": "New York Live Arts: this is the beginning, this is the end — Joanna Kotze",
-          "where": "New York Live Arts, 219 W 19th St, Chelsea",
+          "event": "this is the beginning, this is the end — Joanna Kotze",
+          "where": "New York Live Arts, Chelsea",
           "cost": "TBD",
           "category": "dance",
           "flag": null,
@@ -3982,13 +4759,16 @@
           "end": null,
           "note": "Runs Nov 6–7, 11–14.",
           "url": "https://newyorklivearts.org/calendar/",
-          "uid": "e_c693b92fdaff"
+          "uid": "e_c693b92fdaff",
+          "venue": "New York Live Arts",
+          "neighborhood": "Chelsea",
+          "address": "219 W 19th St"
         },
         {
           "day": "Sat",
           "date": "Nov 7",
-          "event": "Roulette: M³ Festival 2026 (5th annual)",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "event": "M³ Festival 2026 (5th annual)",
+          "where": "Roulette, Brooklyn",
           "cost": "TBD",
           "category": "sound",
           "flag": "priority",
@@ -3997,13 +4777,16 @@
           "end": null,
           "note": "5th annual M³ festival — innovative music.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_ff79a3de2092"
+          "uid": "e_ff79a3de2092",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Sat",
           "date": "Nov 7",
           "event": "For Educators | Teaching with Artist Books",
-          "where": "El Museo del Barrio · 1230 Fifth Avenue, New York",
+          "where": "El Museo del Barrio",
           "cost": "FREE",
           "category": "making",
           "flag": null,
@@ -4012,13 +4795,16 @@
           "end": "21:00",
           "note": null,
           "url": "https://elmuseo.org/event/for-educators-teaching-with-artist-books/",
-          "uid": "e_a12f990d69fb"
+          "uid": "e_a12f990d69fb",
+          "venue": "El Museo del Barrio",
+          "neighborhood": null,
+          "address": "1230 Fifth Avenue"
         },
         {
           "day": "Wed",
           "date": "Nov 11",
-          "event": "BAM: adaku, part 2 (dance/theater)",
-          "where": "BAM, 30 Lafayette Ave",
+          "event": "adaku, part 2 (dance/theater)",
+          "where": "BAM",
           "cost": "TBD",
           "category": "dance",
           "flag": null,
@@ -4027,13 +4813,16 @@
           "end": null,
           "note": "Runs Nov 11–15.",
           "url": "https://www.bam.org/",
-          "uid": "e_01b1966b4ca5"
+          "uid": "e_01b1966b4ca5",
+          "venue": "BAM",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Thu",
           "date": "Nov 12",
-          "event": "Baryshnikov Arts: \"As if everything was perfect\" — Gianna Burright",
-          "where": "Baryshnikov Arts Center, 450 W 37th St",
+          "event": "\"As if everything was perfect\" — Gianna Burright",
+          "where": "Baryshnikov Arts Center",
           "cost": "TBD",
           "category": "dance",
           "flag": null,
@@ -4042,7 +4831,10 @@
           "end": null,
           "note": "Runs Nov 12–13.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_979f2ce612e8"
+          "uid": "e_979f2ce612e8",
+          "venue": "Baryshnikov Arts Center",
+          "neighborhood": null,
+          "address": "450 W 37th St"
         },
         {
           "day": "Thu",
@@ -4057,13 +4849,16 @@
           "end": null,
           "note": null,
           "url": "https://www.wendyssubway.com/programs/events/writing-night",
-          "uid": "e_81f749c6e951"
+          "uid": "e_81f749c6e951",
+          "venue": "Wendy's Subway",
+          "neighborhood": "Bushwick/Ridgewood border",
+          "address": null
         },
         {
           "day": "Thu",
           "date": "Nov 12",
-          "event": "Abrons Arts: Cherrie Yu — Daily Diversions (World Premiere)",
-          "where": "Abrons Arts Center, 466 Grand St, LES",
+          "event": "Cherrie Yu — Daily Diversions (World Premiere)",
+          "where": "Abrons Arts Center, LES",
           "cost": "TBD",
           "category": "dance",
           "flag": "priority",
@@ -4072,7 +4867,10 @@
           "end": null,
           "note": "Runs Nov 12–14. World premiere.",
           "url": "https://www.abronsartscenter.org/performing-arts",
-          "uid": "e_870aeb269a33"
+          "uid": "e_870aeb269a33",
+          "venue": "Abrons Arts Center",
+          "neighborhood": "LES",
+          "address": "466 Grand St"
         }
       ]
     },
@@ -4082,8 +4880,8 @@
         {
           "day": "Wed",
           "date": "Nov 18",
-          "event": "Roulette: Qasim Naqvi — Roulette Commission",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "event": "Qasim Naqvi — Roulette Commission",
+          "where": "Roulette, Brooklyn",
           "cost": "$25",
           "category": "sound",
           "flag": null,
@@ -4092,13 +4890,16 @@
           "end": null,
           "note": "Percussionist/composer/synthesist, new commission.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_eaa3d38b29c6"
+          "uid": "e_eaa3d38b29c6",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Wed",
           "date": "Nov 18",
-          "event": "BAM: La Distance (theater) opens",
-          "where": "BAM, 30 Lafayette Ave",
+          "event": "La Distance (theater) opens",
+          "where": "BAM",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -4107,13 +4908,16 @@
           "end": null,
           "note": "Long run Nov 18 – 29.",
           "url": "https://www.bam.org/",
-          "uid": "e_73cf775f9326"
+          "uid": "e_73cf775f9326",
+          "venue": "BAM",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Wed",
           "date": "Nov 18",
           "event": "Selected Shorts: The Most of Nora Ephron, hosted by Meg Wolitzer",
-          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "where": "Symphony Space",
           "cost": "$19–26",
           "category": "literature",
           "flag": null,
@@ -4122,13 +4926,16 @@
           "end": "19:00",
           "note": null,
           "url": "https://www.symphonyspace.org/events/selected-shorts-the-most-of-nora-ephron-hosted-by-meg-wolitzer",
-          "uid": "e_6bba90fde3d4"
+          "uid": "e_6bba90fde3d4",
+          "venue": "Symphony Space",
+          "neighborhood": null,
+          "address": "2537 Broadway at 95th St."
         },
         {
           "day": "Thu",
           "date": "Nov 19",
-          "event": "Baryshnikov Arts: In Conversation with Merce — New RainForest(s)",
-          "where": "Baryshnikov Arts Center, 450 W 37th St",
+          "event": "In Conversation with Merce — New RainForest(s)",
+          "where": "Baryshnikov Arts Center",
           "cost": "TBD",
           "category": "dance",
           "flag": "priority",
@@ -4137,13 +4944,16 @@
           "end": null,
           "note": "Runs Nov 19–21. Merce Cunningham legacy work.",
           "url": "https://baryshnikovarts.org/",
-          "uid": "e_46e581a25871"
+          "uid": "e_46e581a25871",
+          "venue": "Baryshnikov Arts Center",
+          "neighborhood": null,
+          "address": "450 W 37th St"
         },
         {
           "day": "Thu",
           "date": "Nov 19",
-          "event": "Roulette: Jessica Cook (Night 1) — Roulette Commission",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "event": "Jessica Cook (Night 1) — Roulette Commission",
+          "where": "Roulette, Brooklyn",
           "cost": "$25",
           "category": "dance",
           "flag": null,
@@ -4152,13 +4962,16 @@
           "end": null,
           "note": "Choreographer working with movement + sound.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_8e448f77e65b"
+          "uid": "e_8e448f77e65b",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Thu",
           "date": "Nov 19",
           "event": "BAM: Einstein on the Beach — 50th Anniversary Concert (Philip Glass)",
-          "where": "BAM Opera House, 30 Lafayette Ave",
+          "where": "BAM Opera House",
           "cost": "TBD",
           "category": "sound",
           "flag": "priority",
@@ -4167,13 +4980,16 @@
           "end": null,
           "note": "Runs Nov 19–21. Landmark 50th-anniversary concert version.",
           "url": "https://www.bam.org/",
-          "uid": "e_f0bc8da52fc8"
+          "uid": "e_f0bc8da52fc8",
+          "venue": "BAM Opera House",
+          "neighborhood": null,
+          "address": "30 Lafayette Ave"
         },
         {
           "day": "Thu",
           "date": "Nov 19",
           "event": "GHP Artists Exhibition 2026",
-          "where": "Jane Hartsook Gallery · 16 Jones Street, New York",
+          "where": "Jane Hartsook Gallery",
           "cost": "TBD",
           "category": "making",
           "flag": null,
@@ -4182,13 +4998,16 @@
           "end": "22:00",
           "note": null,
           "url": "https://greenwichhouse.org/event/ghp-artists-exhibition-2026/",
-          "uid": "e_d4dfd9158315"
+          "uid": "e_d4dfd9158315",
+          "venue": "Jane Hartsook Gallery",
+          "neighborhood": null,
+          "address": "16 Jones Street"
         },
         {
           "day": "Fri",
           "date": "Nov 20",
-          "event": "Roulette: Jessica Cook (Night 2) — Roulette Commission",
-          "where": "Roulette, 509 Atlantic Ave, Brooklyn",
+          "event": "Jessica Cook (Night 2) — Roulette Commission",
+          "where": "Roulette, Brooklyn",
           "cost": "$25",
           "category": "dance",
           "flag": null,
@@ -4197,13 +5016,16 @@
           "end": null,
           "note": "Second night of the commission.",
           "url": "https://roulette.org/calendar",
-          "uid": "e_1f871f90946b"
+          "uid": "e_1f871f90946b",
+          "venue": "Roulette",
+          "neighborhood": "Brooklyn",
+          "address": "509 Atlantic Ave"
         },
         {
           "day": "Tue",
           "date": "Nov 24",
           "event": "NYTW: Wild Rose (musical) opens",
-          "where": "New York Theatre Workshop, 79 E 4th St",
+          "where": "New York Theatre Workshop",
           "cost": "TBD",
           "category": "theatre",
           "flag": null,
@@ -4212,7 +5034,10 @@
           "end": null,
           "note": "Nicole Taylor / John Tiffany. Runs Nov 24 – Jan 10, 2027.",
           "url": "https://www.nytw.org/2026-27-season/",
-          "uid": "e_b052967479a1"
+          "uid": "e_b052967479a1",
+          "venue": "New York Theatre Workshop",
+          "neighborhood": null,
+          "address": "79 E 4th St"
         }
       ]
     },
@@ -4223,7 +5048,7 @@
           "day": "Sun",
           "date": "Dec 6",
           "event": "Novel Writing III",
-          "where": "Gotham Writers Workshop, 555 8th Ave, Midtown",
+          "where": "Gotham Writers Workshop, Midtown",
           "cost": "$550",
           "category": "literature",
           "flag": null,
@@ -4232,13 +5057,16 @@
           "end": "15:00",
           "note": null,
           "url": "https://www.writingclasses.com/classes/nyc/novel-writing-iii-in-person-fall-2026",
-          "uid": "e_758b6090c722"
+          "uid": "e_758b6090c722",
+          "venue": "Gotham Writers Workshop",
+          "neighborhood": "Midtown",
+          "address": "555 8th Ave"
         },
         {
           "day": "Wed",
           "date": "Dec 9",
           "event": "Selected Shorts: Objects with Roz Chast",
-          "where": "Symphony Space · 2537 Broadway at 95th St., New York",
+          "where": "Symphony Space",
           "cost": "$19–26",
           "category": "literature",
           "flag": null,
@@ -4247,7 +5075,10 @@
           "end": "19:00",
           "note": null,
           "url": "https://www.symphonyspace.org/events/selected-shorts-objects-with-roz-chast",
-          "uid": "e_16ae07b3bfa2"
+          "uid": "e_16ae07b3bfa2",
+          "venue": "Symphony Space",
+          "neighborhood": null,
+          "address": "2537 Broadway at 95th St."
         }
       ]
     }

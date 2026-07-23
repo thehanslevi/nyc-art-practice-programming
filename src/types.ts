@@ -33,8 +33,19 @@ export interface CalEvent {
   aliases?: string[];
   day: string;
   date: string;
+  /**
+   * The event, without its venue. Titles used to arrive as "Venue: Title" 66%
+   * of the time and bare the rest, with 13 venues using both, so sorting by
+   * title grouped by venue instead of by event. The venue is shown separately.
+   */
   event: string;
+  /** Display string: "Venue, Neighborhood". Derived from the parts below. */
   where: string;
+  /** Canonical venue name, so the same place reads the same way everywhere. */
+  venue?: string;
+  neighborhood?: string | null;
+  /** Street address, kept out of the display string. */
+  address?: string | null;
   cost: string;
   category: Category;
   flag: Flag;

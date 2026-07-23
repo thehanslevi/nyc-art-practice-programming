@@ -15,6 +15,7 @@ import {
 } from "../lib/practices";
 import { today } from "../lib/dates";
 import { datedSessionsFor, sessionTitle } from "../lib/join";
+import { track } from "../lib/usage";
 
 // Reuse the existing eight-ink palette rather than inventing colours for all
 // sixteen disciplines.
@@ -121,7 +122,10 @@ export function Directory() {
               key={d}
               type="button"
               className={`dir-chip cat-${INK[d]}${discipline === d ? " active" : ""}`}
-              onClick={() => setDiscipline(d)}
+              onClick={() => {
+                setDiscipline(d);
+                track("filter", { kind: "discipline", value: d });
+              }}
             >
               {DISCIPLINE_LABEL[d]} <span>({counts.get(d)})</span>
             </button>
@@ -131,7 +135,10 @@ export function Directory() {
           <button
             type="button"
             className={`dir-toggle${affordableOnly ? " active" : ""}`}
-            onClick={() => setAffordableOnly((v) => !v)}
+            onClick={() => {
+              setAffordableOnly((v) => !v);
+              track("filter", { kind: "affordable" });
+            }}
             aria-pressed={affordableOnly}
             title="Free, sliding scale, scholarship, or work-study"
           >
@@ -140,7 +147,10 @@ export function Directory() {
           <button
             type="button"
             className={`dir-toggle${nearbyOnly ? " active" : ""}`}
-            onClick={() => setNearbyOnly((v) => !v)}
+            onClick={() => {
+              setNearbyOnly((v) => !v);
+              track("filter", { kind: "nearby" });
+            }}
             aria-pressed={nearbyOnly}
             title="Within 25 minutes of Crown Heights"
           >
@@ -149,7 +159,10 @@ export function Directory() {
           <button
             type="button"
             className={`dir-toggle${thisWeekOnly ? " active" : ""}`}
-            onClick={() => setThisWeekOnly((v) => !v)}
+            onClick={() => {
+              setThisWeekOnly((v) => !v);
+              track("filter", { kind: "this-week" });
+            }}
             aria-pressed={thisWeekOnly}
             title="Has a standing session in the next 7 days"
           >

@@ -1,6 +1,7 @@
 import { randomBytes } from "node:crypto";
 import type { CalEvent, EventsData, Week } from "../../src/types";
 import { findDuplicateOf } from "./dedupe";
+import { parseVenue, stripVenuePrefix } from "../../src/lib/venue";
 
 /**
  * Opaque and permanent. Never derive a uid from date, title, or venue: the
@@ -109,7 +110,20 @@ export function mergeIntoEvents(
       }
     }
 
-    const withUid: CalEvent = event.uid ? event : { ...event, uid: newUid() };
+    // Normalize on the way in, so a scrape can't reintroduce "Venue: Title"
+    // prefixes or paste a full postal address into the display string.
+    const parts = parseVenue(event.where);
+    const normalized: CalEvent = {
+      ...event,
+      event: stripVenuePrefix(event.event, parts.venue),
+      where: parts.where,
+      venue: parts.venue,
+      neighborhood: parts.neighborhood,
+      address: parts.address,
+    };
+    const withUid: CalEvent = normalized.uid
+      ? normalized
+      : { ...normalized, uid: newUid() };
     weeks[targetIndex] = {
       ...weeks[targetIndex],
       events: [...weeks[targetIndex].events, withUid].sort(byDateAsc(year)),
