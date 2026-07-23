@@ -57,14 +57,17 @@ function App() {
   // Default to Making — the calendar's reason for being is creative practice,
   // and the venue mix skews heavily toward witness events, so lead with making.
   const [view, setView] = useState<View>("making");
-  // The top-level Making/Witnessing switch replaced the old TabBar, which used
-  // the same two words one level down and disagreed with it.
+  // Each view owns one half of the calendar outright, so nothing is listed
+  // twice and nothing is homeless.
   //
-  // The real split is now standing practices (Directory) vs dated events (this
-  // calendar), not make vs witness. So this view shows every dated event:
-  // filtering to "attend" would strand the 79 make-mode events, including
-  // starred ones already in someone's subscribed feed.
-  const tab: TabMode = "all";
+  //   Practice   — everything you do: the venue directory PLUS every dated
+  //                course and workshop.
+  //   Happening  — everything you watch: shows, screenings, concerts.
+  //
+  // Splitting only by mode used to strand the 63 make-events whose venue has no
+  // Directory row (RBPMW's 22 workshops, Wendy's Subway, El Museo). Giving
+  // Practice its own dated list is what makes the clean split safe.
+  const tab: TabMode = view === "making" ? "practice" : "attend";
   const [filter, setFilter] = useState<CategoryFilter>("all");
   const [picksOnly, setPicksOnly] = useState(false);
   const [freeOnly, setFreeOnly] = useState(false);
@@ -345,9 +348,7 @@ function App() {
       </nav>
       <main className="zone zone-main">
         <div className="zone-inner">
-      {view === "making" ? <Directory /> : (
-      <>
-      <CuratorPicks />
+      <CuratorPicks tab={tab} />
       <div className="filter-row">
         <FilterBar active={filter} onChange={setFilter} counts={counts} />
         <button
@@ -409,8 +410,9 @@ function App() {
         notes={notes}
         onSetNote={handleSetNote}
       />
-      </>
-      )}
+      {/* The directory sits under Practice's dated list: what's scheduled
+          first, then where to look. */}
+      {view === "making" ? <Directory /> : null}
         </div>
       </main>
       <footer className="zone zone-footer">

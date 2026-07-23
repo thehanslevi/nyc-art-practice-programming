@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import eventsData from "../data/events.json";
-import type { CalEvent, EventsData } from "../types";
+import type { CalEvent, EventsData, TabMode } from "../types";
+import { matchesTab } from "../lib/tab";
 import { isPast, parseEventDate, today } from "../lib/dates";
 import { formatCost } from "../lib/cost";
 import { buildPickIndex, pickId } from "../lib/picks";
@@ -17,7 +18,9 @@ const BY_ID = buildPickIndex(ALL);
 // curator passphrase, synced to Supabase — the same identity that powers the
 // public "Curated Picks" feed). Starring on the live site is the curation and
 // the note is written inline when starring — no data editing anywhere.
-export function CuratorPicks() {
+// Scoped to the active view, so a curated workshop leads Practice and a
+// curated show leads Happening rather than both appearing in both.
+export function CuratorPicks({ tab }: { tab: TabMode }) {
   const now = useMemo(() => today(), []);
   const [ids, setIds] = useState<string[] | null>(null);
   const [notes, setNotes] = useState<PickNotes>({});
@@ -43,12 +46,13 @@ export function CuratorPicks() {
     return ids
       .map((id) => BY_ID.get(id))
       .filter((e): e is CalEvent => !!e)
+      .filter((e) => matchesTab(tab, e.mode))
       .map((e) => ({ e, d: parseEventDate(e.date) }))
       .filter((x) => x.d && !isPast(x.d, now))
       .sort((a, b) => a.d!.getTime() - b.d!.getTime())
       .slice(0, 6)
       .map((x) => x.e);
-  }, [ids, now]);
+  }, [ids, now, tab]);
 
   if (picks.length === 0) return null;
 
