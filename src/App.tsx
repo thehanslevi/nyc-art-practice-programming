@@ -314,7 +314,7 @@ function App() {
       </header>
       <nav className="zone zone-band">
         <div className="zone-inner">
-          <div className="view-switch" role="tablist" aria-label="Places or What’s on">
+          <div className="view-switch" role="tablist" aria-label="Practice or Happening">
             <button
               type="button"
               role="tab"
@@ -322,10 +322,10 @@ function App() {
               className={`view-btn${view === "making" ? " active" : ""}`}
               onClick={() => {
                 setView("making");
-                track("view", { view: "places" });
+                track("view", { view: "practice" });
               }}
             >
-              Places
+              Practice
             </button>
             <span className="view-x">/</span>
             <button
@@ -335,10 +335,10 @@ function App() {
               className={`view-btn${view === "witnessing" ? " active" : ""}`}
               onClick={() => {
                 setView("witnessing");
-                track("view", { view: "whats-on" });
+                track("view", { view: "happening" });
               }}
             >
-              What&rsquo;s on
+              Happening
             </button>
           </div>
         </div>
