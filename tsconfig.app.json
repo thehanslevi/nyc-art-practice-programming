@@ -24,5 +24,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "// exclude": "Tests run through tsx (node:test), not the app build. They pull in node: builtins the DOM/bundler config has no types for, so tsc -b — which Vercel runs — must not compile them.",
+  "exclude": ["**/*.test.ts"]
 }
