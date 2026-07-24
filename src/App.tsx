@@ -317,7 +317,7 @@ function App() {
       </header>
       <nav className="zone zone-band">
         <div className="zone-inner">
-          <div className="view-switch" role="tablist" aria-label="Practice or Happening">
+          <div className="view-switch" role="tablist" aria-label="Practice or Happenings">
             <button
               type="button"
               role="tab"
@@ -341,7 +341,7 @@ function App() {
                 track("view", { view: "happening" });
               }}
             >
-              Happening
+              Happenings
             </button>
           </div>
         </div>
