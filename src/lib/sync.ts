@@ -1,4 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
+import { CURATOR_HASH } from "./curator";
 
 const SUPABASE_URL = "https://djyzqifuckuwdeeltnej.supabase.co";
 const SUPABASE_KEY = "sb_publishable_EIeHwihJheYgPBZbqODuAg_0oCyic99";
@@ -85,11 +86,30 @@ export async function fetchByHash(
   return { picks, notes };
 }
 
+// The curator's row is the public "Don't miss" lede, so its hash is published
+// (curator.ts) and direct writes to it are blocked by RLS. It can only be
+// written by presenting the passphrase to this SECURITY DEFINER RPC, which
+// verifies the preimage server-side. Everyone else writes their own row
+// directly — their hash is a private token, not a public constant.
+// See migration protect_curator_picks_row.
+async function writeCuratorRow(
+  passphrase: string,
+  fields: { picks?: string[]; notes?: PickNotes },
+): Promise<void> {
+  const { error } = await supabase.rpc("set_curator_picks", {
+    p_passphrase: passphrase,
+    p_picks: fields.picks ?? null,
+    p_notes: fields.notes ?? null,
+  });
+  if (error) throw error;
+}
+
 export async function uploadPicks(
   passphrase: string,
   picks: string[],
 ): Promise<void> {
   const hash = await hashPassphrase(passphrase);
+  if (hash === CURATOR_HASH) return writeCuratorRow(passphrase, { picks });
   // Only touch the picks column so a concurrent note write isn't clobbered.
   const { error } = await supabase.from("picks").upsert(
     {
@@ -108,6 +128,7 @@ export async function uploadNotes(
   notes: PickNotes,
 ): Promise<void> {
   const hash = await hashPassphrase(passphrase);
+  if (hash === CURATOR_HASH) return writeCuratorRow(passphrase, { notes });
   const { error } = await supabase.from("picks").upsert(
     {
       passphrase_hash: hash,
