@@ -1,5 +1,6 @@
 import type { CalEvent } from "../../src/types";
 import type { Venue } from "./venues";
+import { classifyEvent } from "./classify.ts";
 
 // Deterministic parsers for the CMS platforms most NYC arts venues run on.
 // These emit server-rendered event markup with machine-readable <time
