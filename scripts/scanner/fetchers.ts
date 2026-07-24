@@ -38,6 +38,10 @@ async function fetchHtmlStatic(url: string): Promise<string | null> {
         "User-Agent": USER_AGENT,
         Accept: "text/html,application/xhtml+xml",
       },
+      // Without this, a venue that accepts the connection but never responds
+      // stalls the whole scan indefinitely — the playwright path already caps
+      // at 25s, the static path had no cap at all.
+      signal: AbortSignal.timeout(15_000),
     });
     if (!res.ok) return null;
     return await res.text();
