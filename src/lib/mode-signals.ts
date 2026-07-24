@@ -44,6 +44,11 @@ export const MAKE_RE = bounded([
   "training|apprenticeship|residency|clinic|tutorial",
   // Named family and educator making series that carry no generic keyword.
   "en familia|for educators",
+  // Participatory game/tech-making. A playtest, a game jam, a hack night are
+  // things you build at, not watch — they hide inside otherwise-nightlife
+  // venues like Wonderville (WordHack is a School for Poetic Computation
+  // offshoot). "word ?hacks?" also catches the run-together "WordHack".
+  "playtest|game ?jam|hackathon|hack night|word ?hacks?",
 ]);
 
 /**

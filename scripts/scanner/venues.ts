@@ -907,4 +907,16 @@ export const VENUES: Venue[] = [
     whereTemplate: "Mostly Good Studios, Astoria",
     fetch: "static",
   },
+  // A bar arcade: mostly gigs and DJ nights (hence witness-default), but it
+  // hosts genuine participatory making — WordHack, playtests, game jams — which
+  // flip to make on their title signals and land in Practice. The witness cap
+  // keeps its nightlife from flooding the calendar.
+  {
+    name: "Wonderville",
+    url: "https://wonderville.nyc/events",
+    category: "tech",
+    defaultMode: "witness",
+    whereTemplate: "Wonderville, 1186 Broadway, Bushwick",
+    fetch: "static",
+  },
 ];

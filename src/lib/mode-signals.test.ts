@@ -42,3 +42,20 @@ test("a plain title carries no signal — defers to the venue default", () => {
 test("a title with signals both ways is 'both', never a coin-flip", () => {
   assert.equal(titleSignal("Printmaking Workshop & Exhibition Opening"), "both");
 });
+
+// Participatory game/tech-making buried in nightlife venues (Wonderville).
+test("a playtest reads as make", () => {
+  assert.equal(titleSignal("Wonderville's Last Tuesday of the month PLAYTEST"), "make");
+});
+
+test("a game jam reads as make", () => {
+  assert.equal(titleSignal("Monthly 2 Hr GameJam Club: OBSHAGCE"), "make");
+});
+
+test("WordHack (run-together) reads as make", () => {
+  assert.equal(titleSignal("WordHack"), "make");
+});
+
+test("a rock show at the same venue stays witness/none, not make", () => {
+  assert.equal(titleSignal("A night of POWERFUL ROCK"), "none");
+});
