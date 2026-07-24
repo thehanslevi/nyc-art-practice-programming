@@ -888,4 +888,23 @@ export const VENUES: Venue[] = [
     whereTemplate: "El Museo del Barrio, 1230 Fifth Ave, East Harlem",
     fetch: "playwright",
   },
+  // Added from H.R.L.'s verified making-venue list (2026-07). Both scrape
+  // statically via Squarespace event collections — no playwright needed —
+  // confirmed by scripts/probe-venues.ts.
+  {
+    name: "Brooklyn Shoe Space",
+    url: "https://brooklynshoespace.com/schedule",
+    category: "making",
+    defaultMode: "make",
+    whereTemplate: "Brooklyn Shoe Space, 87 Richardson St, East Williamsburg",
+    fetch: "static",
+  },
+  {
+    name: "Mostly Good Studios",
+    url: "https://mostlygoodstudios.com/calendar",
+    category: "making",
+    defaultMode: "make",
+    whereTemplate: "Mostly Good Studios, Astoria",
+    fetch: "static",
+  },
 ];
